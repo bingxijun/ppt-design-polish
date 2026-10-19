@@ -112,6 +112,10 @@ These are rendered pages from the included editable sample, using illustrative d
 - **Scope / 范围：** focused text patches preserve other ZIP-part payloads; arbitrary lossless PPTX rebuilding, all SmartArt/animation features, narration, and video are not implemented.
 - **Quality / 质量：** automated checks verify structure and review freshness. They cannot prove good taste, factual accuracy, or that someone actually looked at an image. We do not promise “zero AI look.”
 
+工具覆盖原生制作、主题和素材提取、局部改字、内容约束、渲染与版本绑定验收；设计指令覆盖叙事、排版、图表、配图和品牌复用。支持 PPTX、PNG，以及 LibreOffice 路径生成的 PDF。
+
+局部文字补丁会保留其他 ZIP 部件的内容，但不支持任意稿件的无损重建，也未实现全部 SmartArt、动画、配音或视频功能。自动检查不能证明审美、事实准确性或图片确实被查看，也不承诺“零 AI 味”。
+
 ## Origins and contribution / 来源与参与
 
 An independent project that combines useful methods from PPT Master, Baoyu's slide-deck workflow, PPTAgent, and Presenton. Most tools are implemented here; a small PPTAgent review validator is reused under MIT. This is not a redistribution of those complete products.
@@ -121,3 +125,5 @@ An independent project that combines useful methods from PPT Master, Baoyu's sli
 [Integration map / 优势整合与设计分析](docs/DESIGN.md) · [Third-party notices / 第三方说明](THIRD_PARTY_NOTICES.md) · [Contributing / 参与贡献](CONTRIBUTING.md)
 
 **License / 许可：** original code and documentation are [MIT](LICENSE). Third-party components retain their licenses. Project-created diagrams and the generated hero are included under the same permission grant to the extent applicable; no third-party brands or fonts are bundled.
+
+原创代码与文档采用 MIT，第三方组件保留原许可。原创图解及生成主视觉在适用范围内按相同条款授权；不附带第三方商标或字体文件。
