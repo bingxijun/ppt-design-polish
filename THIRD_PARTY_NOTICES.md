@@ -4,10 +4,10 @@ Original orchestration, workspace commands, JSON/native authoring adapter, templ
 
 - **Reused code:** the MIT-licensed `validate_review` function from ICIP-CAS/PPTAgent, pinned to commit `833cda553b343be0e486a93b0b57cac962cdd566`, is adapted in `scripts/vendor/pptagent_review.py`. Unrelated external vision API code is omitted. The original license and copyright are retained in [licenses/PPTAgent.txt](licenses/PPTAgent.txt).
 - **Runtime dependency:** PptxGenJS 4.0.1 by Brent Ely, MIT. It is installed separately; no node_modules are shipped. Preserve its own license when distributing the dependency.
-- **Method inspiration, independent implementation:** PPT Master (preservation/reference workflows), Baoyu slide-deck (art direction and per-slide imagery), PPTAgent (export review and stale-review prevention), and Presenton (reusable themes and multiple production paths). Pinned source links and precise scope appear below and in [docs/DESIGN.md](docs/DESIGN.md).
+- **Method inspiration, independent implementation:** PPT Master (preservation/reference workflows), Baoyu slide-deck (art direction and per-slide imagery), PPTAgent (export review and stale-review prevention), and Presenton (reusable themes and multiple production paths). Pinned source links and precise scope appear below and in [docs/DESIGN.md](https://github.com/bingxijun/ppt-design-polish/blob/v2.1.0/docs/DESIGN.md).
 - **Not redistributed:** Anthropic's separately licensed PPTX skill, complete upstream applications, image models, search services, cloud accounts, Microsoft PowerPoint, LibreOffice, and the proprietary artifact runtime. Availability depends on the user's host and installed tools.
 
-Project-created documentation graphics and generated concept art are described in [docs/assets/README.md](docs/assets/README.md). Their conceptual diagrams are not evidence of upstream integrations or comparative quality.
+Project-created documentation graphics and generated concept art are described in [docs/assets/README.md](https://github.com/bingxijun/ppt-design-polish/blob/v2.1.0/docs/assets/README.md). Their conceptual diagrams are not evidence of upstream integrations or comparative quality.
 
 ## 第三方复用与能力来源
 
