@@ -14,6 +14,10 @@ For design changes, render the final PPTX and inspect the affected pages. Unit t
 
 设计改动需从最终 PPTX 渲染并检查受影响页面。单元测试不能证明视觉质量。用户说明保持中英对应，保留第三方署名及许可。
 
+Publishing a matching `v<package.json version>` release triggers `release-package`, which builds a reproducible portable skill ZIP and SHA-256 file and uploads them as release assets. For a local build, run `python3 scripts/package_release.py --output-dir /absolute/fresh-directory`.
+
+发布与 `package.json` 版本相符的 `v<版本号>` release 后，自动构建可复现的安装 ZIP 和 SHA-256 文件并上传。也可使用上方命令本地构建，输出目录中应没有已有的发布文件。
+
 Use issues or pull requests for feedback. Source files, fonts, images, and examples must be yours to share. Contributions are offered under the project's MIT license, with existing third-party licenses preserved.
 
 欢迎通过 issue 或 PR 反馈。请确认有权分享所提交的源文件、字体、图片和示例；贡献采用项目 MIT 许可，已有第三方许可继续保留。

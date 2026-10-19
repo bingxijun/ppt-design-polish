@@ -11,3 +11,4 @@ output/
 final-report.json
 *.tmp
 *.log
+release-assets/
