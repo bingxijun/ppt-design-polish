@@ -1,0 +1,464 @@
+{
+  "title": "PPT Design & Polish — Editorial sample",
+  "language": "zh-CN",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5
+  },
+  "theme": {
+    "background": "FFFFFF",
+    "text": "182824",
+    "accent": "166354",
+    "headingFont": "Georgia",
+    "bodyFont": "Hiragino Sans GB",
+    "bodySize": 22,
+    "seriesColors": [
+      "166354"
+    ]
+  },
+  "slides": [
+    {
+      "background": "F7F5EF",
+      "elements": [
+        {
+          "type": "text",
+          "text": "FIELD NOTES  /  演示样稿",
+          "options": {
+            "x": 0.75,
+            "y": 0.65,
+            "w": 8,
+            "h": 0.35,
+            "fontSize": 14,
+            "bold": true,
+            "color": "166354"
+          }
+        },
+        {
+          "type": "text",
+          "text": "A clearer view\nof growth.",
+          "options": {
+            "x": 0.72,
+            "y": 1.55,
+            "w": 9.1,
+            "h": 2.2,
+            "fontSize": 60,
+            "fontFace": "Georgia",
+            "breakLine": false
+          }
+        },
+        {
+          "type": "text",
+          "text": "用更清楚的设计，讲清增长。",
+          "options": {
+            "x": 0.78,
+            "y": 4.25,
+            "w": 9,
+            "h": 0.65,
+            "fontSize": 29,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "An editable PowerPoint example\n原生文字、图表与表格的实际制作示例",
+          "options": {
+            "x": 0.8,
+            "y": 5.15,
+            "w": 9,
+            "h": 1.0,
+            "fontSize": 18,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 10.65,
+            "y": 0.4,
+            "w": 2.25,
+            "h": 6.2,
+            "fill": {
+              "color": "166354"
+            },
+            "line": {
+              "color": "166354"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 10.9,
+            "y": 0.9,
+            "w": 1.7,
+            "h": 1.4,
+            "fontSize": 76,
+            "fontFace": "Georgia",
+            "color": "F7F5EF"
+          }
+        },
+        {
+          "type": "text",
+          "text": "DESIGN\nWITH\nPURPOSE",
+          "options": {
+            "x": 10.9,
+            "y": 4.5,
+            "w": 1.75,
+            "h": 1.2,
+            "fontSize": 16,
+            "bold": true,
+            "color": "F7F5EF"
+          }
+        },
+        {
+          "type": "text",
+          "text": "PPT DESIGN & POLISH    /    ILLUSTRATIVE DATA · 示例数据",
+          "options": {
+            "x": 0.7,
+            "y": 6.91,
+            "w": 10.8,
+            "h": 0.24,
+            "fontSize": 10,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 12.04,
+            "y": 6.91,
+            "w": 0.5,
+            "h": 0.24,
+            "fontSize": 10,
+            "color": "5C6C65",
+            "align": "right"
+          }
+        }
+      ],
+      "notes": "An editorial sample for an open-source presentation skill. All business values in this deck are illustrative. 本稿仅为开源项目示例，业务数据为演示数据。"
+    },
+    {
+      "elements": [
+        {
+          "type": "text",
+          "text": "Revenue rises in every quarter.",
+          "options": {
+            "x": 0.7,
+            "y": 0.55,
+            "w": 12,
+            "h": 0.7,
+            "fontSize": 33,
+            "fontFace": "Georgia",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "四个季度持续增长，第四季度达到示例最高值。",
+          "options": {
+            "x": 0.72,
+            "y": 1.4,
+            "w": 11.8,
+            "h": 0.5,
+            "fontSize": 21,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "chart",
+          "chartType": "line",
+          "data": [
+            {
+              "name": "Illustrative revenue / 示例收入",
+              "labels": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ],
+              "values": [
+                12,
+                18,
+                25,
+                31
+              ]
+            }
+          ],
+          "options": {
+            "x": 0.7,
+            "y": 2.2,
+            "w": 8.5,
+            "h": 4.1,
+            "showValue": true,
+            "showLegend": false,
+            "showTitle": false,
+            "valAxisMinVal": 0,
+            "valAxisMaxVal": 35,
+            "valAxisMajorUnit": 10,
+            "showMarker": true,
+            "markerSize": 7,
+            "lineSize": 3,
+            "dataLabelPosition": "t",
+            "dataLabelColor": "166354",
+            "dataLabelFormatCode": "0",
+            "catAxisLabelFontSize": 13,
+            "valAxisLabelFontSize": 11,
+            "showCatName": false,
+            "showSerName": false,
+            "catAxisLineColor": "D5DDD7",
+            "valAxisLineShow": false,
+            "showBorder": false,
+            "valGridLine": {
+              "color": "D5DDD7",
+              "width": 0.5
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 9.65,
+            "y": 2.3,
+            "w": 0,
+            "h": 3.8,
+            "line": {
+              "color": "D5DDD7",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "31",
+          "options": {
+            "x": 10.15,
+            "y": 2.4,
+            "w": 2.3,
+            "h": 1.35,
+            "fontSize": 76,
+            "fontFace": "Georgia",
+            "color": "166354"
+          }
+        },
+        {
+          "type": "text",
+          "text": "¥ million / 百万元",
+          "options": {
+            "x": 10.2,
+            "y": 3.95,
+            "w": 2.3,
+            "h": 0.4,
+            "fontSize": 16,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Q4 revenue\n第四季度收入",
+          "options": {
+            "x": 10.2,
+            "y": 4.65,
+            "w": 2.2,
+            "h": 0.85,
+            "fontSize": 19,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Native chart + data workbook\n原生图表与关联数据工作簿",
+          "options": {
+            "x": 0.75,
+            "y": 6.45,
+            "w": 11.8,
+            "h": 0.3,
+            "fontSize": 12,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "text",
+          "text": "PPT DESIGN & POLISH    /    ILLUSTRATIVE DATA · 示例数据",
+          "options": {
+            "x": 0.7,
+            "y": 6.91,
+            "w": 10.8,
+            "h": 0.24,
+            "fontSize": 10,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "options": {
+            "x": 12.04,
+            "y": 6.91,
+            "w": 0.5,
+            "h": 0.24,
+            "fontSize": 10,
+            "color": "5C6C65",
+            "align": "right"
+          }
+        }
+      ],
+      "notes": "Illustrative revenue by quarter in ¥ million: 12, 18, 25, 31. These are synthetic values, not a forecast or performance claim. 示例收入：12、18、25、31 百万元。非真实经营数据。"
+    },
+    {
+      "elements": [
+        {
+          "type": "text",
+          "text": "Choose what stays editable.",
+          "options": {
+            "x": 0.7,
+            "y": 0.55,
+            "w": 12,
+            "h": 0.7,
+            "fontSize": 34,
+            "fontFace": "Georgia",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "关键内容保留为原生对象，后续修改更直接。",
+          "options": {
+            "x": 0.72,
+            "y": 1.4,
+            "w": 11.8,
+            "h": 0.5,
+            "fontSize": 21,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              {
+                "text": "OBJECT / 对象",
+                "options": {
+                  "bold": true,
+                  "fill": "166354",
+                  "color": "FFFFFF"
+                }
+              },
+              {
+                "text": "KEEP EDITABLE / 保留可改",
+                "options": {
+                  "bold": true,
+                  "fill": "166354",
+                  "color": "FFFFFF"
+                }
+              },
+              {
+                "text": "WHY IT MATTERS / 作用",
+                "options": {
+                  "bold": true,
+                  "fill": "166354",
+                  "color": "FFFFFF"
+                }
+              }
+            ],
+            [
+              "Text / 文字",
+              "Native text / 原生文字",
+              "Update the message / 修改表达"
+            ],
+            [
+              "Charts / 图表",
+              "Native chart / 原生图表",
+              "Revise data faithfully / 准确更新数据"
+            ],
+            [
+              "Tables / 表格",
+              "Native cells / 原生单元格",
+              "Maintain comparisons / 维护对比内容"
+            ],
+            [
+              "Images / 图片",
+              "Separate image layer / 图片独立成层",
+              "Replace / crop / 替换与裁切"
+            ]
+          ],
+          "options": {
+            "x": 0.72,
+            "y": 2.25,
+            "w": 11.88,
+            "h": 3.35,
+            "fontFace": "Hiragino Sans GB",
+            "fontSize": 16,
+            "colW": [
+              2.8,
+              4.45,
+              4.63
+            ],
+            "rowH": 0.67,
+            "margin": 0.16,
+            "fill": "FFFFFF",
+            "color": "182824",
+            "border": {
+              "color": "D5DDD7",
+              "pt": 0.6
+            },
+            "valign": "mid"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Rendered from the exported PPTX. Review every page before delivery.",
+          "options": {
+            "x": 0.75,
+            "y": 6.1,
+            "w": 11.8,
+            "h": 0.32,
+            "fontSize": 16,
+            "color": "166354"
+          }
+        },
+        {
+          "type": "text",
+          "text": "从最终 PPTX 重新渲染，交付前逐页查看。",
+          "options": {
+            "x": 0.75,
+            "y": 6.52,
+            "w": 11.8,
+            "h": 0.3,
+            "fontSize": 16,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "text",
+          "text": "PPT DESIGN & POLISH    /    ILLUSTRATIVE DATA · 示例数据",
+          "options": {
+            "x": 0.7,
+            "y": 6.91,
+            "w": 10.8,
+            "h": 0.24,
+            "fontSize": 10,
+            "color": "5C6C65"
+          }
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "options": {
+            "x": 12.04,
+            "y": 6.91,
+            "w": 0.5,
+            "h": 0.24,
+            "fontSize": 10,
+            "color": "5C6C65",
+            "align": "right"
+          }
+        }
+      ],
+      "notes": "Text, the revenue chart, and this table are native editable PowerPoint objects. The sample does not contain image-first pages. 本示例的文字、图表及表格为原生对象，不包含整页生图页面。"
+    }
+  ]
+}

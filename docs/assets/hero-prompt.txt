@@ -1,0 +1,10 @@
+Use case: ads-marketing
+Asset type: Wide GitHub README hero banner for an open-source PowerPoint authoring skill.
+Primary request: A professional editorial identity for "PPT Design & Polish". Communicate presentation design and thoughtful visual quality through beautifully composed presentation pages.
+Style: restrained Swiss editorial design, warm white paper, near-black typography, one deep teal accent, precise grid, generous space. Premium human art direction. Landscape 2.4:1 composition.
+Composition: Left 43% is large perfectly legible typography. Right 57% contains an elegant arrangement of three rectangular slide pages: one with a strong editorial title, one with a clean teal data chart, one with an architectural photograph crop and a compact editable-looking caption. Straight clean pages, subtle realistic paper depth and shadows, no busy interface chrome. Pages look deliberately different yet from one coherent deck.
+Text (verbatim), only these lines:
+"PPT Design & Polish"
+"An AI skill for better PowerPoint."
+"PPT 创建 · 重设计 · 美化"
+Constraints: Spell the project title exactly. Keep Chinese characters correct and unclipped. No fabricated metrics, no stars or rankings, no GitHub logo, no Microsoft logo, no gradient blobs, no neon, no robot, no sparkles, no rainbow text, no floating rounded cards. This is a conceptual project illustration, not a screenshot of a real application. All typography stays within safe margins.

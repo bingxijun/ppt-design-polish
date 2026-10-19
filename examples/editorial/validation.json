@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "checks": {
+    "build_current": true,
+    "renders_current": true,
+    "reviews_pass": true,
+    "content_contract": true,
+    "requested_formats": true
+  },
+  "contract": {
+    "ok": true,
+    "errors": [],
+    "slide_count": 3,
+    "limits": "Text/cache presence and object counts do not establish semantic equivalence, workbook correctness, animation behavior, or visual quality"
+  },
+  "artifact_sha256": "d3a230e3cf5ca3a57590c0cc56d1e6bc17a27e2631418daba2151d28ef486021",
+  "renderer": "libreoffice-exported-pptx",
+  "review_evidence": "Host-recorded observations bound to current file/images; the CLI cannot prove an image was actually viewed",
+  "files": {
+    "sample.pptx": "d3a230e3cf5ca3a57590c0cc56d1e6bc17a27e2631418daba2151d28ef486021",
+    "sample.pdf": "6cb12b5008f6dc67a63ca21b5f61590057524843ae622a2824a48cef7582d4b5"
+  },
+  "visual_review": [
+    {
+      "slide": 1,
+      "verdict": "pass",
+      "summary": "Viewed the rendered cover: complete English and Chinese glyphs, clear hierarchy, restrained color and no clipped text. 封面中英文完整，层级清楚，无裁切。",
+      "issues": []
+    },
+    {
+      "slide": 2,
+      "verdict": "pass",
+      "summary": "Viewed final render: chart values 12, 18, 25, 31 and Q1–Q4 match the synthetic source; baseline is zero, 31 has label headroom, ¥ million unit and illustrative-data footer are visible. 图表数据、单位和示例标注可见，标签无裁切。",
+      "issues": []
+    },
+    {
+      "slide": 3,
+      "verdict": "pass",
+      "summary": "Viewed final render: bilingual table headers and four rows are complete and now fit without orphan characters; footer is separate and readable. 表格四行及表头完整，中英文无孤字换行，页脚清晰。",
+      "issues": []
+    },
+    {
+      "slide": "deck",
+      "verdict": "pass",
+      "summary": "All three current exported pages inspected. Color/type/grid are consistent; cover, native chart and table have distinct purposes. Native chart/table verified structurally; sample data and font limitations documented. 三页顺序与设计一致，已核对原生对象；已声明示例数据及字体边界。",
+      "issues": []
+    }
+  ],
+  "limitations": "Rendered with LibreOffice on macOS; Microsoft PowerPoint itself was not tested. Automated checks do not prove aesthetic quality."
+}

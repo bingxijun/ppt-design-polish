@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.env
+.env.*
+!.env.example
+.ppt-beautify/
+output/
+final-report.json
+*.tmp
+*.log

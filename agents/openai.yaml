@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Design & Polish"
+  short_description: "AI PowerPoint skill for PPT creation, design and polish"
+  default_prompt: "Use $ppt-design-polish to create or polish this presentation, choose an appropriate production route, and review the exported slides."
