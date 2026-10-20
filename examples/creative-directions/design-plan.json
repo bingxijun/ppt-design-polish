@@ -1,0 +1,27 @@
+{
+  "brief": "Explain three ways a reading room shapes daylight to a general audience; retain English/Chinese labels and native editability.",
+  "facts": [
+    "Opening admits daylight / 开口引入日光",
+    "Shade moderates direct sun / 遮阳调节直射光",
+    "Reflection redirects light / 反射改变光的路径"
+  ],
+  "concept": "Use the light path to organize the explanation / 用光的路径组织解释。",
+  "directions": [
+    {
+      "page": 1,
+      "name": "Editorial / 编辑设计",
+      "decision": "Split-scale typography and a generous section drawing; definitions share a baseline."
+    },
+    {
+      "page": 2,
+      "name": "Technical / 理性图解",
+      "decision": "Annotation-led reading grid; terms connect directly to diagram features."
+    },
+    {
+      "page": 3,
+      "name": "Gallery / 画廊叙事",
+      "decision": "Large headline, luminous diagram on a dark field, quiet marginal definitions."
+    }
+  ],
+  "limits": "Authored visual studies showing possible compositions; not an independent model trial, a finished coherent deck, or a comparative quality benchmark."
+}

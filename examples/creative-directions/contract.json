@@ -1,0 +1,40 @@
+{
+  "required_text": {
+    "1": [
+      "Opening",
+      "Shade",
+      "Reflection",
+      "开口",
+      "遮阳",
+      "反射"
+    ],
+    "2": [
+      "Opening",
+      "Shade",
+      "Reflection",
+      "开口",
+      "遮阳",
+      "反射"
+    ],
+    "3": [
+      "Opening",
+      "Shade",
+      "Reflection",
+      "开口",
+      "遮阳",
+      "反射"
+    ]
+  },
+  "min_objects": {
+    "1": {
+      "text_shapes": 10
+    },
+    "2": {
+      "text_shapes": 10
+    },
+    "3": {
+      "text_shapes": 10
+    }
+  },
+  "preserve_from": null
+}

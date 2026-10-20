@@ -2,7 +2,7 @@
 name: ppt-design-polish
 description: "Create, redesign, polish, and review PowerPoint presentations (PPT/PPTX), including editable slides, brand/template reuse, purposeful imagery, and final-export visual review. 创建、重设计、美化与审查 PPT。Use for presentation authoring and design, not text extraction alone."
 metadata:
-  version: "2.1.0"
+  version: "2.2.0"
 ---
 
 # PPT Design & Polish
@@ -15,7 +15,8 @@ Resolve this file's directory as `SKILL_ROOT`. Author user decks in a separate `
 
 | Task | Route | Read when relevant |
 |---|---|---|
-| New deck from a topic/materials | Native editable or hybrid; default hybrid | [Story and style](references/story-and-style.md), [native builder](references/native-build.md) |
+| New deck from a topic/materials | Native editable or hybrid; default hybrid | [Story and style](references/story-and-style.md), [art direction](references/art-direction.md), [native builder](references/native-build.md) |
+| Creative, artistic, clean, or premium visual redesign | Content-specific visual concept, composition exploration, then a representative body-page proof | [Creative direction](references/creative-direction.md), [art direction](references/art-direction.md) |
 | Polish/redesign an existing deck | Render and inventory before rearranging; preserve facts and objects | [Template preservation](references/template-edit.md), [art direction](references/art-direction.md) |
 | Template updates or exact text edits | Native editing; scoped patching only when appropriate | [Template preservation](references/template-edit.md) |
 | Image-first or poster-like slides | Shared art direction, per-page images, optional native text overlays | [Image direction](references/image-direction.md), [native builder](references/native-build.md) |
@@ -41,6 +42,8 @@ The second tool extracts declared themes, layout placeholders, and original medi
 ### Decide the story and visual language
 
 Use the relevant story and art-direction references. Define each page's job and evidence. Separate supplied facts, calculations, and assumptions. Headlines should express the actual subject or a supported conclusion.
+
+For a full new deck or redesign with an open visual direction or explicit creativity goals, read [creative direction](references/creative-direction.md). Connect a visual concept to the subject, compare a few meaningfully different compositions when useful, and select for the brief. Validate the chosen direction on representative body and difficult-content pages. A polished cover or a different palette alone does not establish a distinctive, usable deck. Respect an already chosen brand/reference and keep small edits small.
 
 For a full new deck or redesign, keep a short `design-plan.json` with audience, viewing conditions, sources, color/font/grid roles, and page purposes/composition reasons. A small text correction does not need a full design process. Do not put internal plans or image prompts in speaker notes.
 
@@ -77,6 +80,8 @@ Keep reusable themes/masters as source inputs. Deliver templates when requested;
 ### Review the actual deliverable
 
 Read the workflow and visual-review references. Render the **exported PPTX**, open every page, and inspect the deck order. Check facts/completeness, legibility/clipping, hierarchy/imagery, consistency, and intended editability. Fix the source, export, render, and review again after meaningful changes.
+
+For design work, also inspect focal hierarchy, typographic craft, purposeful imagery, subject specificity, and the rhythm between pages. Record concrete observations and fixes in review summaries. Technical delivery checks do not certify these judgments; a visibly generic or unfinished result still needs design work when it misses the user's brief.
 
 The CLI binds review records to source/file/image fingerprints. Changed inputs invalidate old reviews. Never edit state files to bypass this behavior. Normal local delivery uses `finalize`; it copies requested outputs only after the current build, renders, all page/deck reviews, content contract, and formats pass.
 

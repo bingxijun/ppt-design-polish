@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "checks": {
+    "build_current": true,
+    "renders_current": true,
+    "reviews_pass": true,
+    "content_contract": true,
+    "requested_formats": true
+  },
+  "contract": {
+    "ok": true,
+    "errors": [],
+    "slide_count": 3,
+    "limits": "Text/cache presence and object counts do not establish semantic equivalence, workbook correctness, animation behavior, or visual quality"
+  },
+  "artifact_sha256": "f05e5acd3f7ce2d63a562ff3b4cb4ef3376a3c64447d52bd7fadf118675d2827",
+  "renderer": "libreoffice-exported-pptx",
+  "review_evidence": "Host-recorded observations bound to current file/images; the CLI cannot prove an image was actually viewed",
+  "visual_review": [
+    {
+      "slide": 1,
+      "verdict": "pass",
+      "summary": "Editorial alternative inspected: bilingual terms are complete, type and section drawing establish separate focal levels, definitions fit on a shared baseline; no visible clipping. 编辑方案字体与图解主次清晰，中英定义完整，无裁切。",
+      "issues": []
+    },
+    {
+      "slide": 2,
+      "verdict": "pass",
+      "summary": "Technical alternative inspected after reordering definitions: shade, opening and reflection leader lines reach the corresponding features without crossing each other; bilingual labels and caption are readable. 已重排定义顺序，三条标注线对应部位且互不交叉。",
+      "issues": []
+    },
+    {
+      "slide": 3,
+      "verdict": "pass",
+      "summary": "Gallery alternative inspected: large title and light path dominate, dark background supports the diagram, marginal definitions have legible contrast and no clipped CJK text. 画廊方案光路与标题突出，边注完整，中文显示正常。",
+      "issues": []
+    },
+    {
+      "slide": "deck",
+      "verdict": "pass",
+      "summary": "Three alternatives for one brief, explicitly labeled as composition studies rather than a coherent finished deck. Same three concepts retained; native objects verified. Single-page images and the sequence inspected. These observations do not establish an independent aesthetic benchmark. 三种备选构图保留相同概念，已实看每页与顺序，不能据此推断普遍审美提升。",
+      "issues": []
+    }
+  ],
+  "limits": "Authored alternatives; not a blinded model comparison. LibreOffice/macOS rendering; Microsoft PowerPoint itself not tested."
+}

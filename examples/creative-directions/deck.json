@@ -1,0 +1,1387 @@
+{
+  "title": "Three compositions for one daylight brief / 同一内容的三种构图",
+  "language": "zh-CN",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5
+  },
+  "theme": {
+    "background": "FFFFFF",
+    "text": "202020",
+    "headingFont": "Hiragino Sans GB",
+    "bodyFont": "Hiragino Sans GB"
+  },
+  "slides": [
+    {
+      "background": "F6F4EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "READING-ROOM DAYLIGHT  /  阅览室日光",
+          "options": {
+            "x": 0.65,
+            "y": 0.55,
+            "w": 10,
+            "h": 0.28,
+            "fontSize": 12,
+            "color": "C25128",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Light,\nsoftened.",
+          "options": {
+            "x": 0.62,
+            "y": 1.25,
+            "w": 4.7,
+            "h": 1.8,
+            "fontSize": 54,
+            "color": "202020",
+            "fontFace": "Georgia"
+          }
+        },
+        {
+          "type": "text",
+          "text": "让日光柔和地\n进入阅览室。",
+          "options": {
+            "x": 0.68,
+            "y": 3.48,
+            "w": 4.4,
+            "h": 1.1,
+            "fontSize": 29,
+            "color": "202020"
+          }
+        },
+        {
+          "type": "text",
+          "text": "A study of opening, shade\nand reflection.",
+          "options": {
+            "x": 0.7,
+            "y": 5.05,
+            "w": 4.2,
+            "h": 0.8,
+            "fontSize": 18,
+            "color": "696A66"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.1,
+            "y": 2.0,
+            "w": 5.6,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "202020",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 11.7,
+            "y": 2.0,
+            "w": 0.0,
+            "h": 2.4800000000000004,
+            "flipV": false,
+            "line": {
+              "color": "202020",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.1,
+            "y": 4.48,
+            "w": 5.6,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "202020",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.1,
+            "y": 2.0,
+            "w": 0.0,
+            "h": 0.52,
+            "flipV": false,
+            "line": {
+              "color": "202020",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.1,
+            "y": 3.52,
+            "w": 0.0,
+            "h": 0.9600000000000004,
+            "flipV": false,
+            "line": {
+              "color": "202020",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 6.052,
+            "y": 1.952,
+            "w": 0.096,
+            "h": 0.568,
+            "fill": {
+              "color": "202020"
+            },
+            "line": {
+              "color": "202020",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 6.052,
+            "y": 3.52,
+            "w": 0.096,
+            "h": 1.008,
+            "fill": {
+              "color": "202020"
+            },
+            "line": {
+              "color": "202020",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.659999999999999,
+            "y": 2.52,
+            "w": 1.2400000000000002,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "202020",
+              "width": 2.2
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.22,
+            "y": 2.784,
+            "w": 3.2800000000000002,
+            "h": 1.6399999999999997,
+            "flipV": false,
+            "line": {
+              "color": "C25128",
+              "width": 2.4,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 8.5,
+            "y": 3.144,
+            "w": 2.5600000000000005,
+            "h": 1.2799999999999994,
+            "flipV": true,
+            "line": {
+              "color": "C25128",
+              "width": 2.4,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.22,
+            "y": 3.184,
+            "w": 2.5599999999999996,
+            "h": 1.2800000000000002,
+            "flipV": false,
+            "line": {
+              "color": "C25128",
+              "width": 1.0
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 10.02,
+            "y": 3.96,
+            "w": 1.200000000000001,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "B8B9B6",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 10.14,
+            "y": 3.96,
+            "w": 0.0,
+            "h": 0.5040000000000004,
+            "flipV": false,
+            "line": {
+              "color": "B8B9B6",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 11.1,
+            "y": 3.96,
+            "w": 0.0,
+            "h": 0.5040000000000004,
+            "flipV": false,
+            "line": {
+              "color": "B8B9B6",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 6.055,
+            "y": 3.1550000000000002,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "C25128"
+            },
+            "line": {
+              "color": "C25128",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 6.415,
+            "y": 2.475,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "C25128"
+            },
+            "line": {
+              "color": "C25128",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 8.455,
+            "y": 4.379,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "C25128"
+            },
+            "line": {
+              "color": "C25128",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "SECTION / 概念剖面",
+          "options": {
+            "x": 5.35,
+            "y": 5.0,
+            "w": 4,
+            "h": 0.3,
+            "fontSize": 10,
+            "color": "696A66"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.7,
+            "y": 5.8,
+            "w": 11.9,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "C9C8C0",
+              "width": 0.7
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Opening / 开口",
+          "options": {
+            "x": 0.7,
+            "y": 6.05,
+            "w": 3.8,
+            "h": 0.34,
+            "fontSize": 17,
+            "color": "202020",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Admits daylight / 引入日光",
+          "options": {
+            "x": 0.7,
+            "y": 6.51,
+            "w": 3.8,
+            "h": 0.3,
+            "fontSize": 13,
+            "color": "696A66"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Shade / 遮阳",
+          "options": {
+            "x": 4.75,
+            "y": 6.05,
+            "w": 3.8,
+            "h": 0.34,
+            "fontSize": 17,
+            "color": "202020",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Moderates direct sun / 调节直射光",
+          "options": {
+            "x": 4.75,
+            "y": 6.51,
+            "w": 3.8,
+            "h": 0.3,
+            "fontSize": 13,
+            "color": "696A66"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Reflection / 反射",
+          "options": {
+            "x": 8.799999999999999,
+            "y": 6.05,
+            "w": 3.8,
+            "h": 0.34,
+            "fontSize": 17,
+            "color": "202020",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Redirects light / 改变光的路径",
+          "options": {
+            "x": 8.799999999999999,
+            "y": 6.51,
+            "w": 3.8,
+            "h": 0.3,
+            "fontSize": 13,
+            "color": "696A66"
+          }
+        },
+        {
+          "type": "text",
+          "text": "COMPOSITION STUDY  /  构图研究",
+          "options": {
+            "x": 0.65,
+            "y": 7.03,
+            "w": 7,
+            "h": 0.18,
+            "fontSize": 9,
+            "color": "777777"
+          }
+        },
+        {
+          "type": "text",
+          "text": "01  EDITORIAL / 编辑设计",
+          "options": {
+            "x": 10.1,
+            "y": 7.03,
+            "w": 2.6,
+            "h": 0.18,
+            "fontSize": 9,
+            "color": "777777",
+            "align": "right"
+          }
+        }
+      ],
+      "notes": "Alternative composition 1 for one educational page, not a sequence in a finished deck. The same three concepts are present: opening admits daylight; shade moderates direct sun; reflection redirects light. Diagram is schematic, not an engineering simulation. 同一教学页的不同构图方案，并非整稿连续页面。图解为概念示意，不是工程模拟。"
+    },
+    {
+      "background": "FFFFFF",
+      "elements": [
+        {
+          "type": "text",
+          "text": "DAYLIGHT / 日光",
+          "options": {
+            "x": 0.65,
+            "y": 0.55,
+            "w": 9,
+            "h": 0.28,
+            "fontSize": 12,
+            "color": "284EAA",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "How light enters a reading room",
+          "options": {
+            "x": 0.65,
+            "y": 1.08,
+            "w": 12,
+            "h": 0.6,
+            "fontSize": 31,
+            "color": "202020",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "从开口到表面反射，理解室内光的路径。",
+          "options": {
+            "x": 0.67,
+            "y": 1.88,
+            "w": 12,
+            "h": 0.45,
+            "fontSize": 23,
+            "color": "686F77"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.68,
+            "y": 2.63,
+            "w": 11.92,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "BFC8D5",
+              "width": 0.8
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.35,
+            "y": 3.15,
+            "w": 6.16,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "1E2B3C",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 11.51,
+            "y": 3.15,
+            "w": 0.0,
+            "h": 2.728,
+            "flipV": false,
+            "line": {
+              "color": "1E2B3C",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.35,
+            "y": 5.878,
+            "w": 6.16,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "1E2B3C",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.35,
+            "y": 3.15,
+            "w": 0.0,
+            "h": 0.5720000000000001,
+            "flipV": false,
+            "line": {
+              "color": "1E2B3C",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.35,
+            "y": 4.822,
+            "w": 0.0,
+            "h": 1.056,
+            "flipV": false,
+            "line": {
+              "color": "1E2B3C",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 5.297199999999999,
+            "y": 3.0972,
+            "w": 0.1056,
+            "h": 0.6248,
+            "fill": {
+              "color": "1E2B3C"
+            },
+            "line": {
+              "color": "1E2B3C",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 5.297199999999999,
+            "y": 4.822,
+            "w": 0.1056,
+            "h": 1.1088,
+            "fill": {
+              "color": "1E2B3C"
+            },
+            "line": {
+              "color": "1E2B3C",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.866,
+            "y": 3.722,
+            "w": 1.3639999999999999,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "1E2B3C",
+              "width": 2.2
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.382,
+            "y": 4.0123999999999995,
+            "w": 3.6080000000000005,
+            "h": 1.8040000000000003,
+            "flipV": false,
+            "line": {
+              "color": "284EAA",
+              "width": 2.4,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 7.99,
+            "y": 4.4084,
+            "w": 2.8160000000000007,
+            "h": 1.4079999999999995,
+            "flipV": true,
+            "line": {
+              "color": "284EAA",
+              "width": 2.4,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.382,
+            "y": 4.4524,
+            "w": 2.816,
+            "h": 1.4080000000000004,
+            "flipV": false,
+            "line": {
+              "color": "284EAA",
+              "width": 1.0
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 9.661999999999999,
+            "y": 5.306,
+            "w": 1.3200000000000003,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "AAB7C7",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 9.794,
+            "y": 5.306,
+            "w": 0.0,
+            "h": 0.5544000000000002,
+            "flipV": false,
+            "line": {
+              "color": "AAB7C7",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 10.85,
+            "y": 5.306,
+            "w": 0.0,
+            "h": 0.5544000000000002,
+            "flipV": false,
+            "line": {
+              "color": "AAB7C7",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 5.305,
+            "y": 4.425,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "284EAA"
+            },
+            "line": {
+              "color": "284EAA",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 5.701,
+            "y": 3.677,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "284EAA"
+            },
+            "line": {
+              "color": "284EAA",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 7.945,
+            "y": 5.7714,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "284EAA"
+            },
+            "line": {
+              "color": "284EAA",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Shade / 遮阳",
+          "options": {
+            "x": 0.7,
+            "y": 2.98,
+            "w": 3.8,
+            "h": 0.35,
+            "fontSize": 20,
+            "color": "1E2B3C",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Moderates direct sun\n调节直射光",
+          "options": {
+            "x": 0.7,
+            "y": 3.39,
+            "w": 3.8,
+            "h": 0.56,
+            "fontSize": 15,
+            "color": "686F77"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Opening / 开口",
+          "options": {
+            "x": 0.7,
+            "y": 3.98,
+            "w": 3.8,
+            "h": 0.35,
+            "fontSize": 20,
+            "color": "1E2B3C",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Admits daylight\n引入日光",
+          "options": {
+            "x": 0.7,
+            "y": 4.39,
+            "w": 3.8,
+            "h": 0.56,
+            "fontSize": 15,
+            "color": "686F77"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Reflection / 反射",
+          "options": {
+            "x": 0.7,
+            "y": 4.98,
+            "w": 3.8,
+            "h": 0.35,
+            "fontSize": 20,
+            "color": "1E2B3C",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Redirects light\n改变光的路径",
+          "options": {
+            "x": 0.7,
+            "y": 5.390000000000001,
+            "w": 3.8,
+            "h": 0.56,
+            "fontSize": 15,
+            "color": "686F77"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.02,
+            "y": 3.54,
+            "w": 1.7100000000000009,
+            "h": 0.18000000000000016,
+            "flipV": false,
+            "line": {
+              "color": "AAB7C7",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.02,
+            "y": 4.47,
+            "w": 1.33,
+            "h": 0.08000000000000007,
+            "flipV": true,
+            "line": {
+              "color": "AAB7C7",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.02,
+            "y": 5.57,
+            "w": 3.9700000000000006,
+            "h": 0.23999999999999932,
+            "flipV": false,
+            "line": {
+              "color": "AAB7C7",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Concept schematic / 概念示意",
+          "options": {
+            "x": 5.35,
+            "y": 6.35,
+            "w": 7,
+            "h": 0.3,
+            "fontSize": 12,
+            "color": "686F77"
+          }
+        },
+        {
+          "type": "text",
+          "text": "COMPOSITION STUDY  /  构图研究",
+          "options": {
+            "x": 0.65,
+            "y": 7.03,
+            "w": 7,
+            "h": 0.18,
+            "fontSize": 9,
+            "color": "777777"
+          }
+        },
+        {
+          "type": "text",
+          "text": "02  TECHNICAL / 理性图解",
+          "options": {
+            "x": 10.1,
+            "y": 7.03,
+            "w": 2.6,
+            "h": 0.18,
+            "fontSize": 9,
+            "color": "777777",
+            "align": "right"
+          }
+        }
+      ],
+      "notes": "Alternative composition 2 for one educational page, not a sequence in a finished deck. The same three concepts are present: opening admits daylight; shade moderates direct sun; reflection redirects light. Diagram is schematic, not an engineering simulation. 同一教学页的不同构图方案，并非整稿连续页面。图解为概念示意，不是工程模拟。"
+    },
+    {
+      "background": "171B19",
+      "elements": [
+        {
+          "type": "text",
+          "text": "READING-ROOM DAYLIGHT  /  阅览室日光",
+          "options": {
+            "x": 0.65,
+            "y": 0.55,
+            "w": 12,
+            "h": 0.28,
+            "fontSize": 12,
+            "color": "DEB075",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Follow the light.",
+          "options": {
+            "x": 0.65,
+            "y": 1.1,
+            "w": 12,
+            "h": 0.85,
+            "fontSize": 57,
+            "color": "F6F1E8",
+            "fontFace": "Georgia"
+          }
+        },
+        {
+          "type": "text",
+          "text": "开口、遮阳与反射，共同塑造光的路径。",
+          "options": {
+            "x": 0.7,
+            "y": 2.28,
+            "w": 12,
+            "h": 0.48,
+            "fontSize": 23,
+            "color": "B7B6B2"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 2.0,
+            "y": 3.3,
+            "w": 5.81,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "E0DFDA",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 7.81,
+            "y": 3.3,
+            "w": 0.0,
+            "h": 2.5729999999999995,
+            "flipV": false,
+            "line": {
+              "color": "E0DFDA",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 2.0,
+            "y": 5.872999999999999,
+            "w": 5.81,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "E0DFDA",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 2.0,
+            "y": 3.3,
+            "w": 0.0,
+            "h": 0.5394999999999999,
+            "flipV": false,
+            "line": {
+              "color": "E0DFDA",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 2.0,
+            "y": 4.877,
+            "w": 0.0,
+            "h": 0.9959999999999996,
+            "flipV": false,
+            "line": {
+              "color": "E0DFDA",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 1.9502,
+            "y": 3.2502,
+            "w": 0.0996,
+            "h": 0.5892999999999999,
+            "fill": {
+              "color": "E0DFDA"
+            },
+            "line": {
+              "color": "E0DFDA",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 1.9502,
+            "y": 4.877,
+            "w": 0.0996,
+            "h": 1.0458,
+            "fill": {
+              "color": "E0DFDA"
+            },
+            "line": {
+              "color": "E0DFDA",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 1.5434999999999999,
+            "y": 3.8394999999999997,
+            "w": 1.2865000000000002,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "E0DFDA",
+              "width": 2.2
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 1.087,
+            "y": 4.1133999999999995,
+            "w": 3.4030000000000005,
+            "h": 1.7015000000000002,
+            "flipV": false,
+            "line": {
+              "color": "DEB075",
+              "width": 2.4,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.49,
+            "y": 4.4868999999999994,
+            "w": 2.6559999999999997,
+            "h": 1.3280000000000003,
+            "flipV": true,
+            "line": {
+              "color": "DEB075",
+              "width": 2.4,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 1.087,
+            "y": 4.5283999999999995,
+            "w": 2.6559999999999997,
+            "h": 1.3280000000000003,
+            "flipV": false,
+            "line": {
+              "color": "DEB075",
+              "width": 1.0
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.067,
+            "y": 5.3335,
+            "w": 1.245,
+            "h": 0.0,
+            "flipV": false,
+            "line": {
+              "color": "666965",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.1915,
+            "y": 5.3335,
+            "w": 0.0,
+            "h": 0.5228999999999999,
+            "flipV": false,
+            "line": {
+              "color": "666965",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 7.1875,
+            "y": 5.3335,
+            "w": 0.0,
+            "h": 0.5228999999999999,
+            "flipV": false,
+            "line": {
+              "color": "666965",
+              "width": 1.1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 1.955,
+            "y": 4.5,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "DEB075"
+            },
+            "line": {
+              "color": "DEB075",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 2.3285,
+            "y": 3.7944999999999998,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "DEB075"
+            },
+            "line": {
+              "color": "DEB075",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 4.445,
+            "y": 5.7699,
+            "w": 0.09,
+            "h": 0.09,
+            "fill": {
+              "color": "DEB075"
+            },
+            "line": {
+              "color": "DEB075",
+              "transparency": 100
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 9.08,
+            "y": 3.3,
+            "w": 0.0,
+            "h": 2.84,
+            "flipV": false,
+            "line": {
+              "color": "565A55",
+              "width": 0.7
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Opening / 开口",
+          "options": {
+            "x": 9.55,
+            "y": 3.29,
+            "w": 3.1,
+            "h": 0.32,
+            "fontSize": 18,
+            "color": "DEB075",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Admits daylight\n引入日光",
+          "options": {
+            "x": 9.55,
+            "y": 3.67,
+            "w": 3.1,
+            "h": 0.58,
+            "fontSize": 14,
+            "color": "B7B6B2"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Shade / 遮阳",
+          "options": {
+            "x": 9.55,
+            "y": 4.26,
+            "w": 3.1,
+            "h": 0.32,
+            "fontSize": 18,
+            "color": "DEB075",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Moderates direct sun\n调节直射光",
+          "options": {
+            "x": 9.55,
+            "y": 4.64,
+            "w": 3.1,
+            "h": 0.58,
+            "fontSize": 14,
+            "color": "B7B6B2"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Reflection / 反射",
+          "options": {
+            "x": 9.55,
+            "y": 5.23,
+            "w": 3.1,
+            "h": 0.32,
+            "fontSize": 18,
+            "color": "DEB075",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Redirects light\n改变光的路径",
+          "options": {
+            "x": 9.55,
+            "y": 5.61,
+            "w": 3.1,
+            "h": 0.58,
+            "fontSize": 14,
+            "color": "B7B6B2"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Concept section / 概念剖面",
+          "options": {
+            "x": 1.1,
+            "y": 6.39,
+            "w": 7,
+            "h": 0.28,
+            "fontSize": 11,
+            "color": "B7B6B2"
+          }
+        },
+        {
+          "type": "text",
+          "text": "COMPOSITION STUDY  /  构图研究",
+          "options": {
+            "x": 0.65,
+            "y": 7.03,
+            "w": 7,
+            "h": 0.18,
+            "fontSize": 9,
+            "color": "B7B6B2"
+          }
+        },
+        {
+          "type": "text",
+          "text": "03  GALLERY / 画廊叙事",
+          "options": {
+            "x": 10.1,
+            "y": 7.03,
+            "w": 2.6,
+            "h": 0.18,
+            "fontSize": 9,
+            "color": "B7B6B2",
+            "align": "right"
+          }
+        }
+      ],
+      "notes": "Alternative composition 3 for one educational page, not a sequence in a finished deck. The same three concepts are present: opening admits daylight; shade moderates direct sun; reflection redirects light. Diagram is schematic, not an engineering simulation. 同一教学页的不同构图方案，并非整稿连续页面。图解为概念示意，不是工程模拟。"
+    }
+  ]
+}

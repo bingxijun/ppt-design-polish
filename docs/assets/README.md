@@ -4,6 +4,7 @@
 - `workflow.svg` / `.png`: project-authored bilingual diagram of the implemented workflow.
 - `modes.svg` / `.png`: project-authored comparison of native, hybrid, and image-first delivery; schematic, not screenshots.
 - `showcase.png`: layout of actual rendered pages from [the editable example](../../examples/editorial/README.md). Source images are LibreOffice renders of the included PPTX; sample data is illustrative.
+- `creative-directions.png`: contact sheet of the three [native editable composition studies](../../examples/creative-directions/README.md), rendered from their PPTX. These are authored alternatives, not a comparative model benchmark. / 三种原生可编辑构图方案的真实导出拼图，用于展示方向，不是模型对照测试。
 
 - `hero.png`：使用 Codex 内置 imagegen 生成的项目概念配图，不是应用截图或真实导出稿；提示词见上方链接。
 - `workflow` 与 `modes`：项目原创中英图解，保留可编辑 SVG 和方便浏览的 PNG。

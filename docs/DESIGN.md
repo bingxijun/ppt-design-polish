@@ -17,6 +17,20 @@ These are engineering and design hypotheses behind the workflow, not a controlle
 
 以上是本项目采用的工程与设计判断，不是证明单一普遍原因的对照研究。某些页面适合背景照片，另一些页面适合留白、图表、图解或纯文字排版。
 
+## Creative direction in 2.2 / 2.2 的创意改进
+
+The new-deck route now explicitly loads art direction. When creativity matters and the visual direction is open, the agent develops a content-specific visual concept, compares a few materially different compositions, and proves the chosen route on representative and difficult body content before scaling. Design review covers focal hierarchy, typographic craft, imagery, subject specificity, and page rhythm alongside technical delivery checks.
+
+新建路径现已明确读取美术指导。需要创意且方向开放时，先形成与内容相关的视觉概念，比较少量构图有实质差异的方案，再用代表性正文与困难内容验证后扩稿。设计复查同时关注视觉中心、字体细节、图像职责、主题辨识度和全稿节奏。
+
+“Clean” and “premium” do not select one permanent aesthetic. The appropriate result depends on audience, subject, brand, and viewing conditions. These instructions guide decisions; they do not upgrade the host model's visual abilities or supply missing image tools. See the [creative-direction reference](../references/creative-direction.md) and [editable composition studies](../examples/creative-directions/README.md).
+
+“整洁、高级”不对应一套永久风格，合适的结果取决于受众、主题、品牌和观看条件。指令能引导取舍，不会升级宿主模型的视觉能力，也不会补出不存在的生图工具。具体流程和可编辑构图研究见上述链接。
+
+The existing tests establish file/workflow behavior. The authored visual examples show possibilities, not reliable aesthetic gains across tasks. A stronger evaluation would compare matched briefs with and without the skill, hold model/tools/budget constant, and ask blinded human reviewers about clarity, relevance, craft, and originality across several deck types. That evaluation has not been completed.
+
+现有测试验证文件与工作流行为；人工编排的视觉示例展示可能性，不等于跨任务审美提升已被证实。更有说服力的评估需对同一简报固定模型、工具与预算，比较使用前后结果，由不知生成条件的人评审多类稿件的清晰度、相关性、完成度及原创性。本项目尚未完成这类评估。
+
 ## Integration map / 优势整合
 
 This project integrates useful methods into one entry point and implements a smaller, explicit runtime. It does not claim feature parity with every upstream application. Sources below are pinned for attribution; star counts change and are not quality evidence.

@@ -19,6 +19,7 @@
 | **Editable by intent / 按需保留可编辑性** | Native text, charts, tables, and shapes; images remain separate layers. / 关键文字、数据与图解保留为原生对象，图片独立成层。 |
 | **Review the actual export / 检查真实成品** | Render the exported PPTX and inspect every slide and the whole deck. / 从导出的 PPTX 重新渲染，逐页与全稿复查。 |
 | **Changes invalidate old reviews / 改动后重新验收** | File fingerprints prevent outdated review records from approving a changed deck. / 文件摘要将验收绑定到当前版本，避免旧记录放行新稿。 |
+| **Creative direction / 创意与美术指导** | Develop a subject-specific concept, explore meaningful compositions, and prove them on real body content. / 从主题形成视觉概念，比较实质不同的构图，用实际正文验证。 |
 
 ![Bilingual workflow diagram / 中英双语工作流程](docs/assets/workflow.png)
 
@@ -83,6 +84,14 @@ Attach your materials or existing deck. Add audience, brand/reference, language,
 提供材料或原稿，按需补充受众、品牌参考、语言与输出格式。skill 自动选择内部制作路径，无需轮流调用多套 PPT skills。
 
 ## Real output / 实际输出
+
+**Creative direction studies / 创意构图研究：** the same daylight-teaching content in editorial, technical, and gallery compositions. All text and diagrams remain editable. These authored alternatives illustrate possible directions; they are not a controlled aesthetic benchmark.
+
+同一份日光教学内容，分别采用编辑设计、理性图解和画廊叙事构图，文字与图解均可编辑。这些编排示例用于展示方向，不是审美效果的对照测试。
+
+![Same content, three compositions / 同一内容的三种构图](docs/assets/creative-directions.png)
+
+[View design studies and editable files / 查看设计研究与可编辑文件](examples/creative-directions/README.md)
 
 ![Actual exported sample slides / 从实际 PPTX 导出的示例页面](docs/assets/showcase.png)
 
