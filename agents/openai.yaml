@@ -1,4 +1,4 @@
 interface:
   display_name: "PPT Design & Polish"
-  short_description: "Content-led PPT design, measured typography and editable data"
-  default_prompt: "Use $ppt-design-polish to create or polish this presentation, read the complete material, derive the design from this brief or reference, use measured typography and purposeful color, and review every exported slide."
+  short_description: "Editable PPT design with rendered proofs and visual revision"
+  default_prompt: "Use $ppt-design-polish to create or polish this presentation, read the complete material, derive the design from this brief or reference, compare representative rendered proofs when useful, and refine the actual export, and review every exported slide."

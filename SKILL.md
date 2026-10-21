@@ -2,7 +2,7 @@
 name: ppt-design-polish
 description: "Create, redesign, polish, and review PowerPoint presentations (PPT/PPTX), including editable slides, brand/template reuse, purposeful imagery, and final-export visual review. 创建、重设计、美化与审查 PPT。Use for presentation authoring and design, not text extraction alone."
 metadata:
-  version: "4.0.0"
+  version: "4.1.0"
 ---
 
 # PPT Design & Polish
@@ -59,7 +59,7 @@ For open-ended creative art direction, read [creative direction](references/crea
 
 For a full new deck or redesign, keep a short `design-plan.json` with audience, viewing conditions, sources, color/font/grid roles, and page purposes/composition reasons. A small text correction does not need a full design process. Do not put internal plans or image prompts in speaker notes.
 
-Prove the design on representative content and difficult pages before expanding. When already authorized, choose routine layout and palette details without requesting page-by-page approval.
+For a full new deck or visual redesign, read [proof, selection and revision](references/studio-workflow.md). Use representative exported proof pages, record actual candidate observations and selection, then expand and visually critique the final export. `studio.py begin` enables the evidence-backed design delivery check for this workspace. An approved reference can use one adopted-reference proof; a small text correction needs no full study. Choose routine design details autonomously within the brief. Respect a user-requested rough draft and label its status clearly.
 
 Match comparison, trend, process, structure, evidence, and context to suitable visual forms. Use position, scale, alignment, and weight before color. Give the same meaning the same color across the deck. Avoid defaulting every paragraph to three colored cards, icons, pills, decorative lines, or closing slogans. A restrained text page or a dense reading page may be appropriate.
 

@@ -43,6 +43,28 @@ class NativeEditorialTests(unittest.TestCase):
                 colors=[e.get('val') for e in chart.findall('.//c:dPt/c:spPr/a:solidFill/a:srgbClr',NS)]
                 self.assertEqual(colors,['C69300','252621'])
 
+    def test_freeform_background_cannot_hide_native_disclosure(self):
+        import base64
+        with tempfile.TemporaryDirectory() as tmp, TextMetrics() as metrics:
+            root=Path(tmp)
+            (root/'pixel.png').write_bytes(base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aX9sAAAAASUVORK5CYII='))
+            plan={'style':'editorial-yellow','fonts':{'bodyFont':'Arial'},
+                  'claims':{'t':{'text':'Title'},'f':{'text':'Fictional image disclosure'}},
+                  'assets':{'photo':{'path':'pixel.png','purpose':'Full background','provenance':'Unit fixture'}}}
+            c=Composer(plan,root,metrics)
+            c.render({'layout':'freeform','title':'$t','design_reason':'Full-bleed background and native title',
+                      'footnote':'$f','frames':[{'kind':'image','asset':'photo','x':0,'y':0,'w':13.333333,'h':7.5},
+                        {'kind':'text','claim':'$t','x':1,'y':1,'w':5,'h':1}]},1)
+            (root/'deck.json').write_text(json.dumps({'slides':c.slides}))
+            node_run('build_deck.mjs',root/'deck.json',root/'test.pptx')
+            with ZipFile(root/'test.pptx') as z:
+                page=ET.fromstring(z.read('ppt/slides/slide1.xml'))
+                ns={**NS,'p':'http://schemas.openxmlformats.org/presentationml/2006/main'}
+                shapes=list(page.find('.//p:spTree',ns))
+                picture=next(i for i,e in enumerate(shapes) if e.tag.endswith('}pic'))
+                footer=next(i for i,e in enumerate(shapes) if 'Fictional image disclosure' in ''.join(e.itertext()))
+                self.assertGreater(footer,picture)
+
     def test_invalid_custom_geometry_and_emphasis_cannot_silently_export(self):
         with tempfile.TemporaryDirectory() as tmp,TextMetrics() as metrics:
             c=Composer({'style':'editorial-yellow','fonts':{'bodyFont':'Arial'},'claims':{}},Path(tmp),metrics)

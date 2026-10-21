@@ -26,3 +26,10 @@ Project-created visuals are shared under the repository's MIT permission grant t
 - `evolution-table.jpg`, `evolution-color.jpg`, `evolution-text.jpg`: labelled compositions of actual frozen v3 exports and reviewed v4 exports, same sources/image assets; not a “without skill” benchmark. / 相同原文与素材的实际版本对照。
 - `operations-showcase.jpg`: actual native operations report pages, no generated artwork. / 原生运营简报实际页面。
 - Current montages and workflow PNG can be rebuilt with `tools/render-doc-visuals.mjs` using host-provided sharp and current example render state. Labels are explicit SVG typography; slide pixels are not repainted. / 可从当前渲染状态重新生成拼图与图解，使用宿主 sharp；不重画页面内容。
+
+## 4.1 proof workflow / 打样流程
+
+- `studio-workflow.svg/png`: original bilingual diagram of the implemented proof/selection/revision protocol.
+- `studio-showcase.jpg`, `studio-proofs.jpg`, `studio-revision.jpg`: montages of actual exported PPTX pages; generated with `tools/render-studio-docs.mjs`, without repainting slide content.
+- Fictional gallery image and the built-in imagegen prompt: `examples/studio/assets/gallery.jpg` and `examples/studio/prompts.json`.
+- 原创流程图与真实导出拼图；展厅配图为虚构生成概念，图中文字均由原生 PPT 对象覆盖。独立人工评审尚未完成。

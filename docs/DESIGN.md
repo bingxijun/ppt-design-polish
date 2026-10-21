@@ -48,6 +48,16 @@ The user supplied two low-resolution commercial template previews: one white/yel
 
 版本对照沿用同样原文与图片，另有三个完整主题示例。它们是本次实际制作与检查的证据，尚不是独立模型盲测，更不能证明“绝无 AI 痕迹”。[编辑判断](../references/editorial-decisions.md)与[编排接口](../references/composition-system.md)给出可执行方法。
 
+## 4.1: decisions tied to exports / 设计判断绑定真实页面
+
+`studio.py` makes representative proofs, candidate observations, selections and located critique/resolution records inspectable. `design-study.json` is tracked in the source fingerprint; enabled workspaces add a study check to final delivery. Candidate inputs/content contracts must match, and a claimed visual fix needs new page pixels. The [exhibition example](../examples/studio/README.md) exposed a real full-bleed image/furniture ordering bug and four page-level craft issues, then preserved their source changes and revised exports.
+
+新版将打样与看图返工接入实际工具，保持小改动轻量。本次实例保留真实问题与修正，脚本检查不包装成美感认证。
+
+The design-first approach is consistent with [Duarte's concept-sketch guidance](https://www.duarte.com/blog/start-with-a-pencil-not-a-mouse/) and the design/implementation separation investigated by [DeepSlides](https://arxiv.org/abs/2605.26451). These are methodological references, not copied implementation or evidence that this skill inherits their results. Independent human results are [pending](EVALUATION.md).
+
+上述资料支持先设计、再实现的方法方向，不代表复制其代码或继承研究效果。独立人工结果仍待完成。
+
 ## Integration map / 优势整合
 
 This project integrates useful methods into one entry point and implements a smaller, explicit runtime. It does not claim feature parity with every upstream application. Sources below are pinned for attribution; star counts change and are not quality evidence.

@@ -140,3 +140,9 @@ The compatibility names below are retained intentionally / 以下兼容名称为
 Files outside the tracked workspace directories and changing remote resources are not fingerprinted. Save local snapshots first. Existing `FONTCONFIG_FILE` is respected; no system fonts are installed or modified by this skill.
 
 工作区外文件及动态远端资源不参与摘要追踪，请先保存本地快照。本包尊重已有 `FONTCONFIG_FILE`，不安装或改写系统字体。
+
+## Proof and revision / 打样与返工
+
+For a full new deck or visual redesign, follow [studio-workflow.md](../references/studio-workflow.md): initialize a study, register actual exported candidates, inspect/select, expand the full deck and close located critique issues against the current render. An approved reference can use one reference proof; small text changes need no full study. Users normally only invoke the skill. / 新稿或重设计由 agent 完成打样、选稿与返工，用户无需编写配置。
+
+The new [exhibition example](../examples/studio/README.md) includes six final pages, proof exports and actual revisions. Its independent reader review remains pending; see [evaluation status](EVALUATION.md). / 展览实例附完整证据，独立人工评审仍待完成。

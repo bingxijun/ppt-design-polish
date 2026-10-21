@@ -39,7 +39,7 @@ def write(path, value):
 
 def snapshot(workspace):
     files = [workspace/name for name in ['task.json', 'deck.json', 'contract.json', 'design-plan.json',
-             'plan.json', 'source.json', 'composition.json', 'design-audit.json'] if (workspace/name).is_file()]
+             'plan.json', 'source.json', 'composition.json', 'design-audit.json', 'design-study.json'] if (workspace/name).is_file()]
     for directory in ['assets', 'slides', 'inputs', 'code']:
         files += [p for p in (workspace/directory).rglob('*') if p.is_file()]
     return {str(p.relative_to(workspace)): digest(p) for p in sorted(set(files))}
@@ -299,6 +299,11 @@ def finalize(w):
     formats = task(w).get('outputs', ['pptx'])
     pdfs = [w/name for name in current.get('render', {}).get('auxiliary', {}) if name.endswith('.pdf')]
     checks['requested_formats'] = 'pdf' not in formats or len(pdfs) == 1
+    design_study = None
+    if task(w).get('design_review'):
+        from studio import status as design_status
+        design_study = design_status(w)
+        checks['design_study'] = design_study['ready']
     complete = all(checks.values())
     delivery = None
     deliveries = []
@@ -324,6 +329,7 @@ def finalize(w):
               'artifact_sha256': digest(artifact) if artifact.is_file() else None,
               'renderer': current.get('render', {}).get('renderer'),
               'review_evidence': 'Host-recorded observations bound to current file/images; the CLI cannot prove an image was actually viewed'}
+    if design_study is not None: report['design_study'] = design_study
     write(w/'final-report.json', report)
     return report
 

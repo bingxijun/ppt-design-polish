@@ -110,3 +110,7 @@ CLI 会拒绝旧输入、旧文件、旧图片和缺页复查。它只能核验�
 `finalize` 只有在当前构建、当前渲染、全部逐页/全稿记录、内容约束和所需格式都通过时，才把请求的成品复制到 `output/`。PPTX/PDF 使用 `answer` 文件名，已有不同版本则输出带摘要后缀的新文件；PNG 放入按当前稿摘要区分的预览目录。失败返回 `complete=false`、具体检查项与可继续的草稿。
 
 不要编辑状态文件绕过门禁。事实、必需内容与可见缺陷都处理后停止，不为追求抽象“更高级”无限换图或换配色。用户接受未完成草稿时，可直接交付明确标为草稿的文件并说明未完成项，不假称已通过 `finalize`。
+
+## Design proof evidence / 设计打样证据
+
+Full design work can opt into `task.design_review:true` through [studio.py](studio-workflow.md). This tracks `design-study.json` in the source snapshot and adds a design-study check to `finalize`: real candidate exports, current selections, and current-render critique/resolutions. Small edits and legacy workspaces retain their existing checks. The tool validates file correspondence, not aesthetic quality or independent human judgment. / 完整设计稿通过打样入口启用附加交付检查；小修改与旧工程保持原路径，工具不认证审美或独立评审。

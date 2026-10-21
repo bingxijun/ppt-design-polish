@@ -1,0 +1,44 @@
+[
+  {
+    "slide": 1,
+    "verdict": "pass",
+    "summary": "The gallery photograph provides a calm left text field and spatial depth on the right. Native Songti title, English subtitle and reading-brief label remain editable. The disclosure is now painted above the full-bleed image and is visible.",
+    "issues": []
+  },
+  {
+    "slide": 2,
+    "verdict": "pass",
+    "summary": "The viewing premise leads at large scale on the left; three optional content stages read in a quieter right column. No material text is omitted and the optional-stage qualification is visible.",
+    "issues": []
+  },
+  {
+    "slide": 3,
+    "verdict": "pass",
+    "summary": "The horizontal native chart reads 60/25/15 from top to bottom with one focal color. All category names remain complete. Commentary no longer strands a character; 120-person single-choice fictional status remains explicit.",
+    "issues": []
+  },
+  {
+    "slide": 4,
+    "verdict": "pass",
+    "summary": "Native directed connectors link entry, seated viewing and exit. Explanations match the original brief; this is explicitly a conceptual route without actual building dimensions, capacity or duration.",
+    "issues": []
+  },
+  {
+    "slide": 5,
+    "verdict": "pass",
+    "summary": "Native table uses short stage/time columns and a wide completion-check column. Larger text is aligned consistently, all five preparation weeks and the two final checks remain traceable.",
+    "issues": []
+  },
+  {
+    "slide": 6,
+    "verdict": "pass",
+    "summary": "The closing request is venue/period confirmation, followed by practical next work and limitations. Four-week proposal duration, unknown dates/ticketing, accessibility-review limits and unspecified resources remain visible. No booking CTA was invented.",
+    "issues": []
+  },
+  {
+    "slide": "deck",
+    "verdict": "pass",
+    "summary": "Reviewed the full fictional source, six final exported pages, six prototype pages and the initial draft. Three proof selections and five concrete fixes are preserved with export hashes. The quiet paper/ink direction follows this exhibition concept; it is not a universal style. Source conditions and uncertain commitments remain accessible. These host observations do not constitute independent human preference review.",
+    "issues": []
+  }
+]

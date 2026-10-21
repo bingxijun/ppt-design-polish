@@ -1,0 +1,49 @@
+{
+  "study": {
+    "audience": "策展委员会",
+    "viewing": "16:9 中文阅读 PDF，允许逐页放大；关键事实与限制保留在页内。",
+    "visual_goal": "以安静的展厅空间和明确的阅读间隔表达慢观看，避免文化提案被处理成产品参数模板。",
+    "proofs": [
+      {
+        "id": "body",
+        "job": "理解观看主张与三个可选内容环节"
+      },
+      {
+        "id": "data",
+        "job": "比较三个问卷选项并读到样本和限制"
+      },
+      {
+        "id": "dense",
+        "job": "按阶段查阅五周排期与交付检查"
+      }
+    ],
+    "max_revision_rounds": 3
+  },
+  "status": {
+    "ready": true,
+    "problems": [],
+    "proof_groups": 3,
+    "revision_rounds": 1,
+    "limits": "Host-recorded design decisions bound to real exports. Not independent human review or aesthetic certification."
+  },
+  "final": {
+    "artifact_sha256": "51318c01fe7799ea0c1656e6aa96f88d6d84294024b93a523b1a340e1607881c",
+    "files": {
+      "export.pptx": "51318c01fe7799ea0c1656e6aa96f88d6d84294024b93a523b1a340e1607881c",
+      "page-01.png": "7b0f1f3e3cdda6d407fb01e09ffc05ca9189e5c4ca4a0aed6a074df81b606d99",
+      "page-02.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+      "page-03.png": "4a70dfec5b43bcd7786332cf5a589661b016546f1089f2d3ca3b28355b57d87e",
+      "page-04.png": "60b41f773eb02d69e63f363a1faa80b394ae776376fa3eba89746a0866cf6ba9",
+      "page-05.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+      "page-06.png": "fea8f16b73b48285747d32fd3c633da5f00a772332775ceab3478df807e03d6d",
+      "sources/deck.json": "00c9ae42ac05384357265c7d000756ede95a6d9322a77bdbc5b52ef3a36d6821",
+      "sources/plan.json": "3b3703921b50c43081044db6294534c6fdb544bb13fda5e8b4e1b8b76f006f04",
+      "sources/contract.json": "c141e06d597f527b7c2c5c0e46e79acef610b6984ee4b1068b0db6f2ff610911",
+      "sources/composition.json": "6e097db37f995799b893d59ea405d6e1d6a99dbd007ba59f95ef58a44bb8d9ec",
+      "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+    },
+    "pages": 6,
+    "directory": "final"
+  },
+  "human_blind_review": "pending; host observations are not independent reader judgments"
+}

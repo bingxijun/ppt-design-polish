@@ -1,0 +1,668 @@
+{
+  "candidates": {
+    "body": {
+      "a": {
+        "artifact_sha256": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+        "files": {
+          "export.pptx": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+          "page-01.png": "53eaca60944474bc2272bc3a4de2d4c7c561a93417e7fcc6024bfa30b4dc63ee",
+          "page-02.png": "ad6367e0c5f2e6254dec4eae48b3efbea6dadd45a8f564c7eeedd42cac3382d5",
+          "page-03.png": "98306a7e3995d5a47290edc84a48d5d263487139580c5b40bdf15832ab163b5b",
+          "sources/deck.json": "95d7db4c66bc6a4395ee285777982b03e0ac59169e66a3cef22f5908b0d4f482",
+          "sources/plan.json": "f72ee7856ee8880757f84d2ecac30870f680bf1502658fdb2e72b64bc79ecdb6",
+          "sources/contract.json": "3836670c6dcc311169006a94370cfd5bf65e61f7b6aa2b6aea0c4a6701a5b78f",
+          "sources/composition.json": "ae98ff491061688d35aa34572f8e0c900c273fe47c690cd6b39c16bf21efa5c9",
+          "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+        },
+        "pages": 3,
+        "directory": "candidates/body/a",
+        "page": 1,
+        "brief": {
+          "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+          "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+          "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+        },
+        "content_signature": "9a700b384d75598d756c1fa3d1a6240f4e83fa9f50ad31f5a83168834718b409"
+      },
+      "b": {
+        "artifact_sha256": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+        "files": {
+          "export.pptx": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+          "page-01.png": "d61da88e4aec00158ec06b2f9ba26d382e67818d70fda28346bf97062d267787",
+          "page-02.png": "ae45509b5d2d549b31278072e69310a41bd1e0e7d5c396d36fe0012916a91c4d",
+          "page-03.png": "982e5d2e94b089f70f1a5369e572fba62cbae9a953ef3c0ba6fdb101bad2dc90",
+          "sources/deck.json": "a3669b0066b951448fc773fa4270443b3adcac9102dffeb6bce54adfd1f56635",
+          "sources/plan.json": "be5bcb7ff143977463b715637bd55e251a26868475de6ad896c590a21cde5dfb",
+          "sources/contract.json": "9d101a856e7aab1dec03aff7d16d69c781c04001169190a361d635433dfa03a0",
+          "sources/composition.json": "e1f1c1170af467e432073702b1ac2f4be2d9119a1cda91d2d515d4896cfb5814",
+          "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+        },
+        "pages": 3,
+        "directory": "candidates/body/b",
+        "page": 1,
+        "brief": {
+          "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+          "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+          "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+        },
+        "content_signature": "9a700b384d75598d756c1fa3d1a6240f4e83fa9f50ad31f5a83168834718b409"
+      }
+    },
+    "data": {
+      "a": {
+        "artifact_sha256": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+        "files": {
+          "export.pptx": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+          "page-01.png": "53eaca60944474bc2272bc3a4de2d4c7c561a93417e7fcc6024bfa30b4dc63ee",
+          "page-02.png": "ad6367e0c5f2e6254dec4eae48b3efbea6dadd45a8f564c7eeedd42cac3382d5",
+          "page-03.png": "98306a7e3995d5a47290edc84a48d5d263487139580c5b40bdf15832ab163b5b",
+          "sources/deck.json": "95d7db4c66bc6a4395ee285777982b03e0ac59169e66a3cef22f5908b0d4f482",
+          "sources/plan.json": "f72ee7856ee8880757f84d2ecac30870f680bf1502658fdb2e72b64bc79ecdb6",
+          "sources/contract.json": "3836670c6dcc311169006a94370cfd5bf65e61f7b6aa2b6aea0c4a6701a5b78f",
+          "sources/composition.json": "ae98ff491061688d35aa34572f8e0c900c273fe47c690cd6b39c16bf21efa5c9",
+          "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+        },
+        "pages": 3,
+        "directory": "candidates/data/a",
+        "page": 2,
+        "brief": {
+          "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+          "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+          "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+        },
+        "content_signature": "0dc49da3b6c059bde6427c8595452af5e0c3b7d4b3ad918ce8e250d5ccce19ad"
+      },
+      "b": {
+        "artifact_sha256": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+        "files": {
+          "export.pptx": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+          "page-01.png": "d61da88e4aec00158ec06b2f9ba26d382e67818d70fda28346bf97062d267787",
+          "page-02.png": "ae45509b5d2d549b31278072e69310a41bd1e0e7d5c396d36fe0012916a91c4d",
+          "page-03.png": "982e5d2e94b089f70f1a5369e572fba62cbae9a953ef3c0ba6fdb101bad2dc90",
+          "sources/deck.json": "a3669b0066b951448fc773fa4270443b3adcac9102dffeb6bce54adfd1f56635",
+          "sources/plan.json": "be5bcb7ff143977463b715637bd55e251a26868475de6ad896c590a21cde5dfb",
+          "sources/contract.json": "9d101a856e7aab1dec03aff7d16d69c781c04001169190a361d635433dfa03a0",
+          "sources/composition.json": "e1f1c1170af467e432073702b1ac2f4be2d9119a1cda91d2d515d4896cfb5814",
+          "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+        },
+        "pages": 3,
+        "directory": "candidates/data/b",
+        "page": 2,
+        "brief": {
+          "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+          "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+          "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+        },
+        "content_signature": "0dc49da3b6c059bde6427c8595452af5e0c3b7d4b3ad918ce8e250d5ccce19ad"
+      }
+    },
+    "dense": {
+      "a": {
+        "artifact_sha256": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+        "files": {
+          "export.pptx": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+          "page-01.png": "53eaca60944474bc2272bc3a4de2d4c7c561a93417e7fcc6024bfa30b4dc63ee",
+          "page-02.png": "ad6367e0c5f2e6254dec4eae48b3efbea6dadd45a8f564c7eeedd42cac3382d5",
+          "page-03.png": "98306a7e3995d5a47290edc84a48d5d263487139580c5b40bdf15832ab163b5b",
+          "sources/deck.json": "95d7db4c66bc6a4395ee285777982b03e0ac59169e66a3cef22f5908b0d4f482",
+          "sources/plan.json": "f72ee7856ee8880757f84d2ecac30870f680bf1502658fdb2e72b64bc79ecdb6",
+          "sources/contract.json": "3836670c6dcc311169006a94370cfd5bf65e61f7b6aa2b6aea0c4a6701a5b78f",
+          "sources/composition.json": "ae98ff491061688d35aa34572f8e0c900c273fe47c690cd6b39c16bf21efa5c9",
+          "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+        },
+        "pages": 3,
+        "directory": "candidates/dense/a",
+        "page": 3,
+        "brief": {
+          "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+          "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+          "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+        },
+        "content_signature": "e9304bdac2a4046a105e5403b671305a894da5f05f00b3844f01152b220a4649"
+      },
+      "b": {
+        "artifact_sha256": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+        "files": {
+          "export.pptx": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+          "page-01.png": "d61da88e4aec00158ec06b2f9ba26d382e67818d70fda28346bf97062d267787",
+          "page-02.png": "ae45509b5d2d549b31278072e69310a41bd1e0e7d5c396d36fe0012916a91c4d",
+          "page-03.png": "982e5d2e94b089f70f1a5369e572fba62cbae9a953ef3c0ba6fdb101bad2dc90",
+          "sources/deck.json": "a3669b0066b951448fc773fa4270443b3adcac9102dffeb6bce54adfd1f56635",
+          "sources/plan.json": "be5bcb7ff143977463b715637bd55e251a26868475de6ad896c590a21cde5dfb",
+          "sources/contract.json": "9d101a856e7aab1dec03aff7d16d69c781c04001169190a361d635433dfa03a0",
+          "sources/composition.json": "e1f1c1170af467e432073702b1ac2f4be2d9119a1cda91d2d515d4896cfb5814",
+          "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+        },
+        "pages": 3,
+        "directory": "candidates/dense/b",
+        "page": 3,
+        "brief": {
+          "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+          "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+          "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+        },
+        "content_signature": "e9304bdac2a4046a105e5403b671305a894da5f05f00b3844f01152b220a4649"
+      }
+    }
+  },
+  "selections": {
+    "body": {
+      "group": "body",
+      "selected": "b",
+      "reason": "The premise is the first reading target, with the three optional stages in a quieter secondary column.",
+      "observations": [
+        {
+          "candidate": "a",
+          "strength": "All content is readable in a simple aligned list.",
+          "weakness": "The premise is small and the list leaves most of the page unused."
+        },
+        {
+          "candidate": "b",
+          "strength": "The larger premise and secondary column create a clear first and second reading.",
+          "weakness": "This split would need reconsideration for long explanatory prose."
+        }
+      ],
+      "brief": {
+        "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+        "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+        "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+      },
+      "candidate_evidence": {
+        "a": {
+          "artifact_sha256": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+          "files": {
+            "export.pptx": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+            "page-01.png": "53eaca60944474bc2272bc3a4de2d4c7c561a93417e7fcc6024bfa30b4dc63ee",
+            "page-02.png": "ad6367e0c5f2e6254dec4eae48b3efbea6dadd45a8f564c7eeedd42cac3382d5",
+            "page-03.png": "98306a7e3995d5a47290edc84a48d5d263487139580c5b40bdf15832ab163b5b",
+            "sources/deck.json": "95d7db4c66bc6a4395ee285777982b03e0ac59169e66a3cef22f5908b0d4f482",
+            "sources/plan.json": "f72ee7856ee8880757f84d2ecac30870f680bf1502658fdb2e72b64bc79ecdb6",
+            "sources/contract.json": "3836670c6dcc311169006a94370cfd5bf65e61f7b6aa2b6aea0c4a6701a5b78f",
+            "sources/composition.json": "ae98ff491061688d35aa34572f8e0c900c273fe47c690cd6b39c16bf21efa5c9",
+            "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+          },
+          "pages": 3,
+          "directory": "candidates/body/a",
+          "page": 1,
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          },
+          "content_signature": "9a700b384d75598d756c1fa3d1a6240f4e83fa9f50ad31f5a83168834718b409"
+        },
+        "b": {
+          "artifact_sha256": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+          "files": {
+            "export.pptx": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+            "page-01.png": "d61da88e4aec00158ec06b2f9ba26d382e67818d70fda28346bf97062d267787",
+            "page-02.png": "ae45509b5d2d549b31278072e69310a41bd1e0e7d5c396d36fe0012916a91c4d",
+            "page-03.png": "982e5d2e94b089f70f1a5369e572fba62cbae9a953ef3c0ba6fdb101bad2dc90",
+            "sources/deck.json": "a3669b0066b951448fc773fa4270443b3adcac9102dffeb6bce54adfd1f56635",
+            "sources/plan.json": "be5bcb7ff143977463b715637bd55e251a26868475de6ad896c590a21cde5dfb",
+            "sources/contract.json": "9d101a856e7aab1dec03aff7d16d69c781c04001169190a361d635433dfa03a0",
+            "sources/composition.json": "e1f1c1170af467e432073702b1ac2f4be2d9119a1cda91d2d515d4896cfb5814",
+            "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+          },
+          "pages": 3,
+          "directory": "candidates/body/b",
+          "page": 1,
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          },
+          "content_signature": "9a700b384d75598d756c1fa3d1a6240f4e83fa9f50ad31f5a83168834718b409"
+        }
+      }
+    },
+    "data": {
+      "group": "data",
+      "selected": "b",
+      "reason": "Horizontal labels keep long categories intact and the accent expresses the largest response; the final page still needs an order/wrap revision.",
+      "observations": [
+        {
+          "candidate": "a",
+          "strength": "The column chart has a clear zero baseline and all values are readable.",
+          "weakness": "The equally dark bars offer no focal category and long labels would be harder to extend."
+        },
+        {
+          "candidate": "b",
+          "strength": "Full horizontal category labels and the 60% focal bar support the premise.",
+          "weakness": "The largest bar reads last and the commentary has a dangling final Chinese character; correct these in the full export."
+        }
+      ],
+      "brief": {
+        "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+        "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+        "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+      },
+      "candidate_evidence": {
+        "a": {
+          "artifact_sha256": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+          "files": {
+            "export.pptx": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+            "page-01.png": "53eaca60944474bc2272bc3a4de2d4c7c561a93417e7fcc6024bfa30b4dc63ee",
+            "page-02.png": "ad6367e0c5f2e6254dec4eae48b3efbea6dadd45a8f564c7eeedd42cac3382d5",
+            "page-03.png": "98306a7e3995d5a47290edc84a48d5d263487139580c5b40bdf15832ab163b5b",
+            "sources/deck.json": "95d7db4c66bc6a4395ee285777982b03e0ac59169e66a3cef22f5908b0d4f482",
+            "sources/plan.json": "f72ee7856ee8880757f84d2ecac30870f680bf1502658fdb2e72b64bc79ecdb6",
+            "sources/contract.json": "3836670c6dcc311169006a94370cfd5bf65e61f7b6aa2b6aea0c4a6701a5b78f",
+            "sources/composition.json": "ae98ff491061688d35aa34572f8e0c900c273fe47c690cd6b39c16bf21efa5c9",
+            "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+          },
+          "pages": 3,
+          "directory": "candidates/data/a",
+          "page": 2,
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          },
+          "content_signature": "0dc49da3b6c059bde6427c8595452af5e0c3b7d4b3ad918ce8e250d5ccce19ad"
+        },
+        "b": {
+          "artifact_sha256": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+          "files": {
+            "export.pptx": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+            "page-01.png": "d61da88e4aec00158ec06b2f9ba26d382e67818d70fda28346bf97062d267787",
+            "page-02.png": "ae45509b5d2d549b31278072e69310a41bd1e0e7d5c396d36fe0012916a91c4d",
+            "page-03.png": "982e5d2e94b089f70f1a5369e572fba62cbae9a953ef3c0ba6fdb101bad2dc90",
+            "sources/deck.json": "a3669b0066b951448fc773fa4270443b3adcac9102dffeb6bce54adfd1f56635",
+            "sources/plan.json": "be5bcb7ff143977463b715637bd55e251a26868475de6ad896c590a21cde5dfb",
+            "sources/contract.json": "9d101a856e7aab1dec03aff7d16d69c781c04001169190a361d635433dfa03a0",
+            "sources/composition.json": "e1f1c1170af467e432073702b1ac2f4be2d9119a1cda91d2d515d4896cfb5814",
+            "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+          },
+          "pages": 3,
+          "directory": "candidates/data/b",
+          "page": 2,
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          },
+          "content_signature": "0dc49da3b6c059bde6427c8595452af5e0c3b7d4b3ad918ce8e250d5ccce19ad"
+        }
+      }
+    },
+    "dense": {
+      "group": "dense",
+      "selected": "b",
+      "reason": "Narrower stage/time columns give the completion checks a more continuous reading band and allow larger native table text.",
+      "observations": [
+        {
+          "candidate": "a",
+          "strength": "The automatic widths already produce a fully readable comparison.",
+          "weakness": "Short stage/time content receives more width than this reading task needs."
+        },
+        {
+          "candidate": "b",
+          "strength": "Completion checks are close to their stage/time and the 19pt cells are easier to scan.",
+          "weakness": "This proportion is specific to short stage/time labels; it is not a universal table rule."
+        }
+      ],
+      "brief": {
+        "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+        "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+        "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+      },
+      "candidate_evidence": {
+        "a": {
+          "artifact_sha256": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+          "files": {
+            "export.pptx": "3424bff41a6b2b07a72b7c19c88772f4de660a2343533db56668f9669b68b3c8",
+            "page-01.png": "53eaca60944474bc2272bc3a4de2d4c7c561a93417e7fcc6024bfa30b4dc63ee",
+            "page-02.png": "ad6367e0c5f2e6254dec4eae48b3efbea6dadd45a8f564c7eeedd42cac3382d5",
+            "page-03.png": "98306a7e3995d5a47290edc84a48d5d263487139580c5b40bdf15832ab163b5b",
+            "sources/deck.json": "95d7db4c66bc6a4395ee285777982b03e0ac59169e66a3cef22f5908b0d4f482",
+            "sources/plan.json": "f72ee7856ee8880757f84d2ecac30870f680bf1502658fdb2e72b64bc79ecdb6",
+            "sources/contract.json": "3836670c6dcc311169006a94370cfd5bf65e61f7b6aa2b6aea0c4a6701a5b78f",
+            "sources/composition.json": "ae98ff491061688d35aa34572f8e0c900c273fe47c690cd6b39c16bf21efa5c9",
+            "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+          },
+          "pages": 3,
+          "directory": "candidates/dense/a",
+          "page": 3,
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          },
+          "content_signature": "e9304bdac2a4046a105e5403b671305a894da5f05f00b3844f01152b220a4649"
+        },
+        "b": {
+          "artifact_sha256": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+          "files": {
+            "export.pptx": "f701d506113002e5e778560bc02fab951f960bb803b5cb795a447f8087eae075",
+            "page-01.png": "d61da88e4aec00158ec06b2f9ba26d382e67818d70fda28346bf97062d267787",
+            "page-02.png": "ae45509b5d2d549b31278072e69310a41bd1e0e7d5c396d36fe0012916a91c4d",
+            "page-03.png": "982e5d2e94b089f70f1a5369e572fba62cbae9a953ef3c0ba6fdb101bad2dc90",
+            "sources/deck.json": "a3669b0066b951448fc773fa4270443b3adcac9102dffeb6bce54adfd1f56635",
+            "sources/plan.json": "be5bcb7ff143977463b715637bd55e251a26868475de6ad896c590a21cde5dfb",
+            "sources/contract.json": "9d101a856e7aab1dec03aff7d16d69c781c04001169190a361d635433dfa03a0",
+            "sources/composition.json": "e1f1c1170af467e432073702b1ac2f4be2d9119a1cda91d2d515d4896cfb5814",
+            "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+          },
+          "pages": 3,
+          "directory": "candidates/dense/b",
+          "page": 3,
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          },
+          "content_signature": "e9304bdac2a4046a105e5403b671305a894da5f05f00b3844f01152b220a4649"
+        }
+      }
+    }
+  },
+  "rounds": [
+    {
+      "summary": "Inspected all six exported pages and both prototype decks. Five concrete craft/furniture issues need source edits before delivery. These are host observations, not independent human ratings.",
+      "issues": [
+        {
+          "id": "cover-furniture",
+          "slide": 1,
+          "severity": "major",
+          "bbox": [
+            0.03,
+            0.89,
+            0.7,
+            0.1
+          ],
+          "observation": "The full-page image is painted after the footer and hides the fictional/generated-image disclosure.",
+          "action": "Draw native slide furniture after freeform frames, then verify the cover disclosure has readable contrast."
+        },
+        {
+          "id": "survey-order",
+          "slide": 3,
+          "severity": "minor",
+          "bbox": [
+            0.05,
+            0.28,
+            0.62,
+            0.55
+          ],
+          "observation": "The largest response is at the bottom of the horizontal plot, so the reading order does not lead with the stated focus.",
+          "action": "Support explicit category order and put the largest response first for this ranked comparison."
+        },
+        {
+          "id": "survey-orphan",
+          "slide": 3,
+          "severity": "major",
+          "bbox": [
+            0.66,
+            0.29,
+            0.3,
+            0.3
+          ],
+          "observation": "The first commentary sentence leaves the final Chinese character alone on the second line.",
+          "action": "Widen the commentary column and adjust its type size while preserving the source statement."
+        },
+        {
+          "id": "route-direction",
+          "slide": 4,
+          "severity": "minor",
+          "bbox": [
+            0.22,
+            0.32,
+            0.5,
+            0.32
+          ],
+          "observation": "The two floating rules do not clearly connect the staggered route stages or show a direction.",
+          "action": "Use native directed connectors between the actual stage groups, keeping the diagram labelled as a conceptual route."
+        },
+        {
+          "id": "closing-break",
+          "slide": 6,
+          "severity": "minor",
+          "bbox": [
+            0.67,
+            0.59,
+            0.29,
+            0.2
+          ],
+          "observation": "The limitation paragraph breaks 认证 across lines in a narrow column.",
+          "action": "Set deliberate phrase breaks and enough width for the qualifier, with no removal of the limitation."
+        }
+      ],
+      "artifact_sha256": "71a4daa9345c8910836320cbe98e05b4d8a8697581fe5afe2b05219d1a729afe",
+      "files": {
+        "export.pptx": "71a4daa9345c8910836320cbe98e05b4d8a8697581fe5afe2b05219d1a729afe",
+        "page-01.png": "146ef6256bdb58a80a4895f90e25e9de0a4ebdf7fbf977df296062ba920242d6",
+        "page-02.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+        "page-03.png": "b840bab2943beec0a64bd2d91d52f5603cf98beaae4e045258ccfa7b8ad4c4ef",
+        "page-04.png": "d9807d5c4cb47de00b7e98cb3142a84e78670ebe570cdb1872d439832989303d",
+        "page-05.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+        "page-06.png": "9945d8fb7cbf87f32b500c7eb7995cd96c9d68e79d5bb3a94450113be1a65a0c",
+        "sources/deck.json": "0073e80921c2f835c660c03173f6cf1e1c1689e8dfce1f4c54dcdbcf3def6432",
+        "sources/plan.json": "0ca89591f1fc8462c6e384f24d28ef2dbad4572e55353998084b65f4870accd6",
+        "sources/contract.json": "ebaa823dcd4371af45ca103784cdb1fc57c77630e658c9d624b5f90c84b1841b",
+        "sources/composition.json": "6838124630afeb3d443f7b53e2f32d2eb9899d81d2ec27a03bec431cfb84371d",
+        "sources/design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde"
+      },
+      "pages": 6,
+      "directory": "rounds/01",
+      "brief": {
+        "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+        "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+        "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+      },
+      "resolutions": {
+        "cover-furniture": {
+          "id": "cover-furniture",
+          "change": "Moved freeform native furniture after all frames in the compiler.",
+          "verification": "The cover now visibly shows the brand, page number and fictional/generated-image disclosure above the gallery photograph.",
+          "render": {
+            "artifact_sha256": "51318c01fe7799ea0c1656e6aa96f88d6d84294024b93a523b1a340e1607881c",
+            "inputs": {
+              "assets/gallery.jpg": "d4b322f6042b82704465654cd3e6382883938708d7e57ed70945c908d80bed64",
+              "composition.json": "6e097db37f995799b893d59ea405d6e1d6a99dbd007ba59f95ef58a44bb8d9ec",
+              "contract.json": "c141e06d597f527b7c2c5c0e46e79acef610b6984ee4b1068b0db6f2ff610911",
+              "deck.json": "00c9ae42ac05384357265c7d000756ede95a6d9322a77bdbc5b52ef3a36d6821",
+              "design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde",
+              "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+              "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+              "plan.json": "3b3703921b50c43081044db6294534c6fdb544bb13fda5e8b4e1b8b76f006f04",
+              "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6",
+              "task.json": "d1b08251f5da8cfb6ff040a7e103ca262ab76a6cc8ebdd023d265fca7afb6a93"
+            },
+            "renderer": "libreoffice-exported-pptx",
+            "pages": {
+              ".ppt-beautify/renders/51318c01fe7799ea/page-1.png": "7b0f1f3e3cdda6d407fb01e09ffc05ca9189e5c4ca4a0aed6a074df81b606d99",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-2.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-3.png": "4a70dfec5b43bcd7786332cf5a589661b016546f1089f2d3ca3b28355b57d87e",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-4.png": "60b41f773eb02d69e63f363a1faa80b394ae776376fa3eba89746a0866cf6ba9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-5.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-6.png": "fea8f16b73b48285747d32fd3c633da5f00a772332775ceab3478df807e03d6d"
+            },
+            "auxiliary": {
+              ".ppt-beautify/renders/51318c01fe7799ea/draft.pdf": "7c71a75a7aef4ebe08276e9e6a08bc3c092f93cb8091d11399622a1b674a1896"
+            }
+          },
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          }
+        },
+        "survey-order": {
+          "id": "survey-order",
+          "change": "Added explicit first-at-top category order for horizontal native charts.",
+          "verification": "The 60% focal response appears first, with 25% then 15%; scale and original source values remain unchanged.",
+          "render": {
+            "artifact_sha256": "51318c01fe7799ea0c1656e6aa96f88d6d84294024b93a523b1a340e1607881c",
+            "inputs": {
+              "assets/gallery.jpg": "d4b322f6042b82704465654cd3e6382883938708d7e57ed70945c908d80bed64",
+              "composition.json": "6e097db37f995799b893d59ea405d6e1d6a99dbd007ba59f95ef58a44bb8d9ec",
+              "contract.json": "c141e06d597f527b7c2c5c0e46e79acef610b6984ee4b1068b0db6f2ff610911",
+              "deck.json": "00c9ae42ac05384357265c7d000756ede95a6d9322a77bdbc5b52ef3a36d6821",
+              "design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde",
+              "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+              "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+              "plan.json": "3b3703921b50c43081044db6294534c6fdb544bb13fda5e8b4e1b8b76f006f04",
+              "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6",
+              "task.json": "d1b08251f5da8cfb6ff040a7e103ca262ab76a6cc8ebdd023d265fca7afb6a93"
+            },
+            "renderer": "libreoffice-exported-pptx",
+            "pages": {
+              ".ppt-beautify/renders/51318c01fe7799ea/page-1.png": "7b0f1f3e3cdda6d407fb01e09ffc05ca9189e5c4ca4a0aed6a074df81b606d99",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-2.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-3.png": "4a70dfec5b43bcd7786332cf5a589661b016546f1089f2d3ca3b28355b57d87e",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-4.png": "60b41f773eb02d69e63f363a1faa80b394ae776376fa3eba89746a0866cf6ba9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-5.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-6.png": "fea8f16b73b48285747d32fd3c633da5f00a772332775ceab3478df807e03d6d"
+            },
+            "auxiliary": {
+              ".ppt-beautify/renders/51318c01fe7799ea/draft.pdf": "7c71a75a7aef4ebe08276e9e6a08bc3c092f93cb8091d11399622a1b674a1896"
+            }
+          },
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          }
+        },
+        "survey-orphan": {
+          "id": "survey-orphan",
+          "change": "Widened commentary from 3.25 to 3.65 inches and set 21pt type.",
+          "verification": "The first sentence now stays together; no final 字 is stranded on a new line.",
+          "render": {
+            "artifact_sha256": "51318c01fe7799ea0c1656e6aa96f88d6d84294024b93a523b1a340e1607881c",
+            "inputs": {
+              "assets/gallery.jpg": "d4b322f6042b82704465654cd3e6382883938708d7e57ed70945c908d80bed64",
+              "composition.json": "6e097db37f995799b893d59ea405d6e1d6a99dbd007ba59f95ef58a44bb8d9ec",
+              "contract.json": "c141e06d597f527b7c2c5c0e46e79acef610b6984ee4b1068b0db6f2ff610911",
+              "deck.json": "00c9ae42ac05384357265c7d000756ede95a6d9322a77bdbc5b52ef3a36d6821",
+              "design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde",
+              "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+              "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+              "plan.json": "3b3703921b50c43081044db6294534c6fdb544bb13fda5e8b4e1b8b76f006f04",
+              "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6",
+              "task.json": "d1b08251f5da8cfb6ff040a7e103ca262ab76a6cc8ebdd023d265fca7afb6a93"
+            },
+            "renderer": "libreoffice-exported-pptx",
+            "pages": {
+              ".ppt-beautify/renders/51318c01fe7799ea/page-1.png": "7b0f1f3e3cdda6d407fb01e09ffc05ca9189e5c4ca4a0aed6a074df81b606d99",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-2.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-3.png": "4a70dfec5b43bcd7786332cf5a589661b016546f1089f2d3ca3b28355b57d87e",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-4.png": "60b41f773eb02d69e63f363a1faa80b394ae776376fa3eba89746a0866cf6ba9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-5.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-6.png": "fea8f16b73b48285747d32fd3c633da5f00a772332775ceab3478df807e03d6d"
+            },
+            "auxiliary": {
+              ".ppt-beautify/renders/51318c01fe7799ea/draft.pdf": "7c71a75a7aef4ebe08276e9e6a08bc3c092f93cb8091d11399622a1b674a1896"
+            }
+          },
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          }
+        },
+        "route-direction": {
+          "id": "route-direction",
+          "change": "Replaced floating rules with native directed diagonal connectors between the actual stage groups.",
+          "verification": "Arrows lead from entry to seated viewing to exit; the conceptual, non-measured route qualifier remains visible.",
+          "render": {
+            "artifact_sha256": "51318c01fe7799ea0c1656e6aa96f88d6d84294024b93a523b1a340e1607881c",
+            "inputs": {
+              "assets/gallery.jpg": "d4b322f6042b82704465654cd3e6382883938708d7e57ed70945c908d80bed64",
+              "composition.json": "6e097db37f995799b893d59ea405d6e1d6a99dbd007ba59f95ef58a44bb8d9ec",
+              "contract.json": "c141e06d597f527b7c2c5c0e46e79acef610b6984ee4b1068b0db6f2ff610911",
+              "deck.json": "00c9ae42ac05384357265c7d000756ede95a6d9322a77bdbc5b52ef3a36d6821",
+              "design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde",
+              "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+              "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+              "plan.json": "3b3703921b50c43081044db6294534c6fdb544bb13fda5e8b4e1b8b76f006f04",
+              "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6",
+              "task.json": "d1b08251f5da8cfb6ff040a7e103ca262ab76a6cc8ebdd023d265fca7afb6a93"
+            },
+            "renderer": "libreoffice-exported-pptx",
+            "pages": {
+              ".ppt-beautify/renders/51318c01fe7799ea/page-1.png": "7b0f1f3e3cdda6d407fb01e09ffc05ca9189e5c4ca4a0aed6a074df81b606d99",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-2.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-3.png": "4a70dfec5b43bcd7786332cf5a589661b016546f1089f2d3ca3b28355b57d87e",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-4.png": "60b41f773eb02d69e63f363a1faa80b394ae776376fa3eba89746a0866cf6ba9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-5.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-6.png": "fea8f16b73b48285747d32fd3c633da5f00a772332775ceab3478df807e03d6d"
+            },
+            "auxiliary": {
+              ".ppt-beautify/renders/51318c01fe7799ea/draft.pdf": "7c71a75a7aef4ebe08276e9e6a08bc3c092f93cb8091d11399622a1b674a1896"
+            }
+          },
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          }
+        },
+        "closing-break": {
+          "id": "closing-break",
+          "change": "Set explicit phrase breaks and widened the limitation text frame.",
+          "verification": "认证 stays together; all budget, staffing, equipment and price omissions remain readable.",
+          "render": {
+            "artifact_sha256": "51318c01fe7799ea0c1656e6aa96f88d6d84294024b93a523b1a340e1607881c",
+            "inputs": {
+              "assets/gallery.jpg": "d4b322f6042b82704465654cd3e6382883938708d7e57ed70945c908d80bed64",
+              "composition.json": "6e097db37f995799b893d59ea405d6e1d6a99dbd007ba59f95ef58a44bb8d9ec",
+              "contract.json": "c141e06d597f527b7c2c5c0e46e79acef610b6984ee4b1068b0db6f2ff610911",
+              "deck.json": "00c9ae42ac05384357265c7d000756ede95a6d9322a77bdbc5b52ef3a36d6821",
+              "design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde",
+              "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+              "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+              "plan.json": "3b3703921b50c43081044db6294534c6fdb544bb13fda5e8b4e1b8b76f006f04",
+              "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6",
+              "task.json": "d1b08251f5da8cfb6ff040a7e103ca262ab76a6cc8ebdd023d265fca7afb6a93"
+            },
+            "renderer": "libreoffice-exported-pptx",
+            "pages": {
+              ".ppt-beautify/renders/51318c01fe7799ea/page-1.png": "7b0f1f3e3cdda6d407fb01e09ffc05ca9189e5c4ca4a0aed6a074df81b606d99",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-2.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-3.png": "4a70dfec5b43bcd7786332cf5a589661b016546f1089f2d3ca3b28355b57d87e",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-4.png": "60b41f773eb02d69e63f363a1faa80b394ae776376fa3eba89746a0866cf6ba9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-5.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+              ".ppt-beautify/renders/51318c01fe7799ea/page-6.png": "fea8f16b73b48285747d32fd3c633da5f00a772332775ceab3478df807e03d6d"
+            },
+            "auxiliary": {
+              ".ppt-beautify/renders/51318c01fe7799ea/draft.pdf": "7c71a75a7aef4ebe08276e9e6a08bc3c092f93cb8091d11399622a1b674a1896"
+            }
+          },
+          "brief": {
+            "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+            "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+            "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6"
+          }
+        }
+      },
+      "render": {
+        "artifact_sha256": "71a4daa9345c8910836320cbe98e05b4d8a8697581fe5afe2b05219d1a729afe",
+        "inputs": {
+          "assets/gallery.jpg": "d4b322f6042b82704465654cd3e6382883938708d7e57ed70945c908d80bed64",
+          "composition.json": "6838124630afeb3d443f7b53e2f32d2eb9899d81d2ec27a03bec431cfb84371d",
+          "contract.json": "ebaa823dcd4371af45ca103784cdb1fc57c77630e658c9d624b5f90c84b1841b",
+          "deck.json": "0073e80921c2f835c660c03173f6cf1e1c1689e8dfce1f4c54dcdbcf3def6432",
+          "design-audit.json": "ec2104450683ee022e8a6d4593f21937b6f4d3c959bad8d07493edf713586fde",
+          "design-study.json": "cd84f1690f61a7b746d379eb497d51ebb799a1b69351870f0eeb1a19f1d58ce8",
+          "inputs/announcement.md": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+          "plan.json": "0ca89591f1fc8462c6e384f24d28ef2dbad4572e55353998084b65f4870accd6",
+          "source.json": "6a88f1c6d4dac648890f7390aea78a53311225e6047d27b5739ee722e16a29b6",
+          "task.json": "d1b08251f5da8cfb6ff040a7e103ca262ab76a6cc8ebdd023d265fca7afb6a93"
+        },
+        "renderer": "libreoffice-exported-pptx",
+        "pages": {
+          ".ppt-beautify/renders/71a4daa9345c8910/page-1.png": "146ef6256bdb58a80a4895f90e25e9de0a4ebdf7fbf977df296062ba920242d6",
+          ".ppt-beautify/renders/71a4daa9345c8910/page-2.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+          ".ppt-beautify/renders/71a4daa9345c8910/page-3.png": "b840bab2943beec0a64bd2d91d52f5603cf98beaae4e045258ccfa7b8ad4c4ef",
+          ".ppt-beautify/renders/71a4daa9345c8910/page-4.png": "d9807d5c4cb47de00b7e98cb3142a84e78670ebe570cdb1872d439832989303d",
+          ".ppt-beautify/renders/71a4daa9345c8910/page-5.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+          ".ppt-beautify/renders/71a4daa9345c8910/page-6.png": "9945d8fb7cbf87f32b500c7eb7995cd96c9d68e79d5bb3a94450113be1a65a0c"
+        },
+        "auxiliary": {
+          ".ppt-beautify/renders/71a4daa9345c8910/draft.pdf": "5dfbdcb33c04a31a32d2b0f9f729a0335bc34a3f6afdbd36dcecd25f23a329dc"
+        }
+      }
+    }
+  ]
+}

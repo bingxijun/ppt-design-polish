@@ -98,7 +98,7 @@ Headers default to paper with dark text and quiet horizontal rules. Reference-sp
  "series":[{"name":"Preference","points":[{"label":"Range","value":"$n0"},{"label":"Charging","value":"$n1"}]}]}}
 ```
 
-Default chart ink is neutral. `focus_points` (single series) uses the design accent only for meaningful focal points. Multi-series charts require one `series_colors` entry per series and a `series_color_reason`, representing stable categories with labels/legend; do not add arbitrary hues. `orientation:"col"|"bar"`, `min`,`max`,`major_unit`,`number_format` are explicit. Preserve honest scales and conditions; change axes only with a clear analytical reason.
+Default chart ink is neutral. `focus_points` (single series) uses the design accent only for meaningful focal points. Multi-series charts require one `series_colors` entry per series and a `series_color_reason`, representing stable categories with labels/legend; do not add arbitrary hues. Horizontal bars can set `category_order:"first-at-top"` for an intentional top-to-bottom category order. `orientation:"col"|"bar"`, `min`,`max`,`major_unit`,`number_format` are explicit. Preserve honest scales and conditions; change axes only with a clear analytical reason.
 
 ### Custom native composition / 自定义原生构图
 
@@ -113,7 +113,7 @@ Use `layout:"freeform"` when the reading task/reference needs other geometry. Re
  ]}
 ```
 
-Frame kinds: `text`,`image`,`table`,`chart`,`rule`; inches on 13⅓ × 7½ canvas. Text uses `font_role`, `color_role`, `bold`,`align`; accent text requires `reason`. Table/chart frames use the slide's data/config. Optional background hex and `dark:true` control this page's background/furniture. Put all intended visible claims, including the title, in frames. Freeform is deliberately authored and not automatically paginated. Fix overfull frames rather than disable measurement.
+Frame kinds: `text`,`image`,`table`,`chart`,`rule`,`connector`; inches on 13⅓ × 7½ canvas. Text uses `font_role`, `color_role`, `bold`,`align`; accent text requires `reason`. Table/chart frames use the slide's data/config. Optional background hex and `dark:true` control this page's background/furniture. A `connector` is a native directed line, with `direction:"down"|"up"` and a positive width/height bounding box. Native furniture is drawn after frames so full-bleed imagery cannot hide disclosures. Put all intended visible claims, including the title, in frames. Freeform is deliberately authored and not automatically paginated. Fix overfull frames rather than disable measurement.
 
 ### Assets / 配图
 
@@ -128,3 +128,5 @@ python3 "<SKILL_ROOT>/scripts/compose.py" compose --workspace "/absolute/work"
 Outputs: native `deck.json`, content/object `contract.json`, provenance/measurement `composition.json`, contextual `design-audit.json`. Read audit questions before final review. Patterns are not AI detection or beauty certification.
 
 Use the host's mandatory authoring path if required; export and register with `deck.py adopt`. Otherwise use the included builder. Initialize only a new workspace, using the actual composed page count; `init` preserves an existing contract. Set `task.outputs` before building for PDF/PNG. Follow [workflow](workflow.md): build/adopt → render final PPTX → inspect **every page** and source qualifiers → record concrete page/deck reviews → finalize. Changes invalidate old reviews. Do not edit state to bypass checks.
+
+For full new-deck/design work, integrate the [studio proof workflow](studio-workflow.md) before expansion. The compiler remains an authoring aid; candidate selection and visual critique come from inspecting actual exports. / 完整设计稿在扩稿前接入打样流程，实际看图选稿并批改。

@@ -1,0 +1,7 @@
+{
+  "tool": "Built-in imagegen",
+  "asset": "assets/gallery.jpg",
+  "source_file": "exec-ee307288-5796-41bf-a0c0-1ba55fa87a15.png",
+  "postprocessing": "JPEG compression only; no painting or content changes.",
+  "prompt": "Use-case: photorealistic-natural. Create one original professional architectural photograph for a fictional contemporary art exhibition proposal. Wide landscape 16:9 photograph, no text, no logo, no borders, no infographic. A tranquil off-white gallery with exceptionally crafted plaster walls, one large dark ink-like abstract painting in the far right portion (original non-derivative gestural composition), subtle sculptural stone bench at lower right, warm directional autumn daylight from a concealed skylight, quiet red-brown lacquer portal in the middle distance. Human scale, realistic restrained materials, fine film grain, editorial architecture magazine quality. Strong asymmetrical architectural framing, the leftmost 45 percent is a calm warm ivory wall with soft architectural shadow and no objects, intended as native-text-safe space for dark Chinese exhibition typography. Right side carries spatial depth and restrained visual interest. No people, no oversaturated colors, no glossy 3D render, no floating objects. This is fictional concept imagery rather than a documented actual venue."
+}

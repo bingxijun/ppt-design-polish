@@ -304,13 +304,18 @@ class Composer:
               'barDir':chart.get('orientation','col')}
         if chart.get('max') is not None:opts['valAxisMaxVal']=chart['max']
         if chart.get('major_unit') is not None:opts['valAxisMajorUnit']=chart['major_unit']
+        if chart.get('category_order') is not None:
+            if chart['category_order']!='first-at-top' or chart.get('orientation')!='bar':
+                raise ValueError('category_order:first-at-top applies to horizontal bars')
+            opts['catAxisOrientation']='maxMin'
+            opts['catAxisLabelPos']='low'
+            opts['valAxisLabelPos']='low'
         if chart.get('type')=='line': opts['dataLabelPosition']='t'
         self.e.append({'type':'chart','chartType':chart.get('type','bar'),'data':data,'options':opts})
 
     def freeform(self,s,page):
         if not s.get('design_reason','').strip() or not s.get('frames'):
             raise ValueError('Custom composition needs frames and a design_reason')
-        self.chrome(s,page,s.get('dark',False))
         for frame in s.get('frames',[]):
             kind=frame['kind']; x,y,w,h=[frame[k] for k in ('x','y','w','h')]
             if min(x,y)<0 or w<=0 or (h<=0 and kind!='rule') or x+w>W+.01 or y+h>H+.01:
@@ -326,7 +331,14 @@ class Composer:
             elif kind=='table':self.table(s,x,y,w,h)
             elif kind=='chart':self.chart(s,x,y,w,h)
             elif kind=='rule':self.line(x,y,w)
+            elif kind=='connector':
+                direction=frame.get('direction','down')
+                if direction not in ('down','up'):raise ValueError('Connector direction is down or up')
+                self.e.append({'type':'shape','shape':'line','options':{'x':x,'y':y,'w':w,'h':h,
+                    'flipV':direction=='up','line':{'color':self.t['rule'],'width':1,'endArrowType':'triangle'}}})
             else:raise ValueError(f'Unsupported custom frame {kind}')
+        # Full-bleed imagery must not cover disclosure/footer/native furniture.
+        self.chrome(s,page,s.get('dark',False))
 
     def render(self, s, page):
         self.e = []

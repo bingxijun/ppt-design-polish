@@ -1,0 +1,336 @@
+{
+  "style": "brief-derived",
+  "slides": [
+    {
+      "slide": 1,
+      "layout": "freeform",
+      "claims": [
+        "lead",
+        "observe",
+        "observeb",
+        "optional",
+        "pause",
+        "pauseb",
+        "premise",
+        "reflect",
+        "reflectb"
+      ],
+      "images": []
+    },
+    {
+      "slide": 2,
+      "layout": "freeform",
+      "claims": [
+        "survey",
+        "surveycopy",
+        "surveynote",
+        "v0",
+        "v1",
+        "v2"
+      ],
+      "images": []
+    },
+    {
+      "slide": 3,
+      "layout": "freeform",
+      "claims": [
+        "cell0_0",
+        "cell0_1",
+        "cell0_2",
+        "cell1_0",
+        "cell1_1",
+        "cell1_2",
+        "cell2_0",
+        "cell2_1",
+        "cell2_2",
+        "cell3_0",
+        "cell3_1",
+        "cell3_2",
+        "cell4_0",
+        "cell4_1",
+        "cell4_2",
+        "schedule",
+        "schedulenote"
+      ],
+      "images": []
+    }
+  ],
+  "font_substitutions": {},
+  "text_measurement": "Skia font metrics; final Office rendering needs review",
+  "source_sha256": "91ad2a4c577c1a8ed0b18482dc78c49e84a3e2cac869c52ceb1f035da9bd7fa9",
+  "used_claims": [
+    "cell0_0",
+    "cell0_1",
+    "cell0_2",
+    "cell1_0",
+    "cell1_1",
+    "cell1_2",
+    "cell2_0",
+    "cell2_1",
+    "cell2_2",
+    "cell3_0",
+    "cell3_1",
+    "cell3_2",
+    "cell4_0",
+    "cell4_1",
+    "cell4_2",
+    "lead",
+    "observe",
+    "observeb",
+    "optional",
+    "pause",
+    "pauseb",
+    "premise",
+    "reflect",
+    "reflectb",
+    "schedule",
+    "schedulenote",
+    "survey",
+    "surveycopy",
+    "surveynote",
+    "v0",
+    "v1",
+    "v2"
+  ],
+  "covered_units": [
+    "p004",
+    "p005",
+    "p007"
+  ],
+  "omitted": [
+    {
+      "unit": "p002",
+      "reason": "Prototype contains only the body, data and dense-table proof pages; full source remains frozen and is covered by the final deck."
+    },
+    {
+      "unit": "p003",
+      "reason": "Prototype contains only the body, data and dense-table proof pages; full source remains frozen and is covered by the final deck."
+    },
+    {
+      "unit": "p006",
+      "reason": "Prototype contains only the body, data and dense-table proof pages; full source remains frozen and is covered by the final deck."
+    },
+    {
+      "unit": "p008",
+      "reason": "Prototype contains only the body, data and dense-table proof pages; full source remains frozen and is covered by the final deck."
+    },
+    {
+      "unit": "p009",
+      "reason": "Prototype contains only the body, data and dense-table proof pages; full source remains frozen and is covered by the final deck."
+    }
+  ],
+  "unpresented_claims": {
+    "demo": "Outside this representative proof page set; retained in the complete final proposal.",
+    "cover": "Outside this representative proof page set; retained in the complete final proposal.",
+    "english": "Outside this representative proof page set; retained in the complete final proposal.",
+    "sub": "Outside this representative proof page set; retained in the complete final proposal.",
+    "duration": "Outside this representative proof page set; retained in the complete final proposal.",
+    "route": "Outside this representative proof page set; retained in the complete final proposal.",
+    "routefoot": "Outside this representative proof page set; retained in the complete final proposal.",
+    "route0": "Outside this representative proof page set; retained in the complete final proposal.",
+    "routeb0": "Outside this representative proof page set; retained in the complete final proposal.",
+    "route1": "Outside this representative proof page set; retained in the complete final proposal.",
+    "routeb1": "Outside this representative proof page set; retained in the complete final proposal.",
+    "route2": "Outside this representative proof page set; retained in the complete final proposal.",
+    "routeb2": "Outside this representative proof page set; retained in the complete final proposal.",
+    "next": "Outside this representative proof page set; retained in the complete final proposal.",
+    "nextbody": "Outside this representative proof page set; retained in the complete final proposal.",
+    "access": "Outside this representative proof page set; retained in the complete final proposal.",
+    "accessnote": "Outside this representative proof page set; retained in the complete final proposal."
+  },
+  "provenance": {
+    "cell3_0": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "cell2_1": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "pause": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "v0": [
+      {
+        "unit": "p005",
+        "quote": "虚构试访问卷共 120 人，采用单选：60% 希望减少说明文字，25% 希望增加停留位置，15% 希望增加导览讲解。数据只用于展示比较方法，不是研究结论，不代表真实观众群体。"
+      }
+    ],
+    "v1": [
+      {
+        "unit": "p005",
+        "quote": "虚构试访问卷共 120 人，采用单选：60% 希望减少说明文字，25% 希望增加停留位置，15% 希望增加导览讲解。数据只用于展示比较方法，不是研究结论，不代表真实观众群体。"
+      }
+    ],
+    "cell4_2": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "observeb": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "cell3_1": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "schedule": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "cell0_2": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "survey": [
+      {
+        "unit": "p005",
+        "quote": "虚构试访问卷共 120 人，采用单选：60% 希望减少说明文字，25% 希望增加停留位置，15% 希望增加导览讲解。数据只用于展示比较方法，不是研究结论，不代表真实观众群体。"
+      }
+    ],
+    "v2": [
+      {
+        "unit": "p005",
+        "quote": "虚构试访问卷共 120 人，采用单选：60% 希望减少说明文字，25% 希望增加停留位置，15% 希望增加导览讲解。数据只用于展示比较方法，不是研究结论，不代表真实观众群体。"
+      }
+    ],
+    "cell4_1": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "premise": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "cell2_0": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "reflect": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "cell0_0": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "surveycopy": [
+      {
+        "unit": "p005",
+        "quote": "虚构试访问卷共 120 人，采用单选：60% 希望减少说明文字，25% 希望增加停留位置，15% 希望增加导览讲解。数据只用于展示比较方法，不是研究结论，不代表真实观众群体。"
+      }
+    ],
+    "surveynote": [
+      {
+        "unit": "p005",
+        "quote": "虚构试访问卷共 120 人，采用单选：60% 希望减少说明文字，25% 希望增加停留位置，15% 希望增加导览讲解。数据只用于展示比较方法，不是研究结论，不代表真实观众群体。"
+      }
+    ],
+    "optional": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "lead": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "cell1_1": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "reflectb": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "schedulenote": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "cell1_2": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "cell3_2": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "pauseb": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "cell2_2": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "cell1_0": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "cell4_0": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ],
+    "observe": [
+      {
+        "unit": "p004",
+        "quote": "展览主张“把观看时间还给观众”。解释文字不覆盖作品，观众可以先看作品，再决定是否阅读导览。内容分为观察、停留、回望三个环节：观察关注作品与光线；停留提供坐下观看的位置；回望以短文连接观看经验。三个环节是内容组织方式，不是必须完成的任务。"
+      }
+    ],
+    "cell0_1": [
+      {
+        "unit": "p007",
+        "quote": "筹备分五周进行。空间阶段为第 1—2 周：完成灯位与通道检查，座椅不占通道。内容阶段为第 3 周：完成导览短文与大字版，保留复核记录。试运行阶段为第 4 周：先检查标识可读性，再检查参观路线。开放阶段为第 5 周：排班确认后开放，具体日期另行公布。开放前的两轮检查指试运行阶段的标识与路线检查。"
+      }
+    ]
+  },
+  "limits": "Exact quotes, paragraph accounting, and lexical number checks. Host agent must review semantic fidelity and final-export visuals."
+}

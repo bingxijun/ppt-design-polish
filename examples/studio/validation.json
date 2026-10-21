@@ -1,0 +1,23 @@
+{
+  "version": "4.1.0",
+  "slide_count": 6,
+  "artifact_sha256": "51318c01fe7799ea0c1656e6aa96f88d6d84294024b93a523b1a340e1607881c",
+  "checks": {
+    "build_current": true,
+    "renders_current": true,
+    "reviews_pass": true,
+    "content_contract": true,
+    "requested_formats": true,
+    "design_study": true
+  },
+  "study": {
+    "ready": true,
+    "problems": [],
+    "proof_groups": 3,
+    "revision_rounds": 1,
+    "limits": "Host-recorded design decisions bound to real exports. Not independent human review or aesthetic certification."
+  },
+  "human_blind_review": "pending",
+  "renderer": "libreoffice-exported-pptx",
+  "limits": "Authored fictional workflow demonstration; not independent evaluation or a universal aesthetic success rate."
+}

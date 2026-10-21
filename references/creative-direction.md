@@ -58,3 +58,5 @@ After final-PPTX rendering, inspect the single pages and the deck sequence. Incl
 Repair the most consequential weakness, then inspect the affected export again. When the brief is met, content is faithful, and visible craft problems are resolved, stop. Do not invent aesthetic scores, use “AI-looking” as authorship detection, or claim a technical validator certifies taste. Distinctiveness is a contextual design judgment; broad reliability needs varied tasks and human feedback.
 
 优先修复影响最大的缺陷，再看新的导出结果。需求已满足、内容准确、可见完成度问题已解决时停止。不编造审美分数，不把“AI 味”用于鉴定作者，也不声称脚本能认证品位。辨识度属于具体语境下的设计判断，稳定性仍需多任务试用和人的反馈验证。
+
+Use [studio-workflow.md](studio-workflow.md) to register actual proof exports, selection observations and current-render revisions. Instructions to compare are not evidence that alternatives were rendered. / 用实际导出候选、选稿观察与新旧渲染记录证明流程被执行，不把“建议比较”当成已比较。

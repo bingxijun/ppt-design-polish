@@ -1,0 +1,1520 @@
+{
+  "title": "静观之间 · 秋季展览提案",
+  "language": "zh-CN",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5
+  },
+  "theme": {
+    "background": "F4F0E8",
+    "text": "292521",
+    "accent": "8D3927",
+    "headingFont": "Songti SC",
+    "bodyFont": "Hiragino Sans GB",
+    "bodySize": 18
+  },
+  "slides": [
+    {
+      "background": "F4F0E8",
+      "elements": [
+        {
+          "type": "image",
+          "path": "assets/gallery.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 0,
+            "y": 0,
+            "w": 13.333333,
+            "h": 7.5
+          }
+        },
+        {
+          "type": "text",
+          "text": "静观\n之间",
+          "options": {
+            "x": 0.75,
+            "y": 1.35,
+            "w": 5.0,
+            "h": 2.5,
+            "fontSize": 61,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 64.66,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "A slower way of seeing",
+          "options": {
+            "x": 0.8,
+            "y": 4.35,
+            "w": 5,
+            "h": 0.5,
+            "fontSize": 19,
+            "fontFace": "Arial",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "秋季展览提案 · 策展委员会阅读稿",
+          "options": {
+            "x": 0.8,
+            "y": 5.45,
+            "w": 5.3,
+            "h": 0.5,
+            "fontSize": 18,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "静观之间 / CURATORIAL PROPOSAL",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构展览与数据，仅作设计示例。空间配图由 AI 生成。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F0E8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "把观看时间还给观众",
+          "options": {
+            "x": 0.75,
+            "y": 1.1,
+            "w": 11.8,
+            "h": 0.8,
+            "fontSize": 34,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "先看作品，\n再决定是否阅读导览。",
+          "options": {
+            "x": 0.75,
+            "y": 2.65,
+            "w": 5.65,
+            "h": 1.5,
+            "fontSize": 31,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 32.86,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "观察",
+          "options": {
+            "x": 7.3,
+            "y": 2.65,
+            "w": 4.8,
+            "h": 0.42,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "zh-CN",
+            "bold": true,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "关注作品与光线。",
+          "options": {
+            "x": 7.3,
+            "y": 3.2,
+            "w": 4.8,
+            "h": 0.42,
+            "fontSize": 18,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "停留",
+          "options": {
+            "x": 7.3,
+            "y": 4.0,
+            "w": 4.8,
+            "h": 0.42,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "zh-CN",
+            "bold": true,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "提供坐下观看的位置。",
+          "options": {
+            "x": 7.3,
+            "y": 4.55,
+            "w": 4.8,
+            "h": 0.42,
+            "fontSize": 18,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "回望",
+          "options": {
+            "x": 7.3,
+            "y": 5.35,
+            "w": 4.8,
+            "h": 0.42,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "zh-CN",
+            "bold": true,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "用短文连接观看经验。",
+          "options": {
+            "x": 7.3,
+            "y": 5.9,
+            "w": 4.8,
+            "h": 0.42,
+            "fontSize": 18,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "静观之间 / CURATORIAL PROPOSAL",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "三个环节组织内容，不是观众必须完成的任务。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F0E8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "多数试访者希望减少说明文字",
+          "options": {
+            "x": 0.75,
+            "y": 1.1,
+            "w": 11.8,
+            "h": 0.8,
+            "fontSize": 34,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "chart",
+          "chartType": "bar",
+          "data": [
+            {
+              "name": "试访偏好",
+              "labels": [
+                "减少说明文字",
+                "增加停留位置",
+                "增加导览讲解"
+              ],
+              "values": [
+                60.0,
+                25.0,
+                15.0
+              ]
+            }
+          ],
+          "options": {
+            "x": 0.75,
+            "y": 2.55,
+            "w": 8.0,
+            "h": 3.9,
+            "catAxisLabelFontSize": 14,
+            "valAxisLabelFontSize": 11,
+            "valAxisMinVal": 0,
+            "catAxisLineShow": false,
+            "valAxisLineShow": false,
+            "showValue": true,
+            "dataLabelPosition": "outEnd",
+            "dataLabelFormatCode": "0\"%\"",
+            "dataLabelColor": "292521",
+            "dataLabelFontSize": 15,
+            "showLegend": false,
+            "chartColors": [
+              "8D3927",
+              "292521",
+              "292521"
+            ],
+            "showTitle": false,
+            "showMarker": false,
+            "showBorder": false,
+            "showSerName": false,
+            "gapSize": 100,
+            "catAxisLabelColor": "292521",
+            "valAxisLabelColor": "6E655C",
+            "valGridLine": {
+              "style": "none"
+            },
+            "catGridLine": {
+              "style": "none"
+            },
+            "barDir": "bar",
+            "valAxisMaxVal": 75,
+            "valAxisMajorUnit": 25,
+            "catAxisOrientation": "maxMin",
+            "catAxisLabelPos": "low",
+            "valAxisLabelPos": "low"
+          }
+        },
+        {
+          "type": "text",
+          "text": "60% 希望减少说明文字。\n这是虚构试访反馈，\n不代表真实观众群体。",
+          "options": {
+            "x": 9.05,
+            "y": 2.65,
+            "w": 3.65,
+            "h": 2.9,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "静观之间 / CURATORIAL PROPOSAL",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构试访问卷，n = 120，单选；单位：%。仅演示比较方法，不是研究结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F0E8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "让动线支持观看节奏",
+          "options": {
+            "x": 0.75,
+            "y": 1.1,
+            "w": 11.8,
+            "h": 0.8,
+            "fontSize": 34,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "进入展厅",
+          "options": {
+            "x": 0.75,
+            "y": 2.8,
+            "w": 3.2,
+            "h": 0.7,
+            "fontSize": 29,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 37.12,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "保留作品与视线空间。",
+          "options": {
+            "x": 0.75,
+            "y": 3.8,
+            "w": 3.2,
+            "h": 1.0,
+            "fontSize": 20,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 25.6,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "坐下观看",
+          "options": {
+            "x": 5.0,
+            "y": 3.8,
+            "w": 3.2,
+            "h": 0.7,
+            "fontSize": 29,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 37.12,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "座椅不占通道。",
+          "options": {
+            "x": 5.0,
+            "y": 4.8,
+            "w": 3.2,
+            "h": 1.0,
+            "fontSize": 20,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 25.6,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "离开展厅",
+          "options": {
+            "x": 9.4,
+            "y": 2.8,
+            "w": 3.0,
+            "h": 0.7,
+            "fontSize": 29,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 37.12,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "提供简短回望文字。",
+          "options": {
+            "x": 9.4,
+            "y": 3.8,
+            "w": 3.0,
+            "h": 1.0,
+            "fontSize": 20,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 25.6,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 3.6,
+            "y": 3.35,
+            "w": 1.1,
+            "h": 0.7,
+            "flipV": false,
+            "line": {
+              "color": "CFC5B9",
+              "width": 1,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 8.25,
+            "y": 3.35,
+            "w": 1.0,
+            "h": 0.7,
+            "flipV": true,
+            "line": {
+              "color": "CFC5B9",
+              "width": 1,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "静观之间 / CURATORIAL PROPOSAL",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "概念动线示意，非实际建筑平面图；尺寸、容量与参观时长未提供。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F0E8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "五周筹备，开放前完成两轮检查",
+          "options": {
+            "x": 0.75,
+            "y": 1.1,
+            "w": 11.8,
+            "h": 0.8,
+            "fontSize": 34,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              {
+                "text": "阶段",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": true,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "时间",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": true,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "交付检查",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": true,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "空间",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "第 1—2 周",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "完成灯位与通道检查；座椅不占通道。",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "内容",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "第 3 周",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "完成导览短文与大字版，保留复核记录。",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "试运行",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "第 4 周",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "先检查标识可读性，再检查参观路线。",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "开放",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "第 5 周",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "排班确认后开放，具体日期另行公布。",
+                "options": {
+                  "fill": "F4F0E8",
+                  "color": "292521",
+                  "bold": false,
+                  "align": "left",
+                  "border": [
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.3
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    },
+                    {
+                      "color": "CFC5B9",
+                      "pt": 0.7
+                    },
+                    {
+                      "color": "F4F0E8",
+                      "pt": 0
+                    }
+                  ],
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ]
+          ],
+          "options": {
+            "x": 0.75,
+            "y": 2.4,
+            "w": 11.8,
+            "h": 2.788888888888889,
+            "fontFace": "Hiragino Sans GB",
+            "fontSize": 19,
+            "color": "292521",
+            "rowH": [
+              0.5577777777777778,
+              0.5577777777777778,
+              0.5577777777777778,
+              0.5577777777777778,
+              0.5577777777777778
+            ],
+            "margin": [
+              0.1,
+              0.14,
+              0.1,
+              0.14
+            ],
+            "colW": [
+              1.3,
+              2.0,
+              8.5
+            ],
+            "valign": "mid"
+          }
+        },
+        {
+          "type": "text",
+          "text": "静观之间 / CURATORIAL PROPOSAL",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "05",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "两轮检查：标识可读性与参观路线。正式开放日期另行公布。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F0E8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "先确认场地与展期",
+          "options": {
+            "x": 0.75,
+            "y": 1.15,
+            "w": 11.7,
+            "h": 0.85,
+            "fontSize": 40,
+            "fontFace": "Songti SC",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 42.400000000000006,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "再细化作品清单、灯光和导览。\n当前不承诺开放日期，不对外发布预约。",
+          "options": {
+            "x": 0.8,
+            "y": 2.75,
+            "w": 7.0,
+            "h": 1.5,
+            "fontSize": 25,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 32,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "建议展期四周；具体场馆、日期与票务待定。",
+          "options": {
+            "x": 0.8,
+            "y": 4.8,
+            "w": 7.4,
+            "h": 0.8,
+            "fontSize": 20,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 25.6,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "大字导览、方向标识\n与无障碍动线检查",
+          "options": {
+            "x": 9.1,
+            "y": 2.75,
+            "w": 3.4,
+            "h": 1.6,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "内容仍须复核；\n动线检查不等于认证。\n预算、人员姓名、设备清单\n与票价未提供。",
+          "options": {
+            "x": 9.0,
+            "y": 4.7,
+            "w": 3.65,
+            "h": 1.5,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "292521",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 19.2,
+            "lang": "zh-CN",
+            "bold": false,
+            "align": "left"
+          }
+        },
+        {
+          "type": "text",
+          "text": "静观之间 / CURATORIAL PROPOSAL",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "06",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构展览与数据，仅作设计示例。空间配图由 AI 生成。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "6E655C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

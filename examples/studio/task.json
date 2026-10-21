@@ -1,0 +1,11 @@
+{
+  "slides": 6,
+  "mode": "hybrid",
+  "language": "zh-CN",
+  "outputs": [
+    "pptx",
+    "pdf",
+    "png"
+  ],
+  "design_review": true
+}

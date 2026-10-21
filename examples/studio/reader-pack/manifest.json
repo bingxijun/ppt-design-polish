@@ -1,0 +1,16 @@
+{
+  "cases": [
+    "body",
+    "data",
+    "dense"
+  ],
+  "images": {
+    "body-left.png": "53eaca60944474bc2272bc3a4de2d4c7c561a93417e7fcc6024bfa30b4dc63ee",
+    "body-right.png": "fecede7583797f068f80316ae3df9fc71422545a54bc27fd937a185db83cfa5d",
+    "data-left.png": "ad6367e0c5f2e6254dec4eae48b3efbea6dadd45a8f564c7eeedd42cac3382d5",
+    "data-right.png": "4a70dfec5b43bcd7786332cf5a589661b016546f1089f2d3ca3b28355b57d87e",
+    "dense-left.png": "744ff6a118e60884742c0d1918583f5172e609ffc30fde6054f615f8e8b4bcd9",
+    "dense-right.png": "98306a7e3995d5a47290edc84a48d5d263487139580c5b40bdf15832ab163b5b"
+  },
+  "limits": "Anonymous image filenames and randomized sides. Visible content may reveal a style. No human review has occurred merely by creating this pack."
+}
