@@ -1,0 +1,340 @@
+{
+  "style": "editorial-yellow",
+  "slides": [
+    {
+      "slide": 1,
+      "layout": "cover",
+      "claims": [
+        "cover",
+        "coverbody",
+        "demo",
+        "subtitle"
+      ],
+      "images": [
+        "studio"
+      ]
+    },
+    {
+      "slide": 2,
+      "layout": "chapter",
+      "claims": [
+        "chapter",
+        "chapterbody"
+      ],
+      "images": []
+    },
+    {
+      "slide": 3,
+      "layout": "annotated",
+      "claims": [
+        "door",
+        "olive",
+        "pavilion",
+        "pavnote",
+        "stone"
+      ],
+      "images": [
+        "pavilion"
+      ]
+    },
+    {
+      "slide": 4,
+      "layout": "chart",
+      "claims": [
+        "count",
+        "countbody",
+        "demo",
+        "mix",
+        "n0",
+        "n1",
+        "n2"
+      ],
+      "images": []
+    },
+    {
+      "slide": 5,
+      "layout": "timeline",
+      "claims": [
+        "processnote",
+        "processt",
+        "sb0",
+        "sb1",
+        "sb2",
+        "sb3",
+        "st0",
+        "st1",
+        "st2",
+        "st3"
+      ],
+      "images": []
+    },
+    {
+      "slide": 6,
+      "layout": "text",
+      "claims": [
+        "approacht",
+        "demo",
+        "lightb",
+        "lightt",
+        "matb",
+        "matt",
+        "planb",
+        "plant"
+      ],
+      "images": []
+    }
+  ],
+  "source_sha256": "c7f763947e2c730a3dc246eae18875b7bcd62e9d8c653653184a9a59f8b30c9d",
+  "used_claims": [
+    "approacht",
+    "chapter",
+    "chapterbody",
+    "count",
+    "countbody",
+    "cover",
+    "coverbody",
+    "demo",
+    "door",
+    "lightb",
+    "lightt",
+    "matb",
+    "matt",
+    "mix",
+    "n0",
+    "n1",
+    "n2",
+    "olive",
+    "pavilion",
+    "pavnote",
+    "planb",
+    "plant",
+    "processnote",
+    "processt",
+    "sb0",
+    "sb1",
+    "sb2",
+    "sb3",
+    "st0",
+    "st1",
+    "st2",
+    "st3",
+    "stone",
+    "subtitle"
+  ],
+  "covered_units": [
+    "p002",
+    "p003",
+    "p004",
+    "p005",
+    "p006"
+  ],
+  "omitted": [],
+  "unpresented_claims": {},
+  "provenance": {
+    "chapterbody": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "processnote": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "subtitle": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "lightt": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "sb1": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "pavnote": [
+      {
+        "unit": "p004",
+        "quote": "The pavilion concept pairs pale limestone with a narrow yellow entrance and an olive courtyard. Material warmth and the rhythm of light define the space. This fictional concept illustrates an architectural direction, not a completed building."
+      }
+    ],
+    "cover": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "olive": [
+      {
+        "unit": "p004",
+        "quote": "The pavilion concept pairs pale limestone with a narrow yellow entrance and an olive courtyard. Material warmth and the rhythm of light define the space. This fictional concept illustrates an architectural direction, not a completed building."
+      }
+    ],
+    "planb": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "st2": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "demo": [
+      {
+        "unit": "p002",
+        "quote": "ATELIER NORTH is a fictional architecture studio. All projects, numbers and images in this example are illustrative. Images are AI-generated."
+      }
+    ],
+    "approacht": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "matb": [
+      {
+        "unit": "p004",
+        "quote": "The pavilion concept pairs pale limestone with a narrow yellow entrance and an olive courtyard. Material warmth and the rhythm of light define the space. This fictional concept illustrates an architectural direction, not a completed building."
+      }
+    ],
+    "mix": [
+      {
+        "unit": "p005",
+        "quote": "Our demonstration portfolio contains 24 projects: 12 workplaces, 8 cultural spaces and 4 private residences. These are illustrative counts, not business results."
+      }
+    ],
+    "st1": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "processt": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "lightb": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "n2": [
+      {
+        "unit": "p005",
+        "quote": "Our demonstration portfolio contains 24 projects: 12 workplaces, 8 cultural spaces and 4 private residences. These are illustrative counts, not business results."
+      }
+    ],
+    "pavilion": [
+      {
+        "unit": "p004",
+        "quote": "The pavilion concept pairs pale limestone with a narrow yellow entrance and an olive courtyard. Material warmth and the rhythm of light define the space. This fictional concept illustrates an architectural direction, not a completed building."
+      }
+    ],
+    "sb2": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "coverbody": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "st0": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "plant": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "n0": [
+      {
+        "unit": "p005",
+        "quote": "Our demonstration portfolio contains 24 projects: 12 workplaces, 8 cultural spaces and 4 private residences. These are illustrative counts, not business results."
+      }
+    ],
+    "count": [
+      {
+        "unit": "p005",
+        "quote": "Our demonstration portfolio contains 24 projects: 12 workplaces, 8 cultural spaces and 4 private residences. These are illustrative counts, not business results."
+      }
+    ],
+    "chapter": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "stone": [
+      {
+        "unit": "p004",
+        "quote": "The pavilion concept pairs pale limestone with a narrow yellow entrance and an olive courtyard. Material warmth and the rhythm of light define the space. This fictional concept illustrates an architectural direction, not a completed building."
+      }
+    ],
+    "door": [
+      {
+        "unit": "p004",
+        "quote": "The pavilion concept pairs pale limestone with a narrow yellow entrance and an olive courtyard. Material warmth and the rhythm of light define the space. This fictional concept illustrates an architectural direction, not a completed building."
+      }
+    ],
+    "sb0": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "matt": [
+      {
+        "unit": "p003",
+        "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+      }
+    ],
+    "st3": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "n1": [
+      {
+        "unit": "p005",
+        "quote": "Our demonstration portfolio contains 24 projects: 12 workplaces, 8 cultural spaces and 4 private residences. These are illustrative counts, not business results."
+      }
+    ],
+    "sb3": [
+      {
+        "unit": "p006",
+        "quote": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified."
+      }
+    ],
+    "countbody": [
+      {
+        "unit": "p005",
+        "quote": "Our demonstration portfolio contains 24 projects: 12 workplaces, 8 cultural spaces and 4 private residences. These are illustrative counts, not business results."
+      }
+    ]
+  },
+  "limits": "Exact quotes, paragraph accounting, and lexical number checks. Host agent must review semantic fidelity and final-export visuals."
+}

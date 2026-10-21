@@ -1,0 +1,2932 @@
+{
+  "title": "AERIS ONE 新车发布会",
+  "language": "zh-CN",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5
+  },
+  "theme": {
+    "background": "F5F9F8",
+    "text": "183B40",
+    "accent": "28747A",
+    "headingFont": "Songti SC",
+    "bodyFont": "Hiragino Sans GB",
+    "bodySize": 18
+  },
+  "slides": [
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "image",
+          "path": "assets/hero.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 0,
+            "y": 0,
+            "w": 13.333333,
+            "h": 7.5
+          }
+        },
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构品牌与数据，仅作开源示例。配图由 AI 生成。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "AERIS ONE\n新车发布会",
+          "options": {
+            "x": 0.7,
+            "y": 1.42,
+            "w": 6.8,
+            "h": 1.7,
+            "fontSize": 42,
+            "fontFace": "Songti SC",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "2026 年 10 月 21 日",
+          "options": {
+            "x": 0.74,
+            "y": 3.35,
+            "w": 5.3,
+            "h": 0.55,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "面向家庭日常出行的纯电 SUV",
+          "options": {
+            "x": 0.74,
+            "y": 5.92,
+            "w": 4.8,
+            "h": 0.7,
+            "fontSize": 12,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "CONTENTS",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "今天，认识 AERIS ONE",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 0.7,
+            "y": 2.65,
+            "w": 0.75,
+            "h": 0.56,
+            "fontSize": 25,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "产品概览",
+          "options": {
+            "x": 1.7,
+            "y": 2.65,
+            "w": 6.8,
+            "h": 0.56,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 1.7,
+            "y": 3.3499999999999996,
+            "w": 10.9,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "options": {
+            "x": 0.7,
+            "y": 3.53,
+            "w": 0.75,
+            "h": 0.56,
+            "fontSize": 25,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "座舱与设计",
+          "options": {
+            "x": 1.7,
+            "y": 3.53,
+            "w": 6.8,
+            "h": 0.56,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 1.7,
+            "y": 4.2299999999999995,
+            "w": 10.9,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "options": {
+            "x": 0.7,
+            "y": 4.41,
+            "w": 0.75,
+            "h": 0.56,
+            "fontSize": 25,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "续航与补能",
+          "options": {
+            "x": 1.7,
+            "y": 4.41,
+            "w": 6.8,
+            "h": 0.56,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 1.7,
+            "y": 5.11,
+            "w": 10.9,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "options": {
+            "x": 0.7,
+            "y": 5.29,
+            "w": 0.75,
+            "h": 0.56,
+            "fontSize": 25,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "版本与交付",
+          "options": {
+            "x": 1.7,
+            "y": 5.29,
+            "w": 6.8,
+            "h": 0.56,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 1.7,
+            "y": 5.99,
+            "w": 10.9,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "073B46",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "PRODUCT OVERVIEW",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 0.65,
+            "y": 1.08,
+            "w": 5,
+            "h": 2.1,
+            "fontSize": 130,
+            "fontFace": "Arial",
+            "color": "31616A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "产品概览",
+          "options": {
+            "x": 0.75,
+            "y": 3.48,
+            "w": 7.1,
+            "h": 1.3,
+            "fontSize": 42,
+            "fontFace": "Songti SC",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "为家庭日常出行而设计",
+          "options": {
+            "x": 0.79,
+            "y": 5.15,
+            "w": 6.2,
+            "h": 0.6,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "C6DCDB",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "产品概览",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "参数为虚构演示设定，非真实测试结果。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "AERIS ONE",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "空间，留给每一段日常",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/profile.jpg",
+          "fit": "contain",
+          "options": {
+            "x": 4.2,
+            "y": 2.42,
+            "w": 8.5,
+            "h": 2.95
+          }
+        },
+        {
+          "type": "text",
+          "text": "纯电 SUV\n宽敞空间\n安静舒适",
+          "options": {
+            "x": 0.68,
+            "y": 2.65,
+            "w": 3.22,
+            "h": 2.0,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "620",
+          "options": {
+            "x": 0.7,
+            "y": 5.71,
+            "w": 2.8,
+            "h": 0.6,
+            "fontSize": 33,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "km  示例 CLTC 续航",
+          "options": {
+            "x": 0.7,
+            "y": 6.4,
+            "w": 2.8,
+            "h": 0.35,
+            "fontSize": 12,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "2950",
+          "options": {
+            "x": 4.6866666666666665,
+            "y": 5.71,
+            "w": 2.8,
+            "h": 0.6,
+            "fontSize": 33,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "mm  轴距",
+          "options": {
+            "x": 4.6866666666666665,
+            "y": 6.4,
+            "w": 2.8,
+            "h": 0.35,
+            "fontSize": 12,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "520",
+          "options": {
+            "x": 8.673333333333334,
+            "y": 5.71,
+            "w": 2.8,
+            "h": 0.6,
+            "fontSize": 33,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "L  后备厢常规容积",
+          "options": {
+            "x": 8.673333333333334,
+            "y": 6.4,
+            "w": 2.8,
+            "h": 0.35,
+            "fontSize": 12,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "座舱与设计",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "05",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构品牌与数据，仅作开源示例。配图由 AI 生成。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "CABIN EXPERIENCE",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "坐下来，感受空间的温度",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/interior.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 5.75,
+            "y": 2.52,
+            "w": 6.93,
+            "h": 4.12
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.7,
+            "y": 2.53,
+            "w": 4.55,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "触手可及的质感",
+          "options": {
+            "x": 0.7,
+            "y": 2.69,
+            "w": 4.55,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "浅色织物与细纹皮革，搭配缎面金属饰条。",
+          "options": {
+            "x": 0.7,
+            "y": 3.19,
+            "w": 4.55,
+            "h": 0.6166666666666665,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.7,
+            "y": 3.8966666666666665,
+            "w": 4.55,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "照顾每一排乘员",
+          "options": {
+            "x": 0.7,
+            "y": 4.056666666666667,
+            "w": 4.55,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "前排加热与通风，后排靠背角度可调。",
+          "options": {
+            "x": 0.7,
+            "y": 4.556666666666667,
+            "w": 4.55,
+            "h": 0.6166666666666665,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.7,
+            "y": 5.263333333333333,
+            "w": 4.55,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "熟悉的操作方式",
+          "options": {
+            "x": 0.7,
+            "y": 5.423333333333333,
+            "w": 4.55,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "全景玻璃车顶配遮阳帘，保留常用空调实体控制。",
+          "options": {
+            "x": 0.7,
+            "y": 5.923333333333333,
+            "w": 4.55,
+            "h": 0.6166666666666665,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "073B46",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "续航与补能",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "06",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "CLTC 为示例标称工况。实际续航受温度、速度、路况与载荷影响。此处数据不能作为真实车辆购买依据。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "长续航版的示例 CLTC 续航",
+          "options": {
+            "x": 0.75,
+            "y": 1.1,
+            "w": 11.9,
+            "h": 0.75,
+            "fontSize": 31,
+            "fontFace": "Songti SC",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "620",
+          "options": {
+            "x": 0.7,
+            "y": 2.43,
+            "w": 8,
+            "h": 1.7,
+            "fontSize": 105,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "km",
+          "options": {
+            "x": 8.62,
+            "y": 3.2,
+            "w": 3.9,
+            "h": 0.65,
+            "fontSize": 25,
+            "fontFace": "Hiragino Sans GB",
+            "color": "C6DCDB",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "标准版示例续航为 510 km。",
+          "options": {
+            "x": 0.8,
+            "y": 5.2,
+            "w": 10.8,
+            "h": 0.9,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "C6DCDB",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "续航与补能",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "07",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "示例条件：兼容充电设备、电池温度适宜。不含排队与设备启动时间。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "CHARGING",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "补能时间，也值得认真设计",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/charging.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 5.75,
+            "y": 2.52,
+            "w": 6.93,
+            "h": 4.12
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.7,
+            "y": 2.53,
+            "w": 4.55,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "18 分钟",
+          "options": {
+            "x": 0.7,
+            "y": 2.69,
+            "w": 4.55,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "示例直流快充，从 10% 到 80%。仅适用于长续航版。",
+          "options": {
+            "x": 0.7,
+            "y": 3.19,
+            "w": 4.55,
+            "h": 1.2999999999999998,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.7,
+            "y": 4.58,
+            "w": 4.55,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "夜间，在家充电",
+          "options": {
+            "x": 0.7,
+            "y": 4.74,
+            "w": 4.55,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "支持家庭交流充电，本稿未提供交流充电时间。",
+          "options": {
+            "x": 0.7,
+            "y": 5.24,
+            "w": 4.55,
+            "h": 1.2999999999999998,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "座舱与设计",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "08",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "AI 配图仅用于表达设计方向，图中细节不构成产品配置承诺。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "EXTERIOR DESIGN",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "连续的线条，舒展的比例",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/detail.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 0.65,
+            "y": 2.52,
+            "w": 7.55,
+            "h": 4.12
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/road.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 8.43,
+            "y": 2.52,
+            "w": 4.25,
+            "h": 2.38
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 8.43,
+            "y": 5.12,
+            "w": 4.25,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "珍珠白，配浅色内饰",
+          "options": {
+            "x": 8.43,
+            "y": 5.28,
+            "w": 4.25,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "水平线条、隐藏式门把手与圆润转角。",
+          "options": {
+            "x": 8.43,
+            "y": 5.78,
+            "w": 4.25,
+            "h": 0.75,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "需求与产品",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "09",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "单位：%。示例需求调研，n = 240，单选。数据为虚构演示设定。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "ILLUSTRATIVE SURVEY",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "续航与补能，是最关注的两项",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "chart",
+          "chartType": "bar",
+          "data": [
+            {
+              "name": "关注比例",
+              "labels": [
+                "续航",
+                "补能",
+                "空间",
+                "其他"
+              ],
+              "values": [
+                38.0,
+                31.0,
+                21.0,
+                10.0
+              ]
+            }
+          ],
+          "options": {
+            "x": 0.75,
+            "y": 2.7,
+            "w": 7.6,
+            "h": 3.85,
+            "catAxisLabelFontSize": 14,
+            "valAxisLabelFontSize": 11,
+            "valAxisMinVal": 0,
+            "catAxisLineShow": false,
+            "valAxisLineShow": false,
+            "showValue": true,
+            "dataLabelPosition": "outEnd",
+            "dataLabelFormatCode": "0",
+            "dataLabelColor": "183B40",
+            "dataLabelBkgrdColor": "F5F9F8",
+            "dataLabelFormatCodeSourceLinked": false,
+            "dataLabelFontSize": 16,
+            "showLegend": false,
+            "showCatName": false,
+            "chartColors": [
+              "28747A"
+            ],
+            "showTitle": false,
+            "showMarker": false,
+            "showBorder": false,
+            "showSerName": false,
+            "gapSize": 120,
+            "catAxisLabelColor": "688084",
+            "valAxisLabelColor": "688084",
+            "valGridLine": {
+              "color": "CDDDDD",
+              "width": 0.5
+            },
+            "catGridLine": {
+              "style": "none"
+            },
+            "valAxisMaxVal": 50,
+            "barDir": "col"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 9,
+            "y": 2.76,
+            "w": 3.55,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "单选问卷",
+          "options": {
+            "x": 9,
+            "y": 2.92,
+            "w": 3.55,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "示例样本 240 人，四项比例合计 100%。",
+          "options": {
+            "x": 9,
+            "y": 3.42,
+            "w": 3.55,
+            "h": 1.1,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 9,
+            "y": 4.609999999999999,
+            "w": 3.55,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "演示数据",
+          "options": {
+            "x": 9,
+            "y": 4.77,
+            "w": 3.55,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "本页展示图表与信息层级，不构成市场研究结论。",
+          "options": {
+            "x": 9,
+            "y": 5.27,
+            "w": 3.55,
+            "h": 1.1,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "版本与交付",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "10",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "所有售价与参数均为演示。快充示例条件见补能页，标准版快充时间未提供。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "VERSIONS",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "两个版本，同样宽敞的空间",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              {
+                "text": "车型",
+                "options": {
+                  "fill": "28747A",
+                  "color": "FFFFFF",
+                  "bold": true,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "标准版",
+                "options": {
+                  "fill": "28747A",
+                  "color": "FFFFFF",
+                  "bold": true,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "长续航版",
+                "options": {
+                  "fill": "28747A",
+                  "color": "FFFFFF",
+                  "bold": true,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "示例售价",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "¥199,800",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "¥229,800",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "CLTC 续航",
+                "options": {
+                  "fill": "FFFFFF",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "510 km",
+                "options": {
+                  "fill": "FFFFFF",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "620 km",
+                "options": {
+                  "fill": "FFFFFF",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "轴距",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "2950 mm",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "2950 mm",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "后备厢容积",
+                "options": {
+                  "fill": "FFFFFF",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "520 L",
+                "options": {
+                  "fill": "FFFFFF",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "520 L",
+                "options": {
+                  "fill": "FFFFFF",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ],
+            [
+              {
+                "text": "快充 10% 至 80%",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "未提供",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              },
+              {
+                "text": "18 分钟",
+                "options": {
+                  "fill": "E6F0EE",
+                  "color": "183B40",
+                  "bold": false,
+                  "fontFace": "Hiragino Sans GB"
+                }
+              }
+            ]
+          ],
+          "options": {
+            "x": 0.7,
+            "y": 2.65,
+            "w": 11.94,
+            "h": 3.66,
+            "fontFace": "Hiragino Sans GB",
+            "fontSize": 16,
+            "color": "183B40",
+            "rowH": 0.61,
+            "margin": 0.12,
+            "border": {
+              "type": "solid",
+              "color": "F5F9F8",
+              "pt": 2
+            },
+            "colW": [
+              3.98,
+              3.98,
+              3.98
+            ],
+            "valign": "mid"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "版本与交付",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "11",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "时间表为虚构演示设定。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "AVAILABILITY",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "从预约，到首批交付",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.82,
+            "y": 3.43,
+            "w": 11.6,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 0.82,
+            "y": 3.35,
+            "w": 0.16,
+            "h": 0.16,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "28747A",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "10 / 21",
+          "options": {
+            "x": 0.82,
+            "y": 2.68,
+            "w": 3.5133333333333336,
+            "h": 0.55,
+            "fontSize": 24,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "开放预约",
+          "options": {
+            "x": 0.82,
+            "y": 3.84,
+            "w": 3.5133333333333336,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "预约不收取费用。",
+          "options": {
+            "x": 0.82,
+            "y": 4.65,
+            "w": 3.5133333333333336,
+            "h": 1.35,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 4.753333333333334,
+            "y": 3.35,
+            "w": 0.16,
+            "h": 0.16,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "28747A",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "11 / 08",
+          "options": {
+            "x": 4.753333333333334,
+            "y": 2.68,
+            "w": 3.5133333333333336,
+            "h": 0.55,
+            "fontSize": 24,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "门店体验",
+          "options": {
+            "x": 4.753333333333334,
+            "y": 3.84,
+            "w": 3.5133333333333336,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "具体门店名单尚未提供。",
+          "options": {
+            "x": 4.753333333333334,
+            "y": 4.65,
+            "w": 3.5133333333333336,
+            "h": 1.35,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 8.686666666666667,
+            "y": 3.35,
+            "w": 0.16,
+            "h": 0.16,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "28747A",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "12 / 01",
+          "options": {
+            "x": 8.686666666666667,
+            "y": 2.68,
+            "w": 3.5133333333333336,
+            "h": 0.55,
+            "fontSize": 24,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "首批交付",
+          "options": {
+            "x": 8.686666666666667,
+            "y": 3.84,
+            "w": 3.5133333333333336,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "限示例指定区域，区域名单尚未提供。",
+          "options": {
+            "x": 8.686666666666667,
+            "y": 4.65,
+            "w": 3.5133333333333336,
+            "h": 1.35,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F5F9F8",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "版本与交付",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "12",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构品牌与数据，仅作开源示例。配图由 AI 生成。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "OWNERSHIP",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "28747A",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "质保信息，明确呈现",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Songti SC",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.75,
+            "y": 2.6,
+            "w": 11.8,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "整车示例质保",
+          "options": {
+            "x": 0.75,
+            "y": 2.7600000000000002,
+            "w": 11.8,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "5 年或 120,000 km，以先到者为准。",
+          "options": {
+            "x": 0.75,
+            "y": 3.2600000000000002,
+            "w": 11.8,
+            "h": 0.5666666666666667,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.75,
+            "y": 3.916666666666667,
+            "w": 11.8,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "电池示例质保",
+          "options": {
+            "x": 0.75,
+            "y": 4.076666666666667,
+            "w": 11.8,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "8 年或 160,000 km，以先到者为准。",
+          "options": {
+            "x": 0.75,
+            "y": 4.576666666666667,
+            "w": 11.8,
+            "h": 0.5666666666666667,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.75,
+            "y": 5.233333333333333,
+            "w": 11.8,
+            "h": 0,
+            "line": {
+              "color": "CDDDDD",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "完整条款",
+          "options": {
+            "x": 0.75,
+            "y": 5.3933333333333335,
+            "w": 11.8,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "183B40",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "其他条款未提供，需要以最终正式说明为准。",
+          "options": {
+            "x": 0.75,
+            "y": 5.8933333333333335,
+            "w": 11.8,
+            "h": 0.5666666666666667,
+            "fontSize": 15,
+            "fontFace": "Hiragino Sans GB",
+            "color": "688084",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "073B46",
+      "elements": [
+        {
+          "type": "text",
+          "text": "AERIS",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "新车发布会",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "13",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构品牌与数据，仅作开源示例。配图由 AI 生成。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "D2E4E3",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "AERIS ONE",
+          "options": {
+            "x": 0.75,
+            "y": 1.45,
+            "w": 11.6,
+            "h": 1.0,
+            "fontSize": 42,
+            "fontFace": "Songti SC",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "¥199,800 起",
+          "options": {
+            "x": 0.75,
+            "y": 3.02,
+            "w": 8,
+            "h": 1.0,
+            "fontSize": 62,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "标准版示例售价。长续航版 ¥229,800。\n10 月 21 日起免费预约。",
+          "options": {
+            "x": 0.8,
+            "y": 4.55,
+            "w": 10.8,
+            "h": 1.25,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "C6DCDB",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

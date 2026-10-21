@@ -1,138 +1,96 @@
-<p align="center">
-  <img src="docs/assets/hero.png" alt="PPT Design & Polish — an AI skill for better PowerPoint / PPT 创建、重设计与美化" width="100%">
-</p>
-
 # PPT Design & Polish
 
-**An open-source PowerPoint skill for Codex and Claude Code. Create, redesign, and polish PPTX with purposeful visuals, editable content, and a review of the exported slides.**
+**An open-source PowerPoint design skill for Codex and Claude Code. Turn an announcement into a coherent, editable presentation.**
 
-**为 Codex 和 Claude Code 打造的开源 PPT 辅助 skill：统一完成创建、重设计与美化，让配图服务内容，保留可编辑元素，并复查最终导出的每一页。**
+**为 Codex 和 Claude Code 打造的开源 PPT 设计 skill。把发布文告编排成风格统一、正文完整、可编辑的演示稿。**
 
-[Quick start / 快速使用](#quick-start--快速使用) · [Examples / 实例](#real-output--实际输出) · [Design rationale / 设计原理](docs/DESIGN.md) · [Advanced workflow / 进阶操作](docs/QUICKSTART.md) · [MIT](LICENSE)
+[Install / 安装](#install--安装) · [Use / 使用](#use--使用) · [Examples / 实例](#examples--实例) · [How it works / 原理](docs/DESIGN.md) · [MIT](LICENSE)
 
-## Why it helps / 核心优势
+![Actual launch slides, rendered from the exported PowerPoint / 实际导出的产品发布会页面](docs/assets/launch-showcase.jpg)
 
-| Capability / 能力 | What you get / 带来的变化 |
+## What's new in 3.0 / 3.0 的实际变化
+
+Previous versions offered design guidance but left the agent to invent layouts. **3.0 adds a working composition engine and two default design families**, demonstrated on complete content rather than cover studies.
+
+此前版本提供审美建议，但版式仍由模型临时拼装。**3.0 新增可执行的编排器和两套默认版式系统**，用完整正文、图片、图表、版本比较和条件标注验证效果。
+
+| Capability / 能力 | Result / 结果 |
 |---|---|
-| **Content-led design / 内容驱动设计** | Choose composition, typography, charts, and imagery around each slide's purpose. / 按每页任务决定版式、字体、图表与配图，减少机械套版。 |
-| **One skill, several routes / 一个入口，多种路径** | Native, hybrid, image-first, template updates, or review-only. / 统一调度原生、混合、图片式、模板更新和只审查。 |
-| **Editable by intent / 按需保留可编辑性** | Native text, charts, tables, and shapes; images remain separate layers. / 关键文字、数据与图解保留为原生对象，图片独立成层。 |
-| **Review the actual export / 检查真实成品** | Render the exported PPTX and inspect every slide and the whole deck. / 从导出的 PPTX 重新渲染，逐页与全稿复查。 |
-| **Changes invalidate old reviews / 改动后重新验收** | File fingerprints prevent outdated review records from approving a changed deck. / 文件摘要将验收绑定到当前版本，避免旧记录放行新稿。 |
-| **Creative direction / 创意与美术指导** | Develop a subject-specific concept, explore meaningful compositions, and prove them on real body content. / 从主题形成视觉概念，比较实质不同的构图，用实际正文验证。 |
+| **Defaults with a visual identity / 有明确风格的默认值** | Teal product launches or white/yellow business decks. Typography, image ratios, spacing and labels work together. / 青绿发布会、白底黄标商务，统一字体、图像比例、间距和标注。 |
+| **Read before arranging / 先理解，再编排** | The agent groups claims by meaning. The compiler selects layouts, splits overfull lists and accounts for source paragraphs. / agent 按含义归组，编排器选版、拆页并检查来源段落去向。 |
+| **Purposeful imagery / 配图有职责** | Separate hero, overview, detail and context assets. Native text sits above image layers. / 主视觉、概览、细节与场景各司其职，文字独立可编辑。 |
+| **Review the exported file / 实看最终文件** | Native charts/tables, image proportion checks, rendered page review and stale-review protection. / 原生图表与表格，修正图片比例，逐页复查并防止旧验收放行新稿。 |
 
-![Bilingual workflow diagram / 中英双语工作流程](docs/assets/workflow.png)
+![Bilingual content-to-presentation diagram / 中英双语内容到成品流程图](docs/assets/composition-workflow.png)
 
-The skill combines agent guidance with working Python/Node tools. Your host agent provides reasoning, image generation, and any connected apps. The skill itself does not bundle an image model or a cloud service.
+## Install / 安装
 
-本项目由 skill 指令和可执行 Python/Node 工具组成。推理、生图及连接应用来自宿主 agent；项目本身不附带图片模型或云服务。
+Download the [portable skill ZIP / 便携安装包](https://github.com/bingxijun/ppt-design-polish/releases/latest/download/ppt-design-polish.zip), extract it, then run the installer below; or clone the repository:
 
-## Quick start / 快速使用
-
-### 1. Install / 安装
-
-Requirements: **Python 3.9+**, **Node.js 22+**, and npm for the bundled editable-slide builder. / 本包的可编辑制作后端需要 **Python 3.9+、Node.js 22+ 和 npm**。
+下载并解压安装包后执行安装命令，或克隆仓库：
 
 ```bash
 git clone https://github.com/bingxijun/ppt-design-polish.git
 cd ppt-design-polish
-
-# Choose one / 选择一个客户端
 python3 scripts/install.py --client codex
-# python3 scripts/install.py --client claude
+# Claude Code: python3 scripts/install.py --client claude
+# Update / 更新: add --update
 ```
 
-The installer prints the installed directory. Run `npm install` **there** if PptxGenJS is unavailable, then restart the client or refresh its skill discovery. It never overwrites an existing skill unless you pass `--update`; updates keep a backup.
+The installer prints the destination and keeps a backup on updates. If the host cannot find PptxGenJS, run `npm install` in that installed directory. Refresh the client's skill discovery.
 
-安装器会打印安装目录。若环境缺少 PptxGenJS，在**该目录中**运行 `npm install`，然后重启客户端或刷新 skill 发现。已有同名 skill 默认不覆盖；显式 `--update` 更新时保留备份。
+安装器打印目标目录，更新会备份旧版。若环境找不到 PptxGenJS，在**安装后的目录**运行 `npm install`，然后刷新客户端的 skill 发现。
 
-For example, with default paths / 默认路径示例：
+Runtime: Python 3.9+, Node.js 22+. Final-file rendering requires LibreOffice + Poppler or the host's supported artifact renderer. Reasoning and image generation use your host agent's tools. [Setup details / 环境详情](docs/QUICKSTART.md).
 
-```bash
-# Codex
-cd ~/.codex/skills/ppt-design-polish
-npm install
-python3 scripts/deck.py doctor
+运行环境：Python 3.9+、Node.js 22+。成品渲染需要 LibreOffice + Poppler 或宿主支持的渲染器。推理和生图调用宿主已有工具。
 
-# Claude Code: use ~/.claude/skills/ppt-design-polish instead
-```
+## Use / 使用
 
-For full export-and-review support, install **LibreOffice + Poppler** (`soffice`/`libreoffice` and `pdftoppm` on PATH). A host-provided artifact renderer is another supported option. Image generation is optional and uses the host's available tools.
-
-完整的导出复查需要 **LibreOffice + Poppler**，或宿主已提供的 artifact 渲染器。生图为可选能力，调用宿主现有工具。详见[环境与命令 / setup and commands](docs/QUICKSTART.md)。
-
-### 2. Ask naturally / 直接描述任务
-
-In Codex, invoke `$ppt-design-polish`. In Claude Code, invoke `/ppt-design-polish` or ask it to use the installed skill.
-
-Codex 使用 `$ppt-design-polish`；Claude Code 使用 `/ppt-design-polish`，也可明确要求调用已安装的 skill。
+Attach an announcement and say / 附上文告，直接说：
 
 ```text
-Use $ppt-design-polish to create an 8-slide investor presentation from
-these materials. Keep financial charts editable, follow our brand,
-and deliver PPTX plus PDF. Review every exported slide before delivery.
+Use $ppt-design-polish to turn this announcement into a presentation.
+Choose the page structure and default design. Keep text, charts and tables
+editable. Deliver PPTX and PDF after reviewing every exported page.
 ```
 
 ```text
-使用 $ppt-design-polish 美化这份 PPT。保留原有事实、数据和页数，
-采用适合管理层阅读的专业风格，关键文字和图表保持可编辑。
-配图需要帮助解释内容，交付 PPTX 和 PDF，并逐页检查最终导出效果。
+使用 $ppt-design-polish，把这份发布文告做成 PPT。
+自动理解内容、安排页数和版式，采用默认发布会风格，
+文字、图表与表格保持可编辑，逐页检查后交付 PPTX 和 PDF。
 ```
 
-Attach your materials or existing deck. Add audience, brand/reference, language, and desired output when relevant. The skill selects the internal route; you do not need to invoke several PPT skills.
+In Claude Code use `/ppt-design-polish` or explicitly ask to use the skill. You do not need to choose layouts or write JSON. To follow a brand/reference, attach it; it overrides the defaults. For a business deck, say “white/yellow business style.”
 
-提供材料或原稿，按需补充受众、品牌参考、语言与输出格式。skill 自动选择内部制作路径，无需轮流调用多套 PPT skills。
+Claude Code 可使用 `/ppt-design-polish`，或明确要求调用该 skill。用户无需选版或编写 JSON。有品牌或参考图时直接附上，优先遵循参考；商务稿可指定“白底黄标商务风格”。
 
-## Real output / 实际输出
+## Examples / 实例
 
-**Creative direction studies / 创意构图研究：** the same daylight-teaching content in editorial, technical, and gallery compositions. All text and diagrams remain editable. These authored alternatives illustrate possible directions; they are not a controlled aesthetic benchmark.
+**Teal launch / 青绿产品发布：13 pages**, Chinese. Product hero, overview, cabin, range, charging, photo spread, native survey chart, version table, delivery timeline and warranty. / 包含真实正文、配图、数据和条件说明。
 
-同一份日光教学内容，分别采用编辑设计、理性图解和画廊叙事构图，文字与图解均可编辑。这些编排示例用于展示方向，不是审美效果的对照测试。
+[Editable PPTX / 可编辑稿](examples/launch/launch.pptx) · [PDF](examples/launch/launch.pdf) · [Full preview and reproduction / 全稿预览与复现](examples/launch/README.md)
 
-![Same content, three compositions / 同一内容的三种构图](docs/assets/creative-directions.png)
+**Editorial yellow / 白底黄标商务：6 pages**, English. Architectural studio introduction, chapter, editable photo annotations, native portfolio chart and process timeline.
 
-[View design studies and editable files / 查看设计研究与可编辑文件](examples/creative-directions/README.md)
+![Actual white/yellow business slides / 白底黄标商务实际导出页](docs/assets/yellow-showcase.jpg)
 
-![Actual exported sample slides / 从实际 PPTX 导出的示例页面](docs/assets/showcase.png)
+[Editable PPTX / 可编辑稿](examples/yellow/business.pptx) · [PDF](examples/yellow/business.pdf) · [Source and reproduction / 源文件与复现](examples/yellow/README.md)
 
-These are rendered pages from the included editable sample, using illustrative data. They demonstrate this repository's builder, not a benchmark against other tools. The hero at the top is a generated concept illustration.
+Both examples use fictional brands/data and original AI-generated imagery. They show the shipped engine's output; they are not a blinded comparison against other tools. Commercial reference screenshots and third-party keynote assets are not redistributed.
 
-以上为仓库内可编辑示例的实际导出页面，数据仅用于演示；不是与其他工具的效果对照测试。页首主视觉为 AI 生成的项目概念配图。
+两个实例均使用虚构品牌、演示数据和原创生成配图，展示本包实际输出，不是与其他工具的盲测对照；不分发商业模板截图或第三方发布会素材。
 
-[Download the editable PPTX / 下载可编辑 PPTX](examples/editorial/sample.pptx) · [View PDF / 查看 PDF](examples/editorial/sample.pdf) · [Source and reproduction / 源文件与复现](examples/editorial/README.md)
+## Inside the skill / 实现内容
 
-## Choose the right route / 按任务选择制作方式
+The host agent reads the whole announcement and writes a grounded semantic plan. `compose.py` checks quotes, lexical numbers, source-paragraph coverage and omitted claims, selects from **14 layout families**, and writes native slide objects. Existing native/template/image-first routes remain available.
 
-![Native, hybrid and image-first explained / 原生、混合与图片式交付图解](docs/assets/modes.png)
+宿主 agent 通读文告并生成语义计划。`compose.py` 检查引文、数字、段落覆盖与未呈现信息，从 **14 类版式**中编排可编辑对象；同时保留原生、模板修改和图片式路径。
 
-| Task / 任务 | Route / 路径 |
-|---|---|
-| New business, research, or teaching deck / 新建商业、研究或教学稿 | Native editable objects with optional image layers / 原生对象，按需叠加图片 |
-| Visual storytelling / 视觉叙事 | Hybrid or explicitly requested image-first slides / 混合制作，或按明确需求采用图片式 |
-| Existing branded deck / 已有品牌稿 | Inspect and render first; use native editing or scoped text patches / 先清点和渲染，再原生编辑或局部改字 |
-| Export from another tool / 接入其他工具的导出稿 | `adopt` the PPTX, then use the same review workflow / `adopt` 接入 PPTX，统一复查 |
-| Design feedback only / 只要评审建议 | Render and report slide-specific findings / 渲染后按页指出具体问题 |
+Meaning, truth and visual quality still require the agent's judgment and final review. This skill does not guarantee perfect interpretation of arbitrary documents or supply an image model. Complex existing decks should use preservation-aware native editing. [Composition API / 编排接口](references/composition-system.md) · [Advanced workflow / 进阶流程](docs/QUICKSTART.md).
 
-## What is included / 功能与边界
+语义、事实与审美仍需 agent 判断和成品复查；skill 不承诺任意文档完美理解，也不自带图片模型。复杂原稿采用保留原生对象的编辑方式。
 
-- **Working tools / 可执行工具：** JSON → PPTX; theme/layout/media extraction; text-run patching; content/object checks; rendering; version-bound review records; checked delivery.
-- **Design guidance / 设计方法：** narrative, typography, layout, chart choice, image direction, brand reuse, and slide-by-slide review.
-- **Supported delivery / 支持交付：** PPTX, rendered PNG, and PDF through the LibreOffice path. Font and target-application differences still require inspection.
-- **Scope / 范围：** focused text patches preserve other ZIP-part payloads; arbitrary lossless PPTX rebuilding, all SmartArt/animation features, narration, and video are not implemented.
-- **Quality / 质量：** automated checks verify structure and review freshness. They cannot prove good taste, factual accuracy, or that someone actually looked at an image. We do not promise “zero AI look.”
+Independent MIT project. Methods informed by PPT Master, Baoyu slide-deck, PPTAgent and Presenton; actual reuse and licenses are documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). [Integration map / 优势整合](docs/DESIGN.md) · [Contributing / 参与贡献](CONTRIBUTING.md).
 
-工具覆盖原生制作、主题和素材提取、局部改字、内容约束、渲染与版本绑定验收；设计指令覆盖叙事、排版、图表、配图和品牌复用。支持 PPTX、PNG，以及 LibreOffice 路径生成的 PDF。
-
-局部文字补丁会保留其他 ZIP 部件的内容，但不支持任意稿件的无损重建，也未实现全部 SmartArt、动画、配音或视频功能。自动检查不能证明审美、事实准确性或图片确实被查看，也不承诺“零 AI 味”。
-
-## Origins and contribution / 来源与参与
-
-An independent project that combines useful methods from PPT Master, Baoyu's slide-deck workflow, PPTAgent, and Presenton. Most tools are implemented here; a small PPTAgent review validator is reused under MIT. This is not a redistribution of those complete products.
-
-这是独立项目：吸收 PPT Master、宝玉 slide-deck、PPTAgent、Presenton 各自的方法优势；主要工具由本项目实现，一小段 PPTAgent 验收校验代码按 MIT 复用，不打包分发上述完整产品。
-
-[Integration map / 优势整合与设计分析](docs/DESIGN.md) · [Third-party notices / 第三方说明](THIRD_PARTY_NOTICES.md) · [Contributing / 参与贡献](CONTRIBUTING.md)
-
-**License / 许可：** original code and documentation are [MIT](LICENSE). Third-party components retain their licenses. Project-created diagrams and the generated hero are included under the same permission grant to the extent applicable; no third-party brands or fonts are bundled.
-
-原创代码与文档采用 MIT，第三方组件保留原许可。原创图解及生成主视觉在适用范围内按相同条款授权；不附带第三方商标或字体文件。
+独立 MIT 项目，吸收各项目的有效方法；实际复用内容与许可见第三方说明。原创图解和生成配图在适用范围内按相同许可提供；字体文件与第三方品牌素材不随包分发。

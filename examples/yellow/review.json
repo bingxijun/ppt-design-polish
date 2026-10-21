@@ -1,0 +1,44 @@
+[
+  {
+    "slide": 1,
+    "verdict": "pass",
+    "summary": "White half-page cover and warm architectural photo create a distinct editorial family; yellow marker is restrained and copy is readable.",
+    "issues": []
+  },
+  {
+    "slide": 2,
+    "verdict": "pass",
+    "summary": "Oversized yellow chapter number, dark sans-serif headline and generous whitespace match the business reference grammar.",
+    "issues": []
+  },
+  {
+    "slide": 3,
+    "verdict": "pass",
+    "summary": "Native numbered callouts sit on the actual yellow entrance, limestone wall and olive tree after anchor correction; labels remain separate editable text.",
+    "issues": []
+  },
+  {
+    "slide": 4,
+    "verdict": "pass",
+    "summary": "Native column chart displays 12/8/4 from a zero baseline, with the 24-project illustrative total and qualification visible.",
+    "issues": []
+  },
+  {
+    "slide": 5,
+    "verdict": "pass",
+    "summary": "Four stages align to one timeline, the generated stage numbers avoid repeated date labels, and each stage retains its purpose.",
+    "issues": []
+  },
+  {
+    "slide": 6,
+    "verdict": "pass",
+    "summary": "Three flat sections explain daylight, materials and floor plan without UI cards; final page is complete and all qualifications remain visible.",
+    "issues": []
+  },
+  {
+    "slide": "deck",
+    "verdict": "pass",
+    "summary": "Reviewed all six exported pages against the complete fictional studio brief. White/yellow identity is consistent across cover, chapter, annotations, chart and process. Source counts and exclusions match; no clipped content observed. This is a working example, not a blinded quality benchmark.",
+    "issues": []
+  }
+]

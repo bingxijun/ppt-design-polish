@@ -55,6 +55,19 @@ Use `$ppt-design-polish` in Codex, or `/ppt-design-polish` in Claude Code. Give 
 
 在客户端调用 skill，提供材料及受众、语言、品牌参考与输出要求。已有 PPT 直接提供文件。日常任务通常无需用户手动执行下面的底层命令。
 
+## Default announcement workflow / 默认文告制作
+
+Users only attach materials and invoke the skill. The agent handles the following internal steps; users do not write the plan themselves.
+
+用户附上材料并调用 skill 即可，以下由 agent 内部执行，无需用户编写计划。
+
+1. Read the entire announcement and extract facts with units/conditions. / 通读原文并提取事实与条件。
+2. Freeze the source with `compose.py prepare`; write grounded `plan.json`. / 固化来源并编写语义计划。
+3. Use teal-launch for product launches, editorial-yellow for business, or the user's brand/reference. / 自动选择默认风格，有参考则遵循参考。
+4. Source/generate purposeful images, compose native objects, render the exported PPTX and inspect every page. / 配图、编排、导出，实看全部页面。
+
+[Plan schema and commands / 完整计划格式与命令](../references/composition-system.md) · [13-page launch source / 发布会源稿](../examples/launch/README.md) · [6-page business source / 商务源稿](../examples/yellow/README.md).
+
 ## Reproduce the sample / 复现示例
 
 From the repository root / 从仓库根目录运行：

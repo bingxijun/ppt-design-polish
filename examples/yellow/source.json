@@ -1,0 +1,36 @@
+{
+  "sha256": "c7f763947e2c730a3dc246eae18875b7bcd62e9d8c653653184a9a59f8b30c9d",
+  "path": "inputs/announcement.md",
+  "units": [
+    {
+      "id": "p001",
+      "text": "# ATELIER NORTH studio brief",
+      "kind": "heading"
+    },
+    {
+      "id": "p002",
+      "text": "ATELIER NORTH is a fictional architecture studio. All projects, numbers and images in this example are illustrative. Images are AI-generated.",
+      "kind": "content"
+    },
+    {
+      "id": "p003",
+      "text": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe.",
+      "kind": "content"
+    },
+    {
+      "id": "p004",
+      "text": "The pavilion concept pairs pale limestone with a narrow yellow entrance and an olive courtyard. Material warmth and the rhythm of light define the space. This fictional concept illustrates an architectural direction, not a completed building.",
+      "kind": "content"
+    },
+    {
+      "id": "p005",
+      "text": "Our demonstration portfolio contains 24 projects: 12 workplaces, 8 cultural spaces and 4 private residences. These are illustrative counts, not business results.",
+      "kind": "content"
+    },
+    {
+      "id": "p006",
+      "text": "Our process has four stages: Discover, Design, Develop and Deliver. Discover clarifies the brief, Design tests spatial ideas, Develop resolves materials and details, and Deliver supports the agreed handover. No project duration or fee is specified.",
+      "kind": "content"
+    }
+  ]
+}

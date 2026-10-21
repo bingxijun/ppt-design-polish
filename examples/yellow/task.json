@@ -1,0 +1,10 @@
+{
+  "slides": 6,
+  "mode": "hybrid",
+  "language": "en-US",
+  "outputs": [
+    "pptx",
+    "pdf",
+    "png"
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "asset": "hero",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: product-mockup. Asset type: wide 16:9 PowerPoint product launch hero background, photo asset only. Create an original fictional pearl-white electric grand touring SUV, distinctive slim horizontal split headlights, dark glass roof, brushed silver five-spoke wheels, no brand logo or readable license plate. Photoreal premium automotive advertising, meticulously realistic materials and proportions. The car is on the RIGHT 58% of a seamless spacious teal studio platform, front three-quarter view facing left, whole vehicle visible with generous edge margins. Left 42% is EMPTY dark deep petrol-teal negative space for large editable white Chinese launch title. Background fades from deep petrol teal on left to pale mist on upper right. Soft enormous overhead diffusion, restrained realistic floor reflection, elegant precision, subtle atmospheric depth. Camera low but natural 55mm. No people, no charging station, no text, no letters, no watermark, no decorative shapes, no fake technical lines. Wide 16:9 landscape composition. This is for a fictional open-source demonstration product called AERIS ONE."
+  },
+  {
+    "asset": "profile-initial",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: identity-preserve. Input image: reference for exact fictional vehicle identity, preserve body geometry, split slim headlights, wheel design, pearl white paint and glass roof. Create a new photoreal automotive campaign photograph of THIS SAME unbranded electric SUV seen in a full clean SIDE PROFILE facing left. Entire car centered on a pale cool mint seamless studio background and floor, with a subtle realistic contact shadow. Elegant spacious 16:9 landscape, car occupies 75% width, centered vertically around 57%. Long lens, precision premium product photography, no perspective distortion. No text, logos, letters, watermarks or graphic overlays. This is a supporting overview photo for a launch presentation, not a slide."
+  },
+  {
+    "asset": "profile",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: identity-preserve. Input photo: exact car identity reference. Recompose the same fictional pearl-white SUV side profile, all design details, wheels, body and roof preserved. Asset type: EXTRA-WIDE panoramic studio product image for a slide overview. Create a 3:1 aspect ratio landscape canvas, whole car visible centered with only a little pale mint studio floor below wheels and minimal headroom. Car facing left and occupying 86% of width. Entire roof, both tires, front and rear bumpers visible and undistorted. Background uniform very pale mint matching #F5F9F8 with subtle natural ground shadow. Premium photoreal product photography. No text, no logos, no watermark, no diagrams. The image must feel wide and low rather than a tall scene."
+  },
+  {
+    "asset": "interior",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: product-mockup. Asset type: interior detail photo for the same fictional AERIS ONE pearl-white electric SUV launch. Create a premium photoreal automotive cabin photograph looking from the open passenger door across a spacious pale ivory cabin toward the minimalist dashboard and steering wheel. Sophisticated warm wool fabric, finely perforated pale leather, thin satin aluminum trim, restrained dark teal stitching. Broad landscape windshield with hazy forest outside, diffused daylight, genuine physical material texture, luxury magazine photography. Wide 16:9 composition, precise calm surfaces, no people, no brand logos. Dashboard screens off or dark simple monochrome, no fake readable UI, no text, no numbers, no watermark. Tasteful architecture and daylight, not sci-fi. Input vehicle is identity and color reference only."
+  },
+  {
+    "asset": "charging",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: identity-preserve. Same fictional pearl-white SUV in reference, preserve split headlights, body proportions, wheels and dark roof. New high-end automotive lifestyle photograph: the vehicle parked at a quiet architect-designed coastal charging stop, three-quarter REAR view facing left, a single slim charcoal charging pedestal beside the right rear quarter connected with a realistic cable. Pale concrete, quiet sea and misty cliffs, subdued morning light, petrol teal and cool stone palette. Landscape 16:9. Car and charger in right two thirds, restrained negative space upper left. Photoreal advertising craft, realistic reflections, no people, no readable displays, no logos, no text, no watermark, no neon or sci-fi effects. This illustrates charging context only and must contain no technical diagrams."
+  },
+  {
+    "asset": "road",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: identity-preserve. Reference image exact fictional unbranded pearl-white SUV. Create a new photoreal premium automotive campaign photograph of the same car driving on a beautifully winding empty coastal road, front three quarter view, slim split headlights and dark glass roof unchanged, realistic wheels and proportions. Camera tracking at natural speed, crisp car, subtle road motion, sweeping green headland and silver sea in early morning. High-end restrained automotive editorial art direction, soft diffuse overcast light, deep teal shadows, white pearl paint, sage landscape. Wide 16:9 composition with car lower center/right occupying 45% of width and calm upper left sky for a title. No other vehicles, people, logos, text, watermark, graphic marks or unnatural motion."
+  },
+  {
+    "asset": "detail",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: identity-preserve. Reference image exact fictional pearl white SUV. Create a close-up premium product design photograph tightly framing the front left quarter: the two slim split LED headlights, precisely radiused pearl white hood, sculpted bumper edge and the upper part of the front wheel. Maintain exactly the same lamp design and white body surfaces from reference. Strong diagonal composition, dark petrol-teal studio background, soft specular strips emphasizing craft and surface quality. Editorial automotive macro photography, 85mm lens, realistic materials. Wide landscape 16:9 photo, no full car, no text, brand, logo, watermark, fake glowing effects or technical annotations."
+  }
+]

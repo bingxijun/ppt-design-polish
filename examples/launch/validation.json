@@ -1,0 +1,30 @@
+{
+  "version": "3.0.0",
+  "slide_count": 13,
+  "artifact_sha256": "f6756b631e5d9322cecefd1945d6901542806cb653e6c121c106691588491885",
+  "source_sha256": "f49302a2938a4579bec9acd179ee6dcce547bf506e97eeb4da6d4fb741342629",
+  "covered_source_paragraphs": [
+    "p002",
+    "p003",
+    "p004",
+    "p005",
+    "p006",
+    "p007",
+    "p008",
+    "p009",
+    "p010",
+    "p011",
+    "p012",
+    "p013"
+  ],
+  "omitted": [],
+  "checks": {
+    "current_export": true,
+    "all_pages_rendered_and_reviewed": true,
+    "content_contract": true,
+    "requested_formats": true
+  },
+  "renderer": "LibreOffice + Poppler, macOS",
+  "review_file": "review.json",
+  "limits": "Traceability and host-recorded visual review. Not a blinded aesthetic benchmark or proof of perfect semantic interpretation."
+}

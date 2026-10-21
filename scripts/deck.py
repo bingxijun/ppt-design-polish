@@ -38,7 +38,8 @@ def write(path, value):
 
 
 def snapshot(workspace):
-    files = [workspace/name for name in ['task.json', 'deck.json', 'contract.json', 'design-plan.json'] if (workspace/name).is_file()]
+    files = [workspace/name for name in ['task.json', 'deck.json', 'contract.json', 'design-plan.json',
+             'plan.json', 'source.json', 'composition.json'] if (workspace/name).is_file()]
     for directory in ['assets', 'slides', 'inputs', 'code']:
         files += [p for p in (workspace/directory).rglob('*') if p.is_file()]
     return {str(p.relative_to(workspace)): digest(p) for p in sorted(set(files))}
@@ -88,7 +89,8 @@ def init(w, slides, mode):
     for name in ['assets', 'inputs', 'code', 'slides', '.ppt-beautify']:
         (w/name).mkdir(exist_ok=True)
     write(w/'task.json', {'slides': slides, 'mode': mode, 'language': 'zh-CN'})
-    write(w/'contract.json', {'required_text': {}, 'min_objects': {}, 'preserve_from': None})
+    if not (w/'contract.json').exists():
+        write(w/'contract.json', {'required_text': {}, 'min_objects': {}, 'preserve_from': None})
     return {'ok': True, 'workspace': str(w), 'mode': mode, 'next': 'Author deck.json or sources under code/slides; keep assets and inputs local'}
 
 

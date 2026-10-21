@@ -1,0 +1,12 @@
+[
+  {
+    "asset": "pavilion",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: architectural editorial photograph for a white-and-yellow corporate PowerPoint demonstration. Original contemporary small cultural pavilion, pale limestone and smooth white plaster, beautiful rectilinear facade with a single narrow vertical opening, olive tree casting a long delicate shadow, lightly raked gravel foreground, bright but soft late morning light. Very restrained architectural magazine photography, tangible natural material texture, creamy white and pale warm grey palette, a subtle small mustard-yellow door recessed deep in facade. Tall 4:5 portrait composition with strong asymmetry and generous blank wall, no people, no text, no logos, no watermark, not an infographic. Scene is fictional."
+  },
+  {
+    "asset": "studio",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide editorial photograph for an architecture studio capability presentation. A quiet sunlit contemporary workspace with one sculptural natural oak table, two lightweight chairs, a single clear glass vase with an olive branch, off-white plaster walls, large open window revealing courtyard greenery. Beautiful warm limestone floor and refined soft shadow, cream and pale warm grey, one tiny mustard-yellow notebook on the desk. Architectural magazine photography, calm exact composition, tactile texture, restrained and human, no people, no computers, no screens, no logos, no text, no watermark. Landscape 16:9, focal table placed on right of center, breathing room on left. Fictional interior."
+  }
+]

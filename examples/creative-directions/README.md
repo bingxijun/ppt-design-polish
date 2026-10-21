@@ -1,3 +1,6 @@
+> Legacy runtime/design fixture. Current default design examples: [launch](../launch/README.md) and [business](../yellow/README.md).
+> 旧版运行或构图示例；当前默认效果请看发布会与商务实例。
+
 # One brief, three compositions / 同一内容，三种构图
 
 An educational page about how an opening, shade, and reflection shape daylight in a reading room. All three alternatives retain the same concepts in English and Chinese. Text and section diagrams are native editable PowerPoint objects.

@@ -13,3 +13,10 @@
 Project-created visuals are shared under the repository's MIT permission grant to the extent applicable. No third-party logos or font files are distributed. Rendered typography may vary with locally installed fonts.
 
 项目原创视觉在适用范围内按仓库 MIT 授权共享，不分发第三方商标或字体文件；重新渲染时字体可能因环境变化。
+
+
+## 3.0 assets / 3.0 配图
+
+- `composition-workflow.svg/png`: original bilingual workflow diagram, editable SVG source. / 原创双语流程图，附可编辑 SVG。
+- `launch-showcase.jpg`, `yellow-showcase.jpg`: montages of actual final-PPTX renders. / 最终 PPTX 实际渲染页的拼图。
+- Product/architecture imagery and complete built-in imagegen prompts live under `examples/launch/` and `examples/yellow/`. No commercial reference screenshots, third-party keynote images or font files are included. / 产品与建筑配图及提示词见实例目录，不包含商业模板截图、第三方发布会素材或字体文件。

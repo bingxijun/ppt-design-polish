@@ -1,13 +1,16 @@
 // Original unified backend. PptxGenJS is a separately installed MIT dependency.
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { loadPackage, readJSON, localAsset } from './runtime.mjs';
+import { createRequire } from 'node:module';
+import { loadPackage, readJSON, localAsset, resolvePackage } from './runtime.mjs';
 
 const [specFile, outputFile] = process.argv.slice(2);
 if (!specFile || !outputFile) throw new Error('Usage: build_deck.mjs deck.json output.pptx');
 const spec = readJSON(specFile);
 const { default: PptxGenJS } = await loadPackage('pptxgenjs');
 const pptx = new PptxGenJS();
+const imageSizeModule = createRequire(resolvePackage('pptxgenjs'))('image-size');
+const imageSize = imageSizeModule.imageSize || imageSizeModule.default || imageSizeModule;
 const canvas = spec.canvas || { width: 13.333333, height: 7.5 };
 if (![canvas.width, canvas.height].every(v => Number.isFinite(v) && v > 0)) throw new Error('Invalid canvas inches');
 if (!Array.isArray(spec.slides) || !spec.slides.length) throw new Error('slides must be nonempty');
@@ -48,8 +51,18 @@ for (const [index, source] of spec.slides.entries()) {
       const fit = obj.fit || 'contain';
       if (!['contain', 'cover', 'stretch'].includes(fit)) throw new Error(`${label}: invalid image fit`);
       const { x, y, w, h } = options;
-      const sizing = fit === 'stretch' ? {} : { sizing: { type: fit, w, h } };
-      slide.addImage({ ...options, ...sizing, path: imagePath });
+      const { width, height } = imageSize(await fs.readFile(imagePath));
+      if (!(width > 0 && height > 0)) throw new Error(`${label}: unreadable image dimensions`);
+      if (fit === 'contain') {
+        const scale = Math.min(w / width, h / height);
+        slide.addImage({ ...options, x: x+(w-width*scale)/2, y: y+(h-height*scale)/2,
+          w: width*scale, h: height*scale, path: imagePath });
+      } else if (fit === 'cover') {
+        // PptxGenJS calculates crop from the supplied source extents, not the file
+        // pixels. Giving it frame extents stretches the image instead of cropping.
+        slide.addImage({ ...options, w: width/96, h: height/96,
+          sizing: { type: 'cover', w, h }, path: imagePath });
+      } else slide.addImage({ ...options, path: imagePath });
     } else if (obj.type === 'chart') {
       if (!Array.isArray(obj.data) || !obj.data.length) throw new Error(`${label}: chart data required`);
       for (const series of obj.data) {

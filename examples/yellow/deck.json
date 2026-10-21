@@ -1,0 +1,1519 @@
+{
+  "title": "ATELIER NORTH",
+  "language": "en-US",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5
+  },
+  "theme": {
+    "background": "FAFAF7",
+    "text": "252621",
+    "accent": "C69300",
+    "headingFont": "Arial",
+    "bodyFont": "Arial",
+    "bodySize": 18
+  },
+  "slides": [
+    {
+      "background": "FAFAF7",
+      "elements": [
+        {
+          "type": "image",
+          "path": "assets/studio.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 6.75,
+            "y": 0,
+            "w": 6.59,
+            "h": 7.5
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 0,
+            "y": 0,
+            "w": 6.75,
+            "h": 7.5,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "FFFFFF",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 0.65,
+            "y": 1.17,
+            "w": 0.65,
+            "h": 0.11,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "F3C400",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "ATELIER NORTH",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Fictional studio and illustrative data. AI-generated imagery.",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Spaces for\nbetter days.",
+          "options": {
+            "x": 0.65,
+            "y": 1.75,
+            "w": 5.9,
+            "h": 2.1,
+            "fontSize": 40,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Workspaces and cultural buildings",
+          "options": {
+            "x": 0.68,
+            "y": 4.18,
+            "w": 5.3,
+            "h": 0.7,
+            "fontSize": 18,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Daylight. Tactile materials. Clear space.",
+          "options": {
+            "x": 0.68,
+            "y": 5.9,
+            "w": 5.5,
+            "h": 0.65,
+            "fontSize": 12,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "FFFFFF",
+      "elements": [
+        {
+          "type": "text",
+          "text": "ATELIER NORTH",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 0.65,
+            "y": 1.08,
+            "w": 5,
+            "h": 2.1,
+            "fontSize": 130,
+            "fontFace": "Arial",
+            "color": "F3C400",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Design with\nroom to breathe",
+          "options": {
+            "x": 0.75,
+            "y": 3.48,
+            "w": 7.1,
+            "h": 1.3,
+            "fontSize": 42,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "A calm approach to the spaces we share.",
+          "options": {
+            "x": 0.79,
+            "y": 5.15,
+            "w": 6.2,
+            "h": 0.6,
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "FAFAF7",
+      "elements": [
+        {
+          "type": "text",
+          "text": "ATELIER NORTH",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Fictional concept. Images express design direction, not a completed building.",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "MATERIAL AND LIGHT",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "The pavilion concept",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/pavilion.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 0.65,
+            "y": 2.52,
+            "w": 7.6,
+            "h": 4.12
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 6.7219999999999995,
+            "y": 5.5324,
+            "w": 0.32,
+            "h": 0.32,
+            "line": {
+              "color": "FFFFFF",
+              "width": 1
+            },
+            "fill": {
+              "color": "C69300"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "1",
+          "options": {
+            "x": 6.7219999999999995,
+            "y": 5.5324,
+            "w": 0.32,
+            "h": 0.32,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 8.65,
+            "y": 2.7,
+            "w": 0.55,
+            "h": 0.4,
+            "fontSize": 18,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "A narrow yellow entrance",
+          "options": {
+            "x": 9.32,
+            "y": 2.7,
+            "w": 3.22,
+            "h": 0.75,
+            "fontSize": 19,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 3.1499999999999995,
+            "y": 4.3376,
+            "w": 0.32,
+            "h": 0.32,
+            "line": {
+              "color": "FFFFFF",
+              "width": 1
+            },
+            "fill": {
+              "color": "C69300"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "2",
+          "options": {
+            "x": 3.1499999999999995,
+            "y": 4.3376,
+            "w": 0.32,
+            "h": 0.32,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "options": {
+            "x": 8.65,
+            "y": 3.95,
+            "w": 0.55,
+            "h": 0.4,
+            "fontSize": 18,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Pale limestone",
+          "options": {
+            "x": 9.32,
+            "y": 3.95,
+            "w": 3.22,
+            "h": 0.75,
+            "fontSize": 19,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 1.2500000000000002,
+            "y": 4.9968,
+            "w": 0.32,
+            "h": 0.32,
+            "line": {
+              "color": "FFFFFF",
+              "width": 1
+            },
+            "fill": {
+              "color": "C69300"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "3",
+          "options": {
+            "x": 1.2500000000000002,
+            "y": 4.9968,
+            "w": 0.32,
+            "h": 0.32,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "options": {
+            "x": 8.65,
+            "y": 5.2,
+            "w": 0.55,
+            "h": 0.4,
+            "fontSize": 18,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Olive tree",
+          "options": {
+            "x": 9.32,
+            "y": 5.2,
+            "w": 3.22,
+            "h": 0.75,
+            "fontSize": 19,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "FAFAF7",
+      "elements": [
+        {
+          "type": "text",
+          "text": "ATELIER NORTH",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Fictional studio and illustrative data. AI-generated imagery.",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "ILLUSTRATIVE PORTFOLIO",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "A portfolio across three settings",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "chart",
+          "chartType": "bar",
+          "data": [
+            {
+              "name": "Projects",
+              "labels": [
+                "Workplace",
+                "Culture",
+                "Residential"
+              ],
+              "values": [
+                12.0,
+                8.0,
+                4.0
+              ]
+            }
+          ],
+          "options": {
+            "x": 0.75,
+            "y": 2.7,
+            "w": 7.6,
+            "h": 3.85,
+            "catAxisLabelFontSize": 14,
+            "valAxisLabelFontSize": 11,
+            "valAxisMinVal": 0,
+            "catAxisLineShow": false,
+            "valAxisLineShow": false,
+            "showValue": true,
+            "dataLabelPosition": "outEnd",
+            "dataLabelFormatCode": "0",
+            "dataLabelColor": "252621",
+            "dataLabelBkgrdColor": "FAFAF7",
+            "dataLabelFormatCodeSourceLinked": false,
+            "dataLabelFontSize": 16,
+            "showLegend": false,
+            "showCatName": false,
+            "chartColors": [
+              "C69300"
+            ],
+            "showTitle": false,
+            "showMarker": false,
+            "showBorder": false,
+            "showSerName": false,
+            "gapSize": 120,
+            "catAxisLabelColor": "77796D",
+            "valAxisLabelColor": "77796D",
+            "valGridLine": {
+              "color": "DDDFD5",
+              "width": 0.5
+            },
+            "catGridLine": {
+              "style": "none"
+            },
+            "valAxisMaxVal": 15,
+            "barDir": "col"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 9,
+            "y": 2.76,
+            "w": 3.55,
+            "h": 0,
+            "line": {
+              "color": "DDDFD5",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "24 projects",
+          "options": {
+            "x": 9,
+            "y": 2.92,
+            "w": 3.55,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Demonstration portfolio only. These counts are not business results.",
+          "options": {
+            "x": 9,
+            "y": 3.42,
+            "w": 3.55,
+            "h": 2.95,
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "FAFAF7",
+      "elements": [
+        {
+          "type": "text",
+          "text": "ATELIER NORTH",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "05",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "No project duration or fee is specified.",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "OUR PROCESS",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "A clear process from the start",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.82,
+            "y": 3.43,
+            "w": 11.6,
+            "h": 0,
+            "line": {
+              "color": "DDDFD5",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 0.82,
+            "y": 3.35,
+            "w": 0.16,
+            "h": 0.16,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "F3C400",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 0.82,
+            "y": 2.68,
+            "w": 2.5300000000000002,
+            "h": 0.55,
+            "fontSize": 24,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Discover",
+          "options": {
+            "x": 0.82,
+            "y": 3.84,
+            "w": 2.5300000000000002,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Clarify the brief.",
+          "options": {
+            "x": 0.82,
+            "y": 4.65,
+            "w": 2.5300000000000002,
+            "h": 1.35,
+            "fontSize": 16,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 3.77,
+            "y": 3.35,
+            "w": 0.16,
+            "h": 0.16,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "F3C400",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "options": {
+            "x": 3.77,
+            "y": 2.68,
+            "w": 2.5300000000000002,
+            "h": 0.55,
+            "fontSize": 24,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Design",
+          "options": {
+            "x": 3.77,
+            "y": 3.84,
+            "w": 2.5300000000000002,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Test spatial ideas.",
+          "options": {
+            "x": 3.77,
+            "y": 4.65,
+            "w": 2.5300000000000002,
+            "h": 1.35,
+            "fontSize": 16,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 6.720000000000001,
+            "y": 3.35,
+            "w": 0.16,
+            "h": 0.16,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "F3C400",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "options": {
+            "x": 6.720000000000001,
+            "y": 2.68,
+            "w": 2.5300000000000002,
+            "h": 0.55,
+            "fontSize": 24,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Develop",
+          "options": {
+            "x": 6.720000000000001,
+            "y": 3.84,
+            "w": 2.5300000000000002,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Resolve materials and details.",
+          "options": {
+            "x": 6.720000000000001,
+            "y": 4.65,
+            "w": 2.5300000000000002,
+            "h": 1.35,
+            "fontSize": 16,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 9.670000000000002,
+            "y": 3.35,
+            "w": 0.16,
+            "h": 0.16,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "F3C400",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "options": {
+            "x": 9.670000000000002,
+            "y": 2.68,
+            "w": 2.5300000000000002,
+            "h": 0.55,
+            "fontSize": 24,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "Deliver",
+          "options": {
+            "x": 9.670000000000002,
+            "y": 3.84,
+            "w": 2.5300000000000002,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Support the agreed handover.",
+          "options": {
+            "x": 9.670000000000002,
+            "y": 4.65,
+            "w": 2.5300000000000002,
+            "h": 1.35,
+            "fontSize": 16,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "FAFAF7",
+      "elements": [
+        {
+          "type": "text",
+          "text": "ATELIER NORTH",
+          "options": {
+            "x": 0.65,
+            "y": 0.28,
+            "w": 5,
+            "h": 0.25,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "",
+          "options": {
+            "x": 8.5,
+            "y": 0.28,
+            "w": 4.16,
+            "h": 0.25,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "06",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Fictional studio and illustrative data. AI-generated imagery.",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "text",
+          "text": "STUDIO APPROACH",
+          "options": {
+            "x": 0.65,
+            "y": 0.83,
+            "w": 11.8,
+            "h": 0.23,
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "C69300",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "charSpacing": 2
+          }
+        },
+        {
+          "type": "text",
+          "text": "Daylight and material warmth",
+          "options": {
+            "x": 0.65,
+            "y": 1.15,
+            "w": 11.9,
+            "h": 0.65,
+            "fontSize": 32,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.75,
+            "y": 2.6,
+            "w": 11.8,
+            "h": 0,
+            "line": {
+              "color": "DDDFD5",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Daylight",
+          "options": {
+            "x": 0.75,
+            "y": 2.7600000000000002,
+            "w": 11.8,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Let natural light shape calm workspaces.",
+          "options": {
+            "x": 0.75,
+            "y": 3.2600000000000002,
+            "w": 11.8,
+            "h": 0.5666666666666667,
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.75,
+            "y": 3.916666666666667,
+            "w": 11.8,
+            "h": 0,
+            "line": {
+              "color": "DDDFD5",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Tactile materials",
+          "options": {
+            "x": 0.75,
+            "y": 4.076666666666667,
+            "w": 11.8,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Use carefully chosen surfaces to give spaces warmth.",
+          "options": {
+            "x": 0.75,
+            "y": 4.576666666666667,
+            "w": 11.8,
+            "h": 0.5666666666666667,
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.75,
+            "y": 5.233333333333333,
+            "w": 11.8,
+            "h": 0,
+            "line": {
+              "color": "DDDFD5",
+              "width": 0.6
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "A clear floor plan",
+          "options": {
+            "x": 0.75,
+            "y": 5.3933333333333335,
+            "w": 11.8,
+            "h": 0.38,
+            "fontSize": 19,
+            "fontFace": "Arial",
+            "color": "252621",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "mid",
+            "paraSpaceAfterPt": 0,
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Give people room to move and room to breathe.",
+          "options": {
+            "x": 0.75,
+            "y": 5.8933333333333335,
+            "w": 11.8,
+            "h": 0.5666666666666667,
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "77796D",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0
+          }
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

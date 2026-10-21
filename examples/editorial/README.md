@@ -1,3 +1,6 @@
+> Legacy runtime/design fixture. Current default design examples: [launch](../launch/README.md) and [business](../yellow/README.md).
+> 旧版运行或构图示例；当前默认效果请看发布会与商务实例。
+
 # Editable editorial sample / 可编辑演示样稿
 
 Three real PowerPoint slides: an editorial cover, a native line chart with embedded data, and a native table. The example uses synthetic revenue values **12, 18, 25, 31 (¥ million)**. These are illustrative data, not a performance claim or a forecast.

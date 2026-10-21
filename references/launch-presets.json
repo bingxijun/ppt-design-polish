@@ -1,0 +1,14 @@
+{
+  "teal-launch": {
+    "background": "F5F9F8", "paper": "FFFFFF", "ink": "183B40",
+    "accent": "28747A", "dark": "073B46", "muted": "688084", "rule": "CDDDDD",
+    "wash": "E6F0EE", "headingFont": "Source Han Serif SC", "bodyFont": "Noto Sans CJK SC",
+    "latinFont": "Arial", "cover": "cinematic", "chapter": "dark"
+  },
+  "editorial-yellow": {
+    "background": "FAFAF7", "paper": "FFFFFF", "ink": "252621",
+    "accent": "C69300", "highlight": "F3C400", "dark": "252621", "muted": "77796D",
+    "rule": "DDDFD5", "wash": "F4E7AB", "headingFont": "Noto Sans CJK SC",
+    "bodyFont": "Noto Sans CJK SC", "latinFont": "Arial", "cover": "editorial", "chapter": "paper"
+  }
+}

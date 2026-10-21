@@ -17,19 +17,30 @@ These are engineering and design hypotheses behind the workflow, not a controlle
 
 以上是本项目采用的工程与设计判断，不是证明单一普遍原因的对照研究。某些页面适合背景照片，另一些页面适合留白、图表、图解或纯文字排版。
 
-## Creative direction in 2.2 / 2.2 的创意改进
+## What changed in 3.0 / 3.0 如何落地
 
-The new-deck route now explicitly loads art direction. When creativity matters and the visual direction is open, the agent develops a content-specific visual concept, compares a few materially different compositions, and proves the chosen route on representative and difficult body content before scaling. Design review covers focal hierarchy, typographic craft, imagery, subject specificity, and page rhythm alongside technical delivery checks.
+The earlier design studies did not demonstrate the requested launch aesthetics. The new route uses actual geometry, image frames, text budgets and native object composition, with two complete content examples. A product deck defaults to teal-launch; general business defaults to editorial-yellow. A supplied brand or reference overrides both.
 
-新建路径现已明确读取美术指导。需要创意且方向开放时，先形成与内容相关的视觉概念，比较少量构图有实质差异的方案，再用代表性正文与困难内容验证后扩稿。设计复查同时关注视觉中心、字体细节、图像职责、主题辨识度和全稿节奏。
+此前的构图研究未证明所需的发布会审美。新流程提供具体的网格、图片框、文字容量和原生对象编排，并用两套完整内容验证。产品稿默认青绿发布会，商务稿默认白底黄标，有品牌或参考时优先遵循。
 
-“Clean” and “premium” do not select one permanent aesthetic. The appropriate result depends on audience, subject, brand, and viewing conditions. These instructions guide decisions; they do not upgrade the host model's visual abilities or supply missing image tools. See the [creative-direction reference](../references/creative-direction.md) and [editable composition studies](../examples/creative-directions/README.md).
+| Reference observation / 参考观察 | Implemented response / 实现 |
+|---|---|
+| White/yellow business montage: asymmetric photos, oversized chapter number, restrained body copy. / 商务参考：非对称照片、大章节号、克制文字。 | Editorial cover, paper chapter, photo grids/callouts, dark sans-serif hierarchy. / 编辑式封面、白底章节、图片网格与标注、黑色无衬线层级。 |
+| Teal vehicle launch montage: cinematic hero, serif CJK titles, light body pages, product cutouts, detailed data. / 汽车参考：青绿主视觉、宋体标题、浅色正文、产品图和完整数据。 | Teal hero, native CJK serif titles, overview metrics, feature spreads, native chart/table/timeline. / 主视觉、原生宋体标题、参数概览、细节图文、原生图表与时间线。 |
+| Apple keynote at 1:05:10: one large “5x” metric with a short descriptor on a light screen. / Apple 发布会该画面以单个大数字和简短解释建立焦点。 | Dedicated single-metric layout instead of placing every metric in equal cards. / 独立大数字页，避免所有数字等大卡片化。 |
+| Official launch material separates product views, use cases, technical detail and availability. / 官方发布资料区分产品外观、使用场景、技术细节与上市信息。 | Content roles select distinct page types; conditions remain near their claims. / 内容角色决定页型，条件与相关事实一起保留。 |
 
-“整洁、高级”不对应一套永久风格，合适的结果取决于受众、主题、品牌和观看条件。指令能引导取舍，不会升级宿主模型的视觉能力，也不会补出不存在的生图工具。具体流程和可编辑构图研究见上述链接。
+The user supplied two low-resolution commercial template previews. These are visual direction, not reusable licensed templates or verified top-keynote slides. Our design inference also draws on [Apple's official September 2024 event](https://www.youtube.com/watch?v=uarNiSl_uh4&t=3910s), its [iPhone 16 announcement and imagery](https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/), and [Google's official launch collection](https://blog.google/products-and-platforms/devices/made-by-google-2024-collection/). We inspected selected event frames and launch material, not the entire keynote. Their brand palettes and assets are not copied into the package.
 
-The existing tests establish file/workflow behavior. The authored visual examples show possibilities, not reliable aesthetic gains across tasks. A stronger evaluation would compare matched briefs with and without the skill, hold model/tools/budget constant, and ask blinded human reviewers about clarity, relevance, craft, and originality across several deck types. That evaluation has not been completed.
+用户的两张低清商业模板预览用于明确风格，不等于获得模板授权，也不是已核实的顶级发布会原稿。设计推导另参考上述官方发布资料及部分发布会画面；未声称完整观看整场发布会，不复制其品牌配色与素材。
 
-现有测试验证文件与工作流行为；人工编排的视觉示例展示可能性，不等于跨任务审美提升已被证实。更有说服力的评估需对同一简报固定模型、工具与预算，比较使用前后结果，由不知生成条件的人评审多类稿件的清晰度、相关性、完成度及原创性。本项目尚未完成这类评估。
+The compiler freezes source SHA, verifies exact evidence anchors, checks displayed numbers against quotes, accounts for source paragraphs and requires reasons for unpresented extracted claims. It splits long lists and preserves native charts/tables. An image aspect-ratio bug in the previous builder was also fixed and tested against the actual PPTX crop geometry.
+
+编排器固定原文摘要、验证来源引文和数字、检查段落去向及未呈现事实的原因，并拆分超量列表、保留原生图表与表格。旧后端的图片拉伸问题已修正，回归测试直接检查 PPTX 的裁切与几何数据。
+
+These checks establish traceability, not perfect semantic understanding. The host must inspect all original facts/qualifiers and every exported page. Examples demonstrate this version's output; a blinded multi-brief aesthetic benchmark has not been completed. [Full composition protocol](../references/composition-system.md).
+
+来源检查不能证明完美语义理解。宿主须核对原始事实与限定条件，并实看每页。实例证明本版可产出的结果，尚未完成多主题盲评对照。
 
 ## Integration map / 优势整合
 

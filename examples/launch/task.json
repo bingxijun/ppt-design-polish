@@ -1,0 +1,10 @@
+{
+  "slides": 13,
+  "mode": "hybrid",
+  "language": "zh-CN",
+  "outputs": [
+    "pptx",
+    "pdf",
+    "png"
+  ]
+}

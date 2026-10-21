@@ -1,0 +1,54 @@
+{
+  "required_text": {
+    "1": [
+      "Fictional studio and illustrative data. AI-generated imagery.",
+      "Workspaces and cultural buildings",
+      "Daylight. Tactile materials. Clear space.",
+      "Spaces for\nbetter days."
+    ],
+    "2": [
+      "Design with\nroom to breathe",
+      "A calm approach to the spaces we share."
+    ],
+    "3": [
+      "Fictional concept. Images express design direction, not a completed building.",
+      "Olive tree",
+      "The pavilion concept",
+      "A narrow yellow entrance",
+      "Pale limestone"
+    ],
+    "4": [
+      "Fictional studio and illustrative data. AI-generated imagery.",
+      "A portfolio across three settings",
+      "24 projects",
+      "Demonstration portfolio only. These counts are not business results."
+    ],
+    "5": [
+      "A clear process from the start",
+      "Support the agreed handover.",
+      "No project duration or fee is specified.",
+      "Resolve materials and details.",
+      "Discover",
+      "Clarify the brief.",
+      "Test spatial ideas.",
+      "Deliver",
+      "Develop",
+      "Design"
+    ],
+    "6": [
+      "Let natural light shape calm workspaces.",
+      "Daylight",
+      "A clear floor plan",
+      "Fictional studio and illustrative data. AI-generated imagery.",
+      "Daylight and material warmth",
+      "Tactile materials",
+      "Use carefully chosen surfaces to give spaces warmth.",
+      "Give people room to move and room to breathe."
+    ]
+  },
+  "min_objects": {
+    "4": {
+      "native_charts": 1
+    }
+  }
+}
