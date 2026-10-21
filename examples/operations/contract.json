@@ -1,0 +1,67 @@
+{
+  "required_text": {
+    "1": [
+      "Four-week operations review",
+      "Fictional demonstration. All observations and data are invented.",
+      "Observe for two more weeks before deciding on rollout",
+      "Dispatch pilot"
+    ],
+    "2": [
+      "On-time = carrier handover before the agreed cutoff; cancelled orders excluded.",
+      "Fictional demonstration. All observations and data are invented.",
+      "2,400 pilot orders at one warehouse; a separate 2,000-order baseline. Different order mixes prevent a causal conclusion.",
+      "95%",
+      "On-time dispatch reached 95% in week 4",
+      "88% baseline"
+    ],
+    "3": [
+      "The four pilot weeks show an upward pattern. The source does not establish why.",
+      "On-time = carrier handover before the agreed cutoff; cancelled orders excluded.",
+      "Illustrative rounded rates. Per-week denominators are not provided.",
+      "On-time dispatch across the pilot"
+    ],
+    "4": [
+      "Orders needing manual intervention",
+      "95%",
+      "Exception rate",
+      "14 min",
+      "Week 4",
+      "Pick start to pick complete",
+      "Median pick time",
+      "11 min",
+      "6.0%",
+      "Exception counts and pick-time distributions are not supplied.",
+      "Fictional demonstration. All observations and data are invented.",
+      "Baseline",
+      "Compare performance and measurement limits",
+      "88%",
+      "Carrier handover before cutoff",
+      "On-time dispatch",
+      "Metric",
+      "4.5%",
+      "Definition"
+    ],
+    "5": [
+      "They were excluded from the on-time rate. Investigate the missingness before interpreting the result.",
+      "Fictional demonstration. All observations and data are invented.",
+      "Resolve the gaps before scaling",
+      "40 orders have missing handover timestamps",
+      "One warehouse; no cross-site replication completed.",
+      "Only 8% of pilot volume came from weekend orders."
+    ],
+    "6": [
+      "Extend observation; rollout remains undecided",
+      "Fictional demonstration. All observations and data are invented.",
+      "Observe for two more weeks, investigate the 40 missing timestamps with operations, and include a fuller weekend sample.",
+      "Owner names and completion dates have not been supplied."
+    ]
+  },
+  "min_objects": {
+    "3": {
+      "native_charts": 1
+    },
+    "4": {
+      "native_tables": 1
+    }
+  }
+}

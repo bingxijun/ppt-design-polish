@@ -1,0 +1,10 @@
+{
+  "slides": 6,
+  "mode": "native",
+  "language": "en-US",
+  "outputs": [
+    "pptx",
+    "pdf",
+    "png"
+  ]
+}

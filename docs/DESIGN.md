@@ -17,30 +17,36 @@ These are engineering and design hypotheses behind the workflow, not a controlle
 
 以上是本项目采用的工程与设计判断，不是证明单一普遍原因的对照研究。某些页面适合背景照片，另一些页面适合留白、图表、图解或纯文字排版。
 
-## What changed in 3.0 / 3.0 如何落地
+## What changed in 4.0 / 4.0 的实际修正
 
-The earlier design studies did not demonstrate the requested launch aesthetics. The new route uses actual geometry, image frames, text budgets and native object composition, with two complete content examples. A product deck defaults to teal-launch; general business defaults to editorial-yellow. A supplied brand or reference overrides both.
+We inspected our own compiler, not Codex's private training process. v3 chose geometry from JSON field presence, divided text into equal slots, used fixed bold/gray copy, equal-width colored tables and automatic accents. These choices actively reproduced a common look. The public Codex architecture does not require that particular PPT theme.
 
-此前的构图研究未证明所需的发布会审美。新流程提供具体的网格、图片框、文字容量和原生对象编排，并用两套完整内容验证。产品稿默认青绿发布会，商务稿默认白底黄标，有品牌或参考时优先遵循。
+本次检查对象是我们自己的编排器，不是不可见的训练过程。v3 根据字段选版、等分正文、统一粗体/灰字、等宽彩色表格并自动强调所有图表；这些代码选择本身就在复制固定样式。
 
-| Reference observation / 参考观察 | Implemented response / 实现 |
+OpenAI's [official design guidance](https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4) describes underspecified frontend prompts falling back to frequent training patterns. Applying that explanation to PPT is **our inference**, not a disclosed PPT-specific training finding. [Codex's public architecture](https://developers.openai.com/blog/codex-as-a-platform) describes model, context, tools and an agent loop, not a mandatory slide palette. [Evaluation guidance](https://developers.openai.com/api/docs/guides/evaluation-best-practices) supports combining checks with human judgment; passing tests does not certify aesthetics.
+
+官方材料支持“约束不足时容易回到高频模式”的一般解释；迁移到 PPT 是本项目推断，不冒充内部训练事实。文件正确、测试通过、来源覆盖和视觉质量是不同的问题。
+
+| v3 mechanism / 旧逻辑 | v4 mechanism / 修正 |
 |---|---|
-| White/yellow business montage: asymmetric photos, oversized chapter number, restrained body copy. / 商务参考：非对称照片、大章节号、克制文字。 | Editorial cover, paper chapter, photo grids/callouts, dark sans-serif hierarchy. / 编辑式封面、白底章节、图片网格与标注、黑色无衬线层级。 |
-| Teal vehicle launch montage: cinematic hero, serif CJK titles, light body pages, product cutouts, detailed data. / 汽车参考：青绿主视觉、宋体标题、浅色正文、产品图和完整数据。 | Teal hero, native CJK serif titles, overview metrics, feature spreads, native chart/table/timeline. / 主视觉、原生宋体标题、参数概览、细节图文、原生图表与时间线。 |
-| Apple keynote at 1:05:10: one large “5x” metric with a short descriptor on a light screen. / Apple 发布会该画面以单个大数字和简短解释建立焦点。 | Dedicated single-metric layout instead of placing every metric in equal cards. / 独立大数字页，避免所有数字等大卡片化。 |
-| Official launch material separates product views, use cases, technical detail and availability. / 官方发布资料区分产品外观、使用场景、技术细节与上市信息。 | Content roles select distinct page types; conditions remain near their claims. / 内容角色决定页型，条件与相关事实一起保留。 |
+| Industry → two default styles / 行业映射到两个主题 | Brief-derived design roles; old themes optional / 本次材料推导设计，可选旧主题 |
+| Fields → layout / 有字段就选版 | Explicit relation and reason, or custom native frames / 指定表达关系与理由，或原生自定义构图 |
+| Equal text slots, estimated character counts / 等分正文、字数估算 | Real Skia font metrics, explicit wrapping/leading and measured flow / 实际字体测量、换行行距与流式排列 |
+| Equal colored table columns / 等宽彩色表格 | Measured/configurable widths, numeric alignment, grouping and selective emphasis / 测量或显式列宽、数字对齐、分组和差异强调 |
+| Every chart uses accent / 图表统一强调色 | Neutral ink, meaningful focus points, stable series identities / 默认正文色，有意义的焦点及稳定类别 |
+| Generic page approval / 泛化验收 | Contextual pattern questions plus all-page exported review / 重复模式提示与最终稿逐页检查 |
 
-The user supplied two low-resolution commercial template previews. These are visual direction, not reusable licensed templates or verified top-keynote slides. Our design inference also draws on [Apple's official September 2024 event](https://www.youtube.com/watch?v=uarNiSl_uh4&t=3910s), its [iPhone 16 announcement and imagery](https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/), and [Google's official launch collection](https://blog.google/products-and-platforms/devices/made-by-google-2024-collection/). We inspected selected event frames and launch material, not the entire keynote. Their brand palettes and assets are not copied into the package.
+During export review, a mixed-script charging paragraph wrapped differently in LibreOffice and collided with the next section despite passing measurement. We added wrap room and explicit native line spacing, then rebuilt and inspected the export. This is why metrics are planning aids rather than a replacement for actual file review.
 
-用户的两张低清商业模板预览用于明确风格，不等于获得模板授权，也不是已核实的顶级发布会原稿。设计推导另参考上述官方发布资料及部分发布会画面；未声称完整观看整场发布会，不复制其品牌配色与素材。
+实际检查发现过中英混排在 LibreOffice 额外换行并挤压下一段，虽测量通过仍须修复。现已加入换行余量与原生行距并重新导出，保留这一过程说明测量不能替代看图。
 
-The compiler freezes source SHA, verifies exact evidence anchors, checks displayed numbers against quotes, accounts for source paragraphs and requires reasons for unpresented extracted claims. It splits long lists and preserves native charts/tables. An image aspect-ratio bug in the previous builder was also fixed and tested against the actual PPTX crop geometry.
+The user supplied two low-resolution commercial template previews: one white/yellow editorial family, one teal vehicle-launch family. They informed these two examples; they are not licensed reusable assets or verified top-keynote files. Earlier research inspected selected frames from [Apple's official September 2024 event](https://www.youtube.com/watch?v=uarNiSl_uh4&t=3910s), [its iPhone 16 launch material](https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/) and [Google's launch collection](https://blog.google/products-and-platforms/devices/made-by-google-2024-collection/). We infer principles such as clear focal hierarchy and separating product views, evidence and availability; we do not copy their full decks, palettes or assets.
 
-编排器固定原文摘要、验证来源引文和数字、检查段落去向及未呈现事实的原因，并拆分超量列表、保留原生图表与表格。旧后端的图片拉伸问题已修正，回归测试直接检查 PPTX 的裁切与几何数据。
+用户参考只决定对应实例的方向，不成为全行业默认模板。官方发布资料帮助理解焦点、产品视角、证据与上市信息的组织；不复制完整原稿或品牌素材。
 
-These checks establish traceability, not perfect semantic understanding. The host must inspect all original facts/qualifiers and every exported page. Examples demonstrate this version's output; a blinded multi-brief aesthetic benchmark has not been completed. [Full composition protocol](../references/composition-system.md).
+[Actual v3/v4 comparisons](../examples/evolution/README.md) retain the same source and images. Three complete v4 examples cover a Chinese launch, an English studio brief and an operational reading report. They are authored demonstrations of this runtime, not independent model trials, automatic aesthetic rankings or proof of perfect document interpretation. The next useful evaluation is a blinded multi-brief review with fixed inputs, target viewers and recorded typography/table/color judgments.
 
-来源检查不能证明完美语义理解。宿主须核对原始事实与限定条件，并实看每页。实例证明本版可产出的结果，尚未完成多主题盲评对照。
+版本对照沿用同样原文与图片，另有三个完整主题示例。它们是本次实际制作与检查的证据，尚不是独立模型盲测，更不能证明“绝无 AI 痕迹”。[编辑判断](../references/editorial-decisions.md)与[编排接口](../references/composition-system.md)给出可执行方法。
 
 ## Integration map / 优势整合
 

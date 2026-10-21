@@ -51,3 +51,7 @@
 局部修复后重导出、重渲染受影响页；修改主题/字体/共享素材/导出逻辑后复查全稿。避免拿旧缓存图作依据，可用单独的版本目录或记录文件摘要区分。
 
 当必要内容完整、没有未修复的可见使用缺陷、视觉决策能解释且最终对象满足交付要求时停止。不要为追求抽象的“更高级”无限换配色和图片。没有渲染能力、源数据缺失或工具无法保留的特性，用具体限制标注，不把未经检查的稿件说成终稿。
+
+## Editorial pattern review / 编辑模式复查
+
+For a full new deck/redesign, read `design-audit.json` if composed here. Inspect repeated headline cadence, navigation layers, layout geometry and equal columns in context. Record the actual correction or why repetition serves this deck. Check concrete headline meaning, body hierarchy, table comparison tasks/units/alignment and color roles against [editorial decisions](editorial-decisions.md). A diagnostic is not an AI detector; no findings does not certify originality. / 新稿与重设计须结合语境处理重复提示；核对标题意义、正文主次、表格比较任务、单位、对齐与颜色职责。不得为清除提示随机换版，也不得将零提示当作原创证明。

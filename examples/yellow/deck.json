@@ -75,28 +75,11 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "bold": true,
-            "charSpacing": 2
-          }
-        },
-        {
-          "type": "text",
-          "text": "",
-          "options": {
-            "x": 8.5,
-            "y": 0.28,
-            "w": 4.16,
-            "h": 0.25,
-            "fontSize": 9,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "align": "right"
+            "lineSpacing": 12.8,
+            "lang": "en-US",
+            "bold": true
           }
         },
         {
@@ -112,8 +95,10 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "en-US",
             "align": "right"
           }
         },
@@ -130,13 +115,15 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "en-US"
           }
         },
         {
           "type": "text",
-          "text": "Spaces for\nbetter days.",
+          "text": "ATELIER\nNORTH",
           "options": {
             "x": 0.65,
             "y": 1.75,
@@ -147,8 +134,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 42.400000000000006,
+            "lang": "en-US",
             "bold": true
           }
         },
@@ -165,8 +154,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "en-US"
           }
         },
         {
@@ -182,120 +173,10 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
-          }
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "background": "FFFFFF",
-      "elements": [
-        {
-          "type": "text",
-          "text": "ATELIER NORTH",
-          "options": {
-            "x": 0.65,
-            "y": 0.28,
-            "w": 5,
-            "h": 0.25,
-            "fontSize": 10,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "bold": true,
-            "charSpacing": 2
-          }
-        },
-        {
-          "type": "text",
-          "text": "",
-          "options": {
-            "x": 8.5,
-            "y": 0.28,
-            "w": 4.16,
-            "h": 0.25,
-            "fontSize": 9,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "align": "right"
-          }
-        },
-        {
-          "type": "text",
-          "text": "02",
-          "options": {
-            "x": 12.2,
-            "y": 6.97,
-            "w": 0.47,
-            "h": 0.22,
-            "fontSize": 9,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "align": "right"
-          }
-        },
-        {
-          "type": "text",
-          "text": "01",
-          "options": {
-            "x": 0.65,
-            "y": 1.08,
-            "w": 5,
-            "h": 2.1,
-            "fontSize": 130,
-            "fontFace": "Arial",
-            "color": "F3C400",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "text",
-          "text": "Design with\nroom to breathe",
-          "options": {
-            "x": 0.75,
-            "y": 3.48,
-            "w": 7.1,
-            "h": 1.3,
-            "fontSize": 42,
-            "fontFace": "Arial",
-            "color": "252621",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "text",
-          "text": "A calm approach to the spaces we share.",
-          "options": {
-            "x": 0.79,
-            "y": 5.15,
-            "w": 6.2,
-            "h": 0.6,
-            "fontSize": 15,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "lineSpacing": 15.36,
+            "lang": "en-US"
           }
         }
       ],
@@ -317,33 +198,16 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "bold": true,
-            "charSpacing": 2
+            "lineSpacing": 12.8,
+            "lang": "en-US",
+            "bold": true
           }
         },
         {
           "type": "text",
-          "text": "",
-          "options": {
-            "x": 8.5,
-            "y": 0.28,
-            "w": 4.16,
-            "h": 0.25,
-            "fontSize": 9,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "align": "right"
-          }
-        },
-        {
-          "type": "text",
-          "text": "03",
+          "text": "02",
           "options": {
             "x": 12.2,
             "y": 6.97,
@@ -354,8 +218,10 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "en-US",
             "align": "right"
           }
         },
@@ -372,26 +238,10 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "text",
-          "text": "MATERIAL AND LIGHT",
-          "options": {
-            "x": 0.65,
-            "y": 0.83,
-            "w": 11.8,
-            "h": 0.23,
-            "fontSize": 10,
-            "fontFace": "Arial",
-            "color": "C69300",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "charSpacing": 2
+            "lineSpacing": 11.52,
+            "lang": "en-US"
           }
         },
         {
@@ -407,8 +257,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 33.92,
+            "lang": "en-US"
           }
         },
         {
@@ -452,8 +304,10 @@
             "color": "FFFFFF",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "en-US",
             "align": "center"
           }
         },
@@ -470,8 +324,10 @@
             "color": "C69300",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "en-US"
           }
         },
         {
@@ -487,8 +343,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "en-US"
           }
         },
         {
@@ -521,8 +379,10 @@
             "color": "FFFFFF",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "en-US",
             "align": "center"
           }
         },
@@ -539,8 +399,10 @@
             "color": "C69300",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "en-US"
           }
         },
         {
@@ -556,8 +418,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "en-US"
           }
         },
         {
@@ -590,8 +454,10 @@
             "color": "FFFFFF",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "en-US",
             "align": "center"
           }
         },
@@ -608,8 +474,10 @@
             "color": "C69300",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "en-US"
           }
         },
         {
@@ -625,8 +493,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "en-US"
           }
         }
       ],
@@ -648,33 +518,16 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "bold": true,
-            "charSpacing": 2
+            "lineSpacing": 12.8,
+            "lang": "en-US",
+            "bold": true
           }
         },
         {
           "type": "text",
-          "text": "",
-          "options": {
-            "x": 8.5,
-            "y": 0.28,
-            "w": 4.16,
-            "h": 0.25,
-            "fontSize": 9,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "align": "right"
-          }
-        },
-        {
-          "type": "text",
-          "text": "04",
+          "text": "03",
           "options": {
             "x": 12.2,
             "y": 6.97,
@@ -685,8 +538,10 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "en-US",
             "align": "right"
           }
         },
@@ -703,31 +558,15 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "text",
-          "text": "ILLUSTRATIVE PORTFOLIO",
-          "options": {
-            "x": 0.65,
-            "y": 0.83,
-            "w": 11.8,
-            "h": 0.23,
-            "fontSize": 10,
-            "fontFace": "Arial",
-            "color": "C69300",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "charSpacing": 2
+            "lineSpacing": 11.52,
+            "lang": "en-US"
           }
         },
         {
           "type": "text",
-          "text": "A portfolio across three settings",
+          "text": "12 workplaces in a 24-project portfolio",
           "options": {
             "x": 0.65,
             "y": 1.15,
@@ -738,8 +577,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 33.92,
+            "lang": "en-US"
           }
         },
         {
@@ -774,44 +615,29 @@
             "dataLabelPosition": "outEnd",
             "dataLabelFormatCode": "0",
             "dataLabelColor": "252621",
-            "dataLabelBkgrdColor": "FAFAF7",
-            "dataLabelFormatCodeSourceLinked": false,
-            "dataLabelFontSize": 16,
+            "dataLabelFontSize": 15,
             "showLegend": false,
-            "showCatName": false,
             "chartColors": [
-              "C69300"
+              "C69300",
+              "252621",
+              "252621"
             ],
             "showTitle": false,
             "showMarker": false,
             "showBorder": false,
             "showSerName": false,
-            "gapSize": 120,
-            "catAxisLabelColor": "77796D",
+            "gapSize": 100,
+            "catAxisLabelColor": "252621",
             "valAxisLabelColor": "77796D",
             "valGridLine": {
-              "color": "DDDFD5",
-              "width": 0.5
+              "style": "none"
             },
             "catGridLine": {
               "style": "none"
             },
+            "barDir": "col",
             "valAxisMaxVal": 15,
-            "barDir": "col"
-          }
-        },
-        {
-          "type": "shape",
-          "shape": "line",
-          "options": {
-            "x": 9,
-            "y": 2.76,
-            "w": 3.55,
-            "h": 0,
-            "line": {
-              "color": "DDDFD5",
-              "width": 0.6
-            }
+            "valAxisMajorUnit": 5
           }
         },
         {
@@ -819,34 +645,39 @@
           "text": "24 projects",
           "options": {
             "x": 9,
-            "y": 2.92,
+            "y": 2.76,
             "w": 3.55,
-            "h": 0.38,
+            "h": 0.36777777777777776,
             "fontSize": 19,
             "fontFace": "Arial",
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "en-US",
             "bold": true
           }
         },
         {
           "type": "text",
-          "text": "Demonstration portfolio only. These counts are not business results.",
+          "text": "Demonstration portfolio only.\nThese counts are not\nbusiness results.",
           "options": {
             "x": 9,
-            "y": 3.42,
+            "y": 3.2477777777777774,
             "w": 3.55,
-            "h": 2.95,
-            "fontSize": 15,
+            "h": 0.9900000000000001,
+            "fontSize": 18,
             "fontFace": "Arial",
-            "color": "77796D",
+            "color": "252621",
             "margin": 0,
             "breakLine": false,
             "valign": "top",
-            "paraSpaceAfterPt": 0
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "en-US",
+            "bold": false
           }
         }
       ],
@@ -868,33 +699,16 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "bold": true,
-            "charSpacing": 2
+            "lineSpacing": 12.8,
+            "lang": "en-US",
+            "bold": true
           }
         },
         {
           "type": "text",
-          "text": "",
-          "options": {
-            "x": 8.5,
-            "y": 0.28,
-            "w": 4.16,
-            "h": 0.25,
-            "fontSize": 9,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "align": "right"
-          }
-        },
-        {
-          "type": "text",
-          "text": "05",
+          "text": "04",
           "options": {
             "x": 12.2,
             "y": 6.97,
@@ -905,8 +719,10 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "en-US",
             "align": "right"
           }
         },
@@ -923,31 +739,15 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "text",
-          "text": "OUR PROCESS",
-          "options": {
-            "x": 0.65,
-            "y": 0.83,
-            "w": 11.8,
-            "h": 0.23,
-            "fontSize": 10,
-            "fontFace": "Arial",
-            "color": "C69300",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "charSpacing": 2
+            "lineSpacing": 11.52,
+            "lang": "en-US"
           }
         },
         {
           "type": "text",
-          "text": "A clear process from the start",
+          "text": "Discover to deliver",
           "options": {
             "x": 0.65,
             "y": 1.15,
@@ -958,8 +758,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 33.92,
+            "lang": "en-US"
           }
         },
         {
@@ -1006,8 +808,10 @@
             "color": "C69300",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 30.72,
+            "lang": "en-US"
           }
         },
         {
@@ -1023,8 +827,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "en-US",
             "bold": true
           }
         },
@@ -1042,7 +848,9 @@
             "margin": 0,
             "breakLine": false,
             "valign": "top",
-            "paraSpaceAfterPt": 0
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "en-US"
           }
         },
         {
@@ -1075,8 +883,10 @@
             "color": "C69300",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 30.72,
+            "lang": "en-US"
           }
         },
         {
@@ -1092,8 +902,10 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "en-US",
             "bold": true
           }
         },
@@ -1111,7 +923,9 @@
             "margin": 0,
             "breakLine": false,
             "valign": "top",
-            "paraSpaceAfterPt": 0
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "en-US"
           }
         },
         {
@@ -1144,8 +958,10 @@
             "color": "C69300",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 30.72,
+            "lang": "en-US"
           }
         },
         {
@@ -1161,14 +977,16 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "en-US",
             "bold": true
           }
         },
         {
           "type": "text",
-          "text": "Resolve materials and details.",
+          "text": "Resolve materials and\ndetails.",
           "options": {
             "x": 6.720000000000001,
             "y": 4.65,
@@ -1180,7 +998,9 @@
             "margin": 0,
             "breakLine": false,
             "valign": "top",
-            "paraSpaceAfterPt": 0
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "en-US"
           }
         },
         {
@@ -1213,8 +1033,10 @@
             "color": "C69300",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 30.72,
+            "lang": "en-US"
           }
         },
         {
@@ -1230,14 +1052,16 @@
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "en-US",
             "bold": true
           }
         },
         {
           "type": "text",
-          "text": "Support the agreed handover.",
+          "text": "Support the agreed\nhandover.",
           "options": {
             "x": 9.670000000000002,
             "y": 4.65,
@@ -1249,7 +1073,9 @@
             "margin": 0,
             "breakLine": false,
             "valign": "top",
-            "paraSpaceAfterPt": 0
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "en-US"
           }
         }
       ],
@@ -1271,33 +1097,16 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "bold": true,
-            "charSpacing": 2
+            "lineSpacing": 12.8,
+            "lang": "en-US",
+            "bold": true
           }
         },
         {
           "type": "text",
-          "text": "",
-          "options": {
-            "x": 8.5,
-            "y": 0.28,
-            "w": 4.16,
-            "h": 0.25,
-            "fontSize": 9,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "align": "right"
-          }
-        },
-        {
-          "type": "text",
-          "text": "06",
+          "text": "05",
           "options": {
             "x": 12.2,
             "y": 6.97,
@@ -1308,8 +1117,10 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "en-US",
             "align": "right"
           }
         },
@@ -1326,190 +1137,63 @@
             "color": "77796D",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "text",
-          "text": "STUDIO APPROACH",
-          "options": {
-            "x": 0.65,
-            "y": 0.83,
-            "w": 11.8,
-            "h": 0.23,
-            "fontSize": 10,
-            "fontFace": "Arial",
-            "color": "C69300",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
+            "valign": "top",
             "paraSpaceAfterPt": 0,
-            "charSpacing": 2
+            "lineSpacing": 11.52,
+            "lang": "en-US"
           }
         },
         {
           "type": "text",
-          "text": "Daylight and material warmth",
+          "text": "Daylight and material\nwarmth",
           "options": {
-            "x": 0.65,
-            "y": 1.15,
-            "w": 11.9,
-            "h": 0.65,
-            "fontSize": 32,
+            "x": 0.7,
+            "y": 1.12,
+            "w": 6.0,
+            "h": 1.25,
+            "fontSize": 34,
             "fontFace": "Arial",
             "color": "252621",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "shape",
-          "shape": "line",
-          "options": {
-            "x": 0.75,
-            "y": 2.6,
-            "w": 11.8,
-            "h": 0,
-            "line": {
-              "color": "DDDFD5",
-              "width": 0.6
-            }
-          }
-        },
-        {
-          "type": "text",
-          "text": "Daylight",
-          "options": {
-            "x": 0.75,
-            "y": 2.7600000000000002,
-            "w": 11.8,
-            "h": 0.38,
-            "fontSize": 19,
-            "fontFace": "Arial",
-            "color": "252621",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "bold": true
-          }
-        },
-        {
-          "type": "text",
-          "text": "Let natural light shape calm workspaces.",
-          "options": {
-            "x": 0.75,
-            "y": 3.2600000000000002,
-            "w": 11.8,
-            "h": 0.5666666666666667,
-            "fontSize": 15,
-            "fontFace": "Arial",
-            "color": "77796D",
             "margin": 0,
             "breakLine": false,
             "valign": "top",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "shape",
-          "shape": "line",
-          "options": {
-            "x": 0.75,
-            "y": 3.916666666666667,
-            "w": 11.8,
-            "h": 0,
-            "line": {
-              "color": "DDDFD5",
-              "width": 0.6
-            }
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "en-US",
+            "bold": true,
+            "align": "left"
           }
         },
         {
           "type": "text",
-          "text": "Tactile materials",
+          "text": "We design calm workspaces and\nsmall cultural buildings through\ncareful use of daylight, tactile\nmaterials and a clear floor plan.",
           "options": {
-            "x": 0.75,
-            "y": 4.076666666666667,
-            "w": 11.8,
-            "h": 0.38,
-            "fontSize": 19,
+            "x": 0.72,
+            "y": 3.0,
+            "w": 5.1,
+            "h": 2.25,
+            "fontSize": 23,
             "fontFace": "Arial",
             "color": "252621",
             "margin": 0,
             "breakLine": false,
-            "valign": "mid",
-            "paraSpaceAfterPt": 0,
-            "bold": true
-          }
-        },
-        {
-          "type": "text",
-          "text": "Use carefully chosen surfaces to give spaces warmth.",
-          "options": {
-            "x": 0.75,
-            "y": 4.576666666666667,
-            "w": 11.8,
-            "h": 0.5666666666666667,
-            "fontSize": 15,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
             "valign": "top",
-            "paraSpaceAfterPt": 0
-          }
-        },
-        {
-          "type": "shape",
-          "shape": "line",
-          "options": {
-            "x": 0.75,
-            "y": 5.233333333333333,
-            "w": 11.8,
-            "h": 0,
-            "line": {
-              "color": "DDDFD5",
-              "width": 0.6
-            }
-          }
-        },
-        {
-          "type": "text",
-          "text": "A clear floor plan",
-          "options": {
-            "x": 0.75,
-            "y": 5.3933333333333335,
-            "w": 11.8,
-            "h": 0.38,
-            "fontSize": 19,
-            "fontFace": "Arial",
-            "color": "252621",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "mid",
             "paraSpaceAfterPt": 0,
-            "bold": true
+            "lineSpacing": 29.44,
+            "lang": "en-US",
+            "bold": false,
+            "align": "left"
           }
         },
         {
-          "type": "text",
-          "text": "Give people room to move and room to breathe.",
+          "type": "image",
+          "path": "assets/studio.jpg",
+          "fit": "cover",
           "options": {
-            "x": 0.75,
-            "y": 5.8933333333333335,
-            "w": 11.8,
-            "h": 0.5666666666666667,
-            "fontSize": 15,
-            "fontFace": "Arial",
-            "color": "77796D",
-            "margin": 0,
-            "breakLine": false,
-            "valign": "top",
-            "paraSpaceAfterPt": 0
+            "x": 6.75,
+            "y": 1.12,
+            "w": 5.9,
+            "h": 5.35
           }
         }
       ],

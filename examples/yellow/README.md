@@ -1,29 +1,28 @@
-# ATELIER NORTH / 白底黄标商务
+# ATELIER NORTH / 建筑工作室
 
-6-slide English business deck. Fictional studio, original generated architectural photos, native callouts/chart/process. / 6 页英文虚构设计机构介绍，包含原创建筑配图、可编辑标注、图表与流程。
+**v4.0 · 5 pages / 5 页**. English studio brief: architecture, anchored labels, portfolio chart, service sequence and an editorial paragraph. / 英文工作室介绍，含建筑标注、数量比较、服务流程与编辑式正文。
 
-[PowerPoint](business.pptx) · [PDF](business.pdf) · [Source announcement / 原始文告](inputs/announcement.md) · [Semantic plan / 语义计划](plan.json) · [Source-to-page mapping / 来源到页面](composition.json) · [Visual observations / 逐页观察](review.json)
+[PPTX](business.pptx) · [PDF](business.pdf) · [Source / 文告](inputs/announcement.md) · [Plan / 计划](plan.json) · [Provenance / 来源](composition.json) · [Review / 逐页观察](review.json) · [Validation / 交付检查](validation.json)
 
-![All exported slides / 全部实际导出页面](contact-sheet.jpg)
+![All exported pages / 全部实际导出页](contact-sheet.jpg)
 
 ## Reproduce / 复现
 
-Use the repository runtime with its Node dependencies installed. Copy this example's `plan.json`, `source.json`, `inputs/` and `assets/` into a fresh workspace. Run:
-
-安装本仓库运行依赖，将上述文件复制到新工作区后执行：
+Install the repository dependencies. Copy `plan.json`, `source.json`, `inputs/` and `assets/` (if present) to a fresh workspace. / 安装依赖，将计划、来源与素材复制到新的工作区。
 
 ```bash
 python3 scripts/compose.py compose --workspace /absolute/example-copy
-python3 scripts/deck.py --workspace /absolute/example-copy init --slides 6 --mode hybrid
+python3 scripts/deck.py --workspace /absolute/example-copy init --slides 5 --mode hybrid
+# Set task.outputs to ["pptx","pdf","png"] before building for all formats.
 python3 scripts/deck.py --workspace /absolute/example-copy build
 python3 scripts/deck.py --workspace /absolute/example-copy render --renderer libreoffice
 python3 scripts/deck.py --workspace /absolute/example-copy verify
 ```
 
-For PDF delivery, set `task.json` outputs to `["pptx","pdf","png"]` before building. Inspect every exported page and record your actual findings, then use `review` and `finalize`. Do not reuse the included review as proof of a new render.
+Read `design-audit.json`, inspect every current exported page against the complete source, then record actual reviews and run `finalize`. Included reviews apply only to these files; do not reuse them as evidence for a new export. / 阅读诊断，对照全文实看当前导出稿，再记录真实复查并完成交付；不可套用旧验收。
 
-需要 PDF 时，在构建前设置输出格式。重新导出的文件须实看全部页面并记录实际观察，不直接复制旧验收记录。详细命令见[工作流](../../references/workflow.md)。
+This is an authored example using the shipped skill, not an independent or blinded model trial. Data and identities are fictional. Source coverage is traceability, not automatic proof of semantic completeness. / 这是使用本包制作的实例，不是独立模型盲测；身份与数据虚构，来源覆盖不等于自动证明语义完整。
 
-Fonts in the plan are the actual fonts used for this macOS export. Substitute installed, properly licensed fonts on another system and recheck line breaks. Fonts are not bundled. Images are AI-generated fictional concepts. Full prompts are in [prompts.json](prompts.json); JPG files are compressed exports of the generated originals. Native text/data remain separately editable. Exact cross-application rendering is not promised.
+Fonts in `plan.design.typography` were installed on the exporting Mac. Use licensed installed alternatives on other systems and recheck shaping and wrapping. Fonts are not distributed. Text, chart data and tables stay native; image pixels are not individually editable. / 其他系统需使用授权可用的本机字体并复查排版；不附带字体。正文与数据为原生对象，图片内部像素不可逐项编辑。
 
-计划记录本次实际使用的字体；其他系统应选择已安装且授权合适的字体并复查换行。图片为虚构概念，完整提示词见上，文字与数据独立可编辑，不附带字体文件。
+Original fictional image assets and built-in imagegen prompts: [prompts.json](prompts.json). / 原创虚构配图与完整提示词见上。

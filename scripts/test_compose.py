@@ -16,12 +16,14 @@ class CompositionTests(unittest.TestCase):
         src = Path(self.tmp.name)/'notice.md'
         src.write_text('# Launch\n\nRange is 620 km.\n\nOrders open in May.\n', encoding='utf-8')
         self.source = prepare(src, self.w)
-        self.plan = {'source_sha256': self.source['sha256'], 'kind': 'product-launch',
+        self.plan = {'source_sha256': self.source['sha256'], 'kind': 'product-launch','style':'editorial-yellow',
+                     'fonts':{'headingFont':'Arial','bodyFont':'Arial','latinFont':'Arial'},
                      'claims': {
                          'range': {'text': '620', 'evidence': [{'unit': 'p002', 'quote': 'Range is 620 km.'}]},
                          'title': {'text': 'Range', 'evidence': [{'unit': 'p002', 'quote': 'Range is 620 km.'}]},
                          'orders': {'text': 'Orders open in May.', 'evidence': [{'unit': 'p003', 'quote': 'Orders open in May.'}]}},
-                     'slides': [{'role': 'content', 'title': '$title', 'metric': '$range', 'body': '$orders'}]}
+                     'slides': [{'role': 'content','relation':'claim','design_reason':'One supported range value',
+                                 'title': '$title', 'metric': '$range', 'body': '$orders'}]}
 
     def test_exact_evidence_and_all_source_units_accounted(self):
         result = validate(self.plan, self.source, self.w)
@@ -53,23 +55,23 @@ class CompositionTests(unittest.TestCase):
         with self.assertRaises(ValueError): validate(self.plan, self.source, self.w)
 
     def test_content_selects_layout(self):
-        self.assertEqual(choose_layout({'chart': {}}), 'text')
-        self.assertEqual(choose_layout({'chart': {'series': []}}), 'chart')
-        self.assertEqual(choose_layout({'events': [1]}), 'timeline')
-        self.assertEqual(choose_layout({'image': 'product', 'metrics': [1]}), 'overview')
+        with self.assertRaises(ValueError):choose_layout({'chart':{'series':[]}})
+        self.assertEqual(choose_layout({'relation':'quantitative','design_reason':'Compare observations','chart':{'series':[]}}),'chart')
+        self.assertEqual(choose_layout({'relation':'sequence','design_reason':'Read events in order','events':[1]}),'timeline')
+        with self.assertRaises(ValueError):choose_layout({'relation':'trend','design_reason':'Time change','chart':{'type':'bar'}})
 
     def test_overfull_items_split_without_loss(self):
-        slides = [{'title': '$title', 'image': 'asset', 'items': ['$orders']*7}]
+        slides = [{'title': '$title', 'relation':'detail','design_reason':'Product evidence','image': 'asset', 'items': ['$orders']*15}]
         pages = paginate(slides, self.plan)
-        self.assertEqual(len(pages), 3)
-        self.assertEqual([i for p in pages for i in p['items']], ['$orders']*7)
+        self.assertGreater(len(pages),1)
+        self.assertEqual([i for p in pages for i in p['items']], ['$orders']*15)
         fixed = {**self.plan, 'slide_count': 1}
         with self.assertRaisesRegex(ValueError, 'Content needs'): paginate(slides, fixed)
 
     def test_composes_native_objects_and_defaults(self):
         write(self.w/'plan.json', self.plan)
         result = compose(self.w)
-        self.assertEqual(result['style'], 'teal-launch')
+        self.assertEqual(result['style'], 'editorial-yellow')
         deck = json.loads((self.w/'deck.json').read_text())
         self.assertTrue(all(e['type'] in ('text', 'shape') for e in deck['slides'][0]['elements']))
         self.assertIn('620', [e.get('text') for e in deck['slides'][0]['elements']])
@@ -79,7 +81,7 @@ class CompositionTests(unittest.TestCase):
     def test_plan_edit_invalidates_delivery_snapshot(self):
         write(self.w/'plan.json', self.plan)
         before = snapshot(self.w)
-        self.plan['style'] = 'editorial-yellow'; write(self.w/'plan.json', self.plan)
+        self.plan['style'] = 'teal-launch'; write(self.w/'plan.json', self.plan)
         self.assertNotEqual(before, snapshot(self.w))
 
     def test_initialization_keeps_composed_content_contract(self):

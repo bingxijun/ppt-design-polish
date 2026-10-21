@@ -21,14 +21,14 @@ def main():
             raise SystemExit(str(verification))
         print('Sample built: 3 slides; required text, native chart/table, and relationships checked.')
         print('Visual quality still requires rendering and inspection.')
-    for name in ('launch', 'yellow'):
+    for name in ('launch', 'yellow', 'operations'):
         source = root/'examples'/name
         with tempfile.TemporaryDirectory(prefix='ppt-design-polish-composition-') as tmp:
             workspace = Path(tmp)
             for file in ('plan.json', 'source.json'):
                 shutil.copyfile(source/file, workspace/file)
             for directory in ('assets', 'inputs'):
-                shutil.copytree(source/directory, workspace/directory)
+                shutil.copytree(source/directory, workspace/directory) if (source/directory).exists() else (workspace/directory).mkdir()
             result = compose(workspace)
             init(workspace, result['slides'], 'hybrid')
             artifact = workspace/build(workspace)['artifact']

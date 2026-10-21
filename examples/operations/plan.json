@@ -1,0 +1,642 @@
+{
+  "source_sha256": "d7c556037af05da878c57db5fccb1c259cc33207e5dba80b10850fcd0c44584d",
+  "title": "Dispatch pilot",
+  "brand": "OPERATIONS / PILOT REVIEW",
+  "language": "en-US",
+  "style": "auto",
+  "kind": "operations-review",
+  "design": {
+    "basis": "An internal reading brief: factual headlines, dark brown ink, warm paper, orange reserved for an unresolved evidence gap. Quantitative pages need axes and readable definitions, not decorative photographs.",
+    "palette": {
+      "background": "FAF8F4",
+      "paper": "FAF8F4",
+      "ink": "292623",
+      "muted": "68605A",
+      "rule": "D2C9BF",
+      "accent": "A54516"
+    },
+    "typography": {
+      "headingFont": "Arial",
+      "bodyFont": "Arial",
+      "latinFont": "Arial"
+    },
+    "body_size": 20,
+    "table_size": 17,
+    "furniture": {
+      "brand": true,
+      "page": true
+    }
+  },
+  "claims": {
+    "title": {
+      "text": "Dispatch pilot",
+      "evidence": [
+        {
+          "unit": "p001",
+          "quote": "# Dispatch pilot | operations review"
+        }
+      ]
+    },
+    "sub": {
+      "text": "Four-week operations review",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "A four-week dispatch pilot handled 2,400 orders at one warehouse. The baseline was a separate 2,000-order period. The periods had different order mixes, so the comparison does not establish a causal effect. The decision is whether to extend observation for two more weeks before any wider rollout."
+        }
+      ]
+    },
+    "demo": {
+      "text": "Fictional demonstration. All observations and data are invented.",
+      "evidence": [
+        {
+          "unit": "p002",
+          "quote": "This is a fictional operational review for an open-source presentation example. All counts, rates, dates and observations are invented for demonstration. It is not evidence of a real business outcome."
+        }
+      ]
+    },
+    "decision": {
+      "text": "Observe for two more weeks before deciding on rollout",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "A four-week dispatch pilot handled 2,400 orders at one warehouse. The baseline was a separate 2,000-order period. The periods had different order mixes, so the comparison does not establish a causal effect. The decision is whether to extend observation for two more weeks before any wider rollout."
+        }
+      ]
+    },
+    "context": {
+      "text": "2,400 pilot orders at one warehouse; a separate 2,000-order baseline. Different order mixes prevent a causal conclusion.",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "A four-week dispatch pilot handled 2,400 orders at one warehouse. The baseline was a separate 2,000-order period. The periods had different order mixes, so the comparison does not establish a causal effect. The decision is whether to extend observation for two more weeks before any wider rollout."
+        }
+      ]
+    },
+    "result": {
+      "text": "On-time dispatch reached 95% in week 4",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "baseline": {
+      "text": "88% baseline",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "week4": {
+      "text": "95%",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "definition": {
+      "text": "On-time = carrier handover before the agreed cutoff; cancelled orders excluded.",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "limits": {
+      "text": "Illustrative rounded rates. Per-week denominators are not provided.",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "v0": {
+      "text": "88",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "v1": {
+      "text": "91",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "v2": {
+      "text": "94",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "v3": {
+      "text": "95",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "trend": {
+      "text": "On-time dispatch across the pilot",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "trendnote": {
+      "text": "The four pilot weeks show an upward pattern. The source does not establish why.",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+        }
+      ]
+    },
+    "compare": {
+      "text": "Compare performance and measurement limits",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell0_0": {
+      "text": "Metric",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell0_1": {
+      "text": "Baseline",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell0_2": {
+      "text": "Week 4",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell0_3": {
+      "text": "Definition",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell1_0": {
+      "text": "On-time dispatch",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell1_1": {
+      "text": "88%",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell1_2": {
+      "text": "95%",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell1_3": {
+      "text": "Carrier handover before cutoff",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell2_0": {
+      "text": "Median pick time",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell2_1": {
+      "text": "14 min",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell2_2": {
+      "text": "11 min",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell2_3": {
+      "text": "Pick start to pick complete",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell3_0": {
+      "text": "Exception rate",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell3_1": {
+      "text": "6.0%",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell3_2": {
+      "text": "4.5%",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "cell3_3": {
+      "text": "Orders needing manual intervention",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "tablenote": {
+      "text": "Exception counts and pick-time distributions are not supplied.",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+        }
+      ]
+    },
+    "risks": {
+      "text": "Resolve the gaps before scaling",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+        }
+      ]
+    },
+    "missing": {
+      "text": "40 orders have missing handover timestamps",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+        }
+      ]
+    },
+    "missingbody": {
+      "text": "They were excluded from the on-time rate. Investigate the missingness before interpreting the result.",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+        }
+      ]
+    },
+    "weekend": {
+      "text": "Only 8% of pilot volume came from weekend orders.",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+        }
+      ]
+    },
+    "site": {
+      "text": "One warehouse; no cross-site replication completed.",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+        }
+      ]
+    },
+    "next": {
+      "text": "Extend observation; rollout remains undecided",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "Next steps: extend observation for two more weeks; investigate the 40 missing timestamps with the operations team; include a fuller weekend sample. Wider rollout remains undecided. No owner names or completion dates have been supplied."
+        }
+      ]
+    },
+    "nextbody": {
+      "text": "Observe for two more weeks, investigate the 40 missing timestamps with operations, and include a fuller weekend sample.",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "Next steps: extend observation for two more weeks; investigate the 40 missing timestamps with the operations team; include a fuller weekend sample. Wider rollout remains undecided. No owner names or completion dates have been supplied."
+        }
+      ]
+    },
+    "nextnote": {
+      "text": "Owner names and completion dates have not been supplied.",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "Next steps: extend observation for two more weeks; investigate the 40 missing timestamps with the operations team; include a fuller weekend sample. Wider rollout remains undecided. No owner names or completion dates have been supplied."
+        }
+      ]
+    }
+  },
+  "assets": {},
+  "omitted": [],
+  "slides": [
+    {
+      "role": "cover",
+      "title": "$title",
+      "subtitle": "$sub",
+      "body": "$decision",
+      "footnote": "$demo"
+    },
+    {
+      "layout": "freeform",
+      "title": "$result",
+      "footnote": "$demo",
+      "design_reason": "Separate the observed result from its definition and comparability caveat; only one number is dominant.",
+      "frames": [
+        {
+          "kind": "text",
+          "claim": "$result",
+          "x": 0.75,
+          "y": 1.05,
+          "w": 11.5,
+          "h": 0.8,
+          "size": 32,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "claim": "$week4",
+          "x": 0.75,
+          "y": 2.45,
+          "w": 5.1,
+          "h": 1.4,
+          "size": 88
+        },
+        {
+          "kind": "text",
+          "claim": "$baseline",
+          "x": 0.85,
+          "y": 4.05,
+          "w": 4.5,
+          "h": 0.5,
+          "size": 23
+        },
+        {
+          "kind": "text",
+          "claim": "$definition",
+          "x": 6.5,
+          "y": 2.7,
+          "w": 5.5,
+          "h": 1.5,
+          "size": 23
+        },
+        {
+          "kind": "text",
+          "claim": "$context",
+          "x": 6.5,
+          "y": 4.4,
+          "w": 5.5,
+          "h": 1.5,
+          "size": 19
+        }
+      ]
+    },
+    {
+      "relation": "trend",
+      "title": "$trend",
+      "design_reason": "Preserve time order and zero baseline; endpoint labels are evidence, not marketing claims.",
+      "chart": {
+        "type": "line",
+        "min": 0,
+        "max": 100,
+        "major_unit": 25,
+        "number_format": "0\"%\"",
+        "series": [
+          {
+            "name": "On-time dispatch",
+            "points": [
+              {
+                "label": "Week 1",
+                "value": "$v0"
+              },
+              {
+                "label": "Week 2",
+                "value": "$v1"
+              },
+              {
+                "label": "Week 3",
+                "value": "$v2"
+              },
+              {
+                "label": "Week 4",
+                "value": "$v3"
+              }
+            ]
+          }
+        ]
+      },
+      "items": [
+        {
+          "body": "$trendnote"
+        },
+        {
+          "body": "$limits",
+          "priority": "supporting",
+          "reason": "Rounding and missing denominators qualify the trend."
+        }
+      ],
+      "footnote": "$definition"
+    },
+    {
+      "relation": "comparison",
+      "title": "$compare",
+      "design_reason": "Compare baseline and week 4 in narrow right-aligned numeric columns, leaving width for operational definitions.",
+      "rows": [
+        [
+          "$cell0_0",
+          "$cell0_1",
+          "$cell0_2",
+          "$cell0_3"
+        ],
+        [
+          "$cell1_0",
+          "$cell1_1",
+          "$cell1_2",
+          "$cell1_3"
+        ],
+        [
+          "$cell2_0",
+          "$cell2_1",
+          "$cell2_2",
+          "$cell2_3"
+        ],
+        [
+          "$cell3_0",
+          "$cell3_1",
+          "$cell3_2",
+          "$cell3_3"
+        ]
+      ],
+      "table": {
+        "column_widths": [
+          3.2,
+          1.6,
+          1.6,
+          5.5
+        ],
+        "alignments": [
+          "left",
+          "right",
+          "right",
+          "left"
+        ]
+      },
+      "body": "$tablenote",
+      "footnote": "$demo"
+    },
+    {
+      "layout": "freeform",
+      "title": "$risks",
+      "design_reason": "One unresolved evidence gap leads the page; two smaller scope limitations follow without identical cards.",
+      "footnote": "$demo",
+      "frames": [
+        {
+          "kind": "text",
+          "claim": "$risks",
+          "x": 0.75,
+          "y": 1.08,
+          "w": 11.6,
+          "h": 0.7,
+          "size": 32,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "claim": "$missing",
+          "x": 0.75,
+          "y": 2.45,
+          "w": 7.5,
+          "h": 1.15,
+          "size": 31,
+          "color_role": "accent",
+          "reason": "Missing timestamp evidence is the unresolved issue requiring investigation, not a decorative accent."
+        },
+        {
+          "kind": "text",
+          "claim": "$missingbody",
+          "x": 0.75,
+          "y": 3.85,
+          "w": 7.5,
+          "h": 1.2,
+          "size": 22
+        },
+        {
+          "kind": "text",
+          "claim": "$weekend",
+          "x": 9.0,
+          "y": 2.55,
+          "w": 3.5,
+          "h": 1.3,
+          "size": 20
+        },
+        {
+          "kind": "text",
+          "claim": "$site",
+          "x": 9.0,
+          "y": 4.3,
+          "w": 3.5,
+          "h": 1.3,
+          "size": 20
+        }
+      ]
+    },
+    {
+      "relation": "reading",
+      "title": "$next",
+      "design_reason": "The requested decision and practical follow-up fit a direct reading page; no invented deadline, owners or closing slogan.",
+      "items": [
+        {
+          "body": "$nextbody",
+          "priority": "primary",
+          "reason": "The next action is the decision requested by the brief."
+        },
+        {
+          "body": "$nextnote",
+          "priority": "supporting",
+          "reason": "Keep unspecified commitments explicit."
+        }
+      ],
+      "footnote": "$demo"
+    }
+  ]
+}

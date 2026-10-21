@@ -21,9 +21,9 @@ python3 scripts/install.py --client codex --update
 
 可用 `--skills-dir /path/to/skills` 指定目录。已有同名安装需显式 `--update`，旧目录完整备份在 skill 发现目录之外，例如 `~/.codex/skills-backups/`；如有本地自定义内容，可从备份中取回。
 
-In the installed directory, run `npm install` if `doctor` cannot find PptxGenJS. The builder needs Node.js 22+. Python inspection and template patching use the standard library.
+In the installed directory, run `npm install` if `doctor` cannot find PptxGenJS or @napi-rs/canvas. The builder needs Node.js 22+. Python inspection and template patching use the standard library.
 
-若 `doctor` 找不到 PptxGenJS，在安装目录运行 `npm install`。制作后端需要 Node.js 22+；Python 清点与模板补丁只用标准库。
+若 `doctor` 找不到 PptxGenJS 或 @napi-rs/canvas，在安装目录运行 `npm install`。制作后端需要 Node.js 22+；Python 清点与模板补丁只用标准库。
 
 ## Rendering / 渲染环境
 
@@ -63,10 +63,10 @@ Users only attach materials and invoke the skill. The agent handles the followin
 
 1. Read the entire announcement and extract facts with units/conditions. / 通读原文并提取事实与条件。
 2. Freeze the source with `compose.py prepare`; write grounded `plan.json`. / 固化来源并编写语义计划。
-3. Use teal-launch for product launches, editorial-yellow for business, or the user's brand/reference. / 自动选择默认风格，有参考则遵循参考。
+3. Derive the palette, typography and reading relations from this brief/reference. Teal/yellow are optional recipes. / 从本次材料推导配色、字体和表达关系，青绿与黄色仅为可选参考。
 4. Source/generate purposeful images, compose native objects, render the exported PPTX and inspect every page. / 配图、编排、导出，实看全部页面。
 
-[Plan schema and commands / 完整计划格式与命令](../references/composition-system.md) · [13-page launch source / 发布会源稿](../examples/launch/README.md) · [6-page business source / 商务源稿](../examples/yellow/README.md).
+[Plan schema and commands / 完整计划格式与命令](../references/composition-system.md) · [10-page launch source / 发布会源稿](../examples/launch/README.md) · [5-page studio source / 工作室源稿](../examples/yellow/README.md).
 
 ## Reproduce the sample / 复现示例
 
@@ -135,7 +135,7 @@ The compatibility names below are retained intentionally / 以下兼容名称为
 |---|---|
 | `PPT_BEAUTIFY_NODE` | Explicit Node executable / 指定 Node 可执行文件 |
 | `PPT_BEAUTIFY_NODE_MODULES` | Existing node_modules directories, separated by the OS path delimiter / 已有依赖目录，按系统路径分隔符分开 |
-| `PPT_BEAUTIFY_FONT_DIRS` | Additional font directories for LibreOffice subprocesses / LibreOffice 子进程的额外字体目录 |
+| `PPT_BEAUTIFY_FONT_DIRS` | Additional font directories for measurement and rendering / 测量与渲染使用的额外字体目录 |
 
 Files outside the tracked workspace directories and changing remote resources are not fingerprinted. Save local snapshots first. Existing `FONTCONFIG_FILE` is respected; no system fonts are installed or modified by this skill.
 

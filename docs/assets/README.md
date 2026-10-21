@@ -15,8 +15,14 @@ Project-created visuals are shared under the repository's MIT permission grant t
 项目原创视觉在适用范围内按仓库 MIT 授权共享，不分发第三方商标或字体文件；重新渲染时字体可能因环境变化。
 
 
-## 3.0 assets / 3.0 配图
+## Current composition assets / 当前编排配图
 
 - `composition-workflow.svg/png`: original bilingual workflow diagram, editable SVG source. / 原创双语流程图，附可编辑 SVG。
 - `launch-showcase.jpg`, `yellow-showcase.jpg`: montages of actual final-PPTX renders. / 最终 PPTX 实际渲染页的拼图。
 - Product/architecture imagery and complete built-in imagegen prompts live under `examples/launch/` and `examples/yellow/`. No commercial reference screenshots, third-party keynote images or font files are included. / 产品与建筑配图及提示词见实例目录，不包含商业模板截图、第三方发布会素材或字体文件。
+
+## 4.0 evidence / 4.0 对照
+
+- `evolution-table.jpg`, `evolution-color.jpg`, `evolution-text.jpg`: labelled compositions of actual frozen v3 exports and reviewed v4 exports, same sources/image assets; not a “without skill” benchmark. / 相同原文与素材的实际版本对照。
+- `operations-showcase.jpg`: actual native operations report pages, no generated artwork. / 原生运营简报实际页面。
+- Current montages and workflow PNG can be rebuilt with `tools/render-doc-visuals.mjs` using host-provided sharp and current example render state. Labels are explicit SVG typography; slide pixels are not repainted. / 可从当前渲染状态重新生成拼图与图解，使用宿主 sharp；不重画页面内容。

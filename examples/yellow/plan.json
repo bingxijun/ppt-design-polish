@@ -5,11 +5,6 @@
   "language": "en-US",
   "kind": "business",
   "style": "auto",
-  "fonts": {
-    "headingFont": "Arial",
-    "bodyFont": "Arial",
-    "latinFont": "Arial"
-  },
   "claims": {
     "demo": {
       "text": "Fictional studio and illustrative data. AI-generated imagery.",
@@ -21,11 +16,11 @@
       ]
     },
     "cover": {
-      "text": "Spaces for\nbetter days.",
+      "text": "ATELIER\nNORTH",
       "evidence": [
         {
-          "unit": "p003",
-          "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+          "unit": "p002",
+          "quote": "ATELIER NORTH is a fictional architecture studio."
         }
       ]
     },
@@ -111,7 +106,7 @@
       ]
     },
     "mix": {
-      "text": "A portfolio across three settings",
+      "text": "12 workplaces in a 24-project portfolio",
       "evidence": [
         {
           "unit": "p005",
@@ -165,7 +160,7 @@
       ]
     },
     "processt": {
-      "text": "A clear process from the start",
+      "text": "Discover to deliver",
       "evidence": [
         {
           "unit": "p006",
@@ -316,6 +311,15 @@
           "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
         }
       ]
+    },
+    "approachcopy": {
+      "text": "We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan.",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "Spaces for better days. We design calm workspaces and small cultural buildings through careful use of daylight, tactile materials and a clear floor plan. Our approach is design with room to breathe."
+        }
+      ]
     }
   },
   "slides": [
@@ -328,14 +332,7 @@
       "footnote": "$demo"
     },
     {
-      "role": "chapter",
-      "chapter": "01",
-      "title": "$chapter",
-      "subtitle": "$chapterbody"
-    },
-    {
       "title": "$pavilion",
-      "kicker": "MATERIAL AND LIGHT",
       "image": "pavilion",
       "annotations": [
         {
@@ -354,11 +351,12 @@
           "label": "$olive"
         }
       ],
-      "footnote": "$pavnote"
+      "footnote": "$pavnote",
+      "relation": "callouts",
+      "design_reason": "Anchor material notes to visible details in the cropped architectural photograph."
     },
     {
       "title": "$mix",
-      "kicker": "ILLUSTRATIVE PORTFOLIO",
       "chart": {
         "max": 15,
         "type": "bar",
@@ -380,7 +378,12 @@
               }
             ]
           }
-        ]
+        ],
+        "focus_points": [
+          0
+        ],
+        "focus_reason": "Workplaces account for the largest project count, 12 of 24.",
+        "major_unit": 5
       },
       "items": [
         {
@@ -388,11 +391,12 @@
           "body": "$countbody"
         }
       ],
-      "footnote": "$demo"
+      "footnote": "$demo",
+      "relation": "quantitative",
+      "design_reason": "Compare portfolio counts, with workplace commissions as the focal category."
     },
     {
       "title": "$processt",
-      "kicker": "OUR PROCESS",
       "events": [
         {
           "title": "$st0",
@@ -411,26 +415,44 @@
           "body": "$sb3"
         }
       ],
-      "footnote": "$processnote"
+      "footnote": "$processnote",
+      "relation": "sequence",
+      "design_reason": "Show the actual four-stage service sequence."
     },
     {
+      "layout": "freeform",
       "title": "$approacht",
-      "kicker": "STUDIO APPROACH",
-      "items": [
+      "design_reason": "End with one readable editorial paragraph and a material/light photograph rather than three mechanically equal subheading blocks.",
+      "footnote": "$demo",
+      "frames": [
         {
-          "title": "$lightt",
-          "body": "$lightb"
+          "kind": "text",
+          "claim": "$approacht",
+          "x": 0.7,
+          "y": 1.12,
+          "w": 6.0,
+          "h": 1.25,
+          "size": 34,
+          "bold": true
         },
         {
-          "title": "$matt",
-          "body": "$matb"
+          "kind": "text",
+          "claim": "$approachcopy",
+          "x": 0.72,
+          "y": 3.0,
+          "w": 5.1,
+          "h": 2.25,
+          "size": 23
         },
         {
-          "title": "$plant",
-          "body": "$planb"
+          "kind": "image",
+          "asset": "studio",
+          "x": 6.75,
+          "y": 1.12,
+          "w": 5.9,
+          "h": 5.35
         }
-      ],
-      "footnote": "$demo"
+      ]
     }
   ],
   "omitted": [],
@@ -445,5 +467,47 @@
       "purpose": "Workspace atmosphere, cover background",
       "provenance": "Original built-in imagegen. Fictional architecture. See prompts.json."
     }
+  },
+  "design": {
+    "basis": "User-supplied white/yellow editorial reference, interpreted for a fictional architecture studio; yellow echoes the pavilion entrance.",
+    "palette": {
+      "background": "FAFAF7",
+      "paper": "FFFFFF",
+      "ink": "252621",
+      "accent": "C69300",
+      "highlight": "F3C400",
+      "dark": "252621",
+      "muted": "77796D",
+      "rule": "DDDFD5",
+      "wash": "F4E7AB",
+      "onDark": "FFFFFF",
+      "onDarkMuted": "E4E5DE"
+    },
+    "typography": {
+      "headingFont": "Arial",
+      "bodyFont": "Arial",
+      "latinFont": "Arial"
+    },
+    "structure": {
+      "cover": "editorial",
+      "chapter": "paper"
+    },
+    "furniture": {
+      "brand": true,
+      "page": true
+    },
+    "body_size": 18,
+    "table_size": 19
+  },
+  "slide_count": 5,
+  "unpresented_claims": {
+    "chapter": "Structural label removed with an unnecessary divider/agenda.",
+    "chapterbody": "Structural label removed with an unnecessary divider/agenda.",
+    "lightt": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "lightb": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "matt": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "matb": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "plant": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "planb": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck."
   }
 }

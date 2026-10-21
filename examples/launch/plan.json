@@ -5,11 +5,6 @@
   "language": "zh-CN",
   "kind": "product-launch",
   "style": "auto",
-  "fonts": {
-    "headingFont": "Songti SC",
-    "bodyFont": "Hiragino Sans GB",
-    "latinFont": "Arial"
-  },
   "claims": {
     "demo": {
       "text": "虚构品牌与数据，仅作开源示例。配图由 AI 生成。",
@@ -106,7 +101,7 @@
       ]
     },
     "overview": {
-      "text": "空间，留给每一段日常",
+      "text": "家庭纯电 SUV",
       "evidence": [
         {
           "unit": "p004",
@@ -115,7 +110,7 @@
       ]
     },
     "position": {
-      "text": "纯电 SUV\n宽敞空间\n安静舒适",
+      "text": "面向家庭日常出行\n宽敞空间，安静舒适",
       "evidence": [
         {
           "unit": "p004",
@@ -187,7 +182,7 @@
       ]
     },
     "interiort": {
-      "text": "坐下来，感受空间的温度",
+      "text": "座舱配置与材质",
       "evidence": [
         {
           "unit": "p005",
@@ -196,7 +191,7 @@
       ]
     },
     "materialt": {
-      "text": "触手可及的质感",
+      "text": "织物、皮革与金属",
       "evidence": [
         {
           "unit": "p005",
@@ -205,7 +200,7 @@
       ]
     },
     "materialb": {
-      "text": "浅色织物与细纹皮革，搭配缎面金属饰条。",
+      "text": "浅色织物与细纹皮革，\n搭配缎面金属饰条。",
       "evidence": [
         {
           "unit": "p005",
@@ -214,7 +209,7 @@
       ]
     },
     "seatt": {
-      "text": "照顾每一排乘员",
+      "text": "座椅配置",
       "evidence": [
         {
           "unit": "p005",
@@ -223,7 +218,7 @@
       ]
     },
     "seatb": {
-      "text": "前排加热与通风，后排靠背角度可调。",
+      "text": "前排加热与通风，\n后排靠背角度可调。",
       "evidence": [
         {
           "unit": "p005",
@@ -232,7 +227,7 @@
       ]
     },
     "controlt": {
-      "text": "熟悉的操作方式",
+      "text": "车顶与空调控制",
       "evidence": [
         {
           "unit": "p005",
@@ -241,7 +236,7 @@
       ]
     },
     "controlb": {
-      "text": "全景玻璃车顶配遮阳帘，保留常用空调实体控制。",
+      "text": "全景玻璃车顶配遮阳帘，\n保留常用空调实体控制。",
       "evidence": [
         {
           "unit": "p005",
@@ -286,7 +281,7 @@
       ]
     },
     "charget": {
-      "text": "补能时间，也值得认真设计",
+      "text": "长续航版的快充表现",
       "evidence": [
         {
           "unit": "p007",
@@ -313,7 +308,7 @@
       ]
     },
     "homet": {
-      "text": "夜间，在家充电",
+      "text": "家庭交流充电",
       "evidence": [
         {
           "unit": "p007",
@@ -322,7 +317,7 @@
       ]
     },
     "homeb": {
-      "text": "支持家庭交流充电，本稿未提供交流充电时间。",
+      "text": "可夜间使用家庭交流充电，\n本稿未提供交流充电时间。",
       "evidence": [
         {
           "unit": "p007",
@@ -340,7 +335,7 @@
       ]
     },
     "designt": {
-      "text": "连续的线条，舒展的比例",
+      "text": "珍珠白车身与水平线条",
       "evidence": [
         {
           "unit": "p008",
@@ -358,11 +353,15 @@
       ]
     },
     "designbodyb": {
-      "text": "水平线条、隐藏式门把手与圆润转角。",
+      "text": "深色全景车顶与分体式纤细灯组。\n连续水平线条、隐藏式门把手，\n搭配圆润转角。",
       "evidence": [
         {
           "unit": "p008",
           "quote": "车身设计通过连续的水平线条、隐藏式门把手与圆润转角降低视觉负担。外观采用珍珠白配色，座舱采用浅色内饰。本文配图由 AI 生成，用于表达设计方向，图片细节不构成产品配置承诺。"
+        },
+        {
+          "unit": "p004",
+          "quote": "AERIS ONE 采用珍珠白车身、深色全景车顶和分体式纤细灯组。长续航版的示例 CLTC 续航为 620 km，轴距为 2950 mm。座舱强调宽敞空间和安静舒适，后备厢常规容积为 520 L。"
         }
       ]
     },
@@ -628,7 +627,7 @@
       ]
     },
     "versiont": {
-      "text": "两个版本，同样宽敞的空间",
+      "text": "版本差异与示例售价",
       "evidence": [
         {
           "unit": "p010",
@@ -646,7 +645,7 @@
       ]
     },
     "timelinet": {
-      "text": "从预约，到首批交付",
+      "text": "预约与交付安排",
       "evidence": [
         {
           "unit": "p011",
@@ -745,7 +744,7 @@
       ]
     },
     "warrantyt": {
-      "text": "质保信息，明确呈现",
+      "text": "整车与电池质保",
       "evidence": [
         {
           "unit": "p012",
@@ -833,6 +832,60 @@
           "quote": "本次发布以 AERIS ONE 为唯一产品。标准版 ¥199,800 起，长续航版 ¥229,800。用户可从 10 月 21 日开始免费预约，所有售价、性能、交付与质保信息均仅用于此开源演示。"
         }
       ]
+    },
+    "common": {
+      "text": "两版均为 2950 mm 轴距、520 L 后备厢。",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "车型提供标准版和长续航版。标准版示例售价为 ¥199,800，CLTC 续航 510 km，轴距 2950 mm，后备厢容积 520 L。长续航版示例售价为 ¥229,800，CLTC 续航 620 km，轴距 2950 mm，后备厢容积 520 L。只有长续航版在本稿提供 10% 至 80% 快充 18 分钟的示例数据。"
+        }
+      ]
+    },
+    "overviewconditions": {
+      "text": "620 km 为长续航版示例 CLTC 标称值；实际续航受温度、速度、路况与载荷影响。",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "长续航版示例 CLTC 续航为 620 km，标准版为 510 km。CLTC 为本示例设定的标称工况，实际续航受温度、速度、路况与载荷影响。两版本的数据不能作为真实车辆购买依据。"
+        }
+      ]
+    },
+    "surveyheading": {
+      "text": "续航是首要关注项",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "示例需求调研共 240 人，问卷为单选。受访者最关注的项目分别是续航 38%、补能 31%、空间 21%、其他 10%。四项比例合计 100%。这些是演示数据，不是市场研究结论。"
+        }
+      ]
+    },
+    "wholevalue": {
+      "text": "5 年 / 120,000 km",
+      "evidence": [
+        {
+          "unit": "p012",
+          "quote": "整车示例质保为 5 年或 120,000 km，以先到者为准。电池示例质保为 8 年或 160,000 km，以先到者为准。质保的其他条款未在本稿提供，需要以最终正式说明为准。"
+        }
+      ]
+    },
+    "batteryvalue": {
+      "text": "8 年 / 160,000 km",
+      "evidence": [
+        {
+          "unit": "p012",
+          "quote": "整车示例质保为 5 年或 120,000 km，以先到者为准。电池示例质保为 8 年或 160,000 km，以先到者为准。质保的其他条款未在本稿提供，需要以最终正式说明为准。"
+        }
+      ]
+    },
+    "first": {
+      "text": "以先到者为准",
+      "evidence": [
+        {
+          "unit": "p012",
+          "quote": "整车示例质保为 5 年或 120,000 km，以先到者为准。电池示例质保为 8 年或 160,000 km，以先到者为准。质保的其他条款未在本稿提供，需要以最终正式说明为准。"
+        }
+      ]
     }
   },
   "assets": {
@@ -883,26 +936,7 @@
       "footnote": "$demo"
     },
     {
-      "role": "agenda",
-      "title": "$agenda",
-      "kicker": "CONTENTS",
-      "items": [
-        "$a1",
-        "$a2",
-        "$a3",
-        "$a4"
-      ]
-    },
-    {
-      "role": "chapter",
-      "chapter": "01",
-      "title": "$a1",
-      "subtitle": "$chapter",
-      "section": "PRODUCT OVERVIEW"
-    },
-    {
       "title": "$overview",
-      "kicker": "AERIS ONE",
       "image": "profile",
       "body": "$position",
       "metrics": [
@@ -919,21 +953,22 @@
           "label": "$bootl"
         }
       ],
-      "footnote": "$overviewnote",
-      "section": "产品概览"
+      "footnote": "$overviewconditions",
+      "relation": "overview",
+      "design_reason": "Relate the side profile to three physical specifications."
     },
     {
       "title": "$interiort",
-      "kicker": "CABIN EXPERIENCE",
       "image": "interior",
       "items": [
         {
-          "title": "$materialt",
-          "body": "$materialb"
+          "body": "$seatb",
+          "priority": "primary",
+          "reason": "The headline feature is seat comfort; materials and controls are supporting specifications."
         },
         {
-          "title": "$seatt",
-          "body": "$seatb"
+          "title": "$materialt",
+          "body": "$materialb"
         },
         {
           "title": "$controlt",
@@ -941,50 +976,88 @@
         }
       ],
       "footnote": "$demo",
-      "section": "座舱与设计"
-    },
-    {
-      "title": "$ranget",
-      "metric": "$rangev",
-      "unit": "$rangeunit",
-      "body": "$rangebody",
-      "footnote": "$rangenote",
-      "section": "续航与补能"
+      "relation": "detail",
+      "design_reason": "Show seating, materials and controls alongside the cabin, without equal emphasis."
     },
     {
       "title": "$charget",
-      "kicker": "CHARGING",
       "image": "charging",
-      "items": [
+      "footnote": "$chargenote",
+      "design_reason": "Duration is the main release fact: a large native number, with interval/version and conditions nearby. Home charging remains secondary. The photograph supplies context.",
+      "layout": "freeform",
+      "frames": [
         {
-          "title": "$fastcharget",
-          "body": "$fastchargeb"
+          "kind": "text",
+          "claim": "$charget",
+          "x": 0.7,
+          "y": 1.15,
+          "w": 11.9,
+          "h": 0.65,
+          "size": 32,
+          "font_role": "headingFont"
         },
         {
-          "title": "$homet",
-          "body": "$homeb"
+          "kind": "text",
+          "claim": "$fastcharget",
+          "x": 0.7,
+          "y": 2.55,
+          "w": 4.55,
+          "h": 1.0,
+          "size": 54
+        },
+        {
+          "kind": "text",
+          "claim": "$fastchargeb",
+          "x": 0.72,
+          "y": 3.95,
+          "w": 4.45,
+          "h": 1.15,
+          "size": 19
+        },
+        {
+          "kind": "text",
+          "claim": "$homet",
+          "x": 0.72,
+          "y": 5.5,
+          "w": 4.45,
+          "h": 0.4,
+          "size": 17,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "claim": "$homeb",
+          "x": 0.72,
+          "y": 5.98,
+          "w": 4.45,
+          "h": 0.65,
+          "size": 16
+        },
+        {
+          "kind": "image",
+          "asset": "charging",
+          "x": 5.75,
+          "y": 2.52,
+          "w": 6.93,
+          "h": 4.12
         }
-      ],
-      "footnote": "$chargenote",
-      "section": "续航与补能"
+      ]
     },
     {
       "title": "$designt",
-      "kicker": "EXTERIOR DESIGN",
       "image": "detail",
       "secondary_image": "road",
       "items": [
         {
-          "title": "$designbodyt",
           "body": "$designbodyb"
         }
       ],
       "footnote": "$designnote",
-      "section": "座舱与设计"
+      "relation": "gallery",
+      "design_reason": "Compare surface detail with exterior context, not repeated product cutouts."
     },
     {
-      "title": "$surveyt",
-      "kicker": "ILLUSTRATIVE SURVEY",
+      "title": "$surveyheading",
       "chart": {
         "type": "bar",
         "max": 50,
@@ -1010,24 +1083,30 @@
               }
             ]
           }
-        ]
+        ],
+        "focus_points": [
+          0
+        ],
+        "focus_reason": "The largest preference is range at 38%; other categories remain comparison context.",
+        "major_unit": 10,
+        "number_format": "0\"%\""
       },
       "items": [
         {
-          "title": "$surveybodyt",
           "body": "$surveybodyb"
         },
         {
-          "title": "$surveyqualt",
-          "body": "$surveyqualb"
+          "body": "$surveyqualb",
+          "priority": "supporting",
+          "reason": "Method and limitation are secondary to the ranked observations, but remain visible."
         }
       ],
       "footnote": "$surveynote",
-      "section": "需求与产品"
+      "relation": "quantitative",
+      "design_reason": "Rank four mutually exclusive preferences with one focal category."
     },
     {
       "title": "$versiont",
-      "kicker": "VERSIONS",
       "rows": [
         [
           "$cell0_0",
@@ -1045,27 +1124,37 @@
           "$cell2_2"
         ],
         [
-          "$cell3_0",
-          "$cell3_1",
-          "$cell3_2"
-        ],
-        [
-          "$cell4_0",
-          "$cell4_1",
-          "$cell4_2"
-        ],
-        [
           "$cell5_0",
           "$cell5_1",
           "$cell5_2"
         ]
       ],
       "footnote": "$versionnote",
-      "section": "版本与交付"
+      "body": "$common",
+      "table": {
+        "column_widths": [
+          4.8,
+          3.2,
+          3.94
+        ],
+        "alignments": [
+          "left",
+          "right",
+          "right"
+        ],
+        "emphasis_cells": [
+          [
+            2,
+            2
+          ]
+        ],
+        "emphasis_reason": "620 km distinguishes the long-range version; price and charge differences remain plainly readable."
+      },
+      "relation": "comparison",
+      "design_reason": "Compare only differing specifications; shared dimensions are a separate note."
     },
     {
       "title": "$timelinet",
-      "kicker": "AVAILABILITY",
       "events": [
         {
           "date": "$d1",
@@ -1084,36 +1173,162 @@
         }
       ],
       "footnote": "$timenote",
-      "section": "版本与交付"
+      "relation": "sequence",
+      "design_reason": "Read dates in chronological order with availability limits."
     },
     {
+      "layout": "freeform",
       "title": "$warrantyt",
-      "kicker": "OWNERSHIP",
-      "items": [
-        {
-          "title": "$wholet",
-          "body": "$wholeb"
-        },
-        {
-          "title": "$batteryt",
-          "body": "$batteryb"
-        },
-        {
-          "title": "$termt",
-          "body": "$termb"
-        }
-      ],
+      "design_reason": "Two warranty scopes need a comparison in the same reading band, with their common legal qualifier below rather than three uniform summary blocks.",
       "footnote": "$demo",
-      "section": "版本与交付"
+      "frames": [
+        {
+          "kind": "text",
+          "claim": "$warrantyt",
+          "x": 0.75,
+          "y": 1.05,
+          "w": 11.8,
+          "h": 0.7,
+          "size": 32,
+          "font_role": "headingFont"
+        },
+        {
+          "kind": "text",
+          "claim": "$wholet",
+          "x": 0.75,
+          "y": 2.55,
+          "w": 4.9,
+          "h": 0.4,
+          "size": 18
+        },
+        {
+          "kind": "text",
+          "claim": "$wholevalue",
+          "x": 0.75,
+          "y": 3.2,
+          "w": 5.1,
+          "h": 0.85,
+          "size": 28
+        },
+        {
+          "kind": "text",
+          "claim": "$batteryt",
+          "x": 7.0,
+          "y": 2.55,
+          "w": 5.1,
+          "h": 0.4,
+          "size": 18
+        },
+        {
+          "kind": "text",
+          "claim": "$batteryvalue",
+          "x": 7.0,
+          "y": 3.2,
+          "w": 5.35,
+          "h": 0.85,
+          "size": 28
+        },
+        {
+          "kind": "rule",
+          "x": 0.75,
+          "y": 5.4,
+          "w": 11.8,
+          "h": 0
+        },
+        {
+          "kind": "text",
+          "claim": "$termb",
+          "x": 0.75,
+          "y": 5.8,
+          "w": 10.8,
+          "h": 0.8,
+          "size": 18
+        },
+        {
+          "kind": "text",
+          "claim": "$first",
+          "x": 0.75,
+          "y": 4.2,
+          "w": 5,
+          "h": 0.45,
+          "size": 18
+        },
+        {
+          "kind": "text",
+          "claim": "$first",
+          "x": 7,
+          "y": 4.2,
+          "w": 5,
+          "h": 0.45,
+          "size": 18
+        }
+      ]
     },
     {
       "role": "close",
       "title": "$closet",
       "metric": "$price",
       "body": "$closebody",
-      "footnote": "$demo",
-      "section": "新车发布会"
+      "footnote": "$demo"
     }
   ],
-  "omitted": []
+  "omitted": [],
+  "design": {
+    "basis": "User-supplied teal product-launch reference: cinematic hero, serif Chinese headlines, pale evidence pages.",
+    "palette": {
+      "background": "F5F9F8",
+      "paper": "FFFFFF",
+      "ink": "183B40",
+      "accent": "28747A",
+      "dark": "073B46",
+      "muted": "688084",
+      "rule": "CDDDDD",
+      "wash": "E6F0EE",
+      "onDark": "FFFFFF",
+      "onDarkMuted": "D6E7E7"
+    },
+    "typography": {
+      "headingFont": "Songti SC",
+      "bodyFont": "Hiragino Sans GB",
+      "latinFont": "Arial"
+    },
+    "structure": {
+      "cover": "cinematic",
+      "chapter": "dark"
+    },
+    "furniture": {
+      "brand": true,
+      "page": true
+    },
+    "body_size": 18,
+    "table_size": 19
+  },
+  "slide_count": 10,
+  "unpresented_claims": {
+    "agenda": "Structural label removed with an unnecessary divider/agenda.",
+    "a1": "Structural label removed with an unnecessary divider/agenda.",
+    "a2": "Structural label removed with an unnecessary divider/agenda.",
+    "a3": "Structural label removed with an unnecessary divider/agenda.",
+    "a4": "Structural label removed with an unnecessary divider/agenda.",
+    "chapter": "Structural label removed with an unnecessary divider/agenda.",
+    "overviewnote": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "seatt": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "ranget": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "rangeunit": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "rangebody": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "rangenote": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "designbodyt": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "surveyt": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "surveybodyt": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "surveyqualt": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "cell3_0": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "cell3_1": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "cell3_2": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "cell4_0": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "cell4_1": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "cell4_2": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "termt": "Replaced by a specific headline or consolidated with the same source facts on the final pages; see source and rendered deck.",
+    "batteryb": "The same warranty facts and first-to-occur condition are presented as separate native value/condition fields on slide 9.",
+    "wholeb": "The same warranty facts and first-to-occur condition are presented as separate native value/condition fields on slide 9."
+  }
 }

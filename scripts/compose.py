@@ -12,6 +12,8 @@ import json
 import math
 from pathlib import Path
 import re
+from editorial import design_tokens, semantic_layout, flow_items, table_geometry, audit
+from typography import TextMetrics
 
 ROOT = Path(__file__).resolve().parents[1]
 PRESETS = json.loads((ROOT/'references/launch-presets.json').read_text())
@@ -107,30 +109,7 @@ def validate(plan, source, workspace):
 
 
 def choose_layout(slide):
-    if slide.get('layout'):
-        return slide['layout']
-    role = slide.get('role', 'content')
-    if role in ('cover', 'agenda', 'chapter', 'close'):
-        return role
-    if slide.get('chart'):
-        return 'chart'
-    if slide.get('rows'):
-        return 'comparison'
-    if slide.get('events'):
-        return 'timeline'
-    if slide.get('annotations'):
-        return 'annotated'
-    if slide.get('images'):
-        return 'photo-grid'
-    if slide.get('metric'):
-        return 'statement'
-    if slide.get('metrics') and slide.get('image'):
-        return 'overview'
-    if slide.get('secondary_image'):
-        return 'spread'
-    if slide.get('image'):
-        return 'feature'
-    return 'text'
+    return semantic_layout(slide)
 
 
 def resolve(ref, plan):
@@ -139,36 +118,45 @@ def resolve(ref, plan):
     return plan['claims'][ref[1:]]['text']
 
 
-def text_weight(text):
-    return sum(1 if ord(c) > 255 else .52 for c in text)
-
-
-def paginate(slides, plan):
+def paginate(slides, plan, metrics=None):
+    if metrics is None:
+        with TextMetrics() as worker:
+            return paginate(slides,plan,worker)
+    _,tokens=design_tokens(plan,PRESETS)
+    font=tokens['bodyFont']
     result = []
     for original in slides:
         slide = copy.deepcopy(original)
         layout = choose_layout(slide)
         slide['layout'] = layout
-        # Bound list lengths and actual text volume. Never silently drop items or
-        # shrink everything to make it fit. Fixed slide-count requests are checked.
-        key, capacity, budget = ('items', 4, 250)
-        if layout == 'feature': capacity, budget = 3, 150
-        if layout == 'agenda': capacity, budget = 4, 100
-        if layout == 'spread': capacity, budget = 2, 90
-        if layout == 'timeline': key, capacity, budget = 'events', 4, 220
-        if layout == 'comparison': key, capacity, budget = 'rows', 6, 300
+        if layout=='freeform':
+            result.append(slide);continue
+        key='rows' if layout=='comparison' else ('events' if layout=='timeline' else 'items')
         items = slide.get(key, [])
         if layout == 'comparison':
             header, items = items[:1], items[1:]
         else: header = []
-        groups, group, weight = [], [], 0
+        def fits(chunk):
+            if layout=='comparison':
+                rows=[[resolve(cell,plan) for cell in row] for row in header+chunk]
+                table_geometry(rows,slide.get('table',{}),metrics,font,tokens['tableSize'],11.94,3.9)
+            elif layout=='timeline':
+                if len(chunk)>4:raise ValueError('Timeline needs another page')
+            elif layout=='agenda':
+                if len(chunk)>4:raise ValueError('Agenda needs another page')
+            else:
+                width,height={'feature':(4.27 if slide.get('image_side')=='left' else 4.55,4.1),
+                              'spread':(4.25,1.5),'photo-grid':(7.63,1.54),
+                              'chart':(3.55,3.7)}.get(layout,(11.8,3.95))
+                flow_items(chunk,lambda ref:resolve(ref,plan),metrics,font,width,height,tokens['bodySize'])
+        groups, group = [], []
         for item in items:
-            item_weight = sum(text_weight(resolve('$'+r, plan)) for r in references(item))
-            if item_weight > budget:
-                raise ValueError('A single content item exceeds the layout budget; split the claim semantically')
-            if group and (len(group) >= capacity or weight + item_weight > budget):
-                groups.append(group); group, weight = [], 0
-            group.append(item); weight += item_weight
+            try: fits(group+[item])
+            except ValueError:
+                if not group:raise
+                groups.append(group);group=[]
+                fits([item])
+            group.append(item)
         if group: groups.append(group)
         for i, chunk in enumerate(groups or [[]]):
             page = copy.deepcopy(slide)
@@ -181,29 +169,28 @@ def paginate(slides, plan):
 
 
 class Composer:
-    def __init__(self, plan, workspace):
+    def __init__(self, plan, workspace, metrics):
         self.plan, self.workspace = plan, workspace
-        name = plan.get('style', 'auto')
-        if name == 'auto':
-            name = 'teal-launch' if plan.get('kind') == 'product-launch' else 'editorial-yellow'
-        if name not in PRESETS: raise ValueError(f'Unknown style {name}')
-        self.style_name = name
-        self.t = copy.deepcopy(PRESETS[name])
-        self.t.update(plan.get('fonts', {}))
+        self.metrics = metrics
+        self.style_name, self.t = design_tokens(plan, PRESETS)
+        for role in ('headingFont','bodyFont','latinFont'):
+            result = metrics.query({'op':'width','text':'Hg','font':self.t[role],'size':18})
+            self.t[role] = result['font']
         self.assets = plan.get('assets', {})
         self.slides, self.contract, self.manifest = [], {}, []
         self.e = []
 
     def txt(self, text, x, y, w, h, size=18, color=None, font=None, **options):
-        # Fit estimates catch obvious overflow before export. Actual glyph metrics
-        # differ across Office/font engines, so rendering remains mandatory.
-        estimated_lines = sum(max(1, math.ceil(text_weight(line)*size/(w*72))) for line in text.split('\n'))
-        if estimated_lines*size*1.1 > h*72 + 5:
+        font = font or self.t['bodyFont']
+        measured = self.metrics.wrap(text, font, size, w, bold=options.get('bold',False),
+                                     leading=1.06 if size>=30 else 1.28)
+        if measured['overlong'] or measured['height'] > h*72 + 5:
             raise ValueError(f'Text does not fit {size}pt box: {text[:70]!r}; shorten or repaginate')
-        self.e.append({'type': 'text', 'text': text, 'options': {
+        self.e.append({'type': 'text', 'text': '\n'.join(measured['lines']), 'options': {
             'x': x, 'y': y, 'w': w, 'h': h, 'fontSize': size,
-            'fontFace': font or self.t['bodyFont'], 'color': color or self.t['ink'],
-            'margin': 0, 'breakLine': False, 'valign': 'mid', 'paraSpaceAfterPt': 0, **options}})
+            'fontFace': measured['font'], 'color': color or self.t['ink'],
+            'margin': 0, 'breakLine': False, 'valign': 'top', 'paraSpaceAfterPt': 0,
+            'lineSpacing': measured['lineHeight'], 'lang': self.plan.get('language','en-US'), **options}})
 
     def content(self, ref, *args, **kwargs):
         self.txt(resolve(ref, self.plan), *args, **kwargs)
@@ -229,34 +216,117 @@ class Composer:
                        'options': {'x': x, 'y': y, 'w': w, 'h': h}})
 
     def chrome(self, slide, page, dark=False):
-        color = 'D2E4E3' if dark else self.t['muted']
-        self.txt(self.plan.get('brand', 'PRESENTATION'), .65, .28, 5, .25, 10, color,
-                 self.t['latinFont'], bold=True, charSpacing=2)
-        self.txt(slide.get('section', ''), 8.5, .28, 4.16, .25, 9, color, align='right')
-        self.txt(f'{page:02}', 12.2, 6.97, .47, .22, 9, color, self.t['latinFont'], align='right')
+        color = self.t['onDarkMuted'] if dark else self.t['muted']
+        furniture = self.t['furniture']
+        if furniture.get('brand'):
+            self.txt(self.plan.get('brand', ''), .65, .28, 5, .25, 10, color,
+                     self.t['latinFont'], bold=True)
+        if furniture.get('section'):
+            self.txt(slide.get('section', ''), 8.5, .28, 4.16, .25, 9, color, align='right')
+        if furniture.get('page'):
+            self.txt(f'{page:02}', 12.2, 6.97, .47, .22, 9, color, self.t['latinFont'], align='right')
         if slide.get('footnote'):
             self.content(slide['footnote'], .65, 6.93, 11.1, .31, 9, color)
 
     def heading(self, s):
         if s.get('kicker'):
-            self.txt(s['kicker'].upper(), .65, .83, 11.8, .23, 10, self.t['accent'], self.t['latinFont'], charSpacing=2)
+            self.txt(s['kicker'], .65, .83, 11.8, .23, 10, self.t['muted'], self.t['latinFont'])
         self.content(s['title'], .65, 1.15, 11.9, .65, 32, font=self.t['headingFont'])
         if s.get('subtitle'):
             self.content(s['subtitle'], .68, 1.91, 11.8, .38, 13, self.t['muted'])
 
     def items(self, items, x, y, w, height, dark=False):
-        if not items: return
-        row = height/len(items)
-        color, muted = ('FFFFFF', 'C6DCDB') if dark else (self.t['ink'], self.t['muted'])
-        for i, item in enumerate(items):
-            yy = y+i*row
-            self.line(x, yy, w, '39636B' if dark else None)
-            if isinstance(item, str):
-                self.content(item, x, yy+.16, w, row-.24, 18, color)
-            else:
-                self.content(item['title'], x, yy+.16, w, .38, 19, color, bold=True)
-                if item.get('body'):
-                    self.content(item['body'], x, yy+.66, w, row-.75, 15, muted, valign='top')
+        blocks = flow_items(items, lambda ref:resolve(ref,self.plan), self.metrics,
+                            self.t['bodyFont'], w, height, self.t['bodySize'])
+        for block in blocks:
+            if block['separator']: self.line(x, y+block['y'], w)
+            color = self.t['onDark'] if dark else self.t['ink']
+            if block['priority']=='supporting': color=self.t['onDarkMuted'] if dark else self.t['muted']
+            for part in block['parts']:
+                self.txt(part['text'],x,y+part['y'],w,part['h'],part['size'],color,
+                         bold=part['bold'])
+
+    def table(self, s, x=.7, y=2.65, w=11.94, h=3.9):
+        t=self.t; config=s.get('table',{})
+        rows=[[resolve(cell,self.plan) for cell in row] for row in s['rows']]
+        if not rows: raise ValueError('Table needs rows')
+        size=config.get('font_size',t['tableSize'])
+        widths,heights,aligns=table_geometry(rows,config,self.metrics,t['bodyFont'],size,w,h)
+        emphasis={tuple(cell) for cell in config.get('emphasis_cells',[])}
+        if emphasis and not config.get('emphasis_reason'): raise ValueError('Table emphasis needs an information-specific reason')
+        if any(len(cell)!=2 or any(type(v) is not int for v in cell) or
+               not 0<=cell[0]<len(rows) or not 0<=cell[1]<len(rows[0]) for cell in emphasis):
+            raise ValueError('Table emphasis cell outside the data')
+        styled=[]
+        for i,row in enumerate(rows):
+            cells=[]
+            for j,cell in enumerate(row):
+                border=[{'color':t['rule'],'pt':.7 if i==0 else .3},
+                        {'color':t['paper'],'pt':0},
+                        {'color':t['rule'],'pt':.7 if i==0 or i==len(rows)-1 else .3},
+                        {'color':t['paper'],'pt':0}]
+                options={'fill':config.get('header_fill',t['paper']) if i==0 else t['paper'],
+                    'color':config.get('header_color',t['ink']) if i==0 else t['ink'],
+                    'bold':i==0 or (i,j) in emphasis,'align':aligns[j], 'border':border,
+                    'fontFace':t['bodyFont']}
+                cells.append({'text':cell,'options':options})
+            styled.append(cells)
+        self.e.append({'type':'table','rows':styled,'options':{'x':x,'y':y,'w':w,'h':sum(heights),
+            'fontFace':t['bodyFont'],'fontSize':size,'color':t['ink'], 'rowH':heights,
+            'margin':[.1,.14,.1,.14],'colW':widths,'valign':'mid'}})
+        if s.get('body'):
+            self.content(s['body'],x,y+sum(heights)+.28,w,.8,self.t['bodySize'])
+
+    def chart(self,s,x=.75,y=2.7,w=7.6,h=3.85):
+        t=self.t; chart=s['chart']; data=[]
+        for series in chart['series']:
+            values=[float(resolve(p['value'],self.plan).replace(',','')) for p in series['points']]
+            data.append({'name':series['name'],'labels':[p['label'] for p in series['points']],'values':values})
+        focus=chart.get('focus_points',[])
+        if len(data)>1 and (len(chart.get('series_colors',[]))!=len(data) or not chart.get('series_color_reason')):
+            raise ValueError('Multiple series need distinct series_colors and a semantic series_color_reason')
+        if focus and chart.get('series_colors'):
+            raise ValueError('Choose point focus or series colors, not both')
+        if focus and (len(data)!=1 or not chart.get('focus_reason')):
+            raise ValueError('Point emphasis needs one series and a substantive focus_reason')
+        if any(type(i) is not int or i<0 or i>=len(data[0]['values']) for i in focus):
+            raise ValueError('Chart focus point outside the data')
+        colors=chart.get('series_colors') or ([t['accent'] if i in focus else t['ink']
+                                             for i in range(len(data[0]['values']))] if focus else [t['ink']])
+        opts={'x':x,'y':y,'w':w,'h':h,'catAxisLabelFontSize':14,'valAxisLabelFontSize':11,
+              'valAxisMinVal':chart.get('min',0),'catAxisLineShow':False,'valAxisLineShow':False,
+              'showValue':True,'dataLabelPosition':'outEnd','dataLabelFormatCode':chart.get('number_format','0'),
+              'dataLabelColor':t['ink'],'dataLabelFontSize':15,'showLegend':len(data)>1,
+              'chartColors':colors,'showTitle':False,'showMarker':chart.get('type')=='line',
+              'showBorder':False,'showSerName':False,'gapSize':100,
+              'catAxisLabelColor':t['ink'],'valAxisLabelColor':t['muted'],
+              'valGridLine':{'style':'none'},'catGridLine':{'style':'none'},
+              'barDir':chart.get('orientation','col')}
+        if chart.get('max') is not None:opts['valAxisMaxVal']=chart['max']
+        if chart.get('major_unit') is not None:opts['valAxisMajorUnit']=chart['major_unit']
+        if chart.get('type')=='line': opts['dataLabelPosition']='t'
+        self.e.append({'type':'chart','chartType':chart.get('type','bar'),'data':data,'options':opts})
+
+    def freeform(self,s,page):
+        if not s.get('design_reason','').strip() or not s.get('frames'):
+            raise ValueError('Custom composition needs frames and a design_reason')
+        self.chrome(s,page,s.get('dark',False))
+        for frame in s.get('frames',[]):
+            kind=frame['kind']; x,y,w,h=[frame[k] for k in ('x','y','w','h')]
+            if min(x,y)<0 or w<=0 or (h<=0 and kind!='rule') or x+w>W+.01 or y+h>H+.01:
+                raise ValueError('Custom composition frame is outside the slide')
+            if kind=='text':
+                role=frame.get('color_role','ink')
+                if role=='accent' and not frame.get('reason'):
+                    raise ValueError('Accent text needs a meaning-specific reason')
+                self.content(frame['claim'],x,y,w,h,frame.get('size',self.t['bodySize']),
+                    self.t[role],self.t[frame.get('font_role','bodyFont')],
+                    bold=frame.get('bold',False),align=frame.get('align','left'))
+            elif kind=='image':self.image(frame['asset'],x,y,w,h)
+            elif kind=='table':self.table(s,x,y,w,h)
+            elif kind=='chart':self.chart(s,x,y,w,h)
+            elif kind=='rule':self.line(x,y,w)
+            else:raise ValueError(f'Unsupported custom frame {kind}')
 
     def render(self, s, page):
         self.e = []
@@ -266,10 +336,10 @@ class Composer:
             if t['cover'] == 'cinematic':
                 self.image(s['image'], 0, 0, W, H)
                 self.chrome(s, page, True)
-                self.content(s['title'], .7, 1.42, 6.8, 1.7, 42, 'FFFFFF', t['headingFont'])
-                if s.get('subtitle'): self.content(s['subtitle'], .74, 3.35, 5.3, .55, 16, 'D2E4E3')
-                if s.get('body'): self.content(s['body'], .74, 5.92, 4.8, .7, 12, 'D2E4E3')
-            else:
+                self.content(s['title'], .7, 1.42, 6.8, 1.7, 42, t['onDark'], t['headingFont'])
+                if s.get('subtitle'): self.content(s['subtitle'], .74, 3.35, 5.3, .55, 16, t['onDarkMuted'])
+                if s.get('body'): self.content(s['body'], .74, 5.92, 4.8, .7, 12, t['onDarkMuted'])
+            elif t['cover']=='editorial':
                 self.image(s['image'], 6.75, 0, 6.59, H)
                 self.rect(0, 0, 6.75, H, t['paper'])
                 self.rect(.65, 1.17, .65, .11, t['highlight'])
@@ -277,14 +347,19 @@ class Composer:
                 self.content(s['title'], .65, 1.75, 5.9, 2.1, 40, font=t['headingFont'], bold=True)
                 if s.get('subtitle'): self.content(s['subtitle'], .68, 4.18, 5.3, .7, 18)
                 if s.get('body'): self.content(s['body'], .68, 5.9, 5.5, .65, 12, t['muted'])
+            else:
+                self.chrome(s,page)
+                self.content(s['title'],.75,1.65,11.8,2.0,44,font=t['headingFont'],bold=True)
+                if s.get('subtitle'):self.content(s['subtitle'],.78,4.0,10,.8,23)
+                if s.get('body'):self.content(s['body'],.78,5.65,10,.7,17,t['muted'])
         elif layout == 'chapter':
             dark = t['chapter'] == 'dark'
             background = t['dark'] if dark else t['paper']
             self.chrome(s, page, dark)
             self.txt(s.get('chapter', '01'), .65, 1.08, 5, 2.1, 130,
-                     '31616A' if dark else t['highlight'], t['latinFont'])
-            self.content(s['title'], .75, 3.48, 7.1, 1.3, 42, 'FFFFFF' if dark else t['ink'], t['headingFont'])
-            if s.get('subtitle'): self.content(s['subtitle'], .79, 5.15, 6.2, .6, 15, 'C6DCDB' if dark else t['muted'])
+                     t['chapterNumber'], t['latinFont'])
+            self.content(s['title'], .75, 3.48, 7.1, 1.3, 42, t['onDark'] if dark else t['ink'], t['headingFont'])
+            if s.get('subtitle'): self.content(s['subtitle'], .79, 5.15, 6.2, .6, 15, t['onDarkMuted'] if dark else t['muted'])
             if s.get('image'): self.image(s['image'], 8.3, 1.1, 4.38, 5.58)
         elif layout == 'agenda':
             self.chrome(s, page); self.heading(s)
@@ -301,7 +376,8 @@ class Composer:
             if len(metrics) > 4: raise ValueError('Overview supports at most four metrics; split content')
             for i, m in enumerate(metrics):
                 x = .7+i*(11.96/len(metrics))
-                self.content(m['value'], x, 5.71, 2.8, .6, 33, t['accent'], t['latinFont'])
+                if m.get('emphasis') and not m.get('reason'):raise ValueError('Metric emphasis needs a reason')
+                self.content(m['value'], x, 5.71, 2.8, .6, 33, t['accent'] if m.get('emphasis') else t['ink'], t['latinFont'])
                 self.content(m['label'], x, 6.4, 2.8, .35, 12, t['muted'])
         elif layout == 'feature':
             self.chrome(s, page); self.heading(s)
@@ -342,48 +418,17 @@ class Composer:
                 self.content(a['label'], 9.32, yy, 3.22, .75, 19)
         elif layout == 'statement':
             background = t['dark']; self.chrome(s, page, True)
-            self.content(s['title'], .75, 1.1, 11.9, .75, 31, 'FFFFFF', t['headingFont'])
-            self.content(s['metric'], .7, 2.43, 8, 1.7, 105, 'FFFFFF', t['latinFont'])
-            if s.get('unit'): self.content(s['unit'], 8.62, 3.2, 3.9, .65, 25, 'C6DCDB')
-            if s.get('body'): self.content(s['body'], .8, 5.2, 10.8, .9, 21, 'C6DCDB')
+            self.content(s['title'], .75, 1.1, 11.9, .75, 31, t['onDark'], t['headingFont'])
+            self.content(s['metric'], .7, 2.43, 8, 1.7, 105, t['onDark'], t['latinFont'])
+            if s.get('unit'): self.content(s['unit'], 8.62, 3.2, 3.9, .65, 25, t['onDarkMuted'])
+            if s.get('body'): self.content(s['body'], .8, 5.2, 10.8, .9, 21, t['onDarkMuted'])
         elif layout == 'chart':
             self.chrome(s, page); self.heading(s)
-            chart = s['chart']; data = []
-            for series in chart['series']:
-                values = [float(resolve(p['value'], self.plan).replace(',', '')) for p in series['points']]
-                data.append({'name': series['name'], 'labels': [p['label'] for p in series['points']], 'values': values})
-            opts = {'x': .75, 'y': 2.7, 'w': 7.6, 'h': 3.85, 'catAxisLabelFontSize': 14,
-                    'valAxisLabelFontSize': 11, 'valAxisMinVal': 0,
-                    'catAxisLineShow': False, 'valAxisLineShow': False,
-                    'showValue': True, 'dataLabelPosition': 'outEnd', 'dataLabelFormatCode': '0',
-                    'dataLabelColor': t['ink'], 'dataLabelBkgrdColor': t['background'],
-                    'dataLabelFormatCodeSourceLinked': False, 'dataLabelFontSize': 16,
-                    'showLegend': False, 'showCatName': False,
-                    'chartColors': [t['accent']], 'showTitle': False,
-                    'showMarker': False, 'showBorder': False,
-                    'showSerName': False, 'gapSize': 120,
-                    'catAxisLabelColor': t['muted'], 'valAxisLabelColor': t['muted'],
-                    'valGridLine': {'color': t['rule'], 'width': .5},
-                    'catGridLine': {'style': 'none'}}
-            if chart.get('max') is not None: opts['valAxisMaxVal'] = chart['max']
-            self.e.append({'type': 'chart', 'chartType': chart.get('type', 'bar'), 'data': data,
-                           'options': {**opts, 'barDir': 'col', 'showLegend': len(data)>1}})
+            self.chart(s)
             self.items(s.get('items', []), 9, 2.76, 3.55, 3.7)
         elif layout == 'comparison':
             self.chrome(s, page); self.heading(s)
-            rows = [[resolve(cell, self.plan) for cell in row] for row in s['rows']]
-            if not rows or len({len(r) for r in rows}) != 1: raise ValueError('Rectangular table required')
-            styled = []
-            for i, row in enumerate(rows):
-                styled.append([{'text': cell, 'options': {
-                    'fill': t['accent'] if i == 0 else (t['wash'] if i%2 else t['paper']),
-                    'color': 'FFFFFF' if i == 0 else t['ink'], 'bold': i == 0,
-                    'fontFace': t['bodyFont']}} for cell in row])
-            self.e.append({'type': 'table', 'rows': styled, 'options': {
-                'x': .7, 'y': 2.65, 'w': 11.94, 'h': min(3.9, .61*len(rows)),
-                'fontFace': t['bodyFont'], 'fontSize': 16, 'color': t['ink'],
-                'rowH': .61, 'margin': .12, 'border': {'type': 'solid', 'color': t['background'], 'pt': 2},
-                'colW': [11.94/len(rows[0])]*len(rows[0]), 'valign': 'mid'}})
+            self.table(s)
         elif layout == 'timeline':
             self.chrome(s, page); self.heading(s)
             events = s['events']; n = len(events)
@@ -400,12 +445,15 @@ class Composer:
                 if event.get('body'): self.content(event['body'], x, 4.65, width, 1.35, 16, t['muted'], valign='top')
         elif layout == 'close':
             background = t['dark']; self.chrome(s, page, True)
-            self.content(s['title'], .75, 1.45, 11.6, 1.0, 42, 'FFFFFF', t['headingFont'])
-            if s.get('metric'): self.content(s['metric'], .75, 3.02, 8, 1.0, 62, 'FFFFFF', t['latinFont'])
-            if s.get('body'): self.content(s['body'], .8, 4.55, 10.8, 1.25, 21, 'C6DCDB')
+            self.content(s['title'], .75, 1.45, 11.6, 1.0, 42, t['onDark'], t['headingFont'])
+            if s.get('metric'): self.content(s['metric'], .75, 3.02, 8, 1.0, 62, t['onDark'], t['latinFont'])
+            if s.get('body'): self.content(s['body'], .8, 4.55, 10.8, 1.25, 21, t['onDarkMuted'])
         elif layout == 'text':
             self.chrome(s, page); self.heading(s)
             self.items(s.get('items', []), .75, 2.6, 11.8, 3.95)
+        elif layout == 'freeform':
+            background=s.get('background',t['background'])
+            self.freeform(s,page)
         else: raise ValueError(f'Unsupported layout {layout}')
         required = [resolve('$'+ref, self.plan) for ref in set(references(s))]
         # Charts have values in embedded chart/workbook, not text extraction.
@@ -414,7 +462,8 @@ class Composer:
         self.contract[str(page)] = required
         self.slides.append({'background': background, 'elements': self.e, 'notes': s.get('notes', '')})
         self.manifest.append({'slide': page, 'layout': layout, 'claims': sorted(set(references(s))),
-                              'images': [s[k] for k in ('image', 'secondary_image') if s.get(k)]+s.get('images', [])})
+                              'images': [s[k] for k in ('image', 'secondary_image') if s.get(k)]+s.get('images', [])+
+                              [f['asset'] for f in s.get('frames',[]) if f['kind']=='image']})
 
 
 def compose(workspace):
@@ -422,19 +471,28 @@ def compose(workspace):
     plan = json.loads((workspace/'plan.json').read_text())
     source = json.loads((workspace/'source.json').read_text())
     report = validate(plan, source, workspace)
-    slides = paginate(plan['slides'], plan)
-    composer = Composer(plan, workspace)
-    for i, slide in enumerate(slides, 1): composer.render(slide, i)
+    with TextMetrics() as metrics:
+        slides = paginate(plan['slides'], plan,metrics)
+        composer = Composer(plan, workspace, metrics)
+        for i, slide in enumerate(slides, 1): composer.render(slide, i)
+        substitutions=dict(metrics.substitutions)
     spec = {'title': plan.get('title', ''), 'language': plan.get('language', 'zh-CN'),
             'canvas': {'width': W, 'height': H}, 'theme': {
                 'background': composer.t['background'], 'text': composer.t['ink'],
                 'accent': composer.t['accent'], 'headingFont': composer.t['headingFont'],
                 'bodyFont': composer.t['bodyFont'], 'bodySize': 18}, 'slides': composer.slides}
     write(workspace/'deck.json', spec)
-    write(workspace/'contract.json', {'required_text': composer.contract, 'min_objects': {
-        str(i): {'native_charts': 1} if s['layout'] == 'chart' else {'native_tables': 1}
-        for i, s in enumerate(slides, 1) if s['layout'] in ('chart', 'comparison')}})
+    minimums={}
+    for i,s in enumerate(slides,1):
+        kinds={f['kind'] for f in s.get('frames',[])}|{s['layout']}
+        expected={}
+        if 'chart' in kinds:expected['native_charts']=1
+        if 'comparison' in kinds or 'table' in kinds:expected['native_tables']=1
+        if expected:minimums[str(i)]=expected
+    write(workspace/'contract.json', {'required_text': composer.contract, 'min_objects':minimums})
+    write(workspace/'design-audit.json', audit({**plan,'slides':slides},spec,composer.manifest))
     write(workspace/'composition.json', {'style': composer.style_name, 'slides': composer.manifest,
+          'font_substitutions':substitutions,'text_measurement':'Skia font metrics; final Office rendering needs review',
           'source_sha256': source['sha256'], **report,
           'limits': 'Exact quotes, paragraph accounting, and lexical number checks. Host agent must review semantic fidelity and final-export visuals.'})
     return {'slides': len(slides), 'style': composer.style_name, 'deck': str(workspace/'deck.json')}

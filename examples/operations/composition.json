@@ -1,0 +1,407 @@
+{
+  "style": "brief-derived",
+  "slides": [
+    {
+      "slide": 1,
+      "layout": "cover",
+      "claims": [
+        "decision",
+        "demo",
+        "sub",
+        "title"
+      ],
+      "images": []
+    },
+    {
+      "slide": 2,
+      "layout": "freeform",
+      "claims": [
+        "baseline",
+        "context",
+        "definition",
+        "demo",
+        "result",
+        "week4"
+      ],
+      "images": []
+    },
+    {
+      "slide": 3,
+      "layout": "chart",
+      "claims": [
+        "definition",
+        "limits",
+        "trend",
+        "trendnote",
+        "v0",
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "images": []
+    },
+    {
+      "slide": 4,
+      "layout": "comparison",
+      "claims": [
+        "cell0_0",
+        "cell0_1",
+        "cell0_2",
+        "cell0_3",
+        "cell1_0",
+        "cell1_1",
+        "cell1_2",
+        "cell1_3",
+        "cell2_0",
+        "cell2_1",
+        "cell2_2",
+        "cell2_3",
+        "cell3_0",
+        "cell3_1",
+        "cell3_2",
+        "cell3_3",
+        "compare",
+        "demo",
+        "tablenote"
+      ],
+      "images": []
+    },
+    {
+      "slide": 5,
+      "layout": "freeform",
+      "claims": [
+        "demo",
+        "missing",
+        "missingbody",
+        "risks",
+        "site",
+        "weekend"
+      ],
+      "images": []
+    },
+    {
+      "slide": 6,
+      "layout": "text",
+      "claims": [
+        "demo",
+        "next",
+        "nextbody",
+        "nextnote"
+      ],
+      "images": []
+    }
+  ],
+  "font_substitutions": {},
+  "text_measurement": "Skia font metrics; final Office rendering needs review",
+  "source_sha256": "d7c556037af05da878c57db5fccb1c259cc33207e5dba80b10850fcd0c44584d",
+  "used_claims": [
+    "baseline",
+    "cell0_0",
+    "cell0_1",
+    "cell0_2",
+    "cell0_3",
+    "cell1_0",
+    "cell1_1",
+    "cell1_2",
+    "cell1_3",
+    "cell2_0",
+    "cell2_1",
+    "cell2_2",
+    "cell2_3",
+    "cell3_0",
+    "cell3_1",
+    "cell3_2",
+    "cell3_3",
+    "compare",
+    "context",
+    "decision",
+    "definition",
+    "demo",
+    "limits",
+    "missing",
+    "missingbody",
+    "next",
+    "nextbody",
+    "nextnote",
+    "result",
+    "risks",
+    "site",
+    "sub",
+    "tablenote",
+    "title",
+    "trend",
+    "trendnote",
+    "v0",
+    "v1",
+    "v2",
+    "v3",
+    "week4",
+    "weekend"
+  ],
+  "covered_units": [
+    "p001",
+    "p002",
+    "p003",
+    "p004",
+    "p005",
+    "p006",
+    "p007"
+  ],
+  "omitted": [],
+  "unpresented_claims": {},
+  "provenance": {
+    "trendnote": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "cell1_2": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "cell3_3": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "cell0_2": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "v3": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "cell3_1": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "tablenote": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "missing": [
+      {
+        "unit": "p006",
+        "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+      }
+    ],
+    "site": [
+      {
+        "unit": "p006",
+        "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+      }
+    ],
+    "baseline": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "sub": [
+      {
+        "unit": "p003",
+        "quote": "A four-week dispatch pilot handled 2,400 orders at one warehouse. The baseline was a separate 2,000-order period. The periods had different order mixes, so the comparison does not establish a causal effect. The decision is whether to extend observation for two more weeks before any wider rollout."
+      }
+    ],
+    "compare": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "risks": [
+      {
+        "unit": "p006",
+        "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+      }
+    ],
+    "next": [
+      {
+        "unit": "p007",
+        "quote": "Next steps: extend observation for two more weeks; investigate the 40 missing timestamps with the operations team; include a fuller weekend sample. Wider rollout remains undecided. No owner names or completion dates have been supplied."
+      }
+    ],
+    "week4": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "limits": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "trend": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "context": [
+      {
+        "unit": "p003",
+        "quote": "A four-week dispatch pilot handled 2,400 orders at one warehouse. The baseline was a separate 2,000-order period. The periods had different order mixes, so the comparison does not establish a causal effect. The decision is whether to extend observation for two more weeks before any wider rollout."
+      }
+    ],
+    "v1": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "weekend": [
+      {
+        "unit": "p006",
+        "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+      }
+    ],
+    "result": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "decision": [
+      {
+        "unit": "p003",
+        "quote": "A four-week dispatch pilot handled 2,400 orders at one warehouse. The baseline was a separate 2,000-order period. The periods had different order mixes, so the comparison does not establish a causal effect. The decision is whether to extend observation for two more weeks before any wider rollout."
+      }
+    ],
+    "cell0_3": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "cell3_0": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "cell2_1": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "cell2_3": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "cell2_0": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "cell2_2": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "definition": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "demo": [
+      {
+        "unit": "p002",
+        "quote": "This is a fictional operational review for an open-source presentation example. All counts, rates, dates and observations are invented for demonstration. It is not evidence of a real business outcome."
+      }
+    ],
+    "title": [
+      {
+        "unit": "p001",
+        "quote": "# Dispatch pilot | operations review"
+      }
+    ],
+    "cell0_1": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "nextnote": [
+      {
+        "unit": "p007",
+        "quote": "Next steps: extend observation for two more weeks; investigate the 40 missing timestamps with the operations team; include a fuller weekend sample. Wider rollout remains undecided. No owner names or completion dates have been supplied."
+      }
+    ],
+    "cell1_1": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "v0": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "cell1_3": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "missingbody": [
+      {
+        "unit": "p006",
+        "quote": "Three unresolved issues affect rollout readiness. Carrier handover timestamps were missing for 40 pilot orders; the rate calculation excluded them and the missingness needs investigation. Weekend orders represented only 8% of the pilot volume, limiting generalisation to a full week. The pilot covered only one warehouse; no cross-site replication has been completed."
+      }
+    ],
+    "v2": [
+      {
+        "unit": "p004",
+        "quote": "On-time dispatch was 88% in the baseline and 95% in week 4. Across the four pilot weeks, on-time dispatch was 88%, 91%, 94% and 95%. On-time means handed to the carrier before the agreed cutoff, with cancelled orders excluded. These percentages are illustrative and rounded; per-week denominators are not provided."
+      }
+    ],
+    "cell1_0": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "cell0_0": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ],
+    "nextbody": [
+      {
+        "unit": "p007",
+        "quote": "Next steps: extend observation for two more weeks; investigate the 40 missing timestamps with the operations team; include a fuller weekend sample. Wider rollout remains undecided. No owner names or completion dates have been supplied."
+      }
+    ],
+    "cell3_2": [
+      {
+        "unit": "p005",
+        "quote": "The comparison table uses baseline and week 4 only. On-time dispatch: 88% and 95%, defined as carrier handover before cutoff. Median pick time: 14 min and 11 min, measured from pick start to pick complete. Exception rate: 6.0% and 4.5%, meaning orders needing manual intervention. Counts of exceptions and the distribution of pick times are not provided."
+      }
+    ]
+  },
+  "limits": "Exact quotes, paragraph accounting, and lexical number checks. Host agent must review semantic fidelity and final-export visuals."
+}

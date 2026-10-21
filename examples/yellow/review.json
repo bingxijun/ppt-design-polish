@@ -2,43 +2,37 @@
   {
     "slide": 1,
     "verdict": "pass",
-    "summary": "White half-page cover and warm architectural photo create a distinct editorial family; yellow marker is restrained and copy is readable.",
+    "summary": "Cover identifies the studio, with clear workspace/cultural-building positioning and a separately cropped architectural image. Disclosure stays in the footer.",
     "issues": []
   },
   {
     "slide": 2,
     "verdict": "pass",
-    "summary": "Oversized yellow chapter number, dark sans-serif headline and generous whitespace match the business reference grammar.",
+    "summary": "Numbered anchors land on the yellow entrance, limestone and olive tree in the actual crop. Labels remain native; the fictional-concept limitation is visible.",
     "issues": []
   },
   {
     "slide": 3,
     "verdict": "pass",
-    "summary": "Native numbered callouts sit on the actual yellow entrance, limestone wall and olive tree after anchor correction; labels remain separate editable text.",
+    "summary": "Native portfolio chart preserves 12/8/4 counts and total 24. Workplace is the focal yellow bar, other categories remain dark comparison context; illustrative status is explicit.",
     "issues": []
   },
   {
     "slide": 4,
     "verdict": "pass",
-    "summary": "Native column chart displays 12/8/4 from a zero baseline, with the 24-project illustrative total and qualification visible.",
+    "summary": "Four process stages deliberately use equal columns to show sequence. Stage descriptions and the absence of duration/fees remain visible without decorative cards.",
     "issues": []
   },
   {
     "slide": 5,
     "verdict": "pass",
-    "summary": "Four stages align to one timeline, the generated stage numbers avoid repeated date labels, and each stage retains its purpose.",
-    "issues": []
-  },
-  {
-    "slide": 6,
-    "verdict": "pass",
-    "summary": "Three flat sections explain daylight, materials and floor plan without UI cards; final page is complete and all qualifications remain visible.",
+    "summary": "One readable paragraph carries the studio approach instead of three repeated labelled blocks. Larger native type and a separate material/light photograph establish a clear reading order.",
     "issues": []
   },
   {
     "slide": "deck",
     "verdict": "pass",
-    "summary": "Reviewed all six exported pages against the complete fictional studio brief. White/yellow identity is consistent across cover, chapter, annotations, chart and process. Source counts and exclusions match; no clipped content observed. This is a working example, not a blinded quality benchmark.",
+    "summary": "Compared all source paragraphs with the five-page export. The identity, concept/materials, illustrative portfolio and four-stage service remain accounted for. Yellow is tied to the architectural reference and portfolio focus. The equal process columns are intentional sequence structure; not a global template rule.",
     "issues": []
   }
 ]

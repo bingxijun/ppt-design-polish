@@ -2,12 +2,12 @@
 name: ppt-design-polish
 description: "Create, redesign, polish, and review PowerPoint presentations (PPT/PPTX), including editable slides, brand/template reuse, purposeful imagery, and final-export visual review. 创建、重设计、美化与审查 PPT。Use for presentation authoring and design, not text extraction alone."
 metadata:
-  version: "3.0.0"
+  version: "4.0.0"
 ---
 
 # PPT Design & Polish
 
-One entry point for story, design, assets, authoring, export, and review. **For a new deck, use the composition system below by default, not a blank JSON canvas.** Do not require users to choose layouts or orchestrate several skills. 图片模型与推理来自宿主；本包提供实际版式、来源检查、分页和导出工具。
+One entry point for story, design, assets, authoring, export, and review. **For a new deck, derive the design from the brief and use the measured composition tools below.** Do not require users to choose layouts or orchestrate several skills. 图片模型与推理来自宿主；本包提供实际版式、来源检查、分页和导出工具。
 
 Resolve this file's directory as `SKILL_ROOT`. Author user decks in a separate `WORKSPACE`, never inside the installation. Replace command placeholders with actual absolute paths. Respond and author in the user's requested language.
 
@@ -28,15 +28,15 @@ Default to native key text, data, labels, and diagrams that need editing, with p
 
 ### Default design system / 默认制作方式
 
-Read [composition-system.md](references/composition-system.md) before a full new deck. A user's reference/brand/template takes priority. Otherwise choose `teal-launch` for product/technology launches and `editorial-yellow` for general business. These are complete layout families with defined image ratios, typographic hierarchy, spacing and annotation rules. They are not palette suggestions.
+Before a full new deck or visual redesign, read [editorial decisions](references/editorial-decisions.md) and [composition system](references/composition-system.md). Derive palette roles, typography, composition and imagery from the brief/reference. Choose a defensible direction when none is supplied; the user need not choose a theme. `teal-launch` and `editorial-yellow` are optional reference recipes, never industry-wide defaults.
 
 The user should be able to say “turn this announcement into a presentation.” Infer a sensible page count, read the **entire** material, extract atomic facts with qualifiers, and arrange pages by meaning. Do not copy each paragraph to a slide, insist on three ideas per page, or ask the user to choose among design directions when a default suffices. An exact reference already establishes the direction.
 
-Use `compose.py prepare` to freeze the material. Author `plan.json` with grounded claims and purposeful assets. `compose.py compose` selects semantic layouts and paginates overfull lists into `deck.json`, `contract.json`, and `composition.json`. Use these source objects through the host's mandatory authoring path, or this package's builder where permitted. Then render and review the actual export. Never treat successful compilation as aesthetic validation.
+Use `compose.py prepare` to freeze the material. Author `plan.json` with grounded claims and purposeful assets. `compose.py compose` uses explicit communication relations or custom native frames, measures actual fonts, and paginates overfull content into `deck.json`, `contract.json`, `composition.json` and `design-audit.json`. Fields alone no longer decide page intent. Use these source objects through the host's mandatory authoring path, or this package's builder where permitted. Then render and review the actual export. Never treat successful compilation as aesthetic validation.
 
-For the default launch appearance, source or generate a coherent product hero **and** detail/context imagery before expanding the deck. Keep key text, data, charts, labels, conditions, prices and dates native. Do not substitute a geometric drawing for a requested product photograph, put every page on one photographic background, or flatten whole slides into images. For real products, use actual supplied/authorized product imagery rather than invented lookalikes.
+For an image-led launch direction, source or generate a coherent product hero and useful detail/context imagery before expanding the deck. Keep key text, data, charts, labels, conditions, prices and dates native. Do not substitute a geometric drawing for a requested product photograph, put every page on one photographic background, or flatten whole slides into images. For real products, use actual supplied/authorized product imagery rather than invented lookalikes.
 
-Match the visual grammar, not just the colors: a strong product hero; large chapter numerals; restrained CJK headline typography; asymmetric photo/text pages; quiet white evidence pages; large single metrics; native comparison tables and charts; precise units, conditions and annotations. Check a representative body page, a data page and the densest page at readable size before calling the default successful.
+Match the chosen reference’s visual grammar, including composition, type contrast, crop, spacing, labels and rhythm. Do not transplant every observed motif into every deck. Give body text a real reading sequence; tables need meaningful widths/alignment, and accents need a semantic role. Check a representative body page, a data page and the densest page at readable size before expanding.
 
 ### Understand and preserve
 
@@ -55,7 +55,7 @@ The second tool extracts declared themes, layout placeholders, and original medi
 
 Use the relevant story and art-direction references. Define each page's job and evidence. Separate supplied facts, calculations, and assumptions. Headlines should express the actual subject or a supported conclusion.
 
-For a custom art direction beyond the defaults, read [creative direction](references/creative-direction.md). Connect a visual concept to the subject and explore alternatives only when useful for the brief. Validate representative body and difficult-content pages. A polished cover or different palette alone does not establish a usable deck. Respect a chosen brand/reference and keep small edits small.
+For open-ended creative art direction, read [creative direction](references/creative-direction.md). Connect a visual concept to the subject and explore alternatives only when useful for the brief. Validate representative body and difficult-content pages. A polished cover or different palette alone does not establish a usable deck. Respect a chosen brand/reference and keep small edits small.
 
 For a full new deck or redesign, keep a short `design-plan.json` with audience, viewing conditions, sources, color/font/grid roles, and page purposes/composition reasons. A small text correction does not need a full design process. Do not put internal plans or image prompts in speaker notes.
 
@@ -93,7 +93,7 @@ Keep reusable themes/masters as source inputs. Deliver templates when requested;
 
 Read the workflow and visual-review references. Render the **exported PPTX**, open every page, and inspect the deck order. Check facts/completeness, legibility/clipping, hierarchy/imagery, consistency, and intended editability. Fix the source, export, render, and review again after meaningful changes.
 
-For design work, also inspect focal hierarchy, typographic craft, purposeful imagery, subject specificity, and the rhythm between pages. Record concrete observations and fixes in review summaries. Technical delivery checks do not certify these judgments; a visibly generic or unfinished result still needs design work when it misses the user's brief.
+For design work, also inspect focal hierarchy, typographic craft, purposeful imagery, subject specificity, and the rhythm between pages. Read the contextual pattern questions in `design-audit.json`; fix the source or explain intentional repetition in the deck review. It is not an AI detector or aesthetic certification. Record concrete observations and fixes in review summaries. Technical delivery checks do not certify these judgments; a visibly generic or unfinished result still needs design work when it misses the user's brief.
 
 The CLI binds review records to source/file/image fingerprints. Changed inputs invalidate old reviews. Never edit state files to bypass this behavior. Normal local delivery uses `finalize`; it copies requested outputs only after the current build, renders, all page/deck reviews, content contract, and formats pass.
 

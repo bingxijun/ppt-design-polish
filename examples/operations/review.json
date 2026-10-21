@@ -1,0 +1,44 @@
+[
+  {
+    "slide": 1,
+    "verdict": "pass",
+    "summary": "Typographic cover identifies a four-week operational review and the decision to observe longer. No product photograph is forced onto the quantitative brief.",
+    "issues": []
+  },
+  {
+    "slide": 2,
+    "verdict": "pass",
+    "summary": "95% is the dominant observation with an 88% baseline. Cutoff definition, cancellations and different-order-mix causal limitation are readable in separate native text fields.",
+    "issues": []
+  },
+  {
+    "slide": 3,
+    "verdict": "pass",
+    "summary": "Native line chart preserves chronological 88/91/94/95 values with a 0–100 scale. Its commentary avoids causal claims and retains missing weekly denominators and rounding.",
+    "issues": []
+  },
+  {
+    "slide": 4,
+    "verdict": "pass",
+    "summary": "Native table has narrow aligned numeric columns and a wide definition column. Percentages/minutes remain correct; missing exception counts and pick-time distributions are explicit.",
+    "issues": []
+  },
+  {
+    "slide": 5,
+    "verdict": "pass",
+    "summary": "Orange marks one unresolved evidence gap: 40 missing timestamps excluded from the rate. Smaller weekend and single-site limitations remain visible, without equal-size cards.",
+    "issues": []
+  },
+  {
+    "slide": 6,
+    "verdict": "pass",
+    "summary": "The action page retains two additional observation weeks, timestamp investigation and weekend sampling. Rollout remains undecided; no owners or dates were invented.",
+    "issues": []
+  },
+  {
+    "slide": "deck",
+    "verdict": "pass",
+    "summary": "Reviewed the full fictional source and six-page export. The quantitative reading brief has its own paper/ink/status identity, native chart/table and explicit limitations. No causal inference, rollout approval, owners or dates were invented. Zero audit findings does not prove human authorship perception.",
+    "issues": []
+  }
+]

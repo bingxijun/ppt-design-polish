@@ -39,7 +39,7 @@ def write(path, value):
 
 def snapshot(workspace):
     files = [workspace/name for name in ['task.json', 'deck.json', 'contract.json', 'design-plan.json',
-             'plan.json', 'source.json', 'composition.json'] if (workspace/name).is_file()]
+             'plan.json', 'source.json', 'composition.json', 'design-audit.json'] if (workspace/name).is_file()]
     for directory in ['assets', 'slides', 'inputs', 'code']:
         files += [p for p in (workspace/directory).rglob('*') if p.is_file()]
     return {str(p.relative_to(workspace)): digest(p) for p in sorted(set(files))}
