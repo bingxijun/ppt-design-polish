@@ -1,5 +1,8 @@
 name: release-package
 on:
+  push:
+    branches: [main]
+    paths: ['docs/releases/*.md']
   release:
     types: [published]
   workflow_dispatch:
@@ -20,21 +23,64 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.release.tag_name || inputs.tag }}
+          ref: ${{ github.event.release.tag_name || inputs.tag || github.sha }}
           persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Check release version
+      - name: Check release version and notes
+        id: metadata
         run: |
           python3 - <<'PY'
-          import json, os
+          import json, os, re
           from pathlib import Path
           version = json.loads(Path('package.json').read_text())['version']
-          assert os.environ['RELEASE_TAG'] == 'v'+version, 'Tag and package version differ'
+          assert re.fullmatch(r'\d+\.\d+\.\d+', version), 'Expected a stable semantic version'
+          tag = os.environ['RELEASE_TAG'] or 'v'+version
+          assert tag == 'v'+version, 'Tag and package version differ'
+          with open(os.environ['GITHUB_ENV'], 'a') as out:
+              out.write('RELEASE_TAG='+tag+'\n')
+          if os.environ['GITHUB_EVENT_NAME'] == 'push':
+              notes = Path('docs/releases') / (version+'.md')
+              title = notes.read_text().splitlines()[0].removeprefix('# ')
+              assert title.startswith(tag+' '), 'Release notes must start with this version'
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+                  out.write('title='+title+'\n')
           PY
+      - name: Check whether this version is already published
+        id: published
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'exists=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'exists=false' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v4
+        if: github.event_name == 'push' && steps.published.outputs.exists != 'true'
+        with:
+          node-version: '22'
+      - name: Validate before automatic publication
+        if: github.event_name == 'push' && steps.published.outputs.exists != 'true'
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          python3 -m unittest discover -s scripts -p 'test_*.py' -v
+          python3 scripts/check_example.py
       - run: python3 scripts/package_release.py --output-dir release-assets
+        if: steps.published.outputs.exists != 'true'
+      - name: Publish version, notes and portable skill
+        if: github.event_name == 'push' && steps.published.outputs.exists != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TITLE: ${{ steps.metadata.outputs.title }}
+        run: |
+          gh release create "$RELEASE_TAG" release-assets/ppt-design-polish.zip release-assets/ppt-design-polish.zip.sha256 \
+            --target "$GITHUB_SHA" --title "$RELEASE_TITLE" \
+            --notes-file "docs/releases/${RELEASE_TAG#v}.md" --repo "$GITHUB_REPOSITORY"
       - name: Upload portable skill and checksum
+        if: github.event_name != 'push'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release upload "$RELEASE_TAG" release-assets/ppt-design-polish.zip release-assets/ppt-design-polish.zip.sha256 --repo "$GITHUB_REPOSITORY"
