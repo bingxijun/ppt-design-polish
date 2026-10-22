@@ -1,0 +1,269 @@
+{
+  "enabled": true,
+  "profile": "product-launch",
+  "decisions": [
+    {
+      "slide": 3,
+      "intent": "ranking",
+      "form": "bar",
+      "categories": 4,
+      "editable": "native chart"
+    },
+    {
+      "slide": 4,
+      "intent": "share",
+      "form": "doughnut",
+      "categories": 3,
+      "editable": "native chart"
+    },
+    {
+      "slide": 5,
+      "intent": "trend",
+      "form": "line",
+      "categories": 6,
+      "editable": "native chart"
+    },
+    {
+      "slide": 6,
+      "intent": "paired",
+      "form": "dumbbell",
+      "categories": 3,
+      "editable": "native diagram"
+    },
+    {
+      "slide": 7,
+      "intent": "contribution",
+      "form": "waterfall",
+      "categories": 5,
+      "editable": "native diagram"
+    }
+  ],
+  "image_requests": [
+    {
+      "slide": 1,
+      "asset": "hero",
+      "subject": "Original fictional adaptive desk lamp with flat graphite circular head, brass hinge and graphite stem/base on a warm ivory desktop.",
+      "purpose": "Establish the product silhouette and a quiet launch mood.",
+      "placement": "right",
+      "product": true,
+      "mode": "generate",
+      "ratio": "16:9",
+      "prompt": "Use case: product-mockup\nAsset type: presentation photo/illustration layer; 16:9 composition.\nPrimary request: Original fictional adaptive desk lamp with flat graphite circular head, brass hinge and graphite stem/base on a warm ivory desktop.\nPurpose: Establish the product silhouette and a quiet launch mood.\nStyle/medium: Professional editorial photography with believable materials and controlled lighting.\nComposition/framing: Subject on the right 45%; quiet negative space across the left 50% for native slide text.\nColor palette: background #F4F3EE, ink #202623, restrained accent #B0772A.\nConstraints: no text, logos, watermark, chart labels or invented data; leave all slide typography native.\nIdentity: original fictional subject; do not imitate a named real product or venue.",
+      "output": "assets/hero.png"
+    },
+    {
+      "slide": 2,
+      "asset": "detail",
+      "subject": "Macro photograph of the same fictional lamp head-to-stem brass hinge and matte graphite material.",
+      "purpose": "Show tactile product character beside functional explanations.",
+      "placement": "detail",
+      "product": true,
+      "mode": "generate",
+      "ratio": "4:5",
+      "prompt": "Use case: product-mockup\nAsset type: presentation photo/illustration layer; 4:5 composition.\nPrimary request: Macro photograph of the same fictional lamp head-to-stem brass hinge and matte graphite material.\nPurpose: Show tactile product character beside functional explanations.\nStyle/medium: Professional editorial photography with believable materials and controlled lighting.\nComposition/framing: Close-up material or mechanism detail; portrait crop; identify the same fictional product.\nColor palette: background #F4F3EE, ink #202623, restrained accent #B0772A.\nConstraints: no text, logos, watermark, chart labels or invented data; leave all slide typography native.\nIdentity: original fictional subject; do not imitate a named real product or venue.",
+      "output": "assets/detail.png"
+    }
+  ],
+  "icons": [
+    {
+      "name": "radio",
+      "path": "assets/icons/radio-f7f7f4.png"
+    },
+    {
+      "name": "sun-moon",
+      "path": "assets/icons/sun-moon-f7f7f4.png"
+    },
+    {
+      "name": "sliders-horizontal",
+      "path": "assets/icons/sliders-horizontal-f7f7f4.png"
+    },
+    {
+      "name": "radio",
+      "path": "assets/icons/radio-202623.png"
+    },
+    {
+      "name": "chart-no-axes-combined",
+      "path": "assets/icons/chart-no-axes-combined-202623.png"
+    },
+    {
+      "name": "sliders-horizontal",
+      "path": "assets/icons/sliders-horizontal-202623.png"
+    },
+    {
+      "name": "check-check",
+      "path": "assets/icons/check-check-202623.png"
+    },
+    {
+      "name": "lightbulb",
+      "path": "assets/icons/lightbulb-202623.png"
+    }
+  ],
+  "typography": {
+    "headingFont": "Songti SC",
+    "bodyFont": "Hiragino Sans GB",
+    "latinFont": "Avenir Next"
+  },
+  "font_warning": null,
+  "limits": "Host interprets meaning and supplies truthful data. Fixed recipes automate geometry, not aesthetic judgment.",
+  "visual_brief": {
+    "profile": "product-launch",
+    "palette": {
+      "background": "F4F3EE",
+      "paper": "F4F3EE",
+      "ink": "202623",
+      "muted": "5B5F5C",
+      "rule": "CECEC9",
+      "accent": "B0772A",
+      "dark": "202623",
+      "onDark": "F7F7F4",
+      "onDarkMuted": "CFD4CE"
+    },
+    "pages": [
+      {
+        "slide": 1,
+        "title": "弧光",
+        "recipe": "image-led-opening",
+        "surface": "paper",
+        "appearance": "Full-bleed subject photograph with an unobstructed text area; large regular-weight display title, smaller sans subtitle, restrained rule and native disclosure.",
+        "communication_reason": "产品名称与右侧摄影形成一个明确焦点，留白容纳原生标题。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": "hero",
+        "chart_form": null,
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      },
+      {
+        "slide": 2,
+        "title": "随环境调光，保留手动选择",
+        "recipe": "material-and-functions",
+        "surface": "dark",
+        "appearance": "A tall material photograph occupies the left side. The right side holds a compact display headline and measured feature rows with matched line icons, readable descriptions and subtle separators.",
+        "communication_reason": "一张材质特写配合三段完整功能说明；图标标识具体功能，避免彩色卡片。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": "detail",
+        "chart_form": null,
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      },
+      {
+        "slide": 3,
+        "title": "阅读是最多见的桌面任务",
+        "recipe": "rank-and-readout",
+        "surface": "paper",
+        "appearance": "A large sourced readout and its explanation anchor the left column; a native sorted bar chart occupies the right. One category may carry semantic emphasis. Keep zero baseline and direct values.",
+        "communication_reason": "类别排名使用排序条形图；重点是阅读，其余类别保持中性。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": null,
+        "chart_form": "bar",
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      },
+      {
+        "slide": 4,
+        "title": "一半使用时长发生在家庭书桌",
+        "recipe": "share-spotlight",
+        "surface": "paper",
+        "appearance": "A narrow headline column names the finding and the whole; a native pie/ring occupies the middle; direct category/value labels form a right-hand ledger. Tonal colors separate parts, not unrelated decoration.",
+        "communication_reason": "同一总时长的三个组成部分使用环形图与直接标注，分母紧邻图形。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": null,
+        "chart_form": "doughnut",
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      },
+      {
+        "slide": 5,
+        "title": "试用人数的逐月累计",
+        "recipe": "trend-and-endpoint",
+        "surface": "paper",
+        "appearance": "A native time-series plot spans the lower field. A compact upper readout repeats the final observed value and its period; retain time order, units, axis and source qualifier.",
+        "communication_reason": "按月份保留顺序，以连续折线显示同一指标，避免把时间点排成类别排名。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": null,
+        "chart_form": "line",
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      },
+      {
+        "slide": 6,
+        "title": "同一操作脚本中的动作次数",
+        "recipe": "paired-evidence",
+        "surface": "paper",
+        "appearance": "Two matched conditions share a scale. Task labels sit left, endpoint values sit next to their marks, and a restrained legend identifies the conditions. Preserve the qualification near the title.",
+        "communication_reason": "相同任务的两组值在共享刻度上以哑铃图对照；端点直接写明数值。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": null,
+        "chart_form": "dumbbell",
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      },
+      {
+        "slide": 7,
+        "title": "假设工况下的能耗核算",
+        "recipe": "reconciled-bridge",
+        "surface": "paper",
+        "appearance": "A proportional editable waterfall links baseline, signed contributions and ending total. Native numeric labels and unit sit near the evidence; connectors explain continuity.",
+        "communication_reason": "可正可负的变化从基准逐步连接至结余，瀑布图在比例和加总上保持一致。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": null,
+        "chart_form": "waterfall",
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      },
+      {
+        "slide": 8,
+        "title": "一次调光的功能逻辑",
+        "recipe": "numbered-sequence",
+        "surface": "paper",
+        "appearance": "A continuous numbered rail establishes sequence. Each step has a quiet large ordinal, a small semantic icon, a concise label and its complete explanation; arrows communicate direction.",
+        "communication_reason": "顺序关系用连续箭头和一致线性图标表达，文字与图形形成同一条阅读路径。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": null,
+        "chart_form": null,
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      },
+      {
+        "slide": 9,
+        "title": "系统结构",
+        "recipe": "structured-relations",
+        "surface": "paper",
+        "appearance": "Measured native parent-child or cycle connections preserve the actual relation. Distinguish root and leaves through type and position; use symbols only where they identify meaning.",
+        "communication_reason": "真实父子关系用分支连接表达；不把组成关系画成时间流程。",
+        "typography": {
+          "headingFont": "Songti SC",
+          "bodyFont": "Hiragino Sans GB",
+          "latinFont": "Avenir Next"
+        },
+        "image": null,
+        "chart_form": null,
+        "decoration": "Functional rules, ordinal steps and material imagery; no unrelated badges or colored keyword spans."
+      }
+    ],
+    "execution": "Apply this complete treatment in the native builder or host authoring tool. Resolve actual image requests; inspect final exported pages. This file alone is not a generated deck."
+  }
+}

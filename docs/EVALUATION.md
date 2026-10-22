@@ -1,8 +1,18 @@
 # What was checked / 实际验证了什么
 
-**Release 5.0 has no completed independent human preference result.** The anonymous reader packet is prepared, its CSV is blank, and [reader-status.json](../examples/studio/reader-status.json) records `pending` with zero decisions. Automated tests and host selections are reported separately.
+**Release 5.1 has no completed independent human preference result.** The anonymous reader packet is prepared, its CSV is blank, and [reader-status.json](../examples/studio/reader-status.json) records `pending` with zero decisions. Automated tests and host selections are reported separately.
 
 **本版尚无完成的独立人工偏好结果。** 匿名评审包已准备，CSV 空白，状态为待评审、零条反馈。脚本检查与制作方选稿不冒充人工盲评。
+
+## 5.1 same-input page treatment / 同材料整页构成
+
+[Launch Studio](../examples/launch-studio/README.md) reuses every claim, number and the exact two image files from the public 5.0 example. Its source plan has no font names or coordinates. The automatic product-launch profile changes typography, image/text proportions, feature-page surface, chart composition and step numbering. The published 5.0 PPTX stays unchanged as the baseline. This is an authored regression example, not a held-out or independent preference result.
+
+5.1 对照沿用完全相同的内容、数值与两张图片，自动选择产品发布方向并改变整页视觉处理。旧版导出文件不改写。本例为制作方回归演示，不代表独立审美评测。
+
+Actual exported pages were inspected, including the feature photo crop, white icon contrast, share headline word break, chart labels and complete data qualifications. Functional checks cover automatic activation, rebuilding an edited plan into a different native chart form, reconciled native pie data and Chinese headline word boundaries.
+
+检查实际导出的图片裁切、明暗图标、占比页断词、数据标注与限定条件。功能测试覆盖默认启用、修改计划后自动重建、原生饼图和中文标题断词；测试通过不等同于美感认证。
 
 ## 5.0 visual recipe check / 5.0 视觉配方验证
 

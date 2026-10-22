@@ -63,8 +63,8 @@ Users only attach materials and invoke the skill. The agent handles the followin
 
 1. Read the entire announcement and extract facts with units/conditions. / 通读原文并提取事实与条件。
 2. Freeze the source with `compose.py prepare`; write grounded `plan.json`. / 固化来源并编写语义计划。
-3. Enable visual defaults; select analytical/relational intent. `visuals.py prepare` resolves typography, icons and image prompts. / 启用默认视觉构成并确定分析或内容关系，工具自动准备字体、图标和配图要求。
-4. Execute the host image/source tools and register actual assets; then compose native objects. / 实际调用生图或取图工具并登记素材，再编排原生页面。
+3. Select analytical/relational intent; new semantic plans activate visual treatment by default. Read the complete `visual-brief.json` as well as asset requests. `visuals.py prepare` resolves typography, icons and image prompts. / 启用默认视觉构成并确定分析或内容关系，工具自动准备字体、图标和配图要求。
+4. Execute the host image/source tools and register actual assets. `deck.py build` automatically prepares icons and recompiles the semantic plan before building. / 实际调用生图或取图工具并登记素材，再编排原生页面。
 5. Render the exported PPTX, inspect all pages and fix visible issues. / 渲染导出稿，逐页看图并修正。
 
 [Automatic visual recipes / 自动视觉配方](../references/visual-defaults.md) · [Plan schema and commands / 完整计划格式与命令](../references/composition-system.md) · [10-page launch source / 发布会源稿](../examples/launch/README.md) · [5-page studio source / 工作室源稿](../examples/yellow/README.md).

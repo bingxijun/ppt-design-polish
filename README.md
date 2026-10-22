@@ -6,35 +6,38 @@
 
 [Install / 安装](#install--安装) · [Use / 使用](#use--使用) · [Examples / 实例](#examples--实例) · [Evidence / 验证](docs/EVALUATION.md) · [MIT](LICENSE)
 
-![Actual default visual treatment / 新默认视觉构成的实际导出页面](docs/assets/visual-defaults-showcase.jpg)
+![Actual 5.1 pages / 5.1 实际导出页面](docs/assets/launch-studio-showcase.jpg)
 
-## Visual defaults in 5.0 / 5.0 的默认视觉能力
+## Whole-page defaults in 5.1 / 5.1 封装整页视觉效果
 
-The agent now turns a semantic content plan into **actual visual forms**, installed typography, consistent icons and executable image requests. The new example starts without font names or page coordinates. Its product photo, material close-up, analytical graphics and relationship diagrams are shown below.
+5.0 automated charts and icons, but its body pages still repeated a large heading over a single graphic. **5.1 adds complete page recipes:** display/body typography, image proportions, analytical composition, labels, surface contrast and functional details are arranged together.
 
-新版把内容计划落实为**可执行的视觉表现**：自动匹配图形、已安装字体、统一图标，并形成和执行配图要求。新例子的原始计划不填写字体名称或页面坐标；产品主视觉、材质特写、分析图和关系图都来自实际导出。
+5.0 虽然会配图表和图标，正文页仍反复“大标题加一个图形”。**5.1 把整页样貌封装进默认路径**：字体组合、图文比例、分析图、标注、背景层次与细节共同编排。
 
-| Material / 材料关系 | Default treatment / 默认表现 |
+| Material / 材料 | Default appearance / 默认样貌 |
 |---|---|
-| Ranking / 类别排名 | Sorted horizontal bars, direct values and meaningful emphasis / 排序条形图、直接数值、重点突出 |
-| Time / 时间变化 | Native line chart in source order / 按原始时间顺序绘制折线 |
-| Share / 整体占比 | Doughnut plus directly labeled categories; check the denominator / 环形图与类别直标，先核对分母 |
-| Before/after / 前后比较 | Editable dumbbell diagram with both endpoint values / 原生可编辑哑铃图，保留两组数值 |
-| Contributions / 贡献拆解 | Reconciled waterfall diagram / 可核对加总的瀑布图 |
-| Process, cycle, hierarchy / 流程、循环、结构 | Different relational geometry with matching semantic icons / 按真实关系编排，配同风格语义图标 |
-| Product/features / 产品与功能 | Subject-specific hero, distinct detail image and measured explanations / 主视觉、独立细节图与有主次的功能说明 |
+| Product features / 产品功能 | Tall material image + icon/text explanations; content-led dark surface / 材质特写、统一图标和完整说明，按内容使用深色页 |
+| Ranking / 排名 | Sourced readout beside sorted native bars / 大数字读数与排序条形组成一页 |
+| Share / 占比 | Finding + named whole, pie/ring, category/value ledger / 结论、分母、饼环图与类别数值账列 |
+| Trend / 趋势 | Native line plot and final-period readout / 原生折线与末期读数 |
+| Paired/contributions / 前后与拆解 | Matched-scale dumbbell or reconciled waterfall / 同刻度哑铃或可核对的瀑布图解 |
+| Process/hierarchy / 流程与结构 | Numbered directional rail or actual parent-child connectors / 步骤编号、引导线，或真实父子结构 |
 
-![Actual analytical forms and process / 实际导出的分析图与流程图](docs/assets/visual-forms.jpg)
+**Same source, data and two images.** Left: the published 5.0 export. Right: 5.1, with no font names or page coordinates in its high-level plan. This compares two versions of this skill; it is not a fabricated “without AI” example.
 
-**24 pinned Lucide icons** are included with their licenses. They match covered concepts in Chinese/English, inherit a consistent ink and remain replaceable image assets. Unknown concepts get no arbitrary icon. Image requests specify framing, text-safe space and a shared visual language; the host executes its actual image/source tool. Writing a prompt alone does not count as producing an illustration.
+**相同材料、数据和两张配图。** 左侧为已发布的 5.0 导出稿，右侧为 5.1 自动处理；新计划没有填写字体名称或页面坐标。对照展示本项目两个版本，不伪造“未使用 AI”的基线。
 
-随包提供 **24 枚已固定版本的 Lucide 授权图标**，按中英文含义匹配、统一墨色，作为可替换图片对象；未知概念不会乱配图标。配图要求自动带构图、文字留白和共同图像语言，由宿主实际执行生图或取图。原生正文、数值和数据图形保持可编辑；不把整页生成为图片。
+![Actual same-input before/after / 实际同材料修改前后](docs/assets/v51-same-input-comparison.jpg)
 
-![Bilingual automatic visual workflow / 双语自动视觉构成流程](docs/assets/visual-defaults-workflow.png)
+`visual-brief.json` now records the complete appearance of every supported page. New semantic plans activate default treatment automatically. Building recompiles the current source plan, preventing old page geometry from silently surviving a content edit. Explicit brands, templates and reference designs take priority.
 
-Font defaults select installed CJK/Latin families and separate cover, headings, body and numerical readouts. Short final lines can rebalance by whole words. Explicit brand/template choices take priority. These are supported design starting points; complex specialist graphics still need a suitable backend or custom composition. [Recipe details / 配方与边界](references/visual-defaults.md).
+新增 `visual-brief.json` 封装每页完整生成描述；新语义计划默认启用视觉处理，构建自动重编当前计划，修复内容改了却继续输出旧页面的问题。品牌、模板和参考设计优先。
 
-默认按实际字体环境区分封面、标题、正文和大数字，尝试避免过短末行；品牌和指定模板优先。复杂专门图形仍应采用相应后端或自定义构图。4.1 的打样、选稿与看图返工流程继续保留，[独立人工审美评审仍待完成](docs/EVALUATION.md)。
+![Bilingual page recipe workflow / 双语整页视觉配方图解](docs/assets/page-recipe-workflow.png)
+
+24 licensed Lucide icons match covered Chinese/English concepts and adapt to light/dark surfaces. Asset requests include subject, framing, text-safe space and shared visual language; the host must execute actual image tools. Native text and data remain editable. [Recipes and boundaries / 配方与边界](references/visual-defaults.md).
+
+24 枚授权图标按中英文含义匹配并适配明暗背景；配图要求带主体、构图、文字留白与共同语言，由宿主实际生图或取图。文字和数据保持可编辑。独立人工审美评审仍待完成；完整页面示例比“美感评分”更值得检查。
 
 ## Install / 安装
 
@@ -81,15 +84,16 @@ Claude Code 可使用 `/ppt-design-polish` 或明确要求调用。用户无需�
 
 | Example / 实例 | Inspectable files / 可检查文件 |
 |---|---|
-| **弧光 / ARC visual defaults · 9 pages** | [PPTX](examples/visual-defaults/visual-defaults.pptx) · [PDF](examples/visual-defaults/visual-defaults.pdf) · [Source, prompts and all pages / 来源、提示词与全稿](examples/visual-defaults/README.md) |
+| **弧光 / ARC 5.1 page recipes · 9 pages** | [PPTX](examples/launch-studio/launch-studio.pptx) · [PDF](examples/launch-studio/launch-studio.pdf) · [Same-input comparison and source / 同材料对照与源稿](examples/launch-studio/README.md) |
+| **弧光 / ARC 5.0 baseline · 9 pages** | [PPTX](examples/visual-defaults/visual-defaults.pptx) · [PDF](examples/visual-defaults/visual-defaults.pdf) · [Source, prompts and all pages / 来源、提示词与全稿](examples/visual-defaults/README.md) |
 | **静观之间 / Exhibition proposal · 6 pages** | [PPTX](examples/studio/exhibition.pptx) · [PDF](examples/studio/exhibition.pdf) · [Proofs, revisions and all pages / 打样、返工与全稿](examples/studio/README.md) |
 | **AERIS ONE / Chinese launch · 10 pages** | [PPTX](examples/launch/launch.pptx) · [PDF](examples/launch/launch.pdf) · [Source / 来源](examples/launch/README.md) |
 | **ATELIER NORTH / Studio brief · 5 pages** | [PPTX](examples/yellow/business.pptx) · [PDF](examples/yellow/business.pdf) · [Source / 来源](examples/yellow/README.md) |
 | **Dispatch pilot / Operations review · 6 pages** | [PPTX](examples/operations/operations.pptx) · [PDF](examples/operations/operations.pdf) · [Source / 来源](examples/operations/README.md) |
 
-The first example exercises 5.0's actual visual recipes; the exhibition retains its 4.1 evidence and the other examples retain their reviewed 4.0 exports. All identities/data are fictional. Generated imagery has saved prompts; key text/data remain native. Commercial reference screenshots, third-party keynote images and fonts are not redistributed.
+The first example exercises 5.1 page recipes; the second preserves the 5.0 baseline; the exhibition retains its 4.1 evidence and the other examples retain their reviewed 4.0 exports. All identities/data are fictional. Generated imagery has saved prompts; key text/data remain native. Commercial reference screenshots, third-party keynote images and fonts are not redistributed.
 
-首个实例验证 5.0 视觉配方；展览保留 4.1 证据，其他实例保留已检查的 4.0 导出稿。身份与数据均为虚构，生成图有提示词记录，关键文字与数据保持原生；不重分发商业模板截图、第三方发布会素材或字体。
+首个实例展示 5.1 整页配方，第二个保留 5.0 对照；展览保留 4.1 证据，其他实例保留已检查的 4.0 导出稿。身份与数据均为虚构，生成图有提示词记录，关键文字与数据保持原生；不重分发商业模板截图、第三方发布会素材或字体。
 
 ![Actual before/after revision of an exported chart page / 实际导出数据页返工前后](docs/assets/studio-revision.jpg)
 

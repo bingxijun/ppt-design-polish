@@ -22,6 +22,14 @@ function tokens(text) {
   }
   return result;
 }
+function headlineTokens(text) {
+  // Segment complete CJK runs, preserving the existing numeric/unit tokenizer.
+  return (text.match(/[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]+|[^\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]+/gu)||[]).flatMap(run=>{
+    if (!/^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u.test(run)) return tokens(run);
+    const locale=/[\p{Script=Hiragana}\p{Script=Katakana}]/u.test(run)?'ja':'zh';
+    return [...new Intl.Segmenter(locale,{granularity:'word'}).segment(run)].map(x=>x.segment);
+  });
+}
 function measure(q) {
   if (q.op==='fonts') return {families};
   const candidates = [q.font, ...(q.fallbacks || []), 'Arial', 'Liberation Sans', 'DejaVu Sans'].filter(Boolean);
@@ -34,7 +42,7 @@ function measure(q) {
   for (const paragraph of String(q.text).split('\n')) {
     const start = lines.length;
     let current='';
-    for (const token of tokens(paragraph)) {
+    for (const token of q.preferWordBreaks?headlineTokens(paragraph):tokens(paragraph)) {
       const next=current+token;
       // Reserve room for Office/LibreOffice mixed-script automatic spacing.
       // Metrics are a planning aid, not identical shaping across applications.

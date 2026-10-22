@@ -132,6 +132,8 @@ def resolve_chart(slide, plan):
     if goal=='distribution' and any(v<0 for v in observed):raise ValueError('Distribution bin counts cannot be negative')
     form=FORMS[goal]
     if goal=='share':
+        if chart.get('form') not in (None,'pie','doughnut','bar'):raise ValueError('Share form must be pie, doughnut or bar')
+        form=chart.get('form') or form
         if any(v<0 for v in values[0]) or sum(values[0])<=0:raise ValueError('Share needs nonnegative parts of a positive whole')
         if not isinstance(chart.get('whole'),str) or not chart['whole'].strip():raise ValueError('Share needs the named whole represented by these parts')
         if chart.get('total') is None or not math.isclose(sum(values[0]),number(chart['total'],plan),rel_tol=1e-7,abs_tol=1e-7):
@@ -210,11 +212,19 @@ def image_request(slide, plan, config):
 
 def normalise(plan, workspace, metrics, require_assets=True):
     plan=copy.deepcopy(plan); config=plan.get('visual_defaults')
-    if config is None:return plan,{'enabled':False,'decisions':[],'image_requests':[],'icons':[]}
+    if config is None:
+        if plan.get('design') or plan.get('style','auto')!='auto':return plan,{'enabled':False,'decisions':[],'image_requests':[],'icons':[]}
+        config={};plan['visual_defaults']=config
     if not isinstance(config,dict):raise ValueError('visual_defaults must be an object')
+    from presentation_recipes import profile_for, recipe_for, surface_for, visual_brief
+    profile=profile_for(plan,config)
+    # A supplied design keeps its fonts. Default launch/editorial profiles use a
+    # real display/body pairing rather than different sizes of the same face.
+    design_config={**config}
+    if profile in ('product-launch','editorial'):design_config['tone']='editorial'
     families=metrics.query({'op':'fonts'})['families']
     if not plan.get('design'):
-        plan['design']=default_design(config,plan.get('language','en-US'),families)
+        plan['design']=default_design(design_config,plan.get('language','en-US'),families)
         if plan.get('style','auto')!='auto':
             presets=json.loads((ROOT/'references/launch-presets.json').read_text())
             if plan['style'] not in presets:raise ValueError('Unknown explicit visual preset')
@@ -223,7 +233,7 @@ def normalise(plan, workspace, metrics, require_assets=True):
             plan['design']['structure'].update({k:preset[k] for k in ('cover','chapter')})
         else:plan['style']='auto'
     plan.setdefault('assets',{})
-    report={'enabled':True,'decisions':[],'image_requests':[],'icons':[],
+    report={'enabled':True,'profile':profile,'decisions':[],'image_requests':[],'icons':[],
             'typography':plan['design'].get('typography'),
             'font_warning':plan['design'].get('font_warning'),
             'limits':'Host interprets meaning and supplies truthful data. Fixed recipes automate geometry, not aesthetic judgment.'}
@@ -236,11 +246,12 @@ def normalise(plan, workspace, metrics, require_assets=True):
             slide['layout']='visual-diagram'
             slide.setdefault('diagram',{})['form']=relation
         if relation=='capabilities' and not slide.get('layout'):slide['layout']='visual-feature'
+        slide['_surface']=surface_for(slide,profile,plan['design']['palette'])
         for entry in slide.get('diagram',{}).get('nodes',[])+[x for x in slide.get('items',[]) if isinstance(x,dict)]:
             name=icon_name(entry,plan)
             if name:
-                key='icon-'+name; entry['_icon']=key
-                color=plan['design']['palette']['ink']
+                color=plan['design']['palette']['onDark' if slide['_surface']=='dark' else 'ink']
+                key='icon-'+name+'-'+color.lower(); entry['_icon']=key
                 relative='assets/icons/'+name+'-'+color.lower()+'.png'
                 plan['assets'][key]={'path':relative,'purpose':'Semantic sign for '+text(entry.get('title',entry.get('body','')),plan),
                                      'provenance':'Pinned Lucide artwork; licenses/Lucide.txt; source hash in assets/icons/manifest.json','fit':'contain'}
@@ -256,6 +267,9 @@ def normalise(plan, workspace, metrics, require_assets=True):
                 if slide['layout']=='visual-cover' and req.get('placement','right')!='right':raise ValueError('Visual cover needs a right-side subject and left text-safe area; use a custom cover for other placement')
             if require_assets and (req['asset'] not in plan['assets'] or not (workspace/plan['assets'][req['asset']]['path']).is_file()):
                 raise ValueError('Missing '+req['asset']+': use the host image/source tool with asset-requests.json, then register the real asset in plan.assets')
+        recipe=recipe_for(slide,profile)
+        if recipe:slide['_recipe']=recipe
+    if profile!='classic':report['visual_brief']=visual_brief(plan,profile)
     return plan,report
 
 
@@ -263,6 +277,8 @@ def prepare(workspace):
     workspace=Path(workspace).resolve();plan=json.loads((workspace/'plan.json').read_text())
     with TextMetrics() as metrics:effective,report=normalise(plan,workspace,metrics,False)
     save(workspace/'visual-plan.json',effective)
+    if report.get('visual_brief'):save(workspace/'visual-brief.json',report['visual_brief'])
+    elif (workspace/'visual-brief.json').exists():(workspace/'visual-brief.json').unlink()
     save(workspace/'asset-requests.json',{'requests':report['image_requests'],'execution':'Host must execute actual image/source tools and register assets; this CLI does not call a model.'})
     with tempfile.TemporaryDirectory() as tmp:
         file=Path(tmp)/'icons.json';save(file,report['icons'])

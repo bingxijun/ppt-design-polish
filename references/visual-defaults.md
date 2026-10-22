@@ -7,15 +7,38 @@ Use this first for new decks and open visual redesigns. The user gives ordinary 
 ## Use / 执行
 
 1. Freeze and read the entire source with `compose.py prepare`. Ground claims as in [composition](composition-system.md).
-2. Add `visual_defaults` and a meaningful relation/analytical intent to each page. Preserve any supplied brand/template. Choose the accent from brand/reference or the subject's actual materials, rather than assigning an industry color.
-3. Run `visuals.py prepare`. Read `visual-report.json` and `asset-requests.json`. It selects installed typography and rasterizes pinned Lucide artwork into matching transparent icons offline.
+2. Give each page a meaningful relation/analytical intent. `visual_defaults` is optional for a new semantic plan; default treatment activates automatically when no explicit design/preset is supplied. Preserve any supplied brand/template. Choose the accent from brand/reference or the subject's actual materials, rather than assigning an industry color.
+3. Run `visuals.py prepare`. Read `visual-brief.json`, `visual-report.json` and `asset-requests.json`. It selects installed typography and rasterizes pinned Lucide artwork into matching transparent icons offline.
 4. Execute required image requests using the host's image generation/search tools. Copy actual assets into the workspace and register path/purpose/provenance in `plan.assets`. The generated prompt specifies ratio, subject placement, text-safe space and shared palette. A real product's identity must use authorized real imagery. Keep generation prompts outside the formal deck.
-5. Compose, build through the permitted backend, render the actual export and inspect. Use [studio proof/revision](studio-workflow.md) when exploring a full design; an established visual recipe/reference can use the adopted-reference proof route. Fix the visible source problem, rather than adding scores or decorating failed layouts.
+5. Build through the permitted backend, render the actual export and inspect. `deck.py build` automatically prepares assets and recompiles a local semantic plan; it never silently builds a stale `deck.json`. Image files must still be resolved first. Use [studio proof/revision](studio-workflow.md) when exploring a full design; an established visual recipe/reference can use the adopted-reference proof route. Fix the visible source problem, rather than adding scores or decorating failed layouts.
 
 ```bash
 python3 "<SKILL_ROOT>/scripts/visuals.py" prepare --workspace "/absolute/work"
 python3 "<SKILL_ROOT>/scripts/compose.py" compose --workspace "/absolute/work"
 ```
+
+## Complete page recipes / 整页默认效果
+
+The host extracts page meaning from the source; the compiler translates supported meanings into a complete composition, not only a chart object. It writes `visual-brief.json`: page appearance, type pairing, surface, chart form, image, communication reason and functional details. Another host backend can execute this same description. It is an internal design artifact, not text for speaker notes.
+
+宿主先理解材料，编排器再把支持的内容关系转成完整页面，同时输出整页视觉描述。字体、图形、图文比例、标注与装饰一起设计；这些工作属于默认行为，用户不必逐项提示。
+
+| Starting direction / 起点 | Selection / 选择 | Visible behavior / 实际效果 |
+|---|---|---|
+| `product-launch` | A product illustration brief / 有产品配图需求 | Installed serif display + sans body; material/photo spread; content-led dark feature page; distinct analytical and sequence compositions / 宋体或衬线标题配清晰正文、材质特写、功能深色页、不同分析与流程构成 |
+| `editorial` | Editorial tone / 编辑型内容 | Display/body contrast, image-led opening and measured evidence layouts / 标题正文对比、图片主导开场与证据页面 |
+| `analytical` | Other new semantic plans / 其他新语义计划 | Clear sans hierarchy, readable native plots, direct labels and structured relationships / 无衬线层级、原生图表、直接标注与内容关系 |
+| `classic` | Explicit design/preset, or requested legacy profile / 明确设计系统或旧版配置 | Preserve authored design and earlier recipe geometry / 保留指定设计与旧版构图 |
+
+Use optional `visual_defaults.profile` to override the starting direction. These share primitives rather than pretending to be three independent design engines. Brand/template fonts and a supplied reference take precedence. The host can author a custom composition when the reference or content requires it. No page-count-based random theme switching.
+
+默认按内容选择方向，可选覆盖；三种方向共用部分构图资源，并非三个独立设计引擎。品牌、模板和参考图优先，需要时采用自定义构图，不按页码随机换风格。
+
+- Ranking / 排名：left sourced readout, right native bars / 左侧有来源的大数字，右侧排序条形。
+- Share / 占比：finding + named whole, central ring/pie, right category/value ledger / 左侧结论与分母，中间饼环，右侧类别数值。
+- Trend / 趋势：native plot and final-period readout / 原生折线配末期读数；提供的 insight 仍保留。
+- Features / 功能：tall material photo + measured icon/text rows / 竖向材质图配逐项功能图标与说明。
+- Process / 流程：large ordinals, continuous directional rail, small semantic icons / 大步骤编号、连续引导线、小图标与完整说明。
 
 ## Visual identity / 字体与颜色
 
@@ -25,7 +48,7 @@ python3 "<SKILL_ROOT>/scripts/compose.py" compose --workspace "/absolute/work"
  "image_style":"Controlled editorial product photography, believable materials and soft shadows."}}
 ```
 
-`tone` is `precise`, `editorial` or `expressive`. It changes the type starting point; it is not a complete creative direction. Editorial prefers an installed serif heading; the other tones use a clear sans heading. CJK and Latin candidates are checked against actual installed families. The default scale is 62 pt cover, 34 pt headings, 20 pt body, 18 pt table and 54 pt analytical readouts. Recipe labels use their reading needs. Explicit design/brand typography wins. No fonts are bundled; a missing CJK family produces a warning, not a false glyph-coverage claim. Preview the final glyphs.
+`tone` is `precise`, `editorial` or `expressive`. It changes the type starting point; it is not a complete creative direction. Product-launch/editorial profiles prefer an installed serif heading; analytical uses a clear sans heading. The optional tone is a starting hint, not an independent layout engine. CJK and Latin candidates are checked against actual installed families. The default scale is 62 pt cover, 34 pt headings, 20 pt body, 18 pt table and 54 pt analytical readouts. Recipe labels use their reading needs. Explicit design/brand typography wins. No fonts are bundled; a missing CJK family produces a warning, not a false glyph-coverage claim. Preview the final glyphs.
 
 标题、正文、数字采用明确层级，正文保持中性墨色；强调色主要用于重要数据点、类别标识或关系。普通正文不逐词变彩色。短末行会尝试按整词回移，保留字号和数值单位；这不是完整的中日韩专业排版引擎。仍需检查实际断行。
 
@@ -42,7 +65,7 @@ Keep the existing grounded `chart.series[].points[{label,value}]` data schema. V
 | `paired` 前后或两条件 | Editable dumbbell diagram on one shared scale | Exactly 2 matched series, at most 4 tasks; endpoints retain both values |
 | `contribution` 贡献拆解 | Editable waterfall diagram with connected running totals | `steps:["total","delta",...,"total"]`; changes must reconcile with sourced end total |
 
-Native bar/line/doughnut charts contain their workbook data. Dumbbell/waterfall recipes use editable measured shapes, connectors and native number labels, not embedded Excel charts. Source data remains in the plan. Do not advertise all recipes as native Excel chart types.
+Native bar/line/pie/doughnut charts contain their workbook data. Dumbbell/waterfall recipes use editable measured shapes, connectors and native number labels, not embedded Excel charts. Source data remains in the plan. Do not advertise all recipes as native Excel chart types.
 
 ```json
 {"title":"$headline","design_reason":"The two periods share identical task categories.",
@@ -51,7 +74,7 @@ Native bar/line/doughnut charts contain their workbook data. Dumbbell/waterfall 
   {"name":"$after","points":[{"label":"$task_a","value":"$a1"},{"label":"$task_b","value":"$b1"}]}]}}
 ```
 
-An optional `insight:{value,label,body}` is a sourced adjacent readout for ranking/trend/distribution. Do not turn every chart into a KPI card. `share` supports `center` and optional `center_point`; its sourced number must match that data point, whose category is displayed inside the ring. Keep the denominator and conditions visible. `min/max/major_unit/number_format` remain available; observed values may not be clipped. Bar scale includes zero unless the analytical task explicitly requires a justified specialist composition.
+An optional `insight:{value,label,body}` is a sourced adjacent readout for ranking/trend/distribution. Do not turn every chart into a KPI card. `share` accepts optional `form:"pie"|"doughnut"|"bar"`; more than five parts still use bars. It supports `center` and optional `center_point`; its sourced number must match that data point, whose category is displayed inside the ring. Keep the denominator and conditions visible. `min/max/major_unit/number_format` remain available; observed values may not be clipped. Bar scale includes zero unless the analytical task explicitly requires a justified specialist composition.
 
 ## Diagrams / 内容关系图
 

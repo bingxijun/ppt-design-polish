@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "checks": {
+    "build_current": true,
+    "renders_current": true,
+    "reviews_pass": true,
+    "content_contract": true,
+    "requested_formats": true
+  },
+  "contract": {
+    "ok": true,
+    "errors": [],
+    "slide_count": 9,
+    "limits": "Text/cache presence and object counts do not establish semantic equivalence, workbook correctness, animation behavior, or visual quality"
+  },
+  "output": "launch-studio.pptx",
+  "outputs": [
+    "launch-studio.pptx",
+    "launch-studio.pdf",
+    "previews/"
+  ],
+  "artifact_sha256": "bd0a8be4cd1e56f18be1140158e9d7e383195af3e977fd8dc170179d41cec12d",
+  "renderer": "libreoffice-exported-pptx",
+  "review_evidence": "Host-recorded observations bound to current file/images; the CLI cannot prove an image was actually viewed"
+}

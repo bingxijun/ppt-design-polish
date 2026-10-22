@@ -186,7 +186,7 @@ class Composer:
         font = font or self.t['bodyFont']
         measured = self.metrics.wrap(text, font, size, w, bold=options.get('bold',False),
                                      leading=1.06 if size>=30 else 1.28,
-                                     balance_last_line=bool(self.plan.get('visual_defaults')))
+                                     balance_last_line=isinstance(self.plan.get('visual_defaults'),dict))
         if measured['overlong'] or measured['height'] > h*72 + 5:
             raise ValueError(f'Text does not fit {size}pt box: {text[:70]!r}; shorten or repaginate')
         self.e.append({'type': 'text', 'text': '\n'.join(measured['lines']), 'options': {
@@ -319,7 +319,14 @@ class Composer:
                          'showMarker':chart['type']=='line','lineSize':2.5,'markerSize':5})
             if chart['intent']=='distribution':opts['gapSize']=12
             if chart['intent']=='ranking':opts['valAxisHidden']=True
-        if chart.get('type')=='doughnut':
+        if s.get('_recipe'):
+            opts.update({'chartArea':{'fill':{'color':t['background']}},
+                         'plotArea':{'fill':{'color':t['background']}},
+                         'legendColor':t['ink'],'legendFontFace':t['bodyFont'],
+                         'catAxisLabelFontFace':t['bodyFont'],'valAxisLabelFontFace':t['latinFont'],
+                         'dataLabelFontFace':t['latinFont'],'gapSize':180})
+            if chart.get('type')=='line':opts['chartColors']=chart.get('series_colors') or [t['accent']]
+        if chart.get('type') in ('doughnut','pie'):
             opts.update({'holeSize':76,'chartColors':chart['_category_colors'],'showLegend':False,
                          'showValue':False,'showPercent':False,'showLabel':False,'dataLabelPosition':'bestFit',
                          'showCatName':False,'catAxisHidden':True,'valAxisHidden':True})
@@ -523,7 +530,10 @@ def compose(workspace):
         if expected:minimums[str(i)]=expected
     write(workspace/'contract.json', {'required_text': composer.contract, 'min_objects':minimums})
     write(workspace/'design-audit.json', audit({**plan,'slides':slides},spec,composer.manifest))
+    if not visual_report.get('visual_brief') and (workspace/'visual-brief.json').exists():
+        (workspace/'visual-brief.json').unlink()
     if visual_report['enabled']:
+        if visual_report.get('visual_brief'):write(workspace/'visual-brief.json',visual_report['visual_brief'])
         visual_report['icons']=[{'name':x['name'],'path':str(Path(x['output']).relative_to(workspace))} for x in visual_report['icons']]
         write(workspace/'visual-report.json',visual_report)
     write(workspace/'composition.json', {'style': composer.style_name, 'slides': composer.manifest,

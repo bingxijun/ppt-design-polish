@@ -135,8 +135,9 @@ def validate_diagram(diagram):
     return nodes,levels
 
 
-def diagram(c,s):
-    title(c,s);data=s['diagram'];nodes,levels=validate_diagram(data);form=data['form'];t=c.t
+def diagram(c,s,with_title=True):
+    if with_title:title(c,s)
+    data=s['diagram'];nodes,levels=validate_diagram(data);form=data['form'];t=c.t
     positions={};compact=form=='hierarchy' and len(levels)>2
     if form=='process':
         stride=11.7/len(nodes)
@@ -224,6 +225,9 @@ def feature(c,s):
 
 def render_visual(c,s,page):
     if not s.get('design_reason','').strip():raise ValueError('Visual recipe needs its communication reason')
+    if s.get('_recipe'):
+        from presentation_recipes import render
+        return render(c,s,page)
     layout=s['layout']
     if layout=='visual-cover':
         c.image(s['image'],0,0,13.333333,7.5)

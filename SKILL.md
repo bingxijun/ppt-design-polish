@@ -2,7 +2,7 @@
 name: ppt-design-polish
 description: "Create, redesign, polish, and review PowerPoint presentations (PPT/PPTX), including editable slides, brand/template reuse, purposeful imagery, and final-export visual review. 创建、重设计、美化与审查 PPT。Use for presentation authoring and design, not text extraction alone."
 metadata:
-  version: "5.0.0"
+  version: "5.1.0"
 ---
 
 # PPT Design & Polish
@@ -28,7 +28,10 @@ Default to native key text, data, labels, and diagrams that need editing, with p
 
 ### Default design system / 默认制作方式
 
-Before a full new deck or visual redesign, read [automatic visual treatment](references/visual-defaults.md). Enable `visual_defaults` in the semantic plan unless the supplied brand/template or an explicitly authored composition already establishes the treatment. Infer the analytical intent from the source and reading task: ranking, time trend, share of a named whole, distribution, paired change, or reconciled contribution. Use actual flow, cycle and hierarchy relations for diagrams. Do not default every analysis to bars, every comparison to a table, or every paragraph to an icon card.
+Treat typography, chart appearance, image proportions, labels, page surface and functional details as one composition. `visual-brief.json` contains complete per-page appearance instructions, usable with this builder or a host backend. Apply those instructions; writing them alone is not a completed design. A supplied reference overrides the starting recipes. Inspect representative body pages as carefully as the cover.
+
+
+Before a full new deck or visual redesign, read [automatic visual treatment](references/visual-defaults.md). New semantic plans automatically receive a complete page treatment unless a supplied design/template already establishes it. `visual_defaults` optionally supplies brand colors and art direction; it is no longer an activation switch. Infer the analytical intent from the source and reading task: ranking, time trend, share of a named whole, distribution, paired change, or reconciled contribution. Use actual flow, cycle and hierarchy relations for diagrams. Do not default every analysis to bars, every comparison to a table, or every paragraph to an icon card.
 
 Run `visuals.py prepare` to select available typography and materialize matched semantic icons, then read and **execute** its `asset-requests.json` with available host image/source tools. Register the resulting real files in `plan.assets`. A prompt file is not a completed illustration. Product/visual storytelling briefs normally need a useful hero plus a distinct detail or context image; quantitative pages may need no image. Supply subject, purpose, visual language and placement; the helper completes the composition prompt. Reuse the hero as an identity reference when generating fictional detail images. Real product identity uses supplied/authorized imagery. Add decorative light, texture or material crops only when they reinforce this particular subject; never scatter generic blobs or icons to fill space.
 

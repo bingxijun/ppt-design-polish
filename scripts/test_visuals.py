@@ -27,6 +27,43 @@ def chart_slide(values,intent,labels=None):
 
 
 class VisualTests(unittest.TestCase):
+    def test_pie_is_native_and_still_requires_a_reconciled_whole(self):
+        p,s=chart_slide([50,30,20],'share');s['chart'].update(whole='All time',total='100',form='pie')
+        self.assertEqual(resolve_chart(s,p)['form'],'pie')
+        s['chart']['total']='90'
+        with self.assertRaisesRegex(ValueError,'sum'):resolve_chart(s,p)
+
+    def test_semantic_build_recompiles_changed_plan_and_applies_default_treatment(self):
+        import shutil
+        example=ROOT/'examples/visual-defaults'
+        with tempfile.TemporaryDirectory() as tmp:
+            w=Path(tmp)
+            for name in ('plan.json','source.json'):shutil.copyfile(example/name,w/name)
+            shutil.copytree(example/'inputs',w/'inputs');shutil.copytree(example/'assets',w/'assets')
+            p=json.loads((w/'plan.json').read_text());p.pop('visual_defaults')
+            # No design flag, fonts, recipe names or coordinates are needed.
+            (w/'plan.json').write_text(json.dumps(p));init(w,9,'hybrid');build(w)
+            brief=json.loads((w/'visual-brief.json').read_text())
+            self.assertEqual(brief['profile'],'product-launch')
+            self.assertEqual(len(brief['pages']),9)
+            deck=json.loads((w/'deck.json').read_text())
+            self.assertNotEqual(deck['slides'][0]['background'],deck['slides'][1]['background'])
+            self.assertTrue(any(e['type']=='image' and 'f7f7f4' in e['path'] for e in deck['slides'][1]['elements']))
+            # A real plan edit must change the exported chart without manual compose.
+            p['slides'][3]['chart']['form']='pie';(w/'plan.json').write_text(json.dumps(p))
+            result=build(w)
+            with ZipFile(w/result['artifact']) as z:
+                self.assertTrue(any(b'<c:pieChart>' in z.read(n) for n in z.namelist() if n.startswith('ppt/charts/') and n.endswith('.xml')))
+            self.assertTrue(verify_contract(w,w/result['artifact'])['ok'])
+            p['visual_defaults']={'profile':'classic'};(w/'plan.json').write_text(json.dumps(p));prepare(w)
+            self.assertFalse((w/'visual-brief.json').exists())
+
+    def test_display_wrapping_keeps_chinese_word_boundaries(self):
+        with TextMetrics() as m:
+            r=m.wrap('一半使用时长发生在家庭书桌','Songti SC',34,3.72)
+            self.assertNotIn('发',[line[-1:] for line in r['lines'][:-1]])
+            self.assertEqual(''.join(r['lines']),'一半使用时长发生在家庭书桌')
+
     def test_ranking_sort_preserves_labels_values_and_focus_identity(self):
         p,s=chart_slide([12,40,25],'ranking');s['chart']['focus_points']=[0]
         decision=resolve_chart(s,p);points=s['chart']['series'][0]['points']

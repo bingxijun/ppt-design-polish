@@ -79,7 +79,7 @@ for i,(a,b,icon) in enumerate([('感知模块','接收环境光输入','sense'),
 slide('系统结构',10,'真实父子关系用分支连接表达；不把组成关系画成时间流程。',relation='hierarchy',diagram={'nodes':nodes},
       body=claim('availability','尚未确定售价、上市时间或真实量产参数。',10))
 plan={'source_sha256':source['sha256'],'title':'弧光 / ARC — 自动视觉构成样例','language':'zh-CN','slide_count':len(slides),
-      'visual_defaults':{'tone':'precise','accent':'B0772A','background':'F4F3EE','ink':'202623',
+      'visual_defaults':{'profile':'classic','tone':'precise','accent':'B0772A','background':'F4F3EE','ink':'202623',
                          'basis':'Supplied fictional product imagery: graphite metal, brass hinge and ivory light. Typography stays neutral; brass identifies semantic emphasis.'},
       'claims':claims,'slides':slides,'omitted':[],
       'assets':{key:{'path':'assets/'+key+'.jpg','purpose':purpose,'provenance':'Built-in imagegen; full prompt and identity reference recorded in prompts.json. Fictional design illustration.','fit':'cover'}

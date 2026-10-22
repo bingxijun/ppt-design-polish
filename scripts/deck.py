@@ -40,7 +40,7 @@ def write(path, value):
 def snapshot(workspace):
     files = [workspace/name for name in ['task.json', 'deck.json', 'contract.json', 'design-plan.json',
              'plan.json', 'source.json', 'composition.json', 'design-audit.json', 'design-study.json',
-             'visual-plan.json', 'visual-report.json', 'asset-requests.json'] if (workspace/name).is_file()]
+             'visual-plan.json', 'visual-report.json', 'visual-brief.json', 'asset-requests.json'] if (workspace/name).is_file()]
     for directory in ['assets', 'slides', 'inputs', 'code']:
         files += [p for p in (workspace/directory).rglob('*') if p.is_file()]
     return {str(p.relative_to(workspace)): digest(p) for p in sorted(set(files))}
@@ -108,6 +108,12 @@ def register_build(w, pptx, backend):
 
 def build(w):
     task(w)
+    if (w/'plan.json').is_file() and (w/'source.json').is_file():
+        # Never bind a freshly edited semantic plan to an older deck.json.
+        from visuals import prepare as prepare_visuals
+        from compose import compose
+        prepare_visuals(w)
+        compose(w)
     output = w/'.ppt-beautify/draft.pptx'
     result = node_run('build_deck.mjs', w/'deck.json', output)
     return register_build(w, output, result['backend'])

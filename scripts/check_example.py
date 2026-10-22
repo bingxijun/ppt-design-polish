@@ -21,7 +21,7 @@ def main():
             raise SystemExit(str(verification))
         print('Sample built: 3 slides; required text, native chart/table, and relationships checked.')
         print('Visual quality still requires rendering and inspection.')
-    for name in ('launch', 'yellow', 'operations', 'studio', 'visual-defaults'):
+    for name in ('launch', 'yellow', 'operations', 'studio', 'visual-defaults','launch-studio'):
         source = root/'examples'/name
         with tempfile.TemporaryDirectory(prefix='ppt-design-polish-composition-') as tmp:
             workspace = Path(tmp)
@@ -29,7 +29,7 @@ def main():
                 shutil.copyfile(source/file, workspace/file)
             for directory in ('assets', 'inputs'):
                 shutil.copytree(source/directory, workspace/directory) if (source/directory).exists() else (workspace/directory).mkdir()
-            if name=='visual-defaults':
+            if name in ('visual-defaults','launch-studio'):
                 from visuals import prepare as prepare_visuals
                 prepare_visuals(workspace)
             result = compose(workspace)
@@ -51,6 +51,9 @@ def main():
     validation=read(root/'examples/visual-defaults/validation.json')
     if digest(root/'examples/visual-defaults/visual-defaults.pptx')!=validation['artifact_sha256']:
         raise SystemExit('Public visual-defaults export differs from reviewed artifact')
+    validation=read(root/'examples/launch-studio/validation.json')
+    if digest(root/'examples/launch-studio/launch-studio.pptx')!=validation['artifact_sha256']:
+        raise SystemExit('Public launch-studio export differs from reviewed artifact')
     print('Studio evidence: candidate, critique and final file hashes match. Human preference review remains separate.')
 
 
