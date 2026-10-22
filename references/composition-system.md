@@ -1,5 +1,7 @@
 # Measured composition / 按内容编排与测量
 
+For new decks, begin with [automatic visual treatment](visual-defaults.md), which supplies semantic chart/diagram recipes, installed typography and matched assets. This reference covers source grounding and the lower-level composition API.
+
 Default route for a full new deck. The **host agent** reads, edits and reasons; the compiler measures, paginates and checks traceability. It does not call a hidden model or understand an announcement by itself. Users supply materials and invoke the skill; they do not write JSON.
 
 完整新稿默认使用。宿主 agent 负责理解、编辑与设计；编排器负责测量、分页和来源检查。本包不暗中调用模型，也不自称自动完美理解任意文告。用户无需写 JSON。
@@ -18,7 +20,7 @@ Read **all** `source.json` units. Inventory facts and dependencies: identities, 
 
 ## Derive the design / 从本次材料推导设计
 
-`style:"auto"` requires a concrete `design`. It **does not** select teal/yellow by industry. The agent derives these roles; the user is not asked to select tokens. Defaults of the reusable geometry are editable aids, not a visual identity to impose on all briefs.
+With `visual_defaults` enabled, `visuals.py` resolves the installed typography and base palette into a concrete design. Without it, `style:"auto"` requires a concrete `design`. It **does not** select teal/yellow by industry. The agent derives these roles; the user is not asked to select tokens. Defaults of the reusable geometry are editable aids, not a visual identity to impose on all briefs.
 
 ```json
 {

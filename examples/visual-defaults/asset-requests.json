@@ -1,0 +1,29 @@
+{
+  "requests": [
+    {
+      "slide": 1,
+      "asset": "hero",
+      "subject": "Original fictional adaptive desk lamp with flat graphite circular head, brass hinge and graphite stem/base on a warm ivory desktop.",
+      "purpose": "Establish the product silhouette and a quiet launch mood.",
+      "placement": "right",
+      "product": true,
+      "mode": "generate",
+      "ratio": "16:9",
+      "prompt": "Use case: product-mockup\nAsset type: presentation photo/illustration layer; 16:9 composition.\nPrimary request: Original fictional adaptive desk lamp with flat graphite circular head, brass hinge and graphite stem/base on a warm ivory desktop.\nPurpose: Establish the product silhouette and a quiet launch mood.\nStyle/medium: Professional editorial photography with believable materials and controlled lighting.\nComposition/framing: Subject on the right 45%; quiet negative space across the left 50% for native slide text.\nColor palette: background #F4F3EE, ink #202623, restrained accent #B0772A.\nConstraints: no text, logos, watermark, chart labels or invented data; leave all slide typography native.\nIdentity: original fictional subject; do not imitate a named real product or venue.",
+      "output": "assets/hero.png"
+    },
+    {
+      "slide": 2,
+      "asset": "detail",
+      "subject": "Macro photograph of the same fictional lamp head-to-stem brass hinge and matte graphite material.",
+      "purpose": "Show tactile product character beside functional explanations.",
+      "placement": "detail",
+      "product": true,
+      "mode": "generate",
+      "ratio": "4:5",
+      "prompt": "Use case: product-mockup\nAsset type: presentation photo/illustration layer; 4:5 composition.\nPrimary request: Macro photograph of the same fictional lamp head-to-stem brass hinge and matte graphite material.\nPurpose: Show tactile product character beside functional explanations.\nStyle/medium: Professional editorial photography with believable materials and controlled lighting.\nComposition/framing: Close-up material or mechanism detail; portrait crop; identify the same fictional product.\nColor palette: background #F4F3EE, ink #202623, restrained accent #B0772A.\nConstraints: no text, logos, watermark, chart labels or invented data; leave all slide typography native.\nIdentity: original fictional subject; do not imitate a named real product or venue.",
+      "output": "assets/detail.png"
+    }
+  ],
+  "execution": "Host must execute actual image/source tools and register assets; this CLI does not call a model."
+}

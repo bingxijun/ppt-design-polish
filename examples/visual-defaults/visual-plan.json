@@ -1,0 +1,1293 @@
+{
+  "source_sha256": "4798bc1f67ae8a194acd4db02155f92df0fb394d6746bbbecf0d760e350478df",
+  "title": "弧光 / ARC — 自动视觉构成样例",
+  "language": "zh-CN",
+  "slide_count": 9,
+  "visual_defaults": {
+    "tone": "precise",
+    "accent": "B0772A",
+    "background": "F4F3EE",
+    "ink": "202623",
+    "basis": "Supplied fictional product imagery: graphite metal, brass hinge and ivory light. Typography stays neutral; brass identifies semantic emphasis."
+  },
+  "claims": {
+    "disclosure": {
+      "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+      "evidence": [
+        {
+          "unit": "p002",
+          "quote": "弧光是一款虚构的自适应桌面照明概念。主题：自适应桌面照明。概念提案 / PRODUCT CONCEPT。全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。"
+        }
+      ]
+    },
+    "subtitle": {
+      "text": "自适应桌面照明",
+      "evidence": [
+        {
+          "unit": "p002",
+          "quote": "弧光是一款虚构的自适应桌面照明概念。主题：自适应桌面照明。概念提案 / PRODUCT CONCEPT。全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。"
+        }
+      ]
+    },
+    "intro": {
+      "text": "概念提案 / PRODUCT CONCEPT",
+      "evidence": [
+        {
+          "unit": "p002",
+          "quote": "弧光是一款虚构的自适应桌面照明概念。主题：自适应桌面照明。概念提案 / PRODUCT CONCEPT。全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。"
+        }
+      ]
+    },
+    "title0": {
+      "text": "弧光",
+      "evidence": [
+        {
+          "unit": "p002",
+          "quote": "弧光是一款虚构的自适应桌面照明概念。主题：自适应桌面照明。概念提案 / PRODUCT CONCEPT。全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。"
+        }
+      ]
+    },
+    "feature0": {
+      "text": "环境感知",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "功能设想：环境感知——采集桌面环境光，作为调光输入。自适应调光——根据当前任务调节光线，不预设所有场景都需要更亮。手动控制——保留用户的调节选择，允许随时接管。"
+        }
+      ]
+    },
+    "feature-body0": {
+      "text": "采集桌面环境光，作为调光输入。",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "功能设想：环境感知——采集桌面环境光，作为调光输入。自适应调光——根据当前任务调节光线，不预设所有场景都需要更亮。手动控制——保留用户的调节选择，允许随时接管。"
+        }
+      ]
+    },
+    "feature1": {
+      "text": "自适应调光",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "功能设想：环境感知——采集桌面环境光，作为调光输入。自适应调光——根据当前任务调节光线，不预设所有场景都需要更亮。手动控制——保留用户的调节选择，允许随时接管。"
+        }
+      ]
+    },
+    "feature-body1": {
+      "text": "根据当前任务调节光线，不预设所有场景都需要更亮。",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "功能设想：环境感知——采集桌面环境光，作为调光输入。自适应调光——根据当前任务调节光线，不预设所有场景都需要更亮。手动控制——保留用户的调节选择，允许随时接管。"
+        }
+      ]
+    },
+    "feature2": {
+      "text": "手动控制",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "功能设想：环境感知——采集桌面环境光，作为调光输入。自适应调光——根据当前任务调节光线，不预设所有场景都需要更亮。手动控制——保留用户的调节选择，允许随时接管。"
+        }
+      ]
+    },
+    "feature-body2": {
+      "text": "保留用户的调节选择，允许随时接管。",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "功能设想：环境感知——采集桌面环境光，作为调光输入。自适应调光——根据当前任务调节光线，不预设所有场景都需要更亮。手动控制——保留用户的调节选择，允许随时接管。"
+        }
+      ]
+    },
+    "title1": {
+      "text": "随环境调光，保留手动选择",
+      "evidence": [
+        {
+          "unit": "p003",
+          "quote": "功能设想：环境感知——采集桌面环境光，作为调光输入。自适应调光——根据当前任务调节光线，不预设所有场景都需要更亮。手动控制——保留用户的调节选择，允许随时接管。"
+        }
+      ]
+    },
+    "ranklabel0": {
+      "text": "阅读",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "rankvalue0": {
+      "text": "45",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "ranklabel1": {
+      "text": "屏幕工作",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "rankvalue1": {
+      "text": "30",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "ranklabel2": {
+      "text": "手作",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "rankvalue2": {
+      "text": "15",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "ranklabel3": {
+      "text": "其他",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "rankvalue3": {
+      "text": "10",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "rank-focus": {
+      "text": "45%",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "rank-focus-label": {
+      "text": "阅读任务占比",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "rank-note": {
+      "text": "虚构任务调查：100份单选回答。",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "title2": {
+      "text": "阅读是最多见的桌面任务",
+      "evidence": [
+        {
+          "unit": "p004",
+          "quote": "虚构任务调查（单选，100份回答）：阅读45%，屏幕工作30%，手作15%，其他10%。阅读是出现最多的桌面任务。"
+        }
+      ]
+    },
+    "sharelabel0": {
+      "text": "家庭书桌",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "sharevalue0": {
+      "text": "50",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "sharelabel1": {
+      "text": "共享工作位",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "sharevalue1": {
+      "text": "30",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "sharelabel2": {
+      "text": "临时阅读角",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "sharevalue2": {
+      "text": "20",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "whole": {
+      "text": "示例使用时长",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "total": {
+      "text": "100",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "center": {
+      "text": "50%",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "share-note": {
+      "text": "分母为全部示例使用时长，不是用户人数。",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "title3": {
+      "text": "一半使用时长发生在家庭书桌",
+      "evidence": [
+        {
+          "unit": "p005",
+          "quote": "虚构使用时长结构：总时长100%，家庭书桌50%，共享工作位30%，临时阅读角20%。占比的分母是全部示例使用时长，不是用户人数。"
+        }
+      ]
+    },
+    "trendlabel0": {
+      "text": "1月",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendvalue0": {
+      "text": "14",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendlabel1": {
+      "text": "2月",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendvalue1": {
+      "text": "20",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendlabel2": {
+      "text": "3月",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendvalue2": {
+      "text": "28",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendlabel3": {
+      "text": "4月",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendvalue3": {
+      "text": "39",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendlabel4": {
+      "text": "5月",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendvalue4": {
+      "text": "50",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendlabel5": {
+      "text": "6月",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trendvalue5": {
+      "text": "64",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "trend-note": {
+      "text": "虚构试用样本，不代表市场规模或增长预测。",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "title4": {
+      "text": "试用人数的逐月累计",
+      "evidence": [
+        {
+          "unit": "p006",
+          "quote": "虚构试用进度：1月14人、2月20人、3月28人、4月39人、5月50人、6月64人。试用人数逐月累计；这组样本不代表市场规模或增长预测。"
+        }
+      ]
+    },
+    "beforelabel0": {
+      "text": "调亮",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "beforevalue0": {
+      "text": "6",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "beforelabel1": {
+      "text": "恢复",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "beforevalue1": {
+      "text": "5",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "beforelabel2": {
+      "text": "记忆",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "beforevalue2": {
+      "text": "4",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "after0": {
+      "text": "2",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "after1": {
+      "text": "2",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "after2": {
+      "text": "1",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "before-name": {
+      "text": "原方案",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "after-name": {
+      "text": "概念方案",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "paired-note": {
+      "text": "测试条件相同；动作更少不等同于已验证的效率改善。",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "title5": {
+      "text": "同一操作脚本中的动作次数",
+      "evidence": [
+        {
+          "unit": "p007",
+          "quote": "同一虚构操作脚本的动作次数，原方案与概念方案依次为：调亮6次与2次，恢复5次与2次，记忆4次与1次。两组测试条件相同；少做几步不等同于已验证的效率改善。"
+        }
+      ]
+    },
+    "bridgelabel0": {
+      "text": "基准",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgevalue0": {
+      "text": "100",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgelabel1": {
+      "text": "自适应",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgevalue1": {
+      "text": "-12",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgelabel2": {
+      "text": "待机",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgevalue2": {
+      "text": "-8",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgelabel3": {
+      "text": "增亮",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgevalue3": {
+      "text": "5",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgelabel4": {
+      "text": "方案",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridgevalue4": {
+      "text": "85",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "bridge-note": {
+      "text": "这是假设工况的收支核算，不是真实节能测试。",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "title6": {
+      "text": "假设工况下的能耗核算",
+      "evidence": [
+        {
+          "unit": "p008",
+          "quote": "虚构能耗核算（Wh）：基准100，自适应-12，待机-8，增亮+5，方案85。这是一个假设工况的收支核算，不能作为真实节能测试。"
+        }
+      ]
+    },
+    "stage0": {
+      "text": "感知",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "stage-body0": {
+      "text": "采集环境光",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "stage1": {
+      "text": "评估",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "stage-body1": {
+      "text": "结合当前任务",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "stage2": {
+      "text": "调节",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "stage-body2": {
+      "text": "改变灯光输出",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "stage3": {
+      "text": "确认",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "stage-body3": {
+      "text": "接受手动接管",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "process-note": {
+      "text": "这是功能逻辑，不是已经验证的电路设计。",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "title7": {
+      "text": "一次调光的功能逻辑",
+      "evidence": [
+        {
+          "unit": "p009",
+          "quote": "一次调光流程依次为：感知——采集环境光；评估——结合当前任务；调节——改变灯光输出；确认——接受手动接管。这是功能逻辑，不是已经验证的电路设计。"
+        }
+      ]
+    },
+    "system": {
+      "text": "弧光照明系统",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    },
+    "module0": {
+      "text": "感知模块",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    },
+    "module-body0": {
+      "text": "接收环境光输入",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    },
+    "module1": {
+      "text": "控制模块",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    },
+    "module-body1": {
+      "text": "结合自动与手动选择",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    },
+    "module2": {
+      "text": "照明模块",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    },
+    "module-body2": {
+      "text": "输出光线",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    },
+    "availability": {
+      "text": "尚未确定售价、上市时间或真实量产参数。",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    },
+    "title8": {
+      "text": "系统结构",
+      "evidence": [
+        {
+          "unit": "p010",
+          "quote": "系统结构：弧光照明系统包含感知模块、控制模块、照明模块。感知模块接收环境光输入，控制模块结合自动与手动选择，照明模块输出光线。产品尚未确定售价、上市时间或真实量产参数。"
+        }
+      ]
+    }
+  },
+  "slides": [
+    {
+      "title": "$title0",
+      "footnote": "$disclosure",
+      "design_reason": "产品名称与右侧摄影形成一个明确焦点，留白容纳原生标题。",
+      "role": "cover",
+      "subtitle": "$subtitle",
+      "body": "$intro",
+      "illustration": {
+        "asset": "hero",
+        "subject": "Original fictional adaptive desk lamp with flat graphite circular head, brass hinge and graphite stem/base on a warm ivory desktop.",
+        "purpose": "Establish the product silhouette and a quiet launch mood.",
+        "placement": "right",
+        "product": true
+      },
+      "image": "hero",
+      "layout": "visual-cover"
+    },
+    {
+      "title": "$title1",
+      "footnote": "$disclosure",
+      "design_reason": "一张材质特写配合三段完整功能说明；图标标识具体功能，避免彩色卡片。",
+      "relation": "capabilities",
+      "items": [
+        {
+          "title": "$feature0",
+          "body": "$feature-body0",
+          "_icon": "icon-radio"
+        },
+        {
+          "title": "$feature1",
+          "body": "$feature-body1",
+          "_icon": "icon-sun-moon"
+        },
+        {
+          "title": "$feature2",
+          "body": "$feature-body2",
+          "_icon": "icon-sliders-horizontal"
+        }
+      ],
+      "illustration": {
+        "asset": "detail",
+        "subject": "Macro photograph of the same fictional lamp head-to-stem brass hinge and matte graphite material.",
+        "purpose": "Show tactile product character beside functional explanations.",
+        "placement": "detail",
+        "product": true
+      },
+      "layout": "visual-feature",
+      "image": "detail"
+    },
+    {
+      "title": "$title2",
+      "footnote": "$disclosure",
+      "design_reason": "类别排名使用排序条形图；重点是阅读，其余类别保持中性。",
+      "chart": {
+        "type": "bar",
+        "intent": "ranking",
+        "series": [
+          {
+            "name": "任务",
+            "points": [
+              {
+                "label": "$ranklabel0",
+                "value": "$rankvalue0"
+              },
+              {
+                "label": "$ranklabel1",
+                "value": "$rankvalue1"
+              },
+              {
+                "label": "$ranklabel2",
+                "value": "$rankvalue2"
+              },
+              {
+                "label": "$ranklabel3",
+                "value": "$rankvalue3"
+              }
+            ]
+          }
+        ],
+        "focus_points": [
+          0
+        ],
+        "focus_reason": "阅读在单选回答中占比最高。",
+        "number_format": "0\"%\"",
+        "max": 50,
+        "orientation": "bar",
+        "category_order": "first-at-top",
+        "min": 0,
+        "major_unit": 20
+      },
+      "insight": {
+        "value": "$rank-focus",
+        "label": "$rank-focus-label",
+        "body": "$rank-note"
+      },
+      "layout": "visual-analysis"
+    },
+    {
+      "title": "$title3",
+      "footnote": "$disclosure",
+      "design_reason": "同一总时长的三个组成部分使用环形图与直接标注，分母紧邻图形。",
+      "chart": {
+        "type": "doughnut",
+        "intent": "share",
+        "series": [
+          {
+            "name": "使用时长",
+            "points": [
+              {
+                "label": "$sharelabel0",
+                "value": "$sharevalue0"
+              },
+              {
+                "label": "$sharelabel1",
+                "value": "$sharevalue1"
+              },
+              {
+                "label": "$sharelabel2",
+                "value": "$sharevalue2"
+              }
+            ]
+          }
+        ],
+        "whole": "$whole",
+        "total": "$total",
+        "center": "$center",
+        "unit": "%",
+        "_category_colors": [
+          "B0772A",
+          "414B47",
+          "7D8982"
+        ],
+        "center_point": 0
+      },
+      "body": "$share-note",
+      "layout": "visual-analysis"
+    },
+    {
+      "title": "$title4",
+      "footnote": "$disclosure",
+      "design_reason": "按月份保留顺序，以连续折线显示同一指标，避免把时间点排成类别排名。",
+      "chart": {
+        "type": "line",
+        "intent": "trend",
+        "series": [
+          {
+            "name": "试用人数",
+            "points": [
+              {
+                "label": "$trendlabel0",
+                "value": "$trendvalue0"
+              },
+              {
+                "label": "$trendlabel1",
+                "value": "$trendvalue1"
+              },
+              {
+                "label": "$trendlabel2",
+                "value": "$trendvalue2"
+              },
+              {
+                "label": "$trendlabel3",
+                "value": "$trendvalue3"
+              },
+              {
+                "label": "$trendlabel4",
+                "value": "$trendvalue4"
+              },
+              {
+                "label": "$trendlabel5",
+                "value": "$trendvalue5"
+              }
+            ]
+          }
+        ],
+        "number_format": "0",
+        "min": 0,
+        "max": 80,
+        "major_unit": 20
+      },
+      "body": "$trend-note",
+      "layout": "visual-analysis"
+    },
+    {
+      "title": "$title5",
+      "footnote": "$disclosure",
+      "design_reason": "相同任务的两组值在共享刻度上以哑铃图对照；端点直接写明数值。",
+      "chart": {
+        "type": "dumbbell",
+        "intent": "paired",
+        "series": [
+          {
+            "name": "$before-name",
+            "points": [
+              {
+                "label": "$beforelabel0",
+                "value": "$beforevalue0"
+              },
+              {
+                "label": "$beforelabel1",
+                "value": "$beforevalue1"
+              },
+              {
+                "label": "$beforelabel2",
+                "value": "$beforevalue2"
+              }
+            ]
+          },
+          {
+            "name": "$after-name",
+            "points": [
+              {
+                "label": "$beforelabel0",
+                "value": "$after0"
+              },
+              {
+                "label": "$beforelabel1",
+                "value": "$after1"
+              },
+              {
+                "label": "$beforelabel2",
+                "value": "$after2"
+              }
+            ]
+          }
+        ],
+        "unit": "次",
+        "min": 0,
+        "max": 8,
+        "series_colors": [
+          "202623",
+          "B0772A"
+        ],
+        "series_color_reason": "Named comparison series retain their own ink throughout this page."
+      },
+      "subtitle": "$paired-note",
+      "layout": "visual-analysis"
+    },
+    {
+      "title": "$title6",
+      "footnote": "$disclosure",
+      "design_reason": "可正可负的变化从基准逐步连接至结余，瀑布图在比例和加总上保持一致。",
+      "chart": {
+        "type": "waterfall",
+        "intent": "contribution",
+        "series": [
+          {
+            "name": "能耗",
+            "points": [
+              {
+                "label": "$bridgelabel0",
+                "value": "$bridgevalue0"
+              },
+              {
+                "label": "$bridgelabel1",
+                "value": "$bridgevalue1"
+              },
+              {
+                "label": "$bridgelabel2",
+                "value": "$bridgevalue2"
+              },
+              {
+                "label": "$bridgelabel3",
+                "value": "$bridgevalue3"
+              },
+              {
+                "label": "$bridgelabel4",
+                "value": "$bridgevalue4"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          "total",
+          "delta",
+          "delta",
+          "delta",
+          "total"
+        ],
+        "unit": "Wh"
+      },
+      "subtitle": "$bridge-note",
+      "layout": "visual-analysis"
+    },
+    {
+      "title": "$title7",
+      "footnote": "$disclosure",
+      "design_reason": "顺序关系用连续箭头和一致线性图标表达，文字与图形形成同一条阅读路径。",
+      "relation": "process",
+      "diagram": {
+        "nodes": [
+          {
+            "id": "stage0",
+            "title": "$stage0",
+            "body": "$stage-body0",
+            "_icon": "icon-radio"
+          },
+          {
+            "id": "stage1",
+            "title": "$stage1",
+            "body": "$stage-body1",
+            "_icon": "icon-chart-no-axes-combined"
+          },
+          {
+            "id": "stage2",
+            "title": "$stage2",
+            "body": "$stage-body2",
+            "_icon": "icon-sliders-horizontal"
+          },
+          {
+            "id": "stage3",
+            "title": "$stage3",
+            "body": "$stage-body3",
+            "_icon": "icon-check-check"
+          }
+        ],
+        "form": "process"
+      },
+      "body": "$process-note",
+      "layout": "visual-diagram"
+    },
+    {
+      "title": "$title8",
+      "footnote": "$disclosure",
+      "design_reason": "真实父子关系用分支连接表达；不把组成关系画成时间流程。",
+      "relation": "hierarchy",
+      "diagram": {
+        "nodes": [
+          {
+            "id": "root",
+            "title": "$system",
+            "icon": "illuminate",
+            "_icon": "icon-lightbulb"
+          },
+          {
+            "id": "module0",
+            "parent": "root",
+            "title": "$module0",
+            "body": "$module-body0",
+            "icon": "sense",
+            "_icon": "icon-radio"
+          },
+          {
+            "id": "module1",
+            "parent": "root",
+            "title": "$module1",
+            "body": "$module-body1",
+            "icon": "control",
+            "_icon": "icon-sliders-horizontal"
+          },
+          {
+            "id": "module2",
+            "parent": "root",
+            "title": "$module2",
+            "body": "$module-body2",
+            "icon": "illuminate",
+            "_icon": "icon-lightbulb"
+          }
+        ],
+        "form": "hierarchy"
+      },
+      "body": "$availability",
+      "layout": "visual-diagram"
+    }
+  ],
+  "omitted": [],
+  "assets": {
+    "hero": {
+      "path": "assets/hero.jpg",
+      "purpose": "Product silhouette with native text-safe area",
+      "provenance": "Built-in imagegen; full prompt and identity reference recorded in prompts.json. Fictional design illustration.",
+      "fit": "cover"
+    },
+    "detail": {
+      "path": "assets/detail.jpg",
+      "purpose": "Product material close-up beside functional explanations",
+      "provenance": "Built-in imagegen; full prompt and identity reference recorded in prompts.json. Fictional design illustration.",
+      "fit": "cover"
+    },
+    "icon-radio": {
+      "path": "assets/icons/radio-202623.png",
+      "purpose": "Semantic sign for 感知模块",
+      "provenance": "Pinned Lucide artwork; licenses/Lucide.txt; source hash in assets/icons/manifest.json",
+      "fit": "contain"
+    },
+    "icon-sun-moon": {
+      "path": "assets/icons/sun-moon-202623.png",
+      "purpose": "Semantic sign for 自适应调光",
+      "provenance": "Pinned Lucide artwork; licenses/Lucide.txt; source hash in assets/icons/manifest.json",
+      "fit": "contain"
+    },
+    "icon-sliders-horizontal": {
+      "path": "assets/icons/sliders-horizontal-202623.png",
+      "purpose": "Semantic sign for 控制模块",
+      "provenance": "Pinned Lucide artwork; licenses/Lucide.txt; source hash in assets/icons/manifest.json",
+      "fit": "contain"
+    },
+    "icon-chart-no-axes-combined": {
+      "path": "assets/icons/chart-no-axes-combined-202623.png",
+      "purpose": "Semantic sign for 评估",
+      "provenance": "Pinned Lucide artwork; licenses/Lucide.txt; source hash in assets/icons/manifest.json",
+      "fit": "contain"
+    },
+    "icon-check-check": {
+      "path": "assets/icons/check-check-202623.png",
+      "purpose": "Semantic sign for 确认",
+      "provenance": "Pinned Lucide artwork; licenses/Lucide.txt; source hash in assets/icons/manifest.json",
+      "fit": "contain"
+    },
+    "icon-lightbulb": {
+      "path": "assets/icons/lightbulb-202623.png",
+      "purpose": "Semantic sign for 照明模块",
+      "provenance": "Pinned Lucide artwork; licenses/Lucide.txt; source hash in assets/icons/manifest.json",
+      "fit": "contain"
+    }
+  },
+  "design": {
+    "basis": "Supplied fictional product imagery: graphite metal, brass hinge and ivory light. Typography stays neutral; brass identifies semantic emphasis.",
+    "palette": {
+      "background": "F4F3EE",
+      "paper": "F4F3EE",
+      "ink": "202623",
+      "muted": "5B5F5C",
+      "rule": "CECEC9",
+      "accent": "B0772A",
+      "dark": "202623",
+      "onDark": "F7F7F4",
+      "onDarkMuted": "CFD4CE"
+    },
+    "typography": {
+      "headingFont": "Hiragino Sans GB",
+      "bodyFont": "Hiragino Sans GB",
+      "latinFont": "Avenir Next"
+    },
+    "body_size": 20,
+    "table_size": 18,
+    "title_size": 34,
+    "cover_size": 62,
+    "structure": {
+      "cover": "typographic",
+      "chapter": "paper"
+    },
+    "furniture": {
+      "brand": false,
+      "page": true
+    },
+    "font_warning": null
+  },
+  "style": "auto"
+}

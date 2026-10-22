@@ -9,7 +9,7 @@ import tempfile
 
 NAME = 'ppt-design-polish'
 ROOT = Path(__file__).resolve().parents[1]
-COMPONENTS = ('SKILL.md', 'agents', 'references', 'scripts', 'licenses',
+COMPONENTS = ('SKILL.md', 'agents', 'references', 'scripts', 'assets', 'licenses',
               'LICENSE', 'THIRD_PARTY_NOTICES.md', 'package.json', 'package-lock.json')
 
 

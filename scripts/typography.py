@@ -32,9 +32,9 @@ class TextMetrics:
         if result.get('substituted'): self.substitutions[payload.get('font')] = result['font']
         return result
 
-    def wrap(self, text, font, size, width, bold=False, leading=1.28):
+    def wrap(self, text, font, size, width, bold=False, leading=1.28, balance_last_line=False):
         return self.query({'text':text,'font':font,'size':size,'width':width*72,
-                           'bold':bold,'leading':leading})
+                           'bold':bold,'leading':leading,'balanceLastLine':balance_last_line})
 
     def width(self, text, font, size, bold=False):
         return self.query({'op':'width','text':text,'font':font,'size':size,'bold':bold})['width']/72

@@ -1,0 +1,19 @@
+{
+  "mode": "built-in image_gen",
+  "fictional": true,
+  "assets": [
+    {
+      "path": "assets/hero.jpg",
+      "prompt": "Use case: product-mockup. Asset type: 16:9 full-bleed presentation hero photograph for an original fictional adaptive desk lamp. Subject: one exquisitely designed compact rechargeable task lamp, low broad flat circular light head, thin warm graphite stem, small cylindrical brass hinge and matte graphite circular base, precise believable manufacturing detail, no branding. Scene: restrained warm-white architectural tabletop with subtle warm ivory wall, soft daylight from left, one soft amber light pool cast beneath the lamp; sophisticated industrial design editorial photography, physically plausible materials and shadows. Composition: lamp entirely on the right 43 percent of this wide frame, large completely quiet light warm ivory negative space throughout the left 52 percent reserved for editable native title and subtitle, no other objects. Palette background #F4F3EE, graphite #202623, subdued brass/amber #B0772A. Camera eye-level three-quarter product view, entire lamp fits frame with air around it. No text, no numbers, no logos, no charts, no watermark. Original fictional product, do not imitate a named existing lamp. High-end product launch art direction, clean and convincing, no futuristic neon or gratuitous gradients.",
+      "generated_file": "exec-e42c5b84-f153-4133-8dd2-7783dd56e73c.png",
+      "transformation": "JPEG encoding only"
+    },
+    {
+      "path": "assets/detail.jpg",
+      "prompt": "Use case: product-mockup. Asset type: portrait 4:5 presentation detail photograph. Input image: supplied lamp photo is the product identity reference, not a page to edit. Create a new close-up editorial product photograph of exactly this original fictional desk lamp: keep its flat circular graphite head, small cylindrical brass hinge, thin graphite stem and credible material identity. Focus on the head-to-stem brass hinge and tactile material junction, with a partial arc of the thin illuminated head visible above. Crop deliberately as a refined industrial-design macro photograph; no full lamp or extra objects. Warm ivory background, softly diffused studio daylight, fine matte metal texture, restrained contrast, graphite #202623 and brass #B0772A, sophisticated premium product launch photography. One coherent vertical image, no collage, no text, labels, numbers, logo or watermark. This is a fictional design illustration and must not claim a real manufactured mechanism.",
+      "identity_reference": "assets/hero.jpg",
+      "generated_file": "exec-096da3b0-ed1f-4f62-95dd-86cb0855b82d.png",
+      "transformation": "JPEG encoding only"
+    }
+  ]
+}

@@ -1,32 +1,40 @@
 # PPT Design & Polish
 
-**An open-source PowerPoint design skill for Codex and Claude Code. Turn material into editable slides through content editing, rendered proofs and visual revision.**
+**An open-source PowerPoint design skill for Codex and Claude Code. Turn material into editable slides with semantic charts, matched imagery, typography and visual revision.**
 
-**面向 Codex 和 Claude Code 的开源 PPT 设计 skill。通过内容编辑、真实样页比较和看图返工，制作可编辑演示稿。**
+**面向 Codex 和 Claude Code 的开源 PPT 设计 skill。按内容自动安排图表、配图、字体与图标，并看图修改可编辑演示稿。**
 
 [Install / 安装](#install--安装) · [Use / 使用](#use--使用) · [Examples / 实例](#examples--实例) · [Evidence / 验证](docs/EVALUATION.md) · [MIT](LICENSE)
 
-![Actual exhibition proposal exports / 展览提案实际导出页面](docs/assets/studio-showcase.jpg)
+![Actual default visual treatment / 新默认视觉构成的实际导出页面](docs/assets/visual-defaults-showcase.jpg)
 
-## What's new in 4.1 / 4.1 的实际变化
+## Visual defaults in 5.0 / 5.0 的默认视觉能力
 
-The skill now records important design decisions against **real exported pages**. The included exhibition proposal demonstrates three proof comparisons and five located revisions, with editable PPTX, PDF and frozen evidence.
+The agent now turns a semantic content plan into **actual visual forms**, installed typography, consistent icons and executable image requests. The new example starts without font names or page coordinates. Its product photo, material close-up, analytical graphics and relationship diagrams are shown below.
 
-新版将关键设计判断绑定到**真实导出页面**。新增展览提案演示三种页面的打样比较与五项定位返工，附可编辑 PPTX、PDF 和可复查证据。
+新版把内容计划落实为**可执行的视觉表现**：自动匹配图形、已安装字体、统一图标，并形成和执行配图要求。新例子的原始计划不填写字体名称或页面坐标；产品主视觉、材质特写、分析图和关系图都来自实际导出。
 
-| Capability / 能力 | What happens / 实际执行 |
+| Material / 材料关系 | Default treatment / 默认表现 |
 |---|---|
-| **Read and edit / 阅读与编辑** | Preserve facts/conditions and establish the audience's reading task. / 保留事实与条件，明确页面要表达什么。 |
-| **Proof and select / 打样与选稿** | Compare equal-content exports; record each candidate's strengths/tradeoffs. / 相同内容真实导出，记录候选优势与取舍。 |
-| **Native composition / 原生编排** | Measured typography, deliberate color roles, configurable tables and charts. / 实际字体测量，明确配色职责，表格与图表按任务配置。 |
-| **Visual revision / 看图返工** | Locate issues, edit source, re-export and bind fixes to changed page pixels. / 定位问题、改源稿、重新导出，修改记录对应新页面。 |
-| **Honest evaluation / 如实验证** | Prepare anonymous reader pairs; blank feedback remains pending. / 提供匿名页面比较包，空白反馈保持待评审。 |
+| Ranking / 类别排名 | Sorted horizontal bars, direct values and meaningful emphasis / 排序条形图、直接数值、重点突出 |
+| Time / 时间变化 | Native line chart in source order / 按原始时间顺序绘制折线 |
+| Share / 整体占比 | Doughnut plus directly labeled categories; check the denominator / 环形图与类别直标，先核对分母 |
+| Before/after / 前后比较 | Editable dumbbell diagram with both endpoint values / 原生可编辑哑铃图，保留两组数值 |
+| Contributions / 贡献拆解 | Reconciled waterfall diagram / 可核对加总的瀑布图 |
+| Process, cycle, hierarchy / 流程、循环、结构 | Different relational geometry with matching semantic icons / 按真实关系编排，配同风格语义图标 |
+| Product/features / 产品与功能 | Subject-specific hero, distinct detail image and measured explanations / 主视觉、独立细节图与有主次的功能说明 |
 
-![Bilingual proof and revision workflow / 双语打样与返工流程](docs/assets/studio-workflow.png)
+![Actual analytical forms and process / 实际导出的分析图与流程图](docs/assets/visual-forms.jpg)
 
-An approved reference can use one reference proof. Routine text edits stay small. The tools validate evidence correspondence; they do not certify beauty, perfect source understanding or invisible AI involvement. Independent human review of this release's example is **pending**.
+**24 pinned Lucide icons** are included with their licenses. They match covered concepts in Chinese/English, inherit a consistent ink and remain replaceable image assets. Unknown concepts get no arbitrary icon. Image requests specify framing, text-safe space and a shared visual language; the host executes its actual image/source tool. Writing a prompt alone does not count as producing an illustration.
 
-已定参考可直接验证参考，简单改字保持简单。工具验证文件与记录的对应关系，不认证美感、完美理解或无法识别 AI 参与。本轮实例的独立人工评审仍为**待完成**。
+随包提供 **24 枚已固定版本的 Lucide 授权图标**，按中英文含义匹配、统一墨色，作为可替换图片对象；未知概念不会乱配图标。配图要求自动带构图、文字留白和共同图像语言，由宿主实际执行生图或取图。原生正文、数值和数据图形保持可编辑；不把整页生成为图片。
+
+![Bilingual automatic visual workflow / 双语自动视觉构成流程](docs/assets/visual-defaults-workflow.png)
+
+Font defaults select installed CJK/Latin families and separate cover, headings, body and numerical readouts. Short final lines can rebalance by whole words. Explicit brand/template choices take priority. These are supported design starting points; complex specialist graphics still need a suitable backend or custom composition. [Recipe details / 配方与边界](references/visual-defaults.md).
+
+默认按实际字体环境区分封面、标题、正文和大数字，尝试避免过短末行；品牌和指定模板优先。复杂专门图形仍应采用相应后端或自定义构图。4.1 的打样、选稿与看图返工流程继续保留，[独立人工审美评审仍待完成](docs/EVALUATION.md)。
 
 ## Install / 安装
 
@@ -53,19 +61,17 @@ Runtime: Python 3.9+, Node.js 22+, installed fonts. Final-file rendering needs L
 Attach your material and a reference if available / 附上材料，有参考图一并附上：
 
 ```text
-Use $ppt-design-polish to make this material into a presentation.
-Infer the structure and a visual direction suited to the audience.
-Follow the attached reference if present. Compare representative body,
-data and difficult pages where useful, then refine the exported result.
-Keep text, charts and tables editable. Deliver PPTX and PDF.
+Use $ppt-design-polish to turn this material into a professional presentation.
+Deliver editable PPTX and PDF.
 ```
 
 ```text
-使用 $ppt-design-polish，把这份材料做成 PPT。
-按受众与内容安排结构，有参考图则遵循参考。
-对重要正文、数据与困难页适当打样比较，再看图修改整稿。
-文字、图表与表格可编辑，交付 PPTX 和 PDF。
+使用 $ppt-design-polish，根据这份材料制作一份专业 PPT，交付可编辑 PPTX 和 PDF。
 ```
+
+The skill handles analytical forms, typography, imagery and useful icons by default. Add audience, brand or a reference when you have one; you do not need to list the design mechanics yourself.
+
+分析图、字体层级、配图和必要图标属于默认能力，无需用户逐项提醒。有受众、品牌或参考图时一并提供即可。
 
 In Claude Code use `/ppt-design-polish` or explicitly request the skill. Users need not choose layouts, write JSON or coordinate multiple skills. The agent chooses within the brief and keeps internal plans outside speaker notes.
 
@@ -75,14 +81,15 @@ Claude Code 可使用 `/ppt-design-polish` 或明确要求调用。用户无需�
 
 | Example / 实例 | Inspectable files / 可检查文件 |
 |---|---|
+| **弧光 / ARC visual defaults · 9 pages** | [PPTX](examples/visual-defaults/visual-defaults.pptx) · [PDF](examples/visual-defaults/visual-defaults.pdf) · [Source, prompts and all pages / 来源、提示词与全稿](examples/visual-defaults/README.md) |
 | **静观之间 / Exhibition proposal · 6 pages** | [PPTX](examples/studio/exhibition.pptx) · [PDF](examples/studio/exhibition.pdf) · [Proofs, revisions and all pages / 打样、返工与全稿](examples/studio/README.md) |
 | **AERIS ONE / Chinese launch · 10 pages** | [PPTX](examples/launch/launch.pptx) · [PDF](examples/launch/launch.pdf) · [Source / 来源](examples/launch/README.md) |
 | **ATELIER NORTH / Studio brief · 5 pages** | [PPTX](examples/yellow/business.pptx) · [PDF](examples/yellow/business.pdf) · [Source / 来源](examples/yellow/README.md) |
 | **Dispatch pilot / Operations review · 6 pages** | [PPTX](examples/operations/operations.pptx) · [PDF](examples/operations/operations.pdf) · [Source / 来源](examples/operations/README.md) |
 
-The first example exercises 4.1's proof/revision workflow; the other examples retain their reviewed 4.0 exports. All identities/data are fictional. Generated imagery has saved prompts; key text/data remain native. Commercial reference screenshots, third-party keynote images and fonts are not redistributed.
+The first example exercises 5.0's actual visual recipes; the exhibition retains its 4.1 evidence and the other examples retain their reviewed 4.0 exports. All identities/data are fictional. Generated imagery has saved prompts; key text/data remain native. Commercial reference screenshots, third-party keynote images and fonts are not redistributed.
 
-首个实例验证新版流程，其他实例保留已检查的 4.0 导出稿。身份与数据均为虚构，生成图有提示词记录，关键文字与数据保持原生；不重分发商业模板截图、第三方发布会素材或字体。
+首个实例验证 5.0 视觉配方；展览保留 4.1 证据，其他实例保留已检查的 4.0 导出稿。身份与数据均为虚构，生成图有提示词记录，关键文字与数据保持原生；不重分发商业模板截图、第三方发布会素材或字体。
 
 ![Actual before/after revision of an exported chart page / 实际导出数据页返工前后](docs/assets/studio-revision.jpg)
 
@@ -90,15 +97,15 @@ The first example exercises 4.1's proof/revision workflow; the other examples re
 
 ## Inside and limits / 实现与边界
 
-`compose.py` checks evidence quotes, lexical numbers and source accounting, measures fonts and writes native objects. `studio.py` freezes proof exports, binds selections and tracks located visual fixes. `deck.py finalize` checks the current artifact/render/reviews and, for study-enabled workspaces, the current design evidence. `blind_review.py` prepares anonymous reader pairs and summarizes supplied decisions only.
+`visuals.py` resolves visual recipes, installed typography, icons and image requests. `compose.py` checks evidence quotes, lexical numbers and source accounting, measures fonts and writes native objects. `studio.py` freezes proof exports, binds selections and tracks located visual fixes. `deck.py finalize` checks the current artifact/render/reviews and, for study-enabled workspaces, the current design evidence. `blind_review.py` prepares anonymous reader pairs and summarizes supplied decisions only.
 
-编排器处理来源和实际测量；打样工具记录真实候选、取舍和定位修改；交付工具检查当前文件、渲染与复查；匿名评审工具只汇总实际填写的反馈。
+视觉工具处理图形、字体、图标与配图要求；编排器处理来源和实际测量；打样工具记录真实候选、取舍和定位修改；交付工具检查当前文件、渲染与复查；匿名评审工具只汇总实际填写的反馈。
 
 The exhibition is an authored workflow demonstration, not a held-out test or completed independent designer review. Visible styling may reveal an anonymous pair's source, especially when the public example also shows its candidates. Strict blind evaluation needs separate unreleased material and independent readers. No universal quality rate is claimed.
 
 展览实例是本次制作演示，不是封存测试或已完成的独立设计师评审。公开候选可能使匿名页面来源可被识别，严格盲评需另用未公开材料和独立读者；本项目不虚报通用成功率。
 
-[Studio workflow / 打样接口](references/studio-workflow.md) · [Editorial decisions / 编辑判断](references/editorial-decisions.md) · [Composition API / 编排接口](references/composition-system.md) · [Evaluation status / 验证状态](docs/EVALUATION.md) · [Contributing / 参与贡献](CONTRIBUTING.md)
+[Visual recipes / 自动视觉配方](references/visual-defaults.md) · [Studio workflow / 打样接口](references/studio-workflow.md) · [Editorial decisions / 编辑判断](references/editorial-decisions.md) · [Composition API / 编排接口](references/composition-system.md) · [Evaluation status / 验证状态](docs/EVALUATION.md) · [Contributing / 参与贡献](CONTRIBUTING.md)
 
 Independent MIT project. Methods informed by PPT Master, Baoyu slide-deck, PPTAgent and Presenton; precise reuse and licenses: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). A single entry point does not imply feature parity with upstream applications.
 

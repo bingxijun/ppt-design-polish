@@ -33,3 +33,8 @@ Project-created visuals are shared under the repository's MIT permission grant t
 - `studio-showcase.jpg`, `studio-proofs.jpg`, `studio-revision.jpg`: montages of actual exported PPTX pages; generated with `tools/render-studio-docs.mjs`, without repainting slide content.
 - Fictional gallery image and the built-in imagegen prompt: `examples/studio/assets/gallery.jpg` and `examples/studio/prompts.json`.
 - 原创流程图与真实导出拼图；展厅配图为虚构生成概念，图中文字均由原生 PPT 对象覆盖。独立人工评审尚未完成。
+# 5.0 actual output / 5.0 实际输出
+
+`visual-defaults-showcase.jpg` and `visual-forms.jpg` composite actual exported PPTX page pixels; they are not generated slide mockups. `visual-defaults-workflow.svg/png` are original bilingual documentation diagrams. Reproduce with `tools/render-visual-docs.mjs` after rendering the example. The fictional lamp hero and separate material detail use built-in imagegen; actual tool prompts and provenance are in `examples/visual-defaults/prompts.json`.
+
+新预览由最终 PPTX 的真实页面组成；双语流程图为项目原创文档图。灯具主视觉及材质特写由内置生图工具实际生成，完整提示词与来源见示例记录。原生文字与数据图形没有被画进这些照片里。

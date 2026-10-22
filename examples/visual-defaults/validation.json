@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "checks": {
+    "build_current": true,
+    "renders_current": true,
+    "reviews_pass": true,
+    "content_contract": true,
+    "requested_formats": true
+  },
+  "contract": {
+    "ok": true,
+    "errors": [],
+    "slide_count": 9,
+    "limits": "Text/cache presence and object counts do not establish semantic equivalence, workbook correctness, animation behavior, or visual quality"
+  },
+  "output": "visual-defaults.pptx",
+  "outputs": [
+    "visual-defaults.pptx",
+    "visual-defaults.pdf",
+    "previews/"
+  ],
+  "artifact_sha256": "0bac58dda242af1bcbd49d9a2f997befc9ea824edcd12e220105b3d93d206832",
+  "renderer": "libreoffice-exported-pptx",
+  "review_evidence": "Host-recorded observations bound to current file/images; the CLI cannot prove an image was actually viewed"
+}

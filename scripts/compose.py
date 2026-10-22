@@ -14,6 +14,8 @@ from pathlib import Path
 import re
 from editorial import design_tokens, semantic_layout, flow_items, table_geometry, audit
 from typography import TextMetrics
+from visuals import normalise, text as visual_text
+from visual_layouts import render_visual
 
 ROOT = Path(__file__).resolve().parents[1]
 PRESETS = json.loads((ROOT/'references/launch-presets.json').read_text())
@@ -129,7 +131,7 @@ def paginate(slides, plan, metrics=None):
         slide = copy.deepcopy(original)
         layout = choose_layout(slide)
         slide['layout'] = layout
-        if layout=='freeform':
+        if layout=='freeform' or layout.startswith('visual-'):
             result.append(slide);continue
         key='rows' if layout=='comparison' else ('events' if layout=='timeline' else 'items')
         items = slide.get(key, [])
@@ -183,7 +185,8 @@ class Composer:
     def txt(self, text, x, y, w, h, size=18, color=None, font=None, **options):
         font = font or self.t['bodyFont']
         measured = self.metrics.wrap(text, font, size, w, bold=options.get('bold',False),
-                                     leading=1.06 if size>=30 else 1.28)
+                                     leading=1.06 if size>=30 else 1.28,
+                                     balance_last_line=bool(self.plan.get('visual_defaults')))
         if measured['overlong'] or measured['height'] > h*72 + 5:
             raise ValueError(f'Text does not fit {size}pt box: {text[:70]!r}; shorten or repaginate')
         self.e.append({'type': 'text', 'text': '\n'.join(measured['lines']), 'options': {
@@ -281,7 +284,7 @@ class Composer:
         t=self.t; chart=s['chart']; data=[]
         for series in chart['series']:
             values=[float(resolve(p['value'],self.plan).replace(',','')) for p in series['points']]
-            data.append({'name':series['name'],'labels':[p['label'] for p in series['points']],'values':values})
+            data.append({'name':visual_text(series['name'],self.plan),'labels':[visual_text(p['label'],self.plan) for p in series['points']],'values':values})
         focus=chart.get('focus_points',[])
         if len(data)>1 and (len(chart.get('series_colors',[]))!=len(data) or not chart.get('series_color_reason')):
             raise ValueError('Multiple series need distinct series_colors and a semantic series_color_reason')
@@ -311,6 +314,15 @@ class Composer:
             opts['catAxisLabelPos']='low'
             opts['valAxisLabelPos']='low'
         if chart.get('type')=='line': opts['dataLabelPosition']='t'
+        if chart.get('intent'):
+            opts.update({'dataLabelFontSize':17,'catAxisLabelFontSize':16,'showValue':len(data[0]['values'])<=8,
+                         'showMarker':chart['type']=='line','lineSize':2.5,'markerSize':5})
+            if chart['intent']=='distribution':opts['gapSize']=12
+            if chart['intent']=='ranking':opts['valAxisHidden']=True
+        if chart.get('type')=='doughnut':
+            opts.update({'holeSize':76,'chartColors':chart['_category_colors'],'showLegend':False,
+                         'showValue':False,'showPercent':False,'showLabel':False,'dataLabelPosition':'bestFit',
+                         'showCatName':False,'catAxisHidden':True,'valAxisHidden':True})
         self.e.append({'type':'chart','chartType':chart.get('type','bar'),'data':data,'options':opts})
 
     def freeform(self,s,page):
@@ -463,6 +475,8 @@ class Composer:
         elif layout == 'text':
             self.chrome(s, page); self.heading(s)
             self.items(s.get('items', []), .75, 2.6, 11.8, 3.95)
+        elif layout.startswith('visual-'):
+            background=render_visual(self,s,page)
         elif layout == 'freeform':
             background=s.get('background',t['background'])
             self.freeform(s,page)
@@ -471,6 +485,10 @@ class Composer:
         # Charts have values in embedded chart/workbook, not text extraction.
         chart_refs = set(references(s.get('chart', {})))
         required = [resolve('$'+ref, self.plan) for ref in set(references(s))-chart_refs]
+        if s.get('chart',{}).get('type') in ('dumbbell','waterfall'):
+            visible=[p[k] for series in s['chart']['series'] for p in series['points'] for k in ('label','value')]
+            if s['chart']['type']=='dumbbell':visible += [series['name'] for series in s['chart']['series']]
+            required += [resolve('$'+ref,self.plan) for ref in set(references(visible))]
         self.contract[str(page)] = required
         self.slides.append({'background': background, 'elements': self.e, 'notes': s.get('notes', '')})
         self.manifest.append({'slide': page, 'layout': layout, 'claims': sorted(set(references(s))),
@@ -482,8 +500,9 @@ def compose(workspace):
     workspace = Path(workspace).resolve()
     plan = json.loads((workspace/'plan.json').read_text())
     source = json.loads((workspace/'source.json').read_text())
-    report = validate(plan, source, workspace)
     with TextMetrics() as metrics:
+        plan,visual_report=normalise(plan,workspace,metrics)
+        report = validate(plan, source, workspace)
         slides = paginate(plan['slides'], plan,metrics)
         composer = Composer(plan, workspace, metrics)
         for i, slide in enumerate(slides, 1): composer.render(slide, i)
@@ -499,10 +518,14 @@ def compose(workspace):
         kinds={f['kind'] for f in s.get('frames',[])}|{s['layout']}
         expected={}
         if 'chart' in kinds:expected['native_charts']=1
+        if s['layout']=='visual-analysis' and s['chart']['type'] not in ('dumbbell','waterfall'):expected['native_charts']=1
         if 'comparison' in kinds or 'table' in kinds:expected['native_tables']=1
         if expected:minimums[str(i)]=expected
     write(workspace/'contract.json', {'required_text': composer.contract, 'min_objects':minimums})
     write(workspace/'design-audit.json', audit({**plan,'slides':slides},spec,composer.manifest))
+    if visual_report['enabled']:
+        visual_report['icons']=[{'name':x['name'],'path':str(Path(x['output']).relative_to(workspace))} for x in visual_report['icons']]
+        write(workspace/'visual-report.json',visual_report)
     write(workspace/'composition.json', {'style': composer.style_name, 'slides': composer.manifest,
           'font_substitutions':substitutions,'text_measurement':'Skia font metrics; final Office rendering needs review',
           'source_sha256': source['sha256'], **report,

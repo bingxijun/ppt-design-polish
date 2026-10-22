@@ -1,0 +1,2893 @@
+{
+  "title": "弧光 / ARC — 自动视觉构成样例",
+  "language": "zh-CN",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5
+  },
+  "theme": {
+    "background": "F4F3EE",
+    "text": "202623",
+    "accent": "B0772A",
+    "headingFont": "Hiragino Sans GB",
+    "bodyFont": "Hiragino Sans GB",
+    "bodySize": 18
+  },
+  "slides": [
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "image",
+          "path": "assets/hero.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 0,
+            "y": 0,
+            "w": 13.333333,
+            "h": 7.5
+          }
+        },
+        {
+          "type": "text",
+          "text": "弧光",
+          "options": {
+            "x": 0.76,
+            "y": 1.53,
+            "w": 6.3,
+            "h": 1.7,
+            "fontSize": 62,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 65.72,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "自适应桌面照明",
+          "options": {
+            "x": 0.8,
+            "y": 3.52,
+            "w": 5.63,
+            "h": 1.1,
+            "fontSize": 30,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 31.8,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "概念提案 / PRODUCT CONCEPT",
+          "options": {
+            "x": 0.8,
+            "y": 5.48,
+            "w": 5.35,
+            "h": 0.9,
+            "fontSize": 18,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "随环境调光，保留手动选择",
+          "options": {
+            "x": 0.72,
+            "y": 0.83,
+            "w": 6.9,
+            "h": 1.12,
+            "fontSize": 34,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/detail.jpg",
+          "fit": "cover",
+          "options": {
+            "x": 8.22,
+            "y": 0.75,
+            "w": 4.42,
+            "h": 5.97
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/radio-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 0.76,
+            "y": 2.5999999999999996,
+            "w": 0.39,
+            "h": 0.39
+          }
+        },
+        {
+          "type": "text",
+          "text": "环境感知",
+          "options": {
+            "x": 1.43,
+            "y": 2.55,
+            "w": 6.1,
+            "h": 0.52,
+            "fontSize": 23,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 29.44,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "采集桌面环境光，作为调光输入。",
+          "options": {
+            "x": 1.43,
+            "y": 3.13,
+            "w": 6.1,
+            "h": 0.36777777777777776,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/sun-moon-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 0.76,
+            "y": 3.927777777777777,
+            "w": 0.39,
+            "h": 0.39
+          }
+        },
+        {
+          "type": "text",
+          "text": "自适应调光",
+          "options": {
+            "x": 1.43,
+            "y": 3.8777777777777773,
+            "w": 6.1,
+            "h": 0.52,
+            "fontSize": 23,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 29.44,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "根据当前任务调节光线，不预设所有场景\n都需要更亮。",
+          "options": {
+            "x": 1.43,
+            "y": 4.457777777777777,
+            "w": 6.1,
+            "h": 0.7055555555555556,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/sliders-horizontal-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 0.76,
+            "y": 5.593333333333333,
+            "w": 0.39,
+            "h": 0.39
+          }
+        },
+        {
+          "type": "text",
+          "text": "手动控制",
+          "options": {
+            "x": 1.43,
+            "y": 5.543333333333333,
+            "w": 6.1,
+            "h": 0.52,
+            "fontSize": 23,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 29.44,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "保留用户的调节选择，允许随时接管。",
+          "options": {
+            "x": 1.43,
+            "y": 6.123333333333333,
+            "w": 6.1,
+            "h": 0.36777777777777776,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "阅读是最多见的桌面任务",
+          "options": {
+            "x": 0.72,
+            "y": 0.83,
+            "w": 11.9,
+            "h": 1.12,
+            "fontSize": 34,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "chart",
+          "chartType": "bar",
+          "data": [
+            {
+              "name": "任务",
+              "labels": [
+                "阅读",
+                "屏幕工作",
+                "手作",
+                "其他"
+              ],
+              "values": [
+                45.0,
+                30.0,
+                15.0,
+                10.0
+              ]
+            }
+          ],
+          "options": {
+            "x": 0.62,
+            "y": 2.48,
+            "w": 8.5,
+            "h": 3.85,
+            "catAxisLabelFontSize": 16,
+            "valAxisLabelFontSize": 11,
+            "valAxisMinVal": 0,
+            "catAxisLineShow": false,
+            "valAxisLineShow": false,
+            "showValue": true,
+            "dataLabelPosition": "outEnd",
+            "dataLabelFormatCode": "0\"%\"",
+            "dataLabelColor": "202623",
+            "dataLabelFontSize": 17,
+            "showLegend": false,
+            "chartColors": [
+              "B0772A",
+              "202623",
+              "202623",
+              "202623"
+            ],
+            "showTitle": false,
+            "showMarker": false,
+            "showBorder": false,
+            "showSerName": false,
+            "gapSize": 100,
+            "catAxisLabelColor": "202623",
+            "valAxisLabelColor": "5B5F5C",
+            "valGridLine": {
+              "style": "none"
+            },
+            "catGridLine": {
+              "style": "none"
+            },
+            "barDir": "bar",
+            "valAxisMaxVal": 50,
+            "valAxisMajorUnit": 20,
+            "catAxisOrientation": "maxMin",
+            "catAxisLabelPos": "low",
+            "valAxisLabelPos": "low",
+            "lineSize": 2.5,
+            "markerSize": 5,
+            "valAxisHidden": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "45%",
+          "options": {
+            "x": 9.62,
+            "y": 2.65,
+            "w": 2.83,
+            "h": 1.15,
+            "fontSize": 54,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 57.24,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "阅读任务占比",
+          "options": {
+            "x": 9.62,
+            "y": 3.87,
+            "w": 2.83,
+            "h": 1.0,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构任务调查：100份\n单选回答。",
+          "options": {
+            "x": 9.62,
+            "y": 5.05,
+            "w": 2.83,
+            "h": 1.25,
+            "fontSize": 18,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "一半使用时长发生在家庭书桌",
+          "options": {
+            "x": 0.72,
+            "y": 0.83,
+            "w": 11.9,
+            "h": 1.12,
+            "fontSize": 34,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "chart",
+          "chartType": "doughnut",
+          "data": [
+            {
+              "name": "使用时长",
+              "labels": [
+                "家庭书桌",
+                "共享工作位",
+                "临时阅读角"
+              ],
+              "values": [
+                50.0,
+                30.0,
+                20.0
+              ]
+            }
+          ],
+          "options": {
+            "x": 0.7,
+            "y": 2.28,
+            "w": 6.25,
+            "h": 4.05,
+            "catAxisLabelFontSize": 16,
+            "valAxisLabelFontSize": 11,
+            "valAxisMinVal": 0,
+            "catAxisLineShow": false,
+            "valAxisLineShow": false,
+            "showValue": false,
+            "dataLabelPosition": "bestFit",
+            "dataLabelFormatCode": "0",
+            "dataLabelColor": "202623",
+            "dataLabelFontSize": 17,
+            "showLegend": false,
+            "chartColors": [
+              "B0772A",
+              "414B47",
+              "7D8982"
+            ],
+            "showTitle": false,
+            "showMarker": false,
+            "showBorder": false,
+            "showSerName": false,
+            "gapSize": 100,
+            "catAxisLabelColor": "202623",
+            "valAxisLabelColor": "5B5F5C",
+            "valGridLine": {
+              "style": "none"
+            },
+            "catGridLine": {
+              "style": "none"
+            },
+            "barDir": "col",
+            "lineSize": 2.5,
+            "markerSize": 5,
+            "holeSize": 76,
+            "showPercent": false,
+            "showLabel": false,
+            "showCatName": false,
+            "catAxisHidden": true,
+            "valAxisHidden": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "50%",
+          "options": {
+            "x": 2.23,
+            "y": 3.83,
+            "w": 3.1,
+            "h": 0.9,
+            "fontSize": 40,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 42.400000000000006,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "家庭书桌",
+          "options": {
+            "x": 2.25,
+            "y": 4.58,
+            "w": 3.0,
+            "h": 0.55,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 7.43,
+            "y": 2.72,
+            "w": 0.12,
+            "h": 0.38,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "B0772A",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "家庭书桌",
+          "options": {
+            "x": 7.8,
+            "y": 2.6,
+            "w": 3.13,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "50%",
+          "options": {
+            "x": 11.0,
+            "y": 2.6,
+            "w": 1.45,
+            "h": 0.6,
+            "fontSize": 25,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 32,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 7.43,
+            "y": 3.5700000000000003,
+            "w": 0.12,
+            "h": 0.38,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "414B47",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "共享工作位",
+          "options": {
+            "x": 7.8,
+            "y": 3.45,
+            "w": 3.13,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "30%",
+          "options": {
+            "x": 11.0,
+            "y": 3.45,
+            "w": 1.45,
+            "h": 0.6,
+            "fontSize": 25,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 32,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 7.43,
+            "y": 4.42,
+            "w": 0.12,
+            "h": 0.38,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "7D8982",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "临时阅读角",
+          "options": {
+            "x": 7.8,
+            "y": 4.3,
+            "w": 3.13,
+            "h": 0.6,
+            "fontSize": 21,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 26.88,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "20%",
+          "options": {
+            "x": 11.0,
+            "y": 4.3,
+            "w": 1.45,
+            "h": 0.6,
+            "fontSize": 25,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 32,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "分母为全部示例使用时长，不是用户人数。",
+          "options": {
+            "x": 0.75,
+            "y": 6.35,
+            "w": 11.6,
+            "h": 0.48,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "试用人数的逐月累计",
+          "options": {
+            "x": 0.72,
+            "y": 0.83,
+            "w": 11.9,
+            "h": 1.12,
+            "fontSize": 34,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "chart",
+          "chartType": "line",
+          "data": [
+            {
+              "name": "试用人数",
+              "labels": [
+                "1月",
+                "2月",
+                "3月",
+                "4月",
+                "5月",
+                "6月"
+              ],
+              "values": [
+                14.0,
+                20.0,
+                28.0,
+                39.0,
+                50.0,
+                64.0
+              ]
+            }
+          ],
+          "options": {
+            "x": 0.62,
+            "y": 2.48,
+            "w": 12.0,
+            "h": 3.85,
+            "catAxisLabelFontSize": 16,
+            "valAxisLabelFontSize": 11,
+            "valAxisMinVal": 0,
+            "catAxisLineShow": false,
+            "valAxisLineShow": false,
+            "showValue": true,
+            "dataLabelPosition": "t",
+            "dataLabelFormatCode": "0",
+            "dataLabelColor": "202623",
+            "dataLabelFontSize": 17,
+            "showLegend": false,
+            "chartColors": [
+              "202623"
+            ],
+            "showTitle": false,
+            "showMarker": true,
+            "showBorder": false,
+            "showSerName": false,
+            "gapSize": 100,
+            "catAxisLabelColor": "202623",
+            "valAxisLabelColor": "5B5F5C",
+            "valGridLine": {
+              "style": "none"
+            },
+            "catGridLine": {
+              "style": "none"
+            },
+            "barDir": "col",
+            "valAxisMaxVal": 80,
+            "valAxisMajorUnit": 20,
+            "lineSize": 2.5,
+            "markerSize": 5
+          }
+        },
+        {
+          "type": "text",
+          "text": "虚构试用样本，不代表市场规模或增长预测。",
+          "options": {
+            "x": 0.75,
+            "y": 6.35,
+            "w": 11.6,
+            "h": 0.48,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "05",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "同一操作脚本中的动作次数",
+          "options": {
+            "x": 0.72,
+            "y": 0.83,
+            "w": 11.9,
+            "h": 1.12,
+            "fontSize": 34,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "测试条件相同；动作更少不等同于已验证的效率改善。",
+          "options": {
+            "x": 0.75,
+            "y": 1.98,
+            "w": 11.9,
+            "h": 0.54,
+            "fontSize": 18,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 3.0500000000000003,
+            "y": 2.75,
+            "w": 0.14,
+            "h": 0.14,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "5B5F5C"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "原方案",
+          "options": {
+            "x": 3.3400000000000003,
+            "y": 2.61,
+            "w": 3.6,
+            "h": 0.45,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 7.25,
+            "y": 2.75,
+            "w": 0.14,
+            "h": 0.14,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "B0772A"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "概念方案",
+          "options": {
+            "x": 7.54,
+            "y": 2.61,
+            "w": 3.6,
+            "h": 0.45,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 3.1,
+            "y": 3.3,
+            "w": 8.870000000000001,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "0",
+          "options": {
+            "x": 2.8200000000000003,
+            "y": 3.05,
+            "w": 0.65,
+            "h": 0.24,
+            "fontSize": 10,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "2",
+          "options": {
+            "x": 5.0375000000000005,
+            "y": 3.05,
+            "w": 0.65,
+            "h": 0.24,
+            "fontSize": 10,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "4",
+          "options": {
+            "x": 7.255,
+            "y": 3.05,
+            "w": 0.65,
+            "h": 0.24,
+            "fontSize": 10,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "6",
+          "options": {
+            "x": 9.472500000000002,
+            "y": 3.05,
+            "w": 0.65,
+            "h": 0.24,
+            "fontSize": 10,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "8",
+          "options": {
+            "x": 11.690000000000001,
+            "y": 3.05,
+            "w": 0.65,
+            "h": 0.24,
+            "fontSize": 10,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 12.8,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "调亮",
+          "options": {
+            "x": 0.75,
+            "y": 3.56,
+            "w": 2.12,
+            "h": 0.63,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.317500000000001,
+            "y": 3.75,
+            "w": 4.4350000000000005,
+            "h": 0.0,
+            "flipH": true,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 2
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 9.677500000000002,
+            "y": 3.675,
+            "w": 0.15,
+            "h": 0.15,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "5B5F5C"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 5.2125,
+            "y": 3.645,
+            "w": 0.21,
+            "h": 0.21,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "B0772A"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "6",
+          "options": {
+            "x": 9.312500000000002,
+            "y": 3.36,
+            "w": 0.88,
+            "h": 0.29,
+            "fontSize": 14,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 17.92,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "2",
+          "options": {
+            "x": 4.8775,
+            "y": 3.9,
+            "w": 0.88,
+            "h": 0.32,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "恢复",
+          "options": {
+            "x": 0.75,
+            "y": 4.46,
+            "w": 2.12,
+            "h": 0.63,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.317500000000001,
+            "y": 4.65,
+            "w": 3.32625,
+            "h": 0.0,
+            "flipH": true,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 2
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 8.568750000000001,
+            "y": 4.575,
+            "w": 0.15,
+            "h": 0.15,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "5B5F5C"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 5.2125,
+            "y": 4.545,
+            "w": 0.21,
+            "h": 0.21,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "B0772A"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "5",
+          "options": {
+            "x": 8.203750000000001,
+            "y": 4.260000000000001,
+            "w": 0.88,
+            "h": 0.29,
+            "fontSize": 14,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 17.92,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "2",
+          "options": {
+            "x": 4.8775,
+            "y": 4.800000000000001,
+            "w": 0.88,
+            "h": 0.32,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "记忆",
+          "options": {
+            "x": 0.75,
+            "y": 5.359999999999999,
+            "w": 2.12,
+            "h": 0.63,
+            "fontSize": 19,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 24.32,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.20875,
+            "y": 5.55,
+            "w": 3.32625,
+            "h": 0.0,
+            "flipH": true,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 2
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 7.46,
+            "y": 5.475,
+            "w": 0.15,
+            "h": 0.15,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "5B5F5C"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "options": {
+            "x": 4.10375,
+            "y": 5.444999999999999,
+            "w": 0.21,
+            "h": 0.21,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "B0772A"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "4",
+          "options": {
+            "x": 7.095,
+            "y": 5.16,
+            "w": 0.88,
+            "h": 0.29,
+            "fontSize": 14,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 17.92,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "1",
+          "options": {
+            "x": 3.7687500000000003,
+            "y": 5.7,
+            "w": 0.88,
+            "h": 0.32,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "次",
+          "options": {
+            "x": 12.51,
+            "y": 3.03,
+            "w": 0.32,
+            "h": 0.32,
+            "fontSize": 12,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 15.36,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "06",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "假设工况下的能耗核算",
+          "options": {
+            "x": 0.72,
+            "y": 0.83,
+            "w": 11.9,
+            "h": 1.12,
+            "fontSize": 34,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "这是假设工况的收支核算，不是真实节能测试。",
+          "options": {
+            "x": 0.75,
+            "y": 1.98,
+            "w": 11.9,
+            "h": 0.54,
+            "fontSize": 18,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 23.04,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 0.85,
+            "y": 6.05,
+            "w": 11.63,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 1.12,
+            "y": 2.82,
+            "w": 1.05,
+            "h": 3.23,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "202623",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "100",
+          "options": {
+            "x": 0.9600000000000001,
+            "y": 2.3499999999999996,
+            "w": 1.37,
+            "h": 0.4,
+            "fontSize": 22,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "基准",
+          "options": {
+            "x": 0.8,
+            "y": 6.18,
+            "w": 1.69,
+            "h": 0.61,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 2.17,
+            "y": 2.82,
+            "w": 1.17,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 3.34,
+            "y": 2.82,
+            "w": 1.05,
+            "h": 0.38759999999999994,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "B0772A",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "-12",
+          "options": {
+            "x": 3.1799999999999997,
+            "y": 2.3499999999999996,
+            "w": 1.37,
+            "h": 0.4,
+            "fontSize": 22,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "自适应",
+          "options": {
+            "x": 3.02,
+            "y": 6.18,
+            "w": 1.69,
+            "h": 0.61,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 4.39,
+            "y": 3.2076,
+            "w": 1.17,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 5.56,
+            "y": 3.2076,
+            "w": 1.05,
+            "h": 0.25839999999999996,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "B0772A",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "-8",
+          "options": {
+            "x": 5.3999999999999995,
+            "y": 2.7375999999999996,
+            "w": 1.37,
+            "h": 0.4,
+            "fontSize": 22,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "待机",
+          "options": {
+            "x": 5.239999999999999,
+            "y": 6.18,
+            "w": 1.69,
+            "h": 0.61,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.609999999999999,
+            "y": 3.4659999999999997,
+            "w": 1.17,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 7.779999999999999,
+            "y": 3.3045,
+            "w": 1.05,
+            "h": 0.16149999999999975,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "B0772A",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "+5",
+          "options": {
+            "x": 7.619999999999999,
+            "y": 2.8345000000000002,
+            "w": 1.37,
+            "h": 0.4,
+            "fontSize": 22,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "增亮",
+          "options": {
+            "x": 7.459999999999999,
+            "y": 6.18,
+            "w": 1.69,
+            "h": 0.61,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 8.83,
+            "y": 3.3045,
+            "w": 1.17,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "rect",
+          "options": {
+            "x": 10.0,
+            "y": 3.3045,
+            "w": 1.05,
+            "h": 2.7455,
+            "line": {
+              "transparency": 100
+            },
+            "fill": {
+              "color": "202623",
+              "transparency": 0
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "85",
+          "options": {
+            "x": 9.84,
+            "y": 2.8345000000000002,
+            "w": 1.37,
+            "h": 0.4,
+            "fontSize": 22,
+            "fontFace": "Avenir Next",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "方案",
+          "options": {
+            "x": 9.68,
+            "y": 6.18,
+            "w": 1.69,
+            "h": 0.61,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Wh",
+          "options": {
+            "x": 11.93,
+            "y": 6.33,
+            "w": 0.7,
+            "h": 0.35,
+            "fontSize": 13,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 16.64,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "07",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "一次调光的功能逻辑",
+          "options": {
+            "x": 0.72,
+            "y": 0.83,
+            "w": 11.9,
+            "h": 1.12,
+            "fontSize": 34,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 2.5524999999999998,
+            "y": 3.23,
+            "w": 2.0449999999999995,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1.2,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 5.4775,
+            "y": 3.23,
+            "w": 2.044999999999999,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1.2,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 8.4025,
+            "y": 3.23,
+            "w": 2.044999999999998,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1.2,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/radio-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 1.8824999999999998,
+            "y": 2.98,
+            "w": 0.46,
+            "h": 0.46
+          }
+        },
+        {
+          "type": "text",
+          "text": "感知",
+          "options": {
+            "x": 0.85,
+            "y": 3.7199999999999998,
+            "w": 2.525,
+            "h": 0.7,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "采集环境光",
+          "options": {
+            "x": 0.85,
+            "y": 4.43,
+            "w": 2.525,
+            "h": 1.0,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/chart-no-axes-combined-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 4.807499999999999,
+            "y": 2.98,
+            "w": 0.46,
+            "h": 0.46
+          }
+        },
+        {
+          "type": "text",
+          "text": "评估",
+          "options": {
+            "x": 3.775,
+            "y": 3.7199999999999998,
+            "w": 2.525,
+            "h": 0.7,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "结合当前任务",
+          "options": {
+            "x": 3.775,
+            "y": 4.43,
+            "w": 2.525,
+            "h": 1.0,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/sliders-horizontal-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 7.732499999999999,
+            "y": 2.98,
+            "w": 0.46,
+            "h": 0.46
+          }
+        },
+        {
+          "type": "text",
+          "text": "调节",
+          "options": {
+            "x": 6.699999999999999,
+            "y": 3.7199999999999998,
+            "w": 2.525,
+            "h": 0.7,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "改变灯光输出",
+          "options": {
+            "x": 6.699999999999999,
+            "y": 4.43,
+            "w": 2.525,
+            "h": 1.0,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/check-check-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 10.657499999999997,
+            "y": 2.98,
+            "w": 0.46,
+            "h": 0.46
+          }
+        },
+        {
+          "type": "text",
+          "text": "确认",
+          "options": {
+            "x": 9.624999999999998,
+            "y": 3.7199999999999998,
+            "w": 2.525,
+            "h": 0.7,
+            "fontSize": 22,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 28.16,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "接受手动接管",
+          "options": {
+            "x": 9.624999999999998,
+            "y": 4.43,
+            "w": 2.525,
+            "h": 1.0,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "这是功能逻辑，不是已经验证的电路设计。",
+          "options": {
+            "x": 0.75,
+            "y": 6.45,
+            "w": 11.7,
+            "h": 0.42,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "08",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "background": "F4F3EE",
+      "elements": [
+        {
+          "type": "text",
+          "text": "系统结构",
+          "options": {
+            "x": 0.72,
+            "y": 0.83,
+            "w": 11.9,
+            "h": 1.12,
+            "fontSize": 34,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 36.04,
+            "lang": "zh-CN",
+            "bold": true
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.65,
+            "y": 3.465555555555556,
+            "w": 0.0,
+            "h": 0.48444444444444423,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 2.75,
+            "y": 3.95,
+            "w": 3.9000000000000004,
+            "h": 0.0,
+            "flipH": true,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 2.75,
+            "y": 3.95,
+            "w": 0.0,
+            "h": 0.16000000000000014,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.65,
+            "y": 3.465555555555556,
+            "w": 0.0,
+            "h": 0.48444444444444423,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.6499999999999995,
+            "y": 3.95,
+            "w": 8.881784197001252e-16,
+            "h": 0.0,
+            "flipH": true,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.6499999999999995,
+            "y": 3.95,
+            "w": 0.0,
+            "h": 0.16000000000000014,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.65,
+            "y": 3.465555555555556,
+            "w": 0.0,
+            "h": 0.48444444444444423,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 6.65,
+            "y": 3.95,
+            "w": 3.9000000000000004,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1
+            }
+          }
+        },
+        {
+          "type": "shape",
+          "shape": "line",
+          "options": {
+            "x": 10.55,
+            "y": 3.95,
+            "w": 0.0,
+            "h": 0.16000000000000014,
+            "flipH": false,
+            "flipV": false,
+            "line": {
+              "color": "CECEC9",
+              "width": 1,
+              "endArrowType": "triangle"
+            }
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/lightbulb-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 6.42,
+            "y": 2.25,
+            "w": 0.46,
+            "h": 0.46
+          }
+        },
+        {
+          "type": "text",
+          "text": "弧光照明系统",
+          "options": {
+            "x": 4.25,
+            "y": 2.99,
+            "w": 4.8,
+            "h": 0.7,
+            "fontSize": 20,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 25.6,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/radio-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 2.52,
+            "y": 4.2,
+            "w": 0.46,
+            "h": 0.46
+          }
+        },
+        {
+          "type": "text",
+          "text": "感知模块",
+          "options": {
+            "x": 1.0,
+            "y": 4.94,
+            "w": 3.5,
+            "h": 0.7,
+            "fontSize": 20,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 25.6,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "接收环境光输入",
+          "options": {
+            "x": 1.0,
+            "y": 5.65,
+            "w": 3.5,
+            "h": 0.66,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/sliders-horizontal-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 6.419999999999999,
+            "y": 4.2,
+            "w": 0.46,
+            "h": 0.46
+          }
+        },
+        {
+          "type": "text",
+          "text": "控制模块",
+          "options": {
+            "x": 4.8999999999999995,
+            "y": 4.94,
+            "w": 3.5,
+            "h": 0.7,
+            "fontSize": 20,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 25.6,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "结合自动与手动选择",
+          "options": {
+            "x": 4.8999999999999995,
+            "y": 5.65,
+            "w": 3.5,
+            "h": 0.66,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "image",
+          "path": "assets/icons/lightbulb-202623.png",
+          "fit": "contain",
+          "options": {
+            "x": 10.32,
+            "y": 4.2,
+            "w": 0.46,
+            "h": 0.46
+          }
+        },
+        {
+          "type": "text",
+          "text": "照明模块",
+          "options": {
+            "x": 8.8,
+            "y": 4.94,
+            "w": 3.5,
+            "h": 0.7,
+            "fontSize": 20,
+            "fontFace": "Hiragino Sans GB",
+            "color": "202623",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 25.6,
+            "lang": "zh-CN",
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "输出光线",
+          "options": {
+            "x": 8.8,
+            "y": 5.65,
+            "w": 3.5,
+            "h": 0.66,
+            "fontSize": 17,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 21.76,
+            "lang": "zh-CN",
+            "align": "center"
+          }
+        },
+        {
+          "type": "text",
+          "text": "尚未确定售价、上市时间或真实量产参数。",
+          "options": {
+            "x": 0.75,
+            "y": 6.45,
+            "w": 11.7,
+            "h": 0.42,
+            "fontSize": 16,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 20.48,
+            "lang": "zh-CN"
+          }
+        },
+        {
+          "type": "text",
+          "text": "09",
+          "options": {
+            "x": 12.2,
+            "y": 6.97,
+            "w": 0.47,
+            "h": 0.22,
+            "fontSize": 9,
+            "fontFace": "Avenir Next",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN",
+            "align": "right"
+          }
+        },
+        {
+          "type": "text",
+          "text": "全部产品、图片与数值均为虚构设计演示，不代表真实产品性能或调研结论。",
+          "options": {
+            "x": 0.65,
+            "y": 6.93,
+            "w": 11.1,
+            "h": 0.31,
+            "fontSize": 9,
+            "fontFace": "Hiragino Sans GB",
+            "color": "5B5F5C",
+            "margin": 0,
+            "breakLine": false,
+            "valign": "top",
+            "paraSpaceAfterPt": 0,
+            "lineSpacing": 11.52,
+            "lang": "zh-CN"
+          }
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

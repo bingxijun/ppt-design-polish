@@ -11,7 +11,7 @@ class InstallTests(unittest.TestCase):
             target, backup = install('codex', skills_dir)
             self.assertIsNone(backup)
             for relative in ('SKILL.md', 'scripts/deck.py', 'references/workflow.md',
-                             'LICENSE', 'licenses/PPTAgent.txt', 'package.json'):
+                             'LICENSE', 'licenses/PPTAgent.txt', 'licenses/Lucide.txt', 'assets/icons/radio.svg', 'package.json'):
                 self.assertTrue((target/relative).is_file(), relative)
             (target/'local-note.txt').write_text('keep me')
             with self.assertRaises(ValueError):

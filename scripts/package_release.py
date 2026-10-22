@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a reproducible portable skill ZIP, excluding docs/media and local state."""
+"""Build a reproducible portable skill ZIP with icons, excluding examples and local state."""
 import argparse
 import hashlib
 import json

@@ -2,12 +2,12 @@
 name: ppt-design-polish
 description: "Create, redesign, polish, and review PowerPoint presentations (PPT/PPTX), including editable slides, brand/template reuse, purposeful imagery, and final-export visual review. 创建、重设计、美化与审查 PPT。Use for presentation authoring and design, not text extraction alone."
 metadata:
-  version: "4.1.0"
+  version: "5.0.0"
 ---
 
 # PPT Design & Polish
 
-One entry point for story, design, assets, authoring, export, and review. **For a new deck, derive the design from the brief and use the measured composition tools below.** Do not require users to choose layouts or orchestrate several skills. 图片模型与推理来自宿主；本包提供实际版式、来源检查、分页和导出工具。
+One entry point for story, design, assets, authoring, export, and review. **For new decks, automatically turn the brief into a visual treatment: appropriate analytical forms, installed type hierarchy, matched imagery and a coherent icon language.** Use the executable visual defaults below rather than stopping at a text outline or relying on the host's ordinary slide styling. Users do not choose chart APIs, fonts, layout coordinates or individual asset prompts. 图片模型与推理来自宿主；本包提供实际视觉配方、素材准备、排版和导出工具。
 
 Resolve this file's directory as `SKILL_ROOT`. Author user decks in a separate `WORKSPACE`, never inside the installation. Replace command placeholders with actual absolute paths. Respond and author in the user's requested language.
 
@@ -15,7 +15,7 @@ Resolve this file's directory as `SKILL_ROOT`. Author user decks in a separate `
 
 | Task | Route | Read when relevant |
 |---|---|---|
-| New deck from announcement/materials | Semantic content plan → default composition kit → editable/hybrid slides | **[Default composition system](references/composition-system.md)** |
+| New deck from announcement/materials | Semantic content plan → visual defaults/assets → editable/hybrid slides | **[Automatic visual treatment](references/visual-defaults.md)**, [composition](references/composition-system.md) |
 | Creative, artistic, clean, or premium visual redesign | Content-specific visual concept, composition exploration, then a representative body-page proof | [Creative direction](references/creative-direction.md), [art direction](references/art-direction.md) |
 | Polish/redesign an existing deck | Render and inventory before rearranging; preserve facts and objects | [Template preservation](references/template-edit.md), [art direction](references/art-direction.md) |
 | Template updates or exact text edits | Native editing; scoped patching only when appropriate | [Template preservation](references/template-edit.md) |
@@ -28,11 +28,15 @@ Default to native key text, data, labels, and diagrams that need editing, with p
 
 ### Default design system / 默认制作方式
 
-Before a full new deck or visual redesign, read [editorial decisions](references/editorial-decisions.md) and [composition system](references/composition-system.md). Derive palette roles, typography, composition and imagery from the brief/reference. Choose a defensible direction when none is supplied; the user need not choose a theme. `teal-launch` and `editorial-yellow` are optional reference recipes, never industry-wide defaults.
+Before a full new deck or visual redesign, read [automatic visual treatment](references/visual-defaults.md). Enable `visual_defaults` in the semantic plan unless the supplied brand/template or an explicitly authored composition already establishes the treatment. Infer the analytical intent from the source and reading task: ranking, time trend, share of a named whole, distribution, paired change, or reconciled contribution. Use actual flow, cycle and hierarchy relations for diagrams. Do not default every analysis to bars, every comparison to a table, or every paragraph to an icon card.
+
+Run `visuals.py prepare` to select available typography and materialize matched semantic icons, then read and **execute** its `asset-requests.json` with available host image/source tools. Register the resulting real files in `plan.assets`. A prompt file is not a completed illustration. Product/visual storytelling briefs normally need a useful hero plus a distinct detail or context image; quantitative pages may need no image. Supply subject, purpose, visual language and placement; the helper completes the composition prompt. Reuse the hero as an identity reference when generating fictional detail images. Real product identity uses supplied/authorized imagery. Add decorative light, texture or material crops only when they reinforce this particular subject; never scatter generic blobs or icons to fill space.
+
+Use [editorial decisions](references/editorial-decisions.md) and [composition system](references/composition-system.md) for source grounding and custom composition. Derive palette roles from the brief/reference and image materials. Default typography has quiet body ink, an actual installed heading/body pair, larger numerical readouts and balanced short final lines. A chosen brand/template takes priority; `teal-launch` and `editorial-yellow` remain optional legacy recipes.
 
 The user should be able to say “turn this announcement into a presentation.” Infer a sensible page count, read the **entire** material, extract atomic facts with qualifiers, and arrange pages by meaning. Do not copy each paragraph to a slide, insist on three ideas per page, or ask the user to choose among design directions when a default suffices. An exact reference already establishes the direction.
 
-Use `compose.py prepare` to freeze the material. Author `plan.json` with grounded claims and purposeful assets. `compose.py compose` uses explicit communication relations or custom native frames, measures actual fonts, and paginates overfull content into `deck.json`, `contract.json`, `composition.json` and `design-audit.json`. Fields alone no longer decide page intent. Use these source objects through the host's mandatory authoring path, or this package's builder where permitted. Then render and review the actual export. Never treat successful compilation as aesthetic validation.
+Use `compose.py prepare` to freeze the material. Author `plan.json` with grounded claims and communication relations. `visuals.py prepare` resolves reusable visual treatments and assets; `compose.py compose` measures fonts and creates the native object source. Default recipes require no manually authored page coordinates. Use those source objects through the host's mandatory authoring path, or this package's builder where permitted. Custom native frames remain available for a supplied reference or a composition outside these recipes. Then render and review the actual export. Never treat successful compilation as aesthetic validation.
 
 For an image-led launch direction, source or generate a coherent product hero and useful detail/context imagery before expanding the deck. Keep key text, data, charts, labels, conditions, prices and dates native. Do not substitute a geometric drawing for a requested product photograph, put every page on one photographic background, or flatten whole slides into images. For real products, use actual supplied/authorized product imagery rather than invented lookalikes.
 

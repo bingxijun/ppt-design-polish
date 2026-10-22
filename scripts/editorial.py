@@ -32,6 +32,8 @@ def design_tokens(plan, presets):
     t.setdefault('cover', 'typographic'); t.setdefault('chapter', 'paper')
     t['bodySize'] = design.get('body_size', 18)
     t['tableSize'] = design.get('table_size', 17)
+    t['titleSize'] = design.get('title_size', 32)
+    t['coverSize'] = design.get('cover_size', 44)
     t['furniture'] = design.get('furniture', {'brand': True, 'page': True})
     return name, t
 

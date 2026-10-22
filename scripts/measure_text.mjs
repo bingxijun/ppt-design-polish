@@ -32,6 +32,7 @@ function measure(q) {
   if (q.op==='width') return {width:width(q.text),font:chosen,substituted:chosen!==q.font};
   const lines=[]; let overlong=false;
   for (const paragraph of String(q.text).split('\n')) {
+    const start = lines.length;
     let current='';
     for (const token of tokens(paragraph)) {
       const next=current+token;
@@ -43,6 +44,25 @@ function measure(q) {
       if (width(current)>q.width*1.04) overlong=true;
     }
     lines.push(current.trimEnd());
+    if (q.balanceLastLine && lines.length-start>1) {
+      const last=lines.length-1;
+      const target=q.width*.22;
+      // Move whole words into an orphaned final line without changing font size,
+      // contents, number/unit tokens or the total number of lines.
+      const segmenter=new Intl.Segmenter(/\p{Script=Han}/u.test(paragraph)?'zh':'en',{granularity:'word'});
+      while (width(lines[last])<target) {
+        const words=[...segmenter.segment(lines[last-1])].map(x=>x.segment);
+        let moved=''; let accepted=false;
+        while (words.length>1) {
+          moved=words.pop()+moved;
+          const remaining=words.join('').trimEnd(); const candidate=(moved+lines[last]).trimStart();
+          if (noStart.test(candidate) || noEnd.test(remaining)) continue;
+          if (width(candidate)>q.width*.92 || width(remaining)<q.width*.35) break;
+          lines[last-1]=remaining;lines[last]=candidate;accepted=true;break;
+        }
+        if (!accepted) break;
+      }
+    }
   }
   const metrics = ctx.measureText('Hg国');
   const lineHeight=Math.max(q.size*(q.leading||1.28),metrics.actualBoundingBoxAscent+metrics.actualBoundingBoxDescent);

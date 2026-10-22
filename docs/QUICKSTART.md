@@ -2,9 +2,9 @@
 
 ## Install and update / 安装与更新
 
-Run the repository's installer with Python 3.9+. It copies only runtime instructions, references, tools, and licenses, without the large documentation images. No API keys or system settings are changed.
+Run the repository's installer with Python 3.9+. It copies only runtime instructions, references, tools, licensed icons, and licenses, without the large documentation images. No API keys or system settings are changed.
 
-使用 Python 3.9+ 运行安装器。安装内容仅包含运行指令、参考资料、工具和许可，不包含较大的文档配图；不修改 API key 或系统设置。
+使用 Python 3.9+ 运行安装器。安装内容仅包含运行指令、参考资料、工具、授权图标和许可，不包含较大的文档配图；不修改 API key 或系统设置。
 
 ```bash
 git clone https://github.com/bingxijun/ppt-design-polish.git
@@ -63,10 +63,11 @@ Users only attach materials and invoke the skill. The agent handles the followin
 
 1. Read the entire announcement and extract facts with units/conditions. / 通读原文并提取事实与条件。
 2. Freeze the source with `compose.py prepare`; write grounded `plan.json`. / 固化来源并编写语义计划。
-3. Derive the palette, typography and reading relations from this brief/reference. Teal/yellow are optional recipes. / 从本次材料推导配色、字体和表达关系，青绿与黄色仅为可选参考。
-4. Source/generate purposeful images, compose native objects, render the exported PPTX and inspect every page. / 配图、编排、导出，实看全部页面。
+3. Enable visual defaults; select analytical/relational intent. `visuals.py prepare` resolves typography, icons and image prompts. / 启用默认视觉构成并确定分析或内容关系，工具自动准备字体、图标和配图要求。
+4. Execute the host image/source tools and register actual assets; then compose native objects. / 实际调用生图或取图工具并登记素材，再编排原生页面。
+5. Render the exported PPTX, inspect all pages and fix visible issues. / 渲染导出稿，逐页看图并修正。
 
-[Plan schema and commands / 完整计划格式与命令](../references/composition-system.md) · [10-page launch source / 发布会源稿](../examples/launch/README.md) · [5-page studio source / 工作室源稿](../examples/yellow/README.md).
+[Automatic visual recipes / 自动视觉配方](../references/visual-defaults.md) · [Plan schema and commands / 完整计划格式与命令](../references/composition-system.md) · [10-page launch source / 发布会源稿](../examples/launch/README.md) · [5-page studio source / 工作室源稿](../examples/yellow/README.md).
 
 ## Reproduce the sample / 复现示例
 

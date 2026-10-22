@@ -1,8 +1,24 @@
 # What was checked / 实际验证了什么
 
-**Release 4.1 has no completed independent human preference result.** The anonymous reader packet is prepared, its CSV is blank, and [reader-status.json](../examples/studio/reader-status.json) records `pending` with zero decisions. Automated tests and host selections are reported separately.
+**Release 5.0 has no completed independent human preference result.** The anonymous reader packet is prepared, its CSV is blank, and [reader-status.json](../examples/studio/reader-status.json) records `pending` with zero decisions. Automated tests and host selections are reported separately.
 
 **本版尚无完成的独立人工偏好结果。** 匿名评审包已准备，CSV 空白，状态为待评审、零条反馈。脚本检查与制作方选稿不冒充人工盲评。
+
+## 5.0 visual recipe check / 5.0 视觉配方验证
+
+[ARC / 弧光](../examples/visual-defaults/README.md) is a fictional nine-page product concept. Its high-level plan declares source claims and analytical/relational intents, without page coordinates or font names. The engine selects installed typography, matches six distinct icons from the 24-icon licensed library, and produces image requests; the host used built-in imagegen for the hero and a separate identity-matched material detail. Both actual prompts are saved.
+
+九页原稿计划不填写页面坐标或字体名称。引擎按内容关系编排图形、选择实际字体并匹配六种图标；宿主实际生成了主视觉与保持同一产品外观的材质特写，保留完整提示词。
+
+The exported PPTX contains three native workbook charts (ranking, share, time), native shape/text dumbbell and waterfall diagrams, and editable process/hierarchy connectors. Required content and chart/table contracts are checked. These different object types are reported separately; icons/photos remain replaceable images.
+
+导出稿区分三张带工作簿的原生图表与形状/文字组成的哑铃、瀑布图解；流程和结构连接线也可编辑，配图与图标为可替换图片。
+
+Visual inspection found an overlapping subtitle/legend and hierarchy lines too close to labels/icons. The recipe coordinates were corrected and the full deck rendered again. Regression tests also cover denominator reconciliation, honest scales, matched pairs, contribution totals, font selection, icon omission, real-product image restrictions, hierarchy cycles and short-line rebalancing. **Passing these tests is not a beauty score.** The nine-page example is an authored functional demonstration, not an independent quality comparison.
+
+看图发现并修复了图例与副标题重叠、结构线靠近文字/图标的问题。测试检验数据和实际输出行为，不给美感打分；本例仍是制作方编写的功能演示。
+
+## 4.1 evidence retained / 保留的 4.1 证据
 
 ## New material / 新材料
 
